@@ -1,0 +1,49 @@
+# Avicenna, Liber de anima (Latin translation of Kitab al-Nafs, 12th c.), in: Avicenne perhypatetici philosophi ac medicorum facile primi Opera (Venice, 1508), fol. 2r, right column.
+# Source images: https://archive.org/details/bub_gb_JJThV3vtDJIC , page n90 (cached at library/ocr-cache/bub_gb_JJThV3vtDJIC/n0090.jpg).
+# Transcription by the Compendium from the page image, 2026-09-25, because the black-letter type defeats OCR.
+# Conventions: scribal abbreviations silently expanded (q with stroke = quod, e with macron = est/esse as context requires,
+# p with bar = per/pro, 7 = et, final -z = -et); long s printed as s; u/v and spelling as printed; line breaks follow the print.
+# Check any quotation against the page image before marking an entry 'reviewed'.
+
+=== [fol. 2r, col. b; page n90] ===
+Dicemus
+igitur quod aliquis ex nobis putare debet quasi subito crea-
+tus esset et perfectus. Sed velato visu suo ne videat exterio-
+ra: et creatus esset sic quasi moveretur in aere aut inani:
+ita ut eum non tangeret spissitudo aeris quam ipse sentire pos-
+set: et quasi essent disiuncta membra eius: ita ut non concurre-
+rent sibi nec contingerent sese. Deinde ut videat si affir-
+met esse sue essentie. Non enim dubitabit affirmare se esse:
+non tamen affirmabit exteriora suorum membrorum: nec occul-
+ta suorum interiorum: nec animum: nec cerebrum: nec aliquid ta-
+lium: sed extrinsecus affirmabit se esse. Cuius non affir-
+mabit longitudinem nec latitudinem nec spissitudinem. Si
+autem in illa hora et in hoc statu possibile esset ei imagi-
+nari manum aut aliquod membrorum: non tamen illud imagi-
+naretur esse partem sui nec necessarium sue essentie. Tu scis
+quod id quod affirmatur aliud est ab eo quod non affirmatur: et con-
+cessum aliud est ab eo quod non conceditur: et quoniam essen-
+tia quam affirmabat esse est propria illi eo quod illa est ipsamet:
+et est preter corpus eius et membra eius que non affirma-
+bat esse: ideo expergefactus habet viam evigilandi ad sci-
+endum quod esse anime est aliud quam esse corporis. imo non
+eget corpore ad hoc ut sciat animam et percipiat eam. Si
+autem fuerit stupidus: opus habet converti ad viam.
+
+=== [fol. 24r, col. a (foot) to col. b; page n134; Pars V, cap. 3] ===
+Dicemus autem quod anima humana non
+fuit prius existens per se et inde venerit in corpus: anime
+enim humane unum sunt in specie et diffinitione. Si autem
+posuerimus quod prius habuerunt esse per se et non incepe-
+runt esse cum corporibus: impossibile est ut anime in ip-
+so esse habeant multitudinem. Multitudo enim rerum aut
+est ex essentia et forma: aut est ex comparatione que est ad
+materiam et originem multiplicatam ex locis que circun-
+dant unamquamque materiam secundum aliquid: aut ex tempori-
+bus propriis uniuscuiusque illarum que accidunt illis ac-
+cidentibus: aut ex causis dividentibus illam. Inter ani-
+mas autem non est alteritas in essentia et forma. For-
+ma enim earum una est. ergo non est alteritas nisi secundum
+sue receptibile essentie: cui comparatur essentia eius pro-
+prie: et hoc est corpus. Si anima autem esset tantum absque
+corpore: una anima non posset esse alia ab alia numero.

@@ -1,0 +1,113 @@
+# Søren Kierkegaard (as Anti-Climacus, ed. S. Kierkegaard), Sygdommen til Døden (Copenhagen, 1849).
+# Text here from: Søren Kierkegaards samlede Værker, udgivne af A. B. Drachmann, J. L. Heiberg og H. O. Lange,
+# Anden Udgave (2nd ed.), Bind XI (Gyldendal, Kjøbenhavn, 1920), pp. 129-272.
+# Source images: https://archive.org/details/samledevaerkerud11kieruoft , page images n148, n150, n151, n154, n155, n156
+# (cached at library/ocr-cache/samledevaerkerud11kieruoft/).
+# Transcription by the Compendium from the page images, 2026-09-26, because the black-letter (Fraktur) type
+# defeats the archive's own OCR and general-purpose Tesseract models alike.
+# Conventions: printed exactly as the page reads (Danish orthography of 1920, e.g. "Aand", "Øieblik", "ere");
+# long-s and Fraktur ligatures resolved silently to their plain letters. Not yet spot-checked line-by-line
+# against the images beyond the passages actually quoted in entries; treat as provisional pending review.
+
+=== [page 129; archive.org samledevaerkerud11kieruoft n148] ===
+Første Afsnit.
+
+Sygdommen til Døden er Fortvivlelse.
+
+=== [page 131; archive.org samledevaerkerud11kieruoft n150] ===
+A.
+
+At Fortvivlelse er Sygdommen til Døden.
+
+A.
+
+Fortvivlelse er en Sygdom i Aanden, i Selvet, og kan saaledes være
+et tredobbelt: fortvivlet ikke at være sig bevidst at have et Selv
+(uegentlig Fortvivlelse); fortvivlet ikke at ville være sig selv;
+fortvivlet at ville være sig selv.
+
+Mennesket er Aand. Men hvad er Aand? Aand er Selvet. Men hvad er
+Selvet? Selvet er et Forhold, der forholder sig til sig selv, eller
+er det i Forholdet, at Forholdet forholder sig til sig selv; Selvet
+er ikke Forholdet, men at Forholdet forholder sig til sig selv.
+Mennesket er en Synthese af Uendelighed og Endelighed, af det
+Timelige og det Evige, af Frihed og Nødvendighed, kort en Synthese.
+En Synthese er et Forhold mellem To. Saaledes betragtet er
+Mennesket endnu intet Selv.
+
+I Forholdet mellem To er Forholdet det Tredie som negativ Eenhed,
+og de To forholde sig til Forholdet, og i Forholdet til Forholdet;
+saaledes er under Bestemmelsen Sjæl Forholdet mellem Sjæl og Legeme
+et Forhold. Forholder derimod Forholdet sig til sig selv, saa er
+dette Forhold det positive Tredie, og dette er Selvet.
+
+=== [page 144; archive.org samledevaerkerud11kieruoft n151] ===
+Et saadant Forhold, der forholder sig til sig selv, et Selv, maa
+enten have sat sig selv, eller være sat ved et Andet.
+
+Er Forholdet, der forholder sig til sig selv, sat ved et Andet, saa
+er Forholdet vistnok det Tredie, men dette Forhold, det Tredie, er
+saa dog igjen et Forhold, forholder sig til hvad der har sat hele
+Forholdet.
+
+Et saadant deriveret, sat Forhold er Menneskets Selv, et Forhold,
+der forholder sig til sig selv, og i at forholde sig til sig selv
+forholder sig til et Andet. Deraf kommer det, at der kan blive to
+Former for egentlig Fortvivlelse. Havde Menneskets Selv sat sig
+selv, saa kunde der kun være Tale om een Form, den: ikke at ville
+være sig selv, ikke at ville af med sig selv, men ikke kunde der
+være Tale om, fortvivlet at ville være sig selv. Denne Formel er
+nemlig Udtrykket for hele Forholdets (Selvets) Afhængighed,
+Udtrykket for, at Selvet ikke ved sig selv kan komme til eller være
+i Ligevægt og Ro, men kun ved i at forholde sig til sig selv at
+forholde sig til Det, som har sat hele Forholdet. [...] Fortvivlelsens
+Misforhold er ikke et simpelt Misforhold, men et Misforhold i et
+Forhold, der forholder sig til sig selv, og er sat af et Andet, saa
+Misforholdet i hiint for sig værende Forhold tillige reflecterer
+sig uendeligt i Forholdet til den Magt, som satte det.
+
+=== [page 147; archive.org samledevaerkerud11kieruoft n154] ===
+[...] hvert Fortvivlelsens virkelige Øieblik bærer den
+Fortvivlede alt det Foregaaende i Mulighederne som det
+Nærværende; thi det er et behændigt den nærværende Tid, der vorder
+intet i Forhold til Virkeligheden tilbagelagt Forbigangent; og
+ethvert Fortvivlelsens virkelige Øieblik bærer den Fortvivlede med
+alt de Foregaaende i Mulighederne som det Nærværende. Dette kommer
+deraf, at at fortvivle er en Bestemmelse af Aand, forholder sig til
+det Evige i Mennesket. [...] Og Forholdet til sig selv kan et
+Menneske ikke blive af med, saa lidet som med sit Selv, hvad da
+forøvrigt er Eet og det Samme, da jo Selvet er Forholdet til sig
+selv.
+
+=== [page 148; archive.org samledevaerkerud11kieruoft n155] ===
+C.
+
+Fortvivlelse er: "Sygdommen til Døden".
+
+Dette Begreb Sygdommen til Døden maa dog tages paa en egen Maade.
+Ligefrem betyder det en Sygdom, hvis Ende, hvis Udgang er Døden.
+Saaledes taler man om en dødelig Sygdom ensbetydigt med en Sygdom
+til Døden. [...] Dog er Fortvivlelse i den anden Forstand endnu
+bestemtere Sygdommen til Døden. Det er nemlig saa langt som muligt
+fra, at man, ligefrem forstaaet, døer af denne Sygdom, eller at
+denne Sygdom ender med den legemlige Død. Tvertimod,
+Fortvivlelsens Qval er netop ikke at kunne døe. [...] Saaledes er
+det at være syg til Døden at kunne døe, dog som om det var der
+Haab og Livet, nei Haabløsheden er, at selv det sidste Haab, Døden,
+ikke er. Naar Døden er den største Fare, haaber man paa Livet; men
+naar man lærer den end forfærdeligere Fare at kjende, haaber man
+paa Døden. Naar saa Faren er saa stor, at Døden er blevet Haabet,
+saa er Fortvivlelse den Haabløshed end ikke at kunne døe.
+
+=== [page 149; archive.org samledevaerkerud11kieruoft n156] ===
+En Fortvivlende fortvivler over Noget. Saaledes seer det ud et
+Øieblik, men det er kun et Øieblik; i samme Øieblik viser den sande
+Fortvivlelse sig eller Fortvivlelsen i sin Sandhed. Idet han
+fortvivlede over Noget, fortvivlede han egentlig over sig selv, og
+vil nu af med sig selv. Naar saaledes den Herskesyge, hvis Løsen er
+"enten Cæsar eller slet Intet", ikke bliver Cæsar, saa fortvivler
+han derover. Men dette betyder noget Andet: at, just fordi han
+ikke blev Cæsar, nu ikke kan udholde at være sig selv. Han
+fortvivler altsaa egentligen ikke over, at han ikke blev Cæsar, men
+over sig selv at han ikke blev Cæsar. Dette Selv, der, hvis det var
+blevet Cæsar, havde været ham [...]

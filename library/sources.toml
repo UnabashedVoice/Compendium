@@ -1,0 +1,54 @@
+# In-copyright sources cited by [P:<key>:<page>] or [P:<key>:<start>-<end>] (see README, "Works in
+# copyright", and ROADMAP, option (a)). Short quotations only; the full text is never stored in this
+# repository. `url` points to a legitimate open copy (the author's own site or institutional repository,
+# an open-access preprint server) used to find accurate page-cited quotations -- never a pirate mirror of
+# an in-copyright book. `python tools/library.py check` verifies every record here has the required fields;
+# it cannot verify quotation wording, since no full text is held to check it against.
+
+[source."williams1970"]
+author = "Bernard Williams"
+title = "The Self and the Future"
+edition = "The Philosophical Review 79 (2): 161-180 (1970)"
+year = 1970
+url = "https://www.uvm.edu/~lderosse/courses/metaph/Williams(1970).pdf"
+rights = "In copyright. Short quotation only, page-cited to the original journal pagination; read from a course-hosted copy of the journal article, not stored here."
+
+[source."lewis1976"]
+author = "David Lewis"
+title = "Survival and Identity"
+edition = "In Amelie O. Rorty (ed.), The Identities of Persons, University of California Press, 1976, pp. 17-40; reprinted in Lewis, Philosophical Papers I (Oxford, 1983)"
+year = 1976
+url = "https://andrewmbailey.com/dkl/Survival_and_Identity.pdf"
+rights = "In copyright (Lewis estate / Oxford University Press). Short quotation only, page-cited; read from a long-standing academic personal-identity archive, not stored here."
+
+[source."dennett1992"]
+author = "Daniel C. Dennett"
+title = "The Self as a Center of Narrative Gravity"
+edition = "In F. Kessel, P. Cole & D. Johnson (eds.), Self and Consciousness: Multiple Perspectives, Lawrence Erlbaum, 1992. The essay circulates without stable print pagination; citations here are by paragraph number (1-38) in the reprint at the url below, counting each blank-line-delimited paragraph in order from the title."
+year = 1992
+url = "https://web.ics.purdue.edu/~drkelly/DennettSelfNarrativeGravity1992"
+rights = "In copyright (Dennett estate). Short quotation only, paragraph-cited; read from an author-authorized reprint hosted on a philosophy faculty page, not stored here."
+
+[source."parfit1971"]
+author = "Derek Parfit"
+title = "Personal Identity"
+edition = "The Philosophical Review 80 (1): 3-27 (1971)"
+year = 1971
+url = "https://www.uvm.edu/~lderosse/courses/metaph/Parfit(1971).pdf"
+rights = "In copyright (Parfit estate / Duke University Press for the journal). Short quotation only, page-cited to the original journal pagination; read from a course-hosted copy, not stored here. The fuller 1984 Reasons and Persons treatment is not covered by this record and would need separate access."
+
+[source."korsgaard1989"]
+author = "Christine M. Korsgaard"
+title = "Personal Identity and the Unity of Agency: A Kantian Response to Parfit"
+edition = "Philosophy & Public Affairs 18 (2): 101-132 (1989). The DASH-deposited manuscript paginates itself 1-44 (printed at the top of each page), not the published journal's 101-132; citations here use the manuscript's own printed page numbers, not the journal pagination."
+year = 1989
+url = "https://dash.harvard.edu/bitstream/1/3219881/2/Korsgaard_UnityofAgency.pdf"
+rights = "In copyright (Korsgaard / Wiley for the journal). Short quotation only, page-cited to the manuscript's own pagination; read from the author's deposit in Harvard's DASH open-access repository (behind a bot-check challenge solved by the user in their own browser, not bypassed), not stored here."
+
+[source."shanahan2023"]
+author = "Murray Shanahan, Kyle McDonell, Laria Reynolds"
+title = "Role Play with Large Language Models"
+edition = "Nature 623: 493-498 (2023); preprint arXiv:2305.16367"
+year = 2023
+url = "https://arxiv.org/abs/2305.16367"
+rights = "In copyright (authors), but distributed as an open-access arXiv preprint under the authors' own license. Short quotation only, page/section-cited to the arXiv preprint, not stored here."

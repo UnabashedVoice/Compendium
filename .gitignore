@@ -1,0 +1,9 @@
+# Regenerable, and too large for the repository:
+#   index.sqlite (~128 MB, over GitHub's 100 MB file limit) is rebuilt by `python tools/library.py index`.
+#   ocr-cache/ (~209 MB) holds archive.org page images, per-page OCR and Tesseract language models,
+#   used only to produce library/texts/ files (see tools/ocr_archive.py); the texts themselves are kept.
+library/index.sqlite
+library/ocr-cache/
+
+__pycache__/
+*.py[cod]

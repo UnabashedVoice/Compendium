@@ -1,0 +1,4 @@
+# Store every file byte-for-byte. Library texts are pinned by sha256 in
+# library/catalog.toml, and the Compendium's version is the sha256 of
+# dist/compendium.jsonl; line-ending conversion would change both.
+* -text

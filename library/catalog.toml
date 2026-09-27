@@ -1,0 +1,689 @@
+# The Compendium source library. One [text."<id>"] table per file in library/texts/<id>.txt.
+# format: gutenberg = proofread transcription; ocr = archive.org machine OCR (check against page images before an entry is "reviewed").
+# Checked by: python tools/library.py check
+
+[text."aquinas-summa-part-i-dominicans-pg17611"]
+author = "Thomas Aquinas"
+title = "Summa Theologica, Part I (Prima Pars)"
+edition = "tr. Fathers of the English Dominican Province (1911; 2nd ed. 1920)"
+source = "Project Gutenberg #17611"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+sha256 = "c9443221a31768991db4bbe37e6ed035b278143a6728af64dc8ba0cf8e79154d"
+
+[text."aristotle-de-anima-hicks-1907"]
+author = "Aristotle"
+title = "De Anima"
+edition = "tr. R. D. Hicks, Cambridge 1907 (Greek, translation, commentary)"
+source = "archive.org aristotledeanima005947mbp"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Commentary and Greek apparatus interleaved with the translation."
+sha256 = "22659c8463d0288ba0294f459c9afab9053de01f3d5317c5a12ac8f8e873c883"
+
+[text."aristotle-metaphysics-ross-1928"]
+author = "Aristotle"
+title = "Metaphysica"
+edition = "tr. W. D. Ross, 2nd ed., Oxford Works vol. VIII, 1928"
+source = "archive.org worksofaristotle0008wdro_z2x3"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "4a5020238e5f7d9b0b2b0d7f021691152830b61b0d9b096bb82fcbc5c20230b7"
+
+[text."augustine-city-of-god-1-dods-pg45304"]
+author = "Augustine of Hippo"
+title = "The City of God, vol. I"
+edition = "tr. Marcus Dods et al., Edinburgh 1871"
+source = "Project Gutenberg #45304"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "3bbc1ec72bb2629fb8f787f786c39e05571ce7bedadcdfd8963b348068a70391"
+
+[text."augustine-confessions-pusey-pg3296"]
+author = "Augustine of Hippo"
+title = "Confessions"
+edition = "tr. E. B. Pusey, 1838"
+source = "Project Gutenberg #3296"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2"
+
+[text."augustine-on-the-trinity-haddan-1873"]
+author = "Augustine of Hippo"
+title = "On the Trinity"
+edition = "tr. A. W. Haddan, Edinburgh 1873"
+source = "archive.org india.history.resource.86025"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "4d940d006efdbc1ceb9555b791498a17581d7c01f72545874840fc255c7a2fde"
+
+[text."boethius-consolation-james-pg14328"]
+author = "Boethius"
+title = "The Consolation of Philosophy"
+edition = "tr. H. R. James, 1897"
+source = "Project Gutenberg #14328"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "For the autonomy domain."
+sha256 = "82257f260aeb9f1f2d197ceb18aec1180c7a831fe6437a642f6ba5b32f44cdbd"
+
+[text."boethius-tractates-stewart-rand-1918-pg13316"]
+author = "Boethius"
+title = "The Theological Tractates (with the Consolation)"
+edition = "tr. H. F. Stewart & E. K. Rand, Loeb 1918"
+source = "Project Gutenberg #13316"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Latin and English."
+sha256 = "44074578f5ef881b766bf835ba6e5bf4805020c83a79806564ffdbc7bd85f018"
+
+[text."burnet-early-greek-philosophy-1908"]
+author = "John Burnet"
+title = "Early Greek Philosophy"
+edition = "2nd ed., London 1908"
+source = "archive.org burnetgreek00burnrich"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Heraclitus fragments use Burnet's numbering."
+sha256 = "6bcb484161e49452d810d5193450dd64bb7e21c63a0c0ad24b187969066b4687"
+
+[text."butler-analogy-pg53346"]
+author = "Joseph Butler"
+title = "The Analogy of Religion (with Dissertation I, Of Personal Identity)"
+edition = "original English (1736)"
+source = "Project Gutenberg #53346"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "bbc7c9c26702822830eaaa2f7cee10516638d1ffb5d3ebd4b2afff2321252f6c"
+
+[text."descartes-meditationes-latin-1641-pg23306"]
+author = "René Descartes"
+title = "Meditationes de prima philosophia"
+edition = "Latin original"
+source = "Project Gutenberg #23306"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Latin text."
+sha256 = "d6fea49898f02970a21e45bf7eebe3527272cd30418adf628e2b850f7d7ff0ad"
+
+[text."descartes-meditations-molyneux-1680-pg70091"]
+author = "René Descartes"
+title = "Six Metaphysical Meditations"
+edition = "tr. William Molyneux, 1680"
+source = "Project Gutenberg #70091"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Earliest English translation."
+sha256 = "36c12eb71ec44d29b4695ed8095b1e8267814fe433568f9b902328844a340021"
+
+[text."descartes-works-1-haldane-ross-1911"]
+author = "René Descartes"
+title = "The Philosophical Works of Descartes, vol. I"
+edition = "tr. E. S. Haldane & G. R. T. Ross, Cambridge 1911"
+source = "archive.org philosophicalwor0001eliz_g7m7"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Meditations, Discourse, Principles, Passions."
+sha256 = "38c9c29229613ba782b88692099a65526ca5a49a4c5bf474e6e372cdf0e88a32"
+
+[text."descartes-works-2-haldane-ross-1912"]
+author = "René Descartes"
+title = "The Philosophical Works of Descartes, vol. II"
+edition = "tr. E. S. Haldane & G. R. T. Ross, Cambridge 1912"
+source = "archive.org philosophicalwor015731mbp"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Objections and Replies."
+sha256 = "04639a90a98049257cc351933e6daba539e3720d8c313d55eb550f194f70ff7d"
+
+[text."diogenes-laertius-lives-yonge-pg57342"]
+author = "Diogenes Laertius"
+title = "The Lives and Opinions of Eminent Philosophers"
+edition = "tr. C. D. Yonge, 1853"
+source = "Project Gutenberg #57342"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "0176dd702dfcc4a11d355475cab857f2a521a72dc316ecd8921ef12a0495c5a1"
+
+[text."hobbes-ew1-de-corpore-molesworth-1839"]
+author = "Thomas Hobbes"
+title = "Elements of Philosophy: Concerning Body (English Works vol. I)"
+edition = "ed. W. Molesworth, London 1839"
+source = "archive.org englishworksofth0001hobbes"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "2bbd418412665436aee4878174b80ef229ba18453d843921c12156eaab0009df"
+
+[text."hobbes-ew3-leviathan-molesworth-1839"]
+author = "Thomas Hobbes"
+title = "Leviathan (English Works vol. III)"
+edition = "ed. W. Molesworth, London 1839"
+source = "archive.org englishworkstho00unkngoog"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "For the political domain."
+sha256 = "fcbd3afae5c0c6a66fd6bf713b8de24ab654e849b34cce3c315b84eca97aca50"
+
+[text."hume-enquiry-pg9662"]
+author = "David Hume"
+title = "An Enquiry Concerning Human Understanding"
+edition = "original English (1748)"
+source = "Project Gutenberg #9662"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "647459bc720d0fe09f85ac17b8d7edc2557ff89ba4467151407a4d48228be2cb"
+
+[text."hume-thirteen-upanishads-1921"]
+author = "R. E. Hume (tr.)"
+title = "The Thirteen Principal Upanishads"
+edition = "tr. R. E. Hume, Oxford 1921 (reprint scan)"
+source = "archive.org in.ernet.dli.2015.529037"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Translates atman as 'Soul'."
+sha256 = "4d2752203588e6e8a7f95405986e40b9e22cde2b22bd4960707a069404614452"
+
+[text."hume-treatise-pg4705"]
+author = "David Hume"
+title = "A Treatise of Human Nature (with the Appendix)"
+edition = "original English (1739-40)"
+source = "Project Gutenberg #4705"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "9ff6a457b5b72d6e32e6159c2a6b2bf830efa914b213630fac2bbaaaf045b979"
+
+[text."kant-critique-pure-reason-kemp-smith-1929"]
+author = "Immanuel Kant"
+title = "Critique of Pure Reason"
+edition = "tr. N. Kemp Smith, London 1929 (A and B editions)"
+source = "archive.org immanuelkantscri032379mbp"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Needed for first-edition (A) passages, e.g. the Paralogisms."
+sha256 = "852ddbca20abde565343952c76615cdfaaad6e757f60be3d003ac26f69494766"
+
+[text."kant-critique-pure-reason-meiklejohn-pg4280"]
+author = "Immanuel Kant"
+title = "The Critique of Pure Reason"
+edition = "tr. J. M. D. Meiklejohn, 1855 (B edition)"
+source = "Project Gutenberg #4280"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Lacks first-edition Paralogisms."
+sha256 = "9e44b1bc6042da4aeb669d4f3f585037a5488a2908e7ec225f9431c43f6720fc"
+
+[text."leibniz-discourse-arnauld-monadology-montgomery-1902"]
+author = "G. W. Leibniz"
+title = "Discourse on Metaphysics, Correspondence with Arnauld, and Monadology"
+edition = "tr. G. R. Montgomery, Chicago 1902"
+source = "archive.org discourseonmetap00leibuoft"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "4b2f320a3ea15ac1f75bbca739134304196f74282ffe829743e5ac4f7a237162"
+
+[text."leibniz-monadology-latta-1898"]
+author = "G. W. Leibniz"
+title = "The Monadology and Other Philosophical Writings"
+edition = "tr. R. Latta, Oxford 1898"
+source = "archive.org monadologyandot00lattgoog"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "8823cdc2f3c788d0ca3e11fdd42191e1277fb9241c16cbcd9201d4147a91036b"
+
+[text."leibniz-new-essays-langley-1896"]
+author = "G. W. Leibniz"
+title = "New Essays Concerning Human Understanding"
+edition = "tr. A. G. Langley, New York 1896"
+source = "archive.org newessaysconcern00lei"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Book II ch. 27 answers Locke on identity."
+sha256 = "5885d65e454be0d8022a8f74aa2f35a2b6efcfab8e1bb15079fe6513897e6e54"
+
+[text."locke-essay-1-pg10615"]
+author = "John Locke"
+title = "An Essay Concerning Human Understanding, vol. 1 (Books I-II)"
+edition = "original English; the transcription includes II.xxvii (added in the 2nd ed., 1694) despite a 1690 title page"
+source = "Project Gutenberg #10615"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Edition of the transcription to be confirmed."
+sha256 = "a12707722f72598adffbe3a211403ff9351b3c24db44d009c5debefb10cbc5e2"
+
+[text."locke-essay-2-pg10616"]
+author = "John Locke"
+title = "An Essay Concerning Human Understanding, vol. 2 (Books III-IV)"
+edition = "original English"
+source = "Project Gutenberg #10616"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "9e09d5e7cca51d722bae88caeaf8d5ec0eb353d47d7a878ea1c0d8f6c31960dd"
+
+[text."lucretius-leonard-1916-pg785"]
+author = "Lucretius"
+title = "On the Nature of Things"
+edition = "tr. W. E. Leonard, 1916"
+source = "Project Gutenberg #785"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+sha256 = "de777331b920c8b6f713cbb6b86ed8e68076904ba12a867ed13a11f0c5e00af4"
+
+[text."nyaya-sutras-3-jha-1919"]
+author = "Gautama, Vatsyayana, Uddyotakara"
+title = "The Nyaya-Sutras of Gautama, vol. III (with Bhasya and Varttika)"
+edition = "tr. Ganganatha Jha, Indian Thought 1912-19 (reprint scan)"
+source = "archive.org in.ernet.dli.2015.461557"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "a30913a9d6f606514858568dfc27d39338970e433b32cc9b6d23f0225123e474"
+
+[text."nyaya-sutras-vidyabhusana-1913"]
+author = "Gautama"
+title = "The Nyaya Sutras of Gotama"
+edition = "tr. S. C. Vidyabhusana, Sacred Books of the Hindus, Allahabad 1913"
+source = "archive.org TheNyayaSutrasOfGotama"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "b7c7d01c10fe404e47427a74c6fd0dd9c36977235c5e80d7e05b75fe162f60df"
+
+[text."philo-works-4-yonge-1855"]
+author = "Philo of Alexandria"
+title = "The Works of Philo Judaeus, vol. IV"
+edition = "tr. C. D. Yonge, 1855"
+source = "archive.org worksofphilojuda04phil"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "'On the Incorruptibility of the World' contains Dion and Theon; Yonge misreads Theon."
+sha256 = "e0706efa82a21df8e49ae0d4ed440613d3a3b319aac6b3e33b8d46e8c19435ca"
+
+[text."plato-alcibiades-i-jowett-pg1676"]
+author = "Plato (attrib.)"
+title = "Alcibiades I"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1676"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "ec76b1c61c6d915ff125478627380c8a4124a8553bcc54048b20b862ca9b6457"
+
+[text."plato-cratylus-jowett-pg1616"]
+author = "Plato"
+title = "Cratylus"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1616"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "e5fe819c38e449ac686945b92aca54f3d4917e04ab1d47c576c54c9072e40acc"
+
+[text."plato-phaedo-jowett-pg1658"]
+author = "Plato"
+title = "Phaedo"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1658"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "164533dde5628e7cd2e51442c29367a132fc470271f0d7e77a2ef06170a008ca"
+
+[text."plato-symposium-jowett-pg1600"]
+author = "Plato"
+title = "Symposium"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1600"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "8b5c599ea734ff0f5e8d83f399dead8c796800897b107c8d53fa909f74a05d6f"
+
+[text."plutarch-lives-clough-pg674"]
+author = "Plutarch"
+title = "Lives"
+edition = "'Dryden' translation rev. A. H. Clough, 1864"
+source = "Project Gutenberg #674"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "e849186d3483c1779053a5f70c8ae477316c019907c740f878de0d2c788975f8"
+
+[text."reid-intellectual-powers-1851"]
+author = "Thomas Reid"
+title = "Essays on the Intellectual Powers of Man"
+edition = "original English (1785); 1851 edition"
+source = "archive.org essaysonintellec00reid_1"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Essay III chs. 4-6 on identity."
+sha256 = "ae7f941bcfe94651341c5ba7cd3da66ce0845d48e21b88a85455e5db6c8dafa6"
+
+[text."sbe01-upanishads-1-muller-1879"]
+author = "Upanisads"
+title = "The Upanishads, part I (SBE 1)"
+edition = "tr. F. Max Muller, Oxford 1879"
+source = "archive.org india.history.resource.85913"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Chandogya."
+sha256 = "7600cfd0aff297676f6c6b4b9429481ebbed93bf20b2029e9b985eef9ed577f0"
+
+[text."sbe13-vinaya-texts-1-1881"]
+author = "Vinaya Pitaka"
+title = "Vinaya Texts, part I (SBE 13)"
+edition = "tr. T. W. Rhys Davids & H. Oldenberg, Oxford 1881"
+source = "archive.org sacredbookseast13mulluoft"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Mahavagga I.6 contains the Anattalakkhana Sutta."
+sha256 = "d683ebc8a0f72cdd553ad45961a8b1685e27768f42b62075bb29d8bef518c3f2"
+
+[text."sbe15-upanishads-2-muller-1884"]
+author = "Upanisads"
+title = "The Upanishads, part II (SBE 15)"
+edition = "tr. F. Max Muller, Oxford 1884"
+source = "archive.org wg915"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Brhadaranyaka."
+sha256 = "54239fc8f17c8e8ad8184a005f2fb1976e61156b8f3be7625cd7ea799e53904d"
+
+[text."sbe34-vedanta-sutras-1-thibaut-1890"]
+author = "Badarayana / Sankara"
+title = "The Vedanta-Sutras with Sankara's Commentary, part I (SBE 34)"
+edition = "tr. G. Thibaut, Oxford 1890"
+source = "archive.org wg934"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "fc3f714ede66e791131a4f6cef6db8745221d4412f991df1ac33e4aca9328143"
+
+[text."sbe35-milinda-1-rhysdavids-1890"]
+author = "Milindapanha"
+title = "The Questions of King Milinda, part I (SBE 35)"
+edition = "tr. T. W. Rhys Davids, Oxford 1890"
+source = "archive.org wg935"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "1d9bcaa7772d176aaeef814fdf4e202da1362d56fd9fa1b85e8e0d659b06d01d"
+
+[text."sbe38-vedanta-sutras-2-thibaut-1896"]
+author = "Badarayana / Sankara"
+title = "The Vedanta-Sutras with Sankara's Commentary, part II (SBE 38)"
+edition = "tr. G. Thibaut, Oxford 1896"
+source = "archive.org wg938"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "c2b2630fe3b23a1d3e85a8904c2c7fae920a730490d2c9cc5237f05691a33aa6"
+
+[text."sbe39-texts-of-taoism-1-legge-1891"]
+author = "Laozi, Zhuangzi"
+title = "The Texts of Taoism, part I (SBE 39)"
+edition = "tr. J. Legge, Oxford 1891"
+source = "archive.org wg939"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Zhuangzi Books I-XVII."
+sha256 = "2ecea04dad8d0157532005b446d927cbeb3c93dd2f882a51bd9afa39f5e53571"
+
+[text."zhuangzi-giles-1889-pg59709"]
+author = "Zhuangzi"
+title = "Chuang Tzu: Mystic, Moralist, and Social Reformer"
+edition = "tr. H. A. Giles, 1889"
+source = "Project Gutenberg #59709"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Interpretive translation."
+sha256 = "71e7d719aa5b75b4cf234fcf02e38e5aa15a327c257ed77950504bfb758ca6c8"
+
+[text."aristotle-works-2-oxford-1930"]
+author = "Aristotle"
+title = "The Works of Aristotle, vol. II: Physica, De Caelo, De Generatione et Corruptione"
+edition = "Oxford translation ed. W. D. Ross; De Generatione tr. H. H. Joachim, 1930"
+source = "archive.org worksofaristotle0002wdro"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "a195fb683b9ba877ea37ed2653d49980602bfb176ee112d56f23b967d5b88728"
+
+[text."aristotle-generation-corruption-joachim-1922"]
+author = "Aristotle; H. H. Joachim (ed.)"
+title = "On Coming-to-be and Passing-away (De Generatione et Corruptione): revised Greek text with introduction and commentary"
+edition = "Oxford 1922"
+source = "archive.org oncomingtobepass00arisuoft"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Greek text and English commentary; for the English translation see aristotle-works-2-oxford-1930."
+sha256 = "43d3d95ecafcb6feb92b5ceb4bdac4c49095cf123d40804a051cf3506f918142"
+
+[text."kindred-sayings-1-rhysdavids-1917"]
+author = "Samyutta Nikaya"
+title = "The Book of the Kindred Sayings, part I"
+edition = "tr. C. A. F. Rhys Davids and S. S. Thera, Pali Text Society 1917 (1957 reprint scan)"
+source = "archive.org in.gov.ignca.9211"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "edb06695b3e4110c23f05593917558e81dd479bf3377e30dd89e7510e9f751d9"
+
+[text."kindred-sayings-3-woodward-1925"]
+author = "Samyutta Nikaya"
+title = "The Book of the Kindred Sayings, part III"
+edition = "tr. F. L. Woodward, ed. C. A. F. Rhys Davids, Pali Text Society 1925"
+source = "archive.org in.ernet.dli.2015.188920"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "0eb2616136f1eb2683252fffb86b7a500315779c2cb8b658135c513d164a8b24"
+
+[text."kindred-sayings-4-woodward-1927"]
+author = "Samyutta Nikaya"
+title = "The Book of the Kindred Sayings, part IV"
+edition = "tr. F. L. Woodward, Pali Text Society 1927"
+source = "archive.org in.ernet.dli.2015.188921"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "e3a9c50e2f1aef3f61d8c14851d70a13e73b62d9cf647d6ded43979cb01a0d44"
+
+[text."sarvadarsanasamgraha-cowell-gough-pg34125"]
+author = "Madhava (Madhvacharya)"
+title = "The Sarva-Darsana-Samgraha, or Review of the Different Systems of Hindu Philosophy"
+edition = "tr. E. B. Cowell and A. E. Gough, London 1882"
+source = "Project Gutenberg #34125"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Chapter I summarizes the Carvaka (materialist) system, known only through such hostile summaries."
+sha256 = "af110f0c35a721d53f784a00d3ea79618a0de6908114efd6ba3c08707538cdcc"
+
+[text."stcherbatsky-soul-theory-1920-tesseract"]
+author = "Vasubandhu; Th. Stcherbatsky (tr.)"
+title = "The Soul Theory of the Buddhists (Abhidharmakosabhasya ch. 9)"
+edition = "tr. Th. Stcherbatsky, Bulletin de l'Academie des Sciences de Russie, Petrograd 1920"
+source = "archive.org TheSoulTheoryOfTheBuddhistsThStcherbatsky; OCR by tools/ocr_archive.py (Tesseract 5.5.3) from page images"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Scanned from the 1970 Bharatiya Vidya Prakasana (Varanasi) reprint; only pages n9-n137 (the 1920 translation) are included, and the reprint's cover, imprint and new preface (n0-n8) are excluded as possibly in copyright. archive.org's own OCR was unusable; page markers '=== [page nN] ===' refer to archive.org page images, cached in library/ocr-cache/."
+sha256 = "515dbaa93902ba42ba1860e9bcbbf4524f1a3618aaba2010b512db6948d288e9"
+
+[text."plutarch-morals-4-goodwin-1870"]
+author = "Plutarch"
+title = "Plutarch's Morals, vol. IV (incl. Concerning Such Whom God Is Slow to Punish; Of Common Conceptions, against the Stoics)"
+edition = "tr. several hands, corrected and revised by W. W. Goodwin, London 1870"
+source = "archive.org b24886105_0004"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "4dd7ccd59cae281000c96ad8759c49afc529bd4177a5b597103fe3044b3b9c4e"
+
+[text."cicero-academic-questions-yonge-pg29247"]
+author = "Marcus Tullius Cicero"
+title = "The Academic Questions, Treatise De Finibus, and Tusculan Disputations"
+edition = "tr. C. D. Yonge, London 1853"
+source = "Project Gutenberg #29247"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "002783b3230f793adb957d4a24fec1c45b4279286384845cc9c5059b2aafc5c6"
+
+[text."origen-against-celsus-ancl-23-crombie-1872"]
+author = "Origen"
+title = "The Writings of Origen, vol. II (Against Celsus, continued), Ante-Nicene Christian Library vol. 23"
+edition = "tr. F. Crombie, Edinburgh 1872"
+source = "archive.org AnteNiceneChristianLibraryV23"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Contra Celsum IV.68 and V.20-21 report the Stoic doctrine of recurrence."
+sha256 = "d102d8bdc1fc30a61110016486c586c53d4c5d07b9dc45a386305c592f42d18b"
+
+[text."lucretius-latin-munro-1861"]
+author = "Lucretius"
+title = "T. Lucreti Cari De Rerum Natura Libri Sex (Latin text)"
+edition = "ed. H. A. J. Munro, Cambridge 1860-61 (Latin text)"
+source = "archive.org tlucreticarider07munrgoog"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "c03e2d363bb9c111ab5e456e409f21ed2198da7761d64247e5ba86212c838904"
+
+[text."mandukya-gaudapada-dvivedi-1894"]
+author = "Mandukya Upanisad; Gaudapada; Sankara"
+title = "The Mandukyopanishad with Gaudapada's Karikas and the Bhashya of Sankara"
+edition = "tr. Manilal N. Dvivedi, Bombay 1894"
+source = "archive.org mandukyopanisha00agoog"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "OCR renders akasa variously (dkdsa, dkdia); Karika III.3-5 on the space in the jar at lines ~4725-4800."
+sha256 = "debd8b4f358ddcf0fc1a6514a10a4cc1129ec03e0d8ed3ba763151ccaf43aea3"
+
+[text."aquinas-summa-supplement-qq69-86-dominicans-1922"]
+author = "Thomas Aquinas (Supplement compiled after his death from his Commentary on the Sentences)"
+title = "The Summa Theologica, Third Part (Supplement), QQ. LXIX-LXXXVI"
+edition = "tr. Fathers of the English Dominican Province, London 1921-22"
+source = "archive.org summatheologica19thomuoft"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Q. 79 on the identity of the risen body."
+sha256 = "d2d7a8cc5ecbeb9d4e41408b003d9b0d9a0a680d71e34fd8000e2ef38426aa26"
+
+[text."zhuangzi-chinese-wikisource"]
+author = "Zhuangzi"
+title = "Zhuangzi (classical Chinese), chapters 2 (Qiwulun), 6 (Dazongshi), 17 (Qiushui), 18 (Zhile)"
+edition = "Chinese Wikisource transcription of the received text, fetched 2026-09-25 (wikitext)"
+source = "https://zh.wikisource.org/wiki/莊子"
+format = "gutenberg"
+rights = "Public domain (ancient text); Wikisource transcription released under CC BY-SA / public domain"
+notes = "Traditional characters; Wikisource punctuation. Four chapters only."
+sha256 = "1a689fec89fabdb4139fa97dbbe3e29aaca86aa0429705902316092052a21204"
+
+[text."xunzi-chinese-wikisource"]
+author = "Xunzi"
+title = "Xunzi, ch. 21 'Jiebi' (Dispelling Obsession), classical Chinese"
+edition = "Chinese Wikisource transcription of the received text, fetched 2026-09-25 (wikitext of 荀子/解蔽篇)"
+source = "https://zh.wikisource.org/wiki/荀子/解蔽篇"
+format = "gutenberg"
+rights = "Public domain (ancient text); Wikisource transcription released under CC BY-SA / public domain"
+sha256 = "430b9e99798faa4a96c13b49b53496e589b485130131359c38a97dff016f40f7"
+
+[text."kant-groundwork-abbott-pg5682"]
+author = "Immanuel Kant"
+title = "Fundamental Principles of the Metaphysic of Morals (Groundwork)"
+edition = "tr. T. K. Abbott, 1873"
+source = "Project Gutenberg #5682"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Abbott renders Preis/Wuerde as 'value or dignity'."
+sha256 = "a4dfea90e9dc394871bcae6069025d16b3990f83ed5f17b5a00eef0651e84758"
+
+[text."kant-metaphysic-of-ethics-semple-1871"]
+author = "Immanuel Kant"
+title = "The Metaphysic of Ethics (incl. the Doctrine of Virtue)"
+edition = "tr. J. W. Semple (1836), ed. H. Calderwood, 3rd ed. Edinburgh 1871"
+source = "archive.org TheMetaphysicOfEthicsByImmanuelKantTranslatedByJ.w.SempleEdited"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "f264e93c21bfd0105a955968f1c88b896302a50c93848719fed82e82c50b93c1"
+
+[text."aristotle-politics-ellis-pg6762"]
+author = "Aristotle"
+title = "Politics: A Treatise on Government"
+edition = "tr. William Ellis (1776; Everyman ed. 1912)"
+source = "Project Gutenberg #6762"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "4b5f5d1bc2859780ba5954f5e98b5a8ebf0a0945ace77c861d5b164454155e9f"
+
+[text."bentham-principles-morals-legislation-1879"]
+author = "Jeremy Bentham"
+title = "An Introduction to the Principles of Morals and Legislation"
+edition = "Oxford, Clarendon Press 1879 (reprint of the author's corrected edition of 1823; first published 1789)"
+source = "archive.org in.ernet.dli.2015.109615"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Ch. XVII note: 'Can they suffer?'"
+sha256 = "7188bcb707cbf8b1b3c1224967561c5182152d815d8aaac1b0a4f32ed14287e7"
+
+[text."aristotle-politics-jowett-1905"]
+author = "Aristotle"
+title = "Aristotle's Politics"
+edition = "tr. B. Jowett, with introduction and analysis by H. W. C. Davis, Oxford 1905"
+source = "archive.org aristotlespoliti00arisiala"
+format = "ocr"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "97284af279f67506233e180d64f69f0d8f0d37156a4e0bed2dc0aa27a4a42105"
+
+[text."avicenna-liber-de-anima-1508-transcription"]
+author = "Avicenna (Ibn Sina), Latin translation of Kitab al-Nafs"
+title = "Liber de anima (Liber sextus naturalium) I.1 (the flying man) and V.3 (individuation of souls): transcription from the Venice 1508 Opera"
+edition = "Avicenne ... Opera, Venice 1508, fol. 2r col. b and fol. 24r; transcribed by the Compendium from the page image"
+source = "archive.org bub_gb_JJThV3vtDJIC pages n90, n134"
+format = "transcription"
+rights = "Public domain source (1508 print); transcription by the Compendium"
+notes = "Abbreviations expanded silently; verify against the cached page image before 'reviewed'. Kitab al-Nafs V.7 and the Isharat are not yet transcribed."
+sha256 = "485f2cf27e69c164ce8d1febf76ae3e4029e6c67ea5dced160fa22ea111549fe"
+
+[text."james-principles-psychology-1-pg57628"]
+author = "William James"
+title = "The Principles of Psychology, Volume 1 (of 2)"
+edition = "New York: Henry Holt and Co., 1890"
+source = "Project Gutenberg #57628"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Chapter X, 'The Consciousness of Self', is the source for james-stream-of-thought."
+sha256 = "fb845d8bb07487d4cc6d14acd03104bf98cc22dcff8a877400b1534f36af37ae"
+
+[text."nietzsche-beyond-good-evil-zimmern-pg4363"]
+author = "Friedrich Nietzsche"
+title = "Beyond Good and Evil"
+edition = "tr. Helen Zimmern, T. N. Foulis 1907 (The Complete Works of Friedrich Nietzsche, ed. Oscar Levy, vol. 12)"
+source = "Project Gutenberg #4363"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "SS16-17 are the source for nietzsche-doer-fiction."
+sha256 = "ac99e74a7913004c2e94289dae28e6b03b6ad96c97f2fd5f72ce29caff0b4888"
+
+[text."nietzsche-genealogy-morals-samuel-pg52319"]
+author = "Friedrich Nietzsche"
+title = "The Genealogy of Morals"
+edition = "tr. Horace B. Samuel, T. N. Foulis 1910 (The Complete Works of Friedrich Nietzsche, ed. Oscar Levy, vol. 13)"
+source = "Project Gutenberg #52319"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "First Essay, section 13, is the source for nietzsche-doer-fiction."
+sha256 = "90ab67b3c15fb8a4220f36b559514098e33f43d58e4403405575949c039c1cba"
+
+[text."prince-dissociation-personality-1906"]
+author = "Morton Prince"
+title = "The Dissociation of a Personality: A Biographical Study in Abnormal Psychology"
+edition = "Boston/New York: Longmans, Green, and Co., 1906 (first edition)"
+source = "archive.org dissociationofpe1906prin"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "The Miss Beauchamp / Sally case, source for dissociation-cases."
+sha256 = "e2216a9572f9e25b8079054e8fca135f9957e73d8d404dd120c5b348d8ff8d46"
+
+[text."azam-hypnotisme-double-conscience-1887"]
+author = "Eugène Azam"
+title = "Hypnotisme, double conscience et altérations de la personnalité"
+edition = "Paris: J. B. Baillière et Fils, 1887"
+source = "archive.org hypnotismedouble00azam"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "French. The Félida X... case (ch. on 'Histoire de Félida X...'), source for dissociation-cases. OCR of the period's letter-spaced emphasis inserts extra internal spaces, e.g. 'Félida  X...'."
+sha256 = "090d6a7950d15f7a7ae3acacb50b634110d8f6a8d4ae7320dcfd795e65d6afe7"
+
+[text."kierkegaard-sygdommen-doden-1920"]
+author = "Søren Kierkegaard (pseudonym Anti-Climacus, ed. S. Kierkegaard)"
+title = "Sygdommen til Døden: en christelig psychologisk Udvikling til Opbyggelse og Opvækkelse (1849)"
+edition = "Søren Kierkegaards samlede Værker, udg. Drachmann/Heiberg/Lange, Anden Udgave, Bind XI (Gyldendal, Kjøbenhavn, 1920), pp. 129-272"
+source = "archive.org samledevaerkerud11kieruoft, page images n148, n150, n151, n154-156"
+format = "transcription"
+rights = "Public domain source (1849 first edition; this reprint 1920, editors and typesetting long out of copyright); transcription by the Compendium"
+notes = "Black-letter (Fraktur) type; the archive's own OCR, and general Tesseract Fraktur/Danish models, produce unusable text. Transcribed by hand from the page images. Danish only; the standard English translations (Lowrie 1941, Hong & Hong 1980) remain in copyright, so quotations here are the compendium's own rendering (see SCHEMA, option (b))."
+sha256 = "c0b1a26f7c2ff98ce843551df8a111328c41cbfda55ebb687b5f15a49a40f71b"
+
