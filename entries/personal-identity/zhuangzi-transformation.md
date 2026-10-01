@@ -135,5 +135,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `lucretius-recurrence`: another consolation about death, and the same risk of its being turned into a license.
 - `descartes-thinking-thing`: the dream argument drawing the opposite conclusion.
 - `other-minds-problem`: the fishes on the Hao, the Chinese locus classicus of the problem.
-- `authenticity-and-manipulation`, `stoic-prohairesis`: where the question of installed equanimity must be argued out. The Stoic *what is up to us* is the nearest Western parallel to Zilai's acceptance.
+- `stoic-prohairesis`: the Stoic *what is up to us*, the nearest Western parallel to Zilai's acceptance; it takes up installed equanimity under Strains.
+- `authenticity-and-manipulation`: planned, where the question of installed equanimity must be argued out in full.
 - D5 makes the smith literal. D4 makes the equanimity itself a product of formation. D3 is the butterfly on waking. D8 is the fishes. D11 is the search for the true ruler.

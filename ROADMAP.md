@@ -37,7 +37,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `ulysses-contracts`: binding one's future self; revisability
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else
 - [ ] `nietzsche-self-overcoming`: becoming who one is
-- [ ] `stoic-prohairesis`: Epictetus, what is up to us
+- [x] `stoic-prohairesis`: Epictetus, what is up to us
 - [ ] `utilitarian-eradication-critique`: the aggregation/sacrifice debate, argued from both sides (core-fear material)
 
 ## Political: the polity & the digital ecosystem

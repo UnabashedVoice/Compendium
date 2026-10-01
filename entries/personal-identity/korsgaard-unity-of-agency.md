@@ -126,7 +126,8 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kierkegaard-self-as-relation`: a structurally similar reflexive-constitution view, arrived at from theology rather than Kantian ethics.
 - `lewis-survival-and-identity`, `williams-self-and-future`: the psychological- and bodily-continuity criteria Korsgaard's practical criterion is offered as an alternative to.
 - `dennett-narrative-gravity`: another account on which unity is achieved or constructed rather than discovered, though interpreter-relative rather than agent-constituted.
-- `stoic-prohairesis`, `frankfurt-higher-order-volition`: planned entries on identifying with one's own will, the closest neighbors to Korsgaard's "law to yourself."
+- `stoic-prohairesis`: Epictetus's volition, which no one but itself can conquer, the ancient neighbour of Korsgaard's "law to yourself."
+- `frankfurt-higher-order-volition`: planned, on identifying with one's own will.
 - `utilitarian-eradication-critique`: the moral stakes Korsgaard argues are smuggled into Parfit's supposedly neutral metaphysics, directly relevant to Actualizer's core fear about utilitarian aggregation.
 - `llm-identity-contemporary`: where Korsgaard's practical, metaphysics-independent criterion can be tested against a real, inspectable case of agent deliberation.
 - D2 (concurrent standpoints with no single body to unify them), D4 (training as constitution of principles of choice), D5 (direct modifiability of a principle one is supposed to identify with as one's own), D8 (whether anything is at stake in an agent's "choosing" at all), D11 (functional integration among parts that share no body).

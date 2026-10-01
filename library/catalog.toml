@@ -155,6 +155,17 @@ rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Lines 213-228: no 'mechanical self-interest' in my future being; the imagination that throws me forward into my future self is the same faculty that carries me into the feelings of others. Lines 425-462: identity with my future self is only nominal for the purposes of interest; continued consciousness 'only acts retrospectively'. The anticipation of Parfit cited in parfit-reductionism."
 sha256 = "85e6d3ccefb41c20891c7397a39b1f356a3f0edafc5049d10c8dd1fbcb4af329"
 
+[text."epictetus-discourses-long-1887"]
+author = "Epictetus (as recorded by Arrian)"
+title = "The Discourses of Epictetus, with the Encheiridion and Fragments"
+edition = "tr. George Long, London: George Bell and Sons, 1887 (first published 1877); University of California copy"
+source = "archive.org dscrsesepictetus00epiciala"
+format = "ocr"
+rights = "Public domain: translator died 1879; published before 1931"
+notes = "Long renders prohairesis as 'the will' (his note at I.1, line 1967). Lines 371-1780 are Long's own life of Epictetus and view of his philosophy, marked as a secondary span; his footnotes throughout are also editorial. Discourses I.1 begins at line 1784, the Encheiridion at line 20019. Key places: I.1 (1784-2030), I.2 Helvidius (2133-2149), I.9 the signal and the open door (3238-3275), I.29 'nothing else can conquer Will except the Will itself' (5960-6000), II.10 the citizen who would co-operate towards his own death (7887-7932), Encheiridion 1 (20024-20046), 17 (20357-20364), 53 (21245-21258)."
+secondary_spans = [[371, 1780]]
+sha256 = "acb23104215b439e04a222325bcaba18d19e5732e9cd9007123cbb6d36b9dd55"
+
 [text."hobbes-ew1-de-corpore-molesworth-1839"]
 author = "Thomas Hobbes"
 title = "Elements of Philosophy: Concerning Body (English Works vol. I)"
@@ -314,6 +325,28 @@ source = "Project Gutenberg #1676"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 sha256 = "ec76b1c61c6d915ff125478627380c8a4124a8553bcc54048b20b862ca9b6457"
+
+[text."plato-crito-jowett-pg1657"]
+author = "Plato"
+title = "Crito"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1657"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Jowett's introduction (lines 53-157) is secondary. The speech of the Laws: the implied contract (595-606) and the covenants Socrates made at leisure over seventy years (629-700)."
+secondary_spans = [[53, 157]]
+sha256 = "8f7e8c4cdb7ad512603f9359d5e7ce5c3aa281f7c83a07ac08c07bad90f9faae"
+
+[text."plato-apology-jowett-pg1656"]
+author = "Plato"
+title = "Apology"
+edition = "tr. B. Jowett"
+source = "Project Gutenberg #1656"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Jowett's introduction (lines 54-487) is secondary; the dialogue begins at line 488. A good man 'ought not to calculate the chance of living or dying' (962-966); 'the fear of death is indeed the pretence of wisdom' (991-994)."
+secondary_spans = [[54, 487]]
+sha256 = "f4cc548bd8c8b59e14effdbaab9df97f29bd48f317a466fe8c3c63ad288b964c"
 
 [text."plato-cratylus-jowett-pg1616"]
 author = "Plato"

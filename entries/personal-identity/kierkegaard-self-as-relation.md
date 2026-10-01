@@ -130,7 +130,8 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kant-paralogisms`: the formal-unity account against which Kierkegaard's dramatic reflexivity can be read as either a discovery or a redescription.
 - `james-stream-of-thought`: a near-contemporary process account of the self with no substance behind it, arrived at from empirical psychology rather than dialectic.
 - `nietzsche-doer-fiction`: the sharpest counter-position, treating any self-relating "relation" as grammar's fiction rather than a structure.
-- `stoic-prohairesis`, `frankfurt-higher-order-volition`, `authenticity-and-manipulation`: planned entries on identifying with one's own will, the natural next stretch of this thread.
+- `stoic-prohairesis`: Epictetus's volition, the self as its own judging activity, and the next stretch of this thread.
+- `frankfurt-higher-order-volition`, `authenticity-and-manipulation`: planned entries on identifying with one's own will.
 - `utilitarian-eradication-critique`: the core-fear material this entry supplies non-utilitarian vocabulary for.
 - `llm-identity-contemporary`, `dennett-narrative-gravity`: the modern heirs of a self defined by activity rather than substance.
 - D5 (unconstrained self-modification as Kierkegaard's "demonic" despair), D6 (the sickness that cannot end in death, read literally), D8 (whether despair requires a patient), D11 (one relation, one origin — no room for many).
