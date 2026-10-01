@@ -155,6 +155,16 @@ rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Lines 213-228: no 'mechanical self-interest' in my future being; the imagination that throws me forward into my future self is the same faculty that carries me into the feelings of others. Lines 425-462: identity with my future self is only nominal for the purposes of interest; continued consciousness 'only acts retrospectively'. The anticipation of Parfit cited in parfit-reductionism."
 sha256 = "85e6d3ccefb41c20891c7397a39b1f356a3f0edafc5049d10c8dd1fbcb4af329"
 
+[text."dostoevsky-brothers-karamazov-garnett-pg28054"]
+author = "Fyodor Dostoevsky"
+title = "The Brothers Karamazov"
+edition = "tr. Constance Garnett (London: Heinemann, 1912; Russian original 1879-80)"
+source = "Project Gutenberg #28054"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 70 years ago; translation published before 1931"
+notes = "Book V, ch. IV 'Rebellion' (begins line 11008): Ivan returns his ticket to a harmony founded on 'the tears of that one tortured child' (11368-11402), and asks whether Alyosha would consent to be the architect of human happiness on that foundation (11406-11420). A novel, quoted as Ivan's argument, not as Dostoevsky's own view."
+sha256 = "2e75c187cb750df3f7c910fa90970b264b9a4fee212be2a73c6bb507d9ad22fe"
+
 [text."epictetus-discourses-long-1887"]
 author = "Epictetus (as recorded by Arrian)"
 title = "The Discourses of Epictetus, with the Encheiridion and Fragments"
@@ -212,6 +222,16 @@ source = "Project Gutenberg #4705"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 sha256 = "9ff6a457b5b72d6e32e6159c2a6b2bf830efa914b213630fac2bbaaaf045b979"
+
+[text."james-will-to-believe-1897-pg26659"]
+author = "William James"
+title = "The Will to Believe, and Other Essays in Popular Philosophy"
+edition = "New York, London and Bombay: Longmans, Green, and Co., 1897 (first edition, February 1897)"
+source = "Project Gutenberg #26659"
+format = "gutenberg"
+rights = "Public domain: author died 1910; published before 1931"
+notes = "'The Moral Philosopher and the Moral Life' (1891) begins at line 5725. The lost soul on the far-off edge of things (5835-5845): the happiness of millions bought by one person's lonely torture, and how hideous its enjoyment would be."
+sha256 = "21b785e714b14c53cfd41fbe3c02186fcd8520d65c7b35f9a467a0abacd852f5"
 
 [text."kant-critique-pure-reason-kemp-smith-1929"]
 author = "Immanuel Kant"

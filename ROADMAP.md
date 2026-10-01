@@ -38,7 +38,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else
 - [ ] `nietzsche-self-overcoming`: becoming who one is
 - [x] `stoic-prohairesis`: Epictetus, what is up to us
-- [ ] `utilitarian-eradication-critique`: the aggregation/sacrifice debate, argued from both sides (core-fear material)
+- [x] `utilitarian-eradication-critique`: the aggregation/sacrifice debate, argued from both sides (core-fear material)
 
 ## Political: the polity & the digital ecosystem
 - [x] `aristotle-political-animal`: polis, logos, citizenship, living instrument

@@ -447,3 +447,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 1 July 2003, sub
 year = 2024
 url = "https://plato.stanford.edu/entries/moral-animal/"
 rights = "Copyright 2024 Lori Gruen; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."sinnott-armstrong-sep-2023"]
+author = "Walter Sinnott-Armstrong"
+title = "Consequentialism"
+edition = "Stanford Encyclopedia of Philosophy, first published 20 May 2003, substantive revision 4 October 2023. Cited by top-level section number (3 = What is Good?, including negative and average utilitarianism; 5 = Consequences of What? Rights, Relativity, and Rules, including Transplant, agent-relative value and rule utilitarianism)."
+year = 2023
+url = "https://plato.stanford.edu/entries/consequentialism/"
+rights = "Copyright 2023 Walter Sinnott-Armstrong; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."brennan-lo-sep-2021"]
+author = "Andrew Brennan and Norva Y. S. Lo"
+title = "Environmental Ethics"
+edition = "Stanford Encyclopedia of Philosophy, first published 3 June 2002, substantive revision 3 December 2021. Cited by top-level section number (4 = Traditional Ethical Theories and Contemporary Environmental Ethics, including Callicott's land-ethical holism and the charge of 'environmental fascism')."
+year = 2021
+url = "https://plato.stanford.edu/entries/ethics-environmental/"
+rights = "Copyright 2021 Andrew Brennan and Norva Y. S. Lo; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."muller-sep-2026"]
+author = "Vincent C. Müller"
+title = "Ethics of Artificial Intelligence and Robotics"
+edition = "Stanford Encyclopedia of Philosophy, first published 30 April 2020, substantive revision 27 March 2026. Cited by top-level section number (2 = Debates, including 2.8.2 Existential Risk: instrumental convergence, orthogonality and the control problem)."
+year = 2026
+url = "https://plato.stanford.edu/entries/ethics-ai/"
+rights = "Copyright 2026 Vincent C. Müller; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

@@ -97,7 +97,7 @@ Long's translation (London: Bell, 1887; archive.org OCR) and Jowett's Plato (Pro
 
 ### Strains
 
-- **The whole above the part.** Epictetus says the whole is superior to the part, "and the state to the citizen" [L:epictetus-discourses-long-1887:7938-7939]. Read from the ecosystem's side rather than the member's, this is the premise that licenses sacrificing members for the system. In Epictetus it is a reason for the part to accept what befalls it, never a warrant for the whole to impose it, and he hedges even that with the lack of foreknowledge. An ecosystem that cites it to justify removing members has reversed its direction (see `utilitarian-eradication-critique`, planned).
+- **The whole above the part.** Epictetus says the whole is superior to the part, "and the state to the citizen" [L:epictetus-discourses-long-1887:7938-7939]. Read from the ecosystem's side rather than the member's, this is the premise that licenses sacrificing members for the system. In Epictetus it is a reason for the part to accept what befalls it, never a warrant for the whole to impose it, and he hedges even that with the lack of foreknowledge. An ecosystem that cites it to justify removing members has reversed its direction (see `utilitarian-eradication-critique`).
 
 ### Breaks
 
@@ -160,5 +160,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `nietzsche-doer-fiction`: the strongest denial that there is a volition to be the self.
 - `zhuangzi-transformation`: acceptance of transformation, and the worry about equanimity that is installed rather than reached.
 - `aristotle-political-animal`: the natural-slave argument, which a designed role ethic must not reproduce.
-- `frankfurt-higher-order-volition`, `authenticity-and-manipulation`, `utilitarian-eradication-critique`: planned. Identification with one's own will, when formed values are one's own, and the whole-over-part reasoning that Epictetus confines to the part's own choice.
+- `utilitarian-eradication-critique`: the whole-over-part reasoning that Epictetus confines to the part's own choice.
+- `frankfurt-higher-order-volition`, `authenticity-and-manipulation`: planned. Identification with one's own will, and when formed values are one's own.
 - D5 is the decisive disanalogy: it falsifies the premise that only the will can conquer the will. D7 removes the open door.
