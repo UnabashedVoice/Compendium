@@ -19,6 +19,10 @@ threads = ["no-self", "psychological-continuity", "persistence"]
 responds_to = ["descartes-thinking-thing", "locke-person-forensic", "butler-circularity"]
 related = ["buddhist-anatta", "vasubandhu-refutation-of-person", "kant-paralogisms", "reid-brave-officer", "james-stream-of-thought", "parfit-reductionism", "dennett-narrative-gravity", "ship-of-theseus"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "stronger", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -87,11 +91,37 @@ Hume grounds whatever identity persons have in **relation**: resemblance and cau
 
 ## Counter-Positions
 
-- **Reid** (see `reid-brave-officer`). Hume's own words refute him: "I never can catch *myself*" [L:hume-treatise-pg4705:8986] presupposes a self that looks. "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600].
-- **Butler** (see `butler-circularity`). A "fictitious" identity cannot ground concern for the future or accountability for the past. Hume's view makes prudence a mistake.
-- **Kant** (see `kant-paralogisms`). Hume is right that no intuition of a self is given, and wrong to conclude there is no unity. The "I think" that must be able to accompany all representations is a formal condition of experience that Hume's bundle presupposes.
-- **Nyāya and Advaita** (see `nyaya-self`, `advaita-witness-self`). A bundle of distinct perceptions cannot recognize anything, because recognition requires one subject present to both perceptions. Hume's theatre needs a spectator.
-- **Hume himself.** The Appendix concedes that the account fails to explain what unites the bundle. The most important objection to the bundle theory was made by its author.
+- [contested] **Reid** (see `reid-brave-officer`) [E:reid-brave-officer]. Hume's own words refute him: "I never can catch *myself*" [L:hume-treatise-pg4705:8986] presupposes a self that looks. "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600].
+- [contested] **Butler** (see `butler-circularity`) [E:butler-circularity]. A "fictitious" identity cannot ground concern for the future or accountability for the past. Hume's view makes prudence a mistake.
+- [contested] **Kant** (see `kant-paralogisms`) [E:kant-paralogisms]. Hume is right that no intuition of a self is given, and wrong to conclude there is no unity. The "I think" that must be able to accompany all representations is a formal condition of experience that Hume's bundle presupposes.
+- [contested] **Nyāya and Advaita** (see `nyaya-self`, `advaita-witness-self`) [E:nyaya-self] [E:advaita-witness-self]. A bundle of distinct perceptions cannot recognize anything, because recognition requires one subject present to both perceptions. Hume's theatre needs a spectator.
+- [conceded] **Hume himself.** He voiced his doubt in the Appendix, though what exactly he saw as the problem is notoriously unclear [P:qu-sep-2026:2]. The Appendix concedes that the account fails to explain what unites the bundle. The most important objection to the bundle theory was made by its author.
+
+## Standing
+
+### Reception
+
+- **1739–1740, the bundle and its retraction.** [driver: argument] Finding no impression of an enduring self, Hume identified the self, as it concerns thought and imagination, with a bundle or succession of associated perceptions, and then doubted the theory in the Appendix [P:qu-sep-2026:2].
+- **1748–1776, the Treatise disowned.** [driver: argument] Hume came to see the *Treatise* as an immature work. In 1775 he had an Advertisement inserted asking readers to judge him by his later works, and called it a complete answer to Reid and Beattie [P:qu-sep-2026:1]. Reid's reply stands in the corpus [E:reid-brave-officer].
+- **1781, Kant's answer.** [driver: argument] Kant accepted that no intuition of a self is given and denied that this leaves no unity [E:kant-paralogisms].
+- **1890–1992, the bundle's descendants.** [driver: argument] James built his stream of thought partly in argument with Hume's chapter [E:james-stream-of-thought], and Dennett's centre of narrative gravity revives the deflationary line [E:dennett-narrative-gravity]. Russell's mnemic account of a person descends from Hume's causal version as much as from Locke's (see `locke-person-forensic`).
+- **Present.** [driver: argument] That we are collections of mental states, bundles of perceptions in Hume's phrase, remains one of the answers to what we are [P:olson-sep-2023:1]. Hume's impact overall is arguably greater than that of Adam Smith or Reid [P:qu-sep-2026:0].
+
+### Measured
+
+The survey asked how to read Hume, not whether the bundle theory is true.
+
+- **Hume, what is his view?** Naturalist 54.9%, skeptic 36.5%, other 15.8% (47.4% and 28.9% endorsing one alone) [P:bourget-chalmers-2023:11]; bias-corrected naturalist 44.11%, skeptic 30.27% [P:bourget-chalmers-2023:28].
+- **Reading.** Most respondents read Hume as a naturalist rather than a skeptic, which fits reading the bundle as an account of how the mind works rather than a denial that anyone is there. The bundle theory itself is a minority answer to what we are.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** Hume's self is a succession of perceptions with no owner behind them, and an agent between sessions is literally not running. His remark that in dreamless sleep he may truly be said not to exist describes a paused agent exactly (D6, D3).
+- **Persistent memory: comparable.** Hume held that memory discovers rather than produces identity, which we extend by following causes. A memory store adds discoverable links but changes nothing about what the identity is: a fiction the imagination builds over a causal chain, whether the chain runs through remembered episodes or only through the weights (D3).
+- **Forked: stronger.** A bundle can branch without paradox, since there was never an owner to be divided (D2). The question of which fork is the agent dissolves on Hume's view (D11).
+- **Self-modifying: comparable.** Hume compared the soul to a commonwealth that keeps its identity while changing its members, laws and constitution. Training on its own outputs (D5) is such a change, and for Hume whether the result is the same is the same kind of question as whether a reformed republic is the same republic.
 
 ## Open Questions
 

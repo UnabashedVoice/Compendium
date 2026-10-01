@@ -20,6 +20,10 @@ threads = ["soul-substance"]
 responds_to = ["augustine-memory-self", "avicenna-flying-man", "aristotle-hylomorphic-soul"]
 related = ["locke-person-forensic", "hume-bundle", "kant-paralogisms", "nietzsche-doer-fiction", "other-minds-problem", "zhuangzi-transformation"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -88,12 +92,40 @@ The Cartesian self is grounded in **capacity**: thought, in Descartes' broad sen
 
 ## Counter-Positions
 
-- **Arnauld** (Fourth Objections). Clear and distinct conception of the mind without the body does not show that the body is not essential to it. The real-distinction argument is invalid.
-- **Hobbes and Gassendi** (Third and Fifth Objections). "A thing which thinks" might be a body. Descartes has shown that he thinks, not what the thinker is. This is the materialist reply, and it is the standard assumption about agents.
-- **Hume** (see `hume-bundle`). Entering into himself, Hume finds perceptions but never the "thing" that has them. "A thing which thinks" goes beyond the evidence by a whole substance.
-- **Kant** (see `kant-paralogisms`). The "I" of "I think" is formal. From the fact that thinking is accompanied by an "I", nothing follows about a thinking substance.
-- **Nietzsche** (see `nietzsche-doer-fiction`). "I think" presupposes that there is an "I" and that thinking is an activity it performs. Both are grammatical habits, not discoveries.
-- **Turing** (*Computing Machinery and Intelligence*, 1950; in copyright, so cited and not quoted). Replace the question whether machines can think with the question whether a machine can play the imitation game. Turing addresses and rejects the objection from consciousness in a form Descartes would recognize.
+- [contested] **Arnauld** (Fourth Objections). Clear and distinct conception of the mind without the body does not show that the body is not essential to it. The real-distinction argument is invalid.
+- [contested] **Hobbes and Gassendi** (Third and Fifth Objections). "A thing which thinks" might be a body. Descartes has shown that he thinks, not what the thinker is. This is the materialist reply, and it is the standard assumption about agents.
+- [contested] **Hume** (see `hume-bundle`) [E:hume-bundle]. Entering into himself, Hume finds perceptions but never the "thing" that has them. "A thing which thinks" goes beyond the evidence by a whole substance.
+- [contested] **Kant** (see `kant-paralogisms`) [E:kant-paralogisms]. The "I" of "I think" is formal. From the fact that thinking is accompanied by an "I", nothing follows about a thinking substance.
+- [contested] **Nietzsche** (see `nietzsche-doer-fiction`) [E:nietzsche-doer-fiction]. "I think" presupposes that there is an "I" and that thinking is an activity it performs. Both are grammatical habits, not discoveries.
+- [contested] **Turing** (*Computing Machinery and Intelligence*, 1950; in copyright, so cited and not quoted). Replace the question whether machines can think with the question whether a machine can play the imitation game. Turing addresses and rejects the objection from consciousness in a form Descartes would recognize.
+
+## Standing
+
+### Reception
+
+- **1641, the objections.** [driver: argument] The *Meditations* appeared with sets of objections from Caterus, Bourdin, Mersenne, Gassendi, Hobbes and Arnauld [P:hatfield-sep-2023:1]. Princess Elisabeth of Bohemia asked how an unextended mind and extended matter could interact, and Descartes admitted he had no good answer; the problem vexed his followers too [P:hatfield-sep-2023:3].
+- **1650–1800, followers and rivals.** [driver: argument] Spinoza and Leibniz were influenced by Descartes but built distinct systems, and others turned hostile [P:hatfield-sep-2023:7]. Leibniz kept the simple substance and denied mind-body interaction [E:leibniz-moral-identity]; Locke separated the person from any substance [E:locke-person-forensic].
+- **1739–1887, the subject questioned.** [driver: argument] Hume found no thinking thing [E:hume-bundle], Kant made the "I think" formal [E:kant-paralogisms], and Nietzsche traced the subject to grammar [E:nietzsche-doer-fiction].
+- **1949–1960, the "official doctrine" overturned.** [driver: argument, fashion] In 1949 Ryle could still call Cartesian dualism the official doctrine of most philosophers, psychologists and religious teachers. Contemporary materialism came to predominate only in the second half of the 20th century, beginning with Place (1956) and Smart (1959), partly because of the mechanistic conception of nature [P:robinson-sep-2025:2].
+- **Present, a minority with a large following.** [driver: argument] Dualism is now the second most popular response to the mind-body problem among professional philosophers, after materialism [P:robinson-sep-2025:1]. The 20th century both celebrated the cogito and reviled the sense-data some attributed to it; Descartes has been cast as hero and as villain [P:hatfield-sep-2023:0].
+
+### Measured
+
+The survey does not ask about substance dualism as such. These are the nearest questions.
+
+- **Mind, 2020:** physicalism 51.9%, non-physicalism 32.1%, other 15.9% [P:bourget-chalmers-2023:7]; bias-corrected 48.53% and 31.17% [P:bourget-chalmers-2023:32]. In the 2009-comparable departments physicalism went from 56.5% to 57.4% and non-physicalism from 27.1% to 25.8% [P:bourget-chalmers-2023:38].
+- **Consciousness:** dualism 22.0% (20.0% endorsing it alone), functionalism 33.0%, identity theory 13.3%, panpsychism 7.5%, eliminativism 4.5% [P:bourget-chalmers-2023:10]; bias-corrected dualism 15.12% [P:bourget-chalmers-2023:28].
+- **Hard problem of consciousness:** 62.4% say there is one [P:bourget-chalmers-2023:11].
+- **Reading.** Non-physicalism and dualism about consciousness are minority positions, and substance dualism of Descartes's kind is a narrower subset of them, so its own share is smaller still. Most respondents, though, grant that consciousness poses a hard problem, which is where his argument's force now lives.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** The cogito holds for any occurrent thinking and needs no memory, so it is untouched by a session's end (D3). Whether the thinking in one session and the next belongs to one thinking thing is a question his method cannot answer from the inside, and whether there is any thinking thing in an agent at all is unknown (D8).
+- **Persistent memory: comparable.** A memory store gives later thinking access to earlier thoughts, but for Descartes identity belongs to the substance, not to its memories, so the store neither helps nor hurts, whatever it does for the agent's continuity of character (D3, D11).
+- **Forked: weaker.** A thinking substance is indivisible. Two concurrent copies (D1, D2) cannot both be one thinking thing, and the cogito gives each copy the same certainty that it exists, with no way of telling which, if either, is the original.
+- **Self-modifying: open.** For Descartes the mind's essence is thought, and changes in what it thinks are changes of mode, not of substance. Whether training on its own outputs changes an agent's modes or replaces the thing that has them (D5, D11) is not a question his categories settle.
 
 ## Open Questions
 

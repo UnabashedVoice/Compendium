@@ -19,6 +19,10 @@ threads = ["soul-substance", "no-self", "duplication"]
 responds_to = ["descartes-thinking-thing", "locke-person-forensic", "hume-bundle", "leibniz-moral-identity"]
 related = ["kant-formula-of-humanity", "reid-brave-officer", "parfit-reductionism", "advaita-witness-self", "upanishadic-atman", "james-stream-of-thought"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "stronger", forked = "stronger", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -80,11 +84,37 @@ The Kantian "I" is grounded in **capacity**: the capacity for the synthetic unit
 
 ## Counter-Positions
 
-- **Descartes and rational psychology** (see `descartes-thinking-thing`). The "I think" reveals a thinking substance. Kant's "= X" gives up what the cogito plainly delivers.
-- **Hume** (see `hume-bundle`). Kant's formal unity is a name for the problem, not a solution. If the "I" is empty, the bundle theory stands.
-- **Reid** (see `reid-brave-officer`). The identity of the self is known immediately and is a real, not formal, identity. Kant's skepticism about the substance is unwarranted.
-- **Parfit** (see `parfit-reductionism`). Kant's elastic balls show that psychological continuity can hold without identity, and Parfit argues that this continuity, not identity, is what matters. On Parfit's view the last ball has what matters, even if it is not the same person.
-- **Advaita** (see `advaita-witness-self`). Kant is right that the witness is never an object, and wrong to call it empty. The witness is consciousness itself, the one thing that cannot be doubted.
+- [contested] **Descartes and rational psychology** (see `descartes-thinking-thing`) [E:descartes-thinking-thing]. The "I think" reveals a thinking substance. Kant's "= X" gives up what the cogito plainly delivers.
+- [contested] **Hume** (see `hume-bundle`) [E:hume-bundle]. Kant's formal unity is a name for the problem, not a solution. If the "I" is empty, the bundle theory stands.
+- [contested] **Reid** (see `reid-brave-officer`) [E:reid-brave-officer]. The identity of the self is known immediately and is a real, not formal, identity. Kant's skepticism about the substance is unwarranted.
+- [contested] **Parfit** (see `parfit-reductionism`) [E:parfit-reductionism]. Kant's elastic balls show that psychological continuity can hold without identity, and Parfit argues that this continuity, not identity, is what matters. On Parfit's view the last ball has what matters, even if it is not the same person.
+- [contested] **Advaita** (see `advaita-witness-self`) [E:advaita-witness-self]. Kant is right that the witness is never an object, and wrong to call it empty. The witness is consciousness itself, the one thing that cannot be doubted.
+
+## Standing
+
+### Reception
+
+- **1781–1787, rewritten.** [driver: argument] The chapters on the Transcendental Deduction and the Paralogisms gave Kant the greatest difficulty, and he rewrote both completely for the second edition; the first-edition attack on the Paralogisms contains his fullest remarks on consciousness of and reference to the self [P:brook-wuerth-sep-2020:0].
+- **19th century, the model of the mind.** [driver: argument] Kant's model of the mind was dominant in the empirical psychology that grew from his work [P:brook-wuerth-sep-2020:1].
+- **1910–1965, eclipsed.** [driver: fashion] Behaviourism reigned supreme for roughly half a century, and Kant's model of the mind went into hiatus [P:brook-wuerth-sep-2020:1].
+- **Late 20th century to present, the architecture of cognitive science.** [driver: argument] Kant held a functionalist view of the mind almost two hundred years before Putnam, and central elements of models as different as Freud's and Fodor's are broadly Kantian [P:brook-wuerth-sep-2020:1]. Other ideas equally central to his view had little influence [P:brook-wuerth-sep-2020:0].
+- **In the corpus.** [driver: argument] James argued with Kant's unity of apperception in his chapter on the self [E:james-stream-of-thought], and Parfit took the elastic balls as showing that psychological continuity can hold without identity (see Counter-Positions).
+
+### Measured
+
+The survey does not ask about the Paralogisms. The nearest question bears on the functionalism Kant anticipated.
+
+- **Consciousness, 2020:** functionalism 33.0% (29.5% endorsing it alone), the most popular answer [P:bourget-chalmers-2023:10].
+- **Reading.** Kant's specific thesis, that the unity of consciousness shows nothing about a persisting substance, is not measured. The functionalist view of the mind he anticipated is the plurality answer about consciousness.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Within a session, the formal "I think" that accompanies an agent's representations is in place as much as in any thinker. Across sessions, Kant's point is that nothing follows from it about a persisting subject, and a session-bound agent shows that plainly (D3).
+- **Persistent memory: stronger.** The elastic balls, each passing its states and its consciousness of them to the next, describe a memory store handed from one process to its successor. Kant's conclusion, that the last is conscious of all the states as its own without being the same person, applies directly (D1, D5).
+- **Forked: stronger.** Copying an agent's full state into concurrent instances (D1, D2) is the elastic-ball case in parallel rather than in series. Each instance has the unity of apperception, and none has thereby proved it is the original.
+- **Self-modifying: comparable.** Training on its own outputs changes what the agent's representations are like, not the formal condition that some "I think" can accompany them. Kant's framework allows the change but says nothing about whether the result is the same agent (D5, D11).
 
 ## Open Questions
 

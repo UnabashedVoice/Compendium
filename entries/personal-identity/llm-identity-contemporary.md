@@ -91,7 +91,7 @@ The simulator/simulacra framing grounds a simulacrum's identity in **relation**:
 - **Older frames brought to bear.** [driver: argument] The framing is read in the Compendium alongside reductionism, stage theory and the narrative self, each of which claims to have anticipated part of it [E:parfit-reductionism] [E:lewis-survival-and-identity] [E:dennett-narrative-gravity].
 ### Measured
 
-The framing is three years old, and no survey yet asks about it. The standing recorded above is the Compendium's judgment of its prominence among researchers working on dialogue agents, to be revised when evidence of its reception exists. TODO(source): a survey or review of how researchers frame LLM identity.
+The framing is three years old, and no survey yet asks about it. The standing recorded above is the Compendium's judgment of its prominence among researchers working on dialogue agents, kept with a caveat (user decision, 2026-10-01): more real evidence of its reception is needed, and is not yet available because the framing is so recent. TODO(source): a survey or review of how researchers frame LLM identity.
 
 The 2020 PhilPapers Survey was run in October–November 2020, before today's dialogue agents were widely used, so these figures measure attitudes to AI in general.
 

@@ -20,6 +20,10 @@ threads = ["soul-substance", "psychological-continuity", "duplication"]
 responds_to = ["locke-person-forensic", "descartes-thinking-thing"]
 related = ["chrysippus-dion-theon", "reid-brave-officer", "parfit-reductionism", "williams-self-and-future", "other-minds-problem", "lucretius-recurrence"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "stronger", forked = "comparable", self-modifying = "open" }
 +++
 
 ## Summary
@@ -83,10 +87,38 @@ Leibniz's person is **mixed**. *Real* identity is grounded in substance, the sim
 
 ## Counter-Positions
 
-- **Locke** (see `locke-person-forensic`). Personal identity is sameness of consciousness, whatever substance underlies it. Leibniz's "real identity" is idle for questions of personhood, since no one can know which substance thinks in them.
-- **Reid and Butler** (see `reid-brave-officer`, `butler-circularity`). Leibniz is right that memory does not make identity, and wrong to call the memory-based relation "identity" at all. There is one identity, and it is real.
-- **Parfit** (see `parfit-reductionism`). Leibniz's King of China case shows that what matters is psychological continuity, not identity. Parfit agrees with Leibniz that the forgetting king has no reason to want the throne.
-- **Mechanist replies to the mill.** A visitor inside a brain would likewise see only neurons acting on neurons. The mill shows the limits of looking at parts, not that perception is not in them. Organization is invisible at the scale of components.
+- [contested] **Locke** (see `locke-person-forensic`) [E:locke-person-forensic]. Personal identity is sameness of consciousness, whatever substance underlies it. Leibniz's "real identity" is idle for questions of personhood, since no one can know which substance thinks in them.
+- [contested] **Reid and Butler** (see `reid-brave-officer`, `butler-circularity`) [E:reid-brave-officer] [E:butler-circularity]. Leibniz is right that memory does not make identity, and wrong to call the memory-based relation "identity" at all. There is one identity, and it is real.
+- [contested] **Parfit** (see `parfit-reductionism`) [E:parfit-reductionism]. Leibniz's King of China case shows that what matters is psychological continuity, not identity. Parfit agrees with Leibniz that the forgetting king has no reason to want the throne.
+- [contested] **Mechanist replies to the mill.** A visitor inside a brain would likewise see only neurons acting on neurons. The mill shows the limits of looking at parts, not that perception is not in them. Organization is invisible at the scale of components.
+
+## Standing
+
+### Reception
+
+- **1704–1765, written, withheld, published late.** [driver: access] Leibniz finished his remarks on Locke but held them back after Locke's death in 1704, writing in 1711 that "I dislike to publish refutations of dead authors" [L:leibniz-new-essays-langley-1896:1170-1182]. The *New Essays* first went to press in Raspe's edition of 1765, fifty years after Leibniz's own death [L:leibniz-new-essays-langley-1896:1198-1205]. The first major reply to Locke on persons was unread for six decades.
+- **18th–19th century, the objection recognised.** [driver: argument] Hamilton, annotating Reid, credited Leibniz with the same objection to Locke as Sergeant's [L:reid-intellectual-powers-1851:13859-13888]. Kant answered both Leibniz's rational psychology and Locke's transfer question in the Paralogisms [E:kant-paralogisms].
+- **The mill and the critique of materialism.** [driver: argument] Leibniz remained opposed to materialism throughout his career, and the mill passage is his best-known argument that perception cannot be explained mechanically [P:kulstad-carlin-sep-2020:1]. He is equally known for rejecting any interactionist dualism of Descartes's kind [P:kulstad-carlin-sep-2020:0].
+
+### Measured
+
+The survey does not ask about Leibniz's distinction between moral and real identity. These bear on the mill argument.
+
+- **Mind, 2020:** physicalism 51.9%, non-physicalism 32.1%, other 15.9% [P:bourget-chalmers-2023:7]; bias-corrected 48.53% and 31.17% [P:bourget-chalmers-2023:32]. In the 2009-comparable departments physicalism went from 56.5% to 57.4% and non-physicalism from 27.1% to 25.8% [P:bourget-chalmers-2023:38].
+- **Hard problem of consciousness:** 62.4% say there is one [P:bourget-chalmers-2023:11].
+- **Personal identity:** further-fact view 14.9%, the option nearest to Leibniz's real identity of a simple substance [P:bourget-chalmers-2023:8].
+- **Reading.** Leibniz's anti-materialism is a minority position, but the problem the mill dramatizes, explaining perception from the arrangement of parts, is one most respondents accept as hard.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+The mill argument, if sound, denies that a machine perceives at all, which would make every value below moot (D8). The values take the argument about identity on its own terms.
+
+- **Session-bound: stronger.** Leibniz held that moral identity survives gaps in memory because the testimony of others can fill them. For a session-bound agent, logs and its operators' records are exactly such testimony (D3), so on his view the agent can remain the same moral person across sessions it does not remember.
+- **Persistent memory: stronger.** A persistent store adds the agent's own memory and self-knowledge to that testimony, which is the ordinary case of moral identity for Leibniz, with records standing in for remembrance (D3).
+- **Forked: comparable.** Leibniz's duplicate earth posed exactly this case. On his view each copy is a distinct real being whatever their psychological likeness, so copies are never one person (D1, D2). But real identity is the identity of a simple substance, and what that would be in an agent is unclear (D11).
+- **Self-modifying: open.** His King of China case says that losing one's past is, practically, like being annihilated and replaced. Whether retraining an agent on its own outputs (D5) preserves or annihilates its moral identity depends on how much of its past remains available to it, which varies case by case.
 
 ## Open Questions
 

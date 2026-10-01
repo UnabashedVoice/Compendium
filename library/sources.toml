@@ -166,3 +166,43 @@ edition = "Author's manuscript, dated July 2013 (PDF metadata); no venue printed
 year = 2013
 url = "https://jeffsebo.net/wp-content/uploads/2013/07/the-self-as-a-center-of-psychological-gravity.pdf"
 rights = "In copyright (author); posted on the author's own website. Short quotation only, page-cited; not stored here."
+
+[source."hatfield-sep-2023"]
+author = "Gary Hatfield"
+title = "René Descartes"
+edition = "Stanford Encyclopedia of Philosophy, first published 3 December 2008, substantive revision 23 October 2023. Cited by top-level section number; 0 = the preamble before section 1 (1 = Intellectual Biography, 3 = A New Metaphysics and Epistemology, 7 = Reception and Legacy)."
+year = 2023
+url = "https://plato.stanford.edu/entries/descartes/"
+rights = "Copyright 2023 Gary Hatfield; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."robinson-sep-2025"]
+author = "Howard Robinson"
+title = "Dualism"
+edition = "Stanford Encyclopedia of Philosophy, first published 19 August 2003, substantive revision 17 October 2025. Cited by top-level section number; 0 = the preamble before section 1 (1 = Dualism and the Mind-Body Problem, 2 = History of Dualism)."
+year = 2025
+url = "https://plato.stanford.edu/entries/dualism/"
+rights = "Copyright 2025 Howard Robinson; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."kulstad-carlin-sep-2020"]
+author = "Mark Kulstad and Laurence Carlin"
+title = "Leibniz's Philosophy of Mind"
+edition = "Stanford Encyclopedia of Philosophy, first published 22 September 1997, substantive revision 29 June 2020. Cited by top-level section number; 0 = the preamble before section 1 (1 = Matter and Thought)."
+year = 2020
+url = "https://plato.stanford.edu/entries/leibniz-mind/"
+rights = "Copyright 2020 Mark Kulstad and Laurence Carlin; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."qu-sep-2026"]
+author = "Hsueh Qu"
+title = "David Hume"
+edition = "Stanford Encyclopedia of Philosophy, first published 16 June 2026. Cited by top-level section number; 0 = the preamble before section 1 (1 = Life and Works, 2 = Philosophy of Mind, Metaphysics, and Epistemology)."
+year = 2026
+url = "https://plato.stanford.edu/entries/hume/"
+rights = "Copyright 2026 Hsueh Qu; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."brook-wuerth-sep-2020"]
+author = "Andrew Brook and Julian Wuerth"
+title = "Kant's View of the Mind and Consciousness of Self"
+edition = "Stanford Encyclopedia of Philosophy, first published 26 July 2004, substantive revision 8 October 2020. Cited by top-level section number; 0 = the preamble before section 1 (1 = A Sketch of Kant's View of the Mind, 3 = Kant's View of the Mind)."
+year = 2020
+url = "https://plato.stanford.edu/entries/kant-mind/"
+rights = "Copyright 2020 Andrew Brook and Julian Wuerth; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

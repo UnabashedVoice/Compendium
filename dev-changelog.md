@@ -35,6 +35,15 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing, batch 4: early modern
+- **`descartes-thinking-thing`** (minority; agent_fit comparable/comparable/weaker/open). Reception: the 1641 objections and Elisabeth's interaction problem; Spinoza and Leibniz; Hume, Kant and Nietzsche; Ryle's "official doctrine" and the predominance of materialism after Place and Smart (an `argument, fashion` driver, sourced to SEP *Dualism*); dualism now the second most popular response. Measured: mind (physicalism 51.9%, non-physicalism 32.1%), consciousness (dualism 22.0%), hard problem (62.4% yes).
+- **`leibniz-moral-identity`** (minority; stronger/stronger/comparable/open). Reception starts with an `access` driver from the library's own 1896 edition: Leibniz withheld the *New Essays* after Locke's death ("I dislike to publish refutations of dead authors", 1711), and they appeared only in 1765. For Agents: Leibniz's testimony that fills memory gaps maps onto logs and operators' records.
+- **`hume-bundle`** (minority; stronger/comparable/stronger/comparable). Reception: the Appendix doubt (state tag `[conceded]`, by Hume himself); the *Treatise* disowned in 1775 as a complete answer to Reid; Kant; James and Dennett as descendants. Measured: the survey's reading-of-Hume question (naturalist 54.9%, skeptic 36.5%).
+- **`kant-paralogisms`** (major; comparable/stronger/stronger/comparable). Reception: the rewritten chapters; the dominant 19th-century model of mind; eclipsed by behaviourism, about 1910–1965 (`fashion`); a functionalist architecture adopted by cognitive science. For Agents: the elastic balls are a memory store handed to a successor.
+- **Sources added:** SEP Hatfield (Descartes), Robinson (Dualism), Kulstad & Carlin (Leibniz's Philosophy of Mind), Qu (Hume), and Brook & Wuerth (Kant's View of the Mind).
+- **LLM identity:** the caveat on its standing is now worded as the user's decision. The value stays, and more evidence is needed, which the framing's recency means is not yet available.
+- **Checks:** build 35 ok; verify 0 failed (94 entry cross-citations); smoke test 32/32. Standing covers 17 of 33 personal-identity entries.
+
 ### Standing, batch 3: the twentieth century
 - **`williams-self-and-future`** (major; agent_fit comparable/weaker/weaker/open). Williams's bodily criterion is a minority view (biological view 19.1%), but his verdict on reproduced psychology is now the majority answer: mind uploading is death for 54.2% and the teletransporter for 40.1%. The intuition outlasted the criterion.
 - **`lewis-survival-and-identity`** (major; comparable/stronger/stronger/comparable). Covers counterpart theory applied to persons (1971), the overlap reply and the 1976 debate with Parfit, and stage views as a standard answer. Measured is honest that no persistence question exists: eternalism (39.9%) is given as adjacent, and Lewis is the joint fourth most identified-with philosopher (117).
