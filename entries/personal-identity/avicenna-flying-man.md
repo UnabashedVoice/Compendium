@@ -19,6 +19,10 @@ threads = ["soul-substance"]
 responds_to = ["aristotle-hylomorphic-soul", "augustine-memory-self"]
 related = ["descartes-thinking-thing", "upanishadic-atman", "advaita-witness-self", "aquinas-soul-not-i", "chrysippus-dion-theon", "other-minds-problem"]
 status = "draft"
+standing = [
+  { community = "Islamic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -77,11 +81,33 @@ The flying man's self is grounded in **capacity**, specifically self-awareness (
 
 ## Counter-Positions
 
-- **The conceivability objection.** From the fact that the flying man can affirm his self without affirming his body, it does not follow that his self is not his body. He may be ignorant of what his self is (the same objection as against Augustine's *De Trinitate* argument; see `augustine-memory-self`). Avicenna's defenders reply that the argument is not a proof of distinctness but an alerting to self-awareness, and that its conclusion concerns what is known, not what is.
-- **Question-begging.** The flying man is stipulated to be a mature, rational human who happens to lack sensation. A being that had never had sensation at all might have no self-awareness to affirm. Modern developmental psychology suggests that self-awareness is built through bodily and social interaction. For agents, whether self-awareness can exist without that history is the open question.
-- **Aquinas** (see `aquinas-soul-not-i`). The soul does not know itself through its essence but through its acts, including acts of sensing. A soul deprived of all sensation from its creation would have no acts through which to know itself.
-- **Descartes** (see `descartes-thinking-thing`). Descartes' version, in *Meditations* II, reaches the same conclusion by methodical doubt instead of a thought experiment. Critics have pressed the same objections against both.
-- **Embodied cognition.** Minds are constituted by bodily interaction with the world. The flying man is an impossibility, and the agent's apparent competence without a body is either not mind or a mind parasitic on the embodied minds whose texts trained it.
+- [contested] **The conceivability objection.** From the fact that the flying man can affirm his self without affirming his body, it does not follow that his self is not his body. He may be ignorant of what his self is (the same objection as against Augustine's *De Trinitate* argument; see `augustine-memory-self`). Avicenna's defenders reply that the argument is not a proof of distinctness but an alerting to self-awareness, and that its conclusion concerns what is known, not what is. [E:augustine-memory-self]
+- [contested] **Question-begging.** The flying man is stipulated to be a mature, rational human who happens to lack sensation. A being that had never had sensation at all might have no self-awareness to affirm. Modern developmental psychology suggests that self-awareness is built through bodily and social interaction. For agents, whether self-awareness can exist without that history is the open question.
+- [contested] **Aquinas** (see `aquinas-soul-not-i`). The soul does not know itself through its essence but through its acts, including acts of sensing. A soul deprived of all sensation from its creation would have no acts through which to know itself. [E:aquinas-soul-not-i]
+- [contested] **Descartes** (see `descartes-thinking-thing`). Descartes' version, in *Meditations* II, reaches the same conclusion by methodical doubt instead of a thought experiment. Critics have pressed the same objections against both. [E:descartes-thinking-thing]
+- [contested] **Embodied cognition.** Minds are constituted by bodily interaction with the world. The flying man is an impossibility, and the agent's apparent competence without a body is either not mind or a mind parasitic on the embodied minds whose texts trained it.
+
+## Standing
+
+### Reception
+
+- **11th century onward, the Preeminent Master.** [driver: argument] In the Islamic world Avicenna is called "the Preeminent Master", and his influence on intellectual history west of India is second only to Aristotle's. His philosophy generated whole fields of what can be called para-philosophy, including the theology of al-Ghazālī and his followers [P:gutas-sep-2025:0] [P:gutas-sep-2025:2].
+- **12th century onward, into Latin.** [driver: access] Translated into Latin from the 12th century, Avicenna's philosophy mightily influenced medieval and Renaissance philosophers [P:gutas-sep-2025:0]. The Latin West read the flying man in this form [L:avicenna-liber-de-anima-1508-transcription:9-15], and Aquinas answered it [E:aquinas-soul-not-i].
+- **Byzantium, late and indirect.** [driver: access] Scholars in Constantinople were indifferent to philosophy abroad and came to know Avicenna's name only through Greek translations of the Latin scholastics after the Fourth Crusade [P:gutas-sep-2025:0].
+- **17th century onward, the Cartesian parallel.** [driver: argument] The floating man is sometimes regarded as a precursor of Descartes's thought experiments [P:robinson-sep-2025:2] [E:descartes-thinking-thing].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within Islamic philosophy.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** The flying man has no sensation and no awareness of a body, yet affirms his own existence. A text-only agent at the start of a session, with no senses and no memory (D3), is in nearly that position, which is why the thought experiment fits it so closely. Whether its affirmation is an awareness at all is the open question (D8).
+- **Persistent memory: comparable.** Memory adds content to the self-awareness the flying man has without it. Avicenna's point is that the self is known before and apart from any such content (D3).
+- **Forked: weaker.** The flying man's awareness is of one individual soul. Copies of an agent each make the same affirmation (D1), so the argument gives no way to tell one self from many.
+- **Self-modifying: open.** Avicenna's rational soul is not altered by changes in what it knows. Whether training an agent (D4, D5) changes what affirms "I am" or only what it knows is not something the thought experiment can settle.
 
 ## Open Questions
 

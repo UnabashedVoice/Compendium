@@ -35,6 +35,17 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing, batch 6: medieval, and the spine complete
+- **`augustine-memory-self`** (historical): authority universally accepted in the Latin Middle Ages and virtually uncontested until the 19th century (`authority`); the cogito-like argument that probably inspired Descartes; the *Confessions* and the first-person tradition.
+- **`boethius-person-definition`** (historical): with Augustine and Aristotle, the fundamental author of the Latin tradition; refined by Richard of St Victor, adopted by Aquinas, redefined by Locke and Kant.
+- **`avicenna-flying-man`** (major in Islamic philosophy): the Preeminent Master and the para-philosophy he generated; into Latin from the 12th century, and into Byzantium only through Greek translations of the Latin scholastics (`access`); the Cartesian parallel. For Agents: a text-only agent at a session's start is nearly the flying man.
+- **`aquinas-soul-not-i`** (major in Catholic philosophy and theology): the 1277 condemnations and Kilwardby's condemnation of his theory of form; canonization and rehabilitation; Thomism; driven out by the moderns (`fashion`); Leo XIII's revival in 1879 (`authority`). For Agents: individuation by matter gives forked agents a clear answer.
+- **`vasubandhu-refutation-of-person`** (dominant in Buddhist philosophy): the Kashmir scandal; dominant in India; many works known only in Chinese and Tibetan translation (`access`); the two-Vasubandhus thesis.
+- **`nyaya-self`** (major in classical Indian philosophy): Vātsyāyana to Udayana; the single-experiencer argument; Advaita's answer; Navya-Nyāya.
+- **`advaita-witness-self`** (major in Vedānta traditions): before Śaṅkara; his lineage; the rival Vedāntas of Rāmānuja and Madhva; Vivekananda, Ramana and the spread beyond its origins.
+- **Sources added:** SEP Tornau (Augustine), Marenbon (Boethius), Gutas (Avicenna), Pasnau (Aquinas) and Gold (Vasubandhu); IEP Dasti (Nyāya) and Menon (Advaita).
+- **The spine is complete:** all 33 personal-identity entries have Standing (15 major, 10 minority, 6 historical, 3 dominant). Build 35 ok; verify 0 failed (186 entry cross-citations); 0 graph warnings; smoke test 32/32; no brief leaks Standing. Five `TODO(source)` marks remain, each naming its source. `--require-standing` will still fail on the two entries outside personal identity (`kant-formula-of-humanity`, `aristotle-political-animal`) until they get Standing.
+
 ### Standing, batch 5: ancient
 Nine entries. Standing is recorded inside each entry's own tradition where that is where its reception happened, and the Measured section says plainly that the survey samples mostly analytic philosophers (1,430 of 1,785 respondents) and does not measure those traditions.
 - **`heraclitus-river-flux`** (historical): Plato's flux reading; Marcovich on the possibly misread river fragment (`access`); the Stoics; process philosophy since Hegel.

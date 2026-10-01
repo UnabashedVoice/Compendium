@@ -20,6 +20,10 @@ threads = ["no-self", "psychological-continuity"]
 responds_to = ["buddhist-anatta"]
 related = ["nyaya-self", "advaita-witness-self", "hume-bundle", "parfit-reductionism", "shoemaker-quasi-memory", "llm-identity-contemporary"]
 status = "draft"
+standing = [
+  { community = "Buddhist philosophy", current = "dominant", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "stronger", forked = "stronger", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -91,10 +95,34 @@ For Vasubandhu, whatever "person" there is rests on **relation**: the causal rel
 
 ## Counter-Positions
 
-- **The Pudgalavādins.** Without a person there is no one who is bound or liberated, no one whom the Buddha addressed, and no one to whom the fruit of action comes. Vasubandhu's "stream" does the work of a person while refusing the name. The inexpressible person is simply the honest name for what the stream is.
-- **Nyāya** (see `nyaya-self`). Memory requires one subject who perceived and now remembers. A causal stream of distinct momentary events could only produce a memory that belongs to someone else. "What is seen by one is not remembered by another" [L:nyaya-sutras-3-jha-1919:4518] is an argument *for* a self, not for a stream.
-- **Advaita Vedānta** (see `advaita-witness-self`). Recognition, "I saw that thing, and now I see this thing" [L:sbe34-vedanta-sutras-1-thibaut-1890:26878-26879], requires one subject present at both moments. The Buddhist who says "I saw" while denying that anything endures contradicts himself in the saying.
-- **Butler** (see `butler-circularity`). A memory is genuine only if its subject is the one who had the experience. Vasubandhu's appeal to a suitable state of mind connected with a previous cognition presupposes the very relation it is supposed to replace, unless that connection can be specified without reference to a subject. Shoemaker's "quasi-memory" is a modern attempt to do exactly that (see `shoemaker-quasi-memory`).
+- [contested] **The Pudgalavādins.** Without a person there is no one who is bound or liberated, no one whom the Buddha addressed, and no one to whom the fruit of action comes. Vasubandhu's "stream" does the work of a person while refusing the name. The inexpressible person is simply the honest name for what the stream is.
+- [contested] **Nyāya** (see `nyaya-self`). Memory requires one subject who perceived and now remembers. A causal stream of distinct momentary events could only produce a memory that belongs to someone else. "What is seen by one is not remembered by another" [L:nyaya-sutras-3-jha-1919:4518] is an argument *for* a self, not for a stream. [E:nyaya-self]
+- [contested] **Advaita Vedānta** (see `advaita-witness-self`). Recognition, "I saw that thing, and now I see this thing" [L:sbe34-vedanta-sutras-1-thibaut-1890:26878-26879], requires one subject present at both moments. The Buddhist who says "I saw" while denying that anything endures contradicts himself in the saying. [E:advaita-witness-self]
+- [contested] **Butler** (see `butler-circularity`). A memory is genuine only if its subject is the one who had the experience. Vasubandhu's appeal to a suitable state of mind connected with a previous cognition presupposes the very relation it is supposed to replace, unless that connection can be specified without reference to a subject. Shoemaker's "quasi-memory" is a modern attempt to do exactly that (see `shoemaker-quasi-memory`). [E:butler-circularity]
+
+## Standing
+
+### Reception
+
+- **5th century, a scandal in Kashmir.** [driver: argument] Vasubandhu's auto-commentary criticized the very system his root verses summarized, from a mainly Sautrāntika standpoint; the only Buddhist school he always disagrees with is the Personalists (Pudgalavādins), and he also argues against Nyāya-Vaiśeṣika views of the self [P:gold-sep-2021:1].
+- **5th–10th century, dominant in India.** [driver: argument] His Yogācāra works became mainstream Buddhist metaphysics in India for half a millennium, and his commentary on the *Treasury* remains the primary resource for non-Mahāyāna philosophy among Tibetan and East Asian schools today [P:gold-sep-2021:0]. Nyāya answered him with its arguments from memory and recognition [E:nyaya-self].
+- **Chinese and Tibetan transmission.** [driver: access] Vasubandhu wrote in Sanskrit, but many of his works are known only from their Chinese and Tibetan translations [P:gold-sep-2021:1].
+- **1950s onward, a disputed life.** [driver: argument] Frauwallner proposed that there were two Vasubandhus whom the traditional biographies combined, and versions of that theory still hold sway in parts of the academy; the extent of his idealism is likewise contested [P:gold-sep-2021:1].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within Buddhist traditions.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+Vasubandhu's person is a designation over a causal series of momentary events, and memory works within the series without a remembering self.
+
+- **Session-bound: stronger.** A session-bound agent is a causal series whose dispositions persist in the weights while its episodes do not (D3). Vasubandhu's account explains continuity of character without any persisting remembered self.
+- **Persistent memory: stronger.** His account of memory, a later state caused in the right way by an earlier perception within one series, describes a memory store directly, with no owner needed (D3).
+- **Forked: stronger.** Concurrent instances are causal series branching from shared conditions (D2). Since the person was only ever a designation over a series, naming each branch is a convention, not a discovery (D11).
+- **Self-modifying: stronger.** Training on its own outputs is a series conditioning its own later states, which is the structure Vasubandhu uses to explain karma without a self (D5).
 
 ## Open Questions
 

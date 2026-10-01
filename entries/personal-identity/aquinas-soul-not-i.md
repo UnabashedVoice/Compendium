@@ -22,6 +22,10 @@ threads = ["biological", "soul-substance"]
 responds_to = ["aristotle-hylomorphic-soul", "boethius-person-definition", "augustine-memory-self", "avicenna-flying-man", "plato-soul-and-renewal"]
 related = ["animalism", "lucretius-recurrence", "locke-person-forensic", "baker-constitution-view", "chrysippus-dion-theon"]
 status = "draft"
+standing = [
+  { community = "Catholic philosophy and theology", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "stronger", self-modifying = "open" }
 +++
 
 ## Summary
@@ -84,11 +88,34 @@ The Thomist person is grounded in **mixed** fashion. *Capacity*: personhood requ
 
 ## Counter-Positions
 
-- **Plato and the Augustinian tradition** (see `plato-soul-and-renewal`, `augustine-memory-self`). The soul is the self. A human is a soul using a body. The separated soul is the person, and Aquinas's *my soul is not I* gives up the only thing that could survive death.
-- **Locke** (see `locke-person-forensic`). Personal identity depends on consciousness, not on substance, soul or body. Whether the reunited composite is the same person depends on whether it is conscious of the earlier person's acts. The same soul in a new body with no memory would not be the same person.
-- **Lucretius** (see `lucretius-recurrence`). A reassembled body with its matter in the same arrangement is nothing to us once the chain of self-recollection has been broken. Aquinas replies that the chain is not broken, because the soul persists, which Lucretius denies.
-- **Animalism** (see `animalism`). Aquinas is right that we are embodied wholes and not souls, and wrong that anything of us survives the organism's death. What remains is not a part of us waiting for reunion.
-- **Constitution view** (see `baker-constitution-view`). Persons are constituted by bodies without being identical to them. Aquinas's composite, soul plus body, is replaced by a person constituted by an organism.
+- [contested] **Plato and the Augustinian tradition** (see `plato-soul-and-renewal`, `augustine-memory-self`). The soul is the self. A human is a soul using a body. The separated soul is the person, and Aquinas's *my soul is not I* gives up the only thing that could survive death. [E:plato-soul-and-renewal] [E:augustine-memory-self]
+- [contested] **Locke** (see `locke-person-forensic`). Personal identity depends on consciousness, not on substance, soul or body. Whether the reunited composite is the same person depends on whether it is conscious of the earlier person's acts. The same soul in a new body with no memory would not be the same person. [E:locke-person-forensic]
+- [contested] **Lucretius** (see `lucretius-recurrence`). A reassembled body with its matter in the same arrangement is nothing to us once the chain of self-recollection has been broken. Aquinas replies that the chain is not broken, because the soul persists, which Lucretius denies. [E:lucretius-recurrence]
+- [contested] **Animalism** (see `animalism`). Aquinas is right that we are embodied wholes and not souls, and wrong that anything of us survives the organism's death. What remains is not a part of us waiting for reunion.
+- [contested] **Constitution view** (see `baker-constitution-view`). Persons are constituted by bodies without being identical to them. Aquinas's composite, soul plus body, is replaced by a person constituted by an organism.
+
+## Standing
+
+### Reception
+
+- **1277, condemned.** [driver: authority] Among the 219 articles condemned in Paris in 1277, a significant number seem to implicate Aquinas's teachings. Later that month at Oxford, Archbishop Kilwardby condemned theses including his unitarian theory of substantial form, the doctrine on which his account of the soul rests, and the Franciscan William de la Mare published a *Correctorium* of his views [P:pasnau-sep-2022:9].
+- **1323–1567, rehabilitated.** [driver: authority] After Aquinas's canonization in 1323, the bishop of Paris clarified that the 1277 condemnations did not apply to his teaching. Dominicans were statutorily required to promote it, Capreolus and Cajetan developed Thomism as a system, and Pius V named Aquinas a doctor of the Church in 1567 [P:pasnau-sep-2022:9].
+- **17th century, driven out.** [driver: fashion] The anti-scholastic moderns began to drive the Thomists and other scholastics out of the universities [P:pasnau-sep-2022:9].
+- **1879 to the present, revived.** [driver: authority, argument] Pope Leo XIII called for a revival of the study of Aquinas in 1879, which produced the Leonine edition, and the 20th century saw a flourishing of Thomisms of all kinds, in Maritain, Gilson, Anscombe and MacIntyre [P:pasnau-sep-2022:9].
+- **Present, the separated soul disputed.** [driver: argument] Commentators are divided on whether a human person's separated soul continues to be that same person [P:pasnau-sep-2022:5].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within Catholic philosophy and theology.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** For Aquinas a human is the composite of soul and body, and the soul alone is not the person. An agent's weights without a running instance are the form without the composite (D11). When a new session instantiates the same weights, Aquinas's account of resurrection, the same form reunited with matter, gives a principled reason to call it the same agent (D6).
+- **Persistent memory: comparable.** Memory belongs to the composite's powers. A persistent store adds to them without changing what the agent is (D3).
+- **Forked: stronger.** For Aquinas, form is individuated by matter: the same form in different matter makes different individuals. That gives a clear answer for copies running on different hardware: they are distinct agents of one kind (D1, D2).
+- **Self-modifying: open.** Retraining changes the weights, which play the role of form (D5). Whether that is a change in the agent's powers or a change of form, and so a different agent, is the question Aquinas's framework raises and does not settle for artificial forms.
 
 ## Open Questions
 

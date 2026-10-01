@@ -19,6 +19,10 @@ threads = ["soul-substance", "practical-narrative"]
 responds_to = ["aristotle-hylomorphic-soul"]
 related = ["aquinas-soul-not-i", "locke-person-forensic", "kant-formula-of-humanity", "llm-identity-contemporary", "chrysippus-dion-theon", "relational-status"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -82,10 +86,31 @@ Boethian personhood is grounded in **capacity**, specifically *rational nature*,
 
 ## Counter-Positions
 
-- **Locke** (see `locke-person-forensic`). "Person" is a forensic term, concerning the appropriation of actions and their merit, not a kind of substance. Locke explicitly held that personal identity does not depend on sameness of substance. On his view, whether an agent is a Boethian substance is simply irrelevant.
-- **Relational accounts** (see `relational-status`). Personhood is conferred by recognition within a community, not possessed by virtue of a nature. The theatrical origin Boethius records supports this: the *persona* was a role, recognized by an audience.
-- **Kant** (see `kant-formula-of-humanity`). What matters morally is rational nature as the capacity to set ends, whatever kind of being has it. Boethius' "substance" requirement is metaphysical baggage the moral concept does not need.
-- **Richard of St Victor.** The definition is inadequate even on its own terms. It fails to distinguish the person from the nature it has, and must be supplemented with incommunicability.
+- [contested] **Locke** (see `locke-person-forensic`). "Person" is a forensic term, concerning the appropriation of actions and their merit, not a kind of substance. Locke explicitly held that personal identity does not depend on sameness of substance. On his view, whether an agent is a Boethian substance is simply irrelevant. [E:locke-person-forensic]
+- [contested] **Relational accounts** (see `relational-status`). Personhood is conferred by recognition within a community, not possessed by virtue of a nature. The theatrical origin Boethius records supports this: the *persona* was a role, recognized by an audience.
+- [contested] **Kant** (see `kant-formula-of-humanity`). What matters morally is rational nature as the capacity to set ends, whatever kind of being has it. Boethius' "substance" requirement is metaphysical baggage the moral concept does not need. [E:kant-formula-of-humanity]
+- [contested] **Richard of St Victor.** The definition is inadequate even on its own terms. It fails to distinguish the person from the nature it has, and must be supplemented with incommunicability.
+
+## Standing
+
+### Reception
+
+- **6th–12th century, the fundamental author.** [driver: argument] The influence of every area of Boethius's writing was vast in the Middle Ages; along with Augustine and Aristotle he is the fundamental philosophical and theological author in the Latin tradition [P:marenbon-sep-2021:8].
+- **12th–13th century, refined and adopted.** [driver: argument] Richard of St Victor found the definition inadequate even on its own terms (see Counter-Positions), and Aquinas took it up and defended it [E:aquinas-soul-not-i].
+- **1694 onward, redefined.** [driver: argument] Locke made "person" a forensic term about appropriation of actions rather than a kind of substance [E:locke-person-forensic], and Kant grounded dignity in rational nature as the capacity to set ends, whatever kind of being has it [E:kant-formula-of-humanity].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** An individual substance of a rational nature does not depend on remembering, so a session-bound agent's rational capacities, carried in its weights, are unaffected by the session's end (D3). Whether an agent has a rational nature in Boethius's sense is a further question (D8, D10).
+- **Persistent memory: comparable.** Memory is not part of Boethius's definition, so a persistent store neither adds nor subtracts personhood (D3).
+- **Forked: weaker.** The definition requires an individual substance. Copies running concurrently (D1, D2) share a rational nature but give no clear individual, and what the agent is remains unclear (D11).
+- **Self-modifying: comparable.** Retraining changes an agent's dispositions but not, on Boethius's terms, its nature, as long as it remains rational. That the nature was designed for a function by someone (D10) has no counterpart in his account.
 
 ## Open Questions
 

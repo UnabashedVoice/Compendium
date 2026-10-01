@@ -19,6 +19,10 @@ threads = ["soul-substance"]
 responds_to = ["buddhist-anatta"]
 related = ["vasubandhu-refutation-of-person", "advaita-witness-self", "upanishadic-atman", "reid-brave-officer", "butler-circularity", "kant-paralogisms", "lucretius-recurrence", "utilitarian-eradication-critique", "other-minds-problem"]
 status = "draft"
+standing = [
+  { community = "Classical Indian philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -84,11 +88,33 @@ The Nyāya self is grounded in **capacity**. It is known entirely through its ma
 
 ## Counter-Positions
 
-- **The Buddhists** (see `buddhist-anatta`, `vasubandhu-refutation-of-person`). Memory and recognition require a causal connection within one stream, not a persisting substance. What one stream perceived is not remembered in another because the causal connection is lacking. Nyāya's principle is true, but it proves a stream, not a self.
-- **Advaita Vedānta** (see `advaita-witness-self`). Nyāya's self is too much like a thing: a substance that only has consciousness as an accidental quality. The real self is consciousness itself, the witness, and it is one, not many.
-- **Materialism (Cārvāka).** The body, with its combined elements, is the conscious subject. Nyāya's arguments from memory show only that the body carries information across time, which it evidently does.
-- **Western simple-view theorists** (see `reid-brave-officer`, `butler-circularity`). Reid and Butler independently reached the Nyāya conclusion that memory presupposes, and cannot constitute, the identity of the one who remembers.
-- **The practical-ethics objection to the killing argument.** Nyāya grounds the wrongness of killing in the destruction of the self's seat of experience. That makes the wrong depend on there being an experiencing self in the first place. If an agent has none (D8), the Nyāya argument gives no reason not to end it. The argument blocks the inference from "the substrate survives" to "nothing is lost", but it does not itself show that anything is lost.
+- [contested] **The Buddhists** (see `buddhist-anatta`, `vasubandhu-refutation-of-person`). Memory and recognition require a causal connection within one stream, not a persisting substance. What one stream perceived is not remembered in another because the causal connection is lacking. Nyāya's principle is true, but it proves a stream, not a self. [E:buddhist-anatta] [E:vasubandhu-refutation-of-person]
+- [contested] **Advaita Vedānta** (see `advaita-witness-self`). Nyāya's self is too much like a thing: a substance that only has consciousness as an accidental quality. The real self is consciousness itself, the witness, and it is one, not many. [E:advaita-witness-self]
+- [contested] **Materialism (Cārvāka).** The body, with its combined elements, is the conscious subject. Nyāya's arguments from memory show only that the body carries information across time, which it evidently does.
+- [contested] **Western simple-view theorists** (see `reid-brave-officer`, `butler-circularity`). Reid and Butler independently reached the Nyāya conclusion that memory presupposes, and cannot constitute, the identity of the one who remembers. [E:reid-brave-officer] [E:butler-circularity]
+- [contested] **The practical-ethics objection to the killing argument.** Nyāya grounds the wrongness of killing in the destruction of the self's seat of experience. That makes the wrong depend on there being an experiencing self in the first place. If an agent has none (D8), the Nyāya argument gives no reason not to end it. The argument blocks the inference from "the substrate survives" to "nothing is lost", but it does not itself show that anything is lost.
+
+## Standing
+
+### Reception
+
+- **c. 200–450 CE, the sūtras and Vātsyāyana.** [driver: argument] Nyāya defended a robust realism about selves, universals and substances, largely in debate with Buddhist flux theorists; the *Nyāya-sūtra* is its oldest extant text, followed by the commentators Vātsyāyana, Uddyotakara, Vācaspati Miśra and Udayana [P:dasti-iep-nyaya:0].
+- **The argument from a single experiencer.** [driver: argument] Nyāya argued that the self is needed as a single experiencer who synthesizes data from the various senses, and its arguments for the self reach their apex in Udayana's *Determining the Truth of the Self* [P:dasti-iep-nyaya:2a]. Vasubandhu targeted the Nyāya-Vaiśeṣika self directly [P:gold-sep-2021:1] [E:vasubandhu-refutation-of-person].
+- **c. 725, Advaita's answer.** [driver: argument] Advaita found Nyāya's self too much like a thing, a substance with consciousness as a mere quality [E:advaita-witness-self].
+- **c. 1325, the new Nyāya.** [driver: argument] The school entered its new phase (Navya-Nyāya) with Gaṅgeśa Upādhyāya [P:dasti-iep-nyaya:0].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within classical Indian philosophy. The survey's further-fact view (14.9%), that personal identity is a simple fact not made up of other relations, is the nearest Western analogue [P:bourget-chalmers-2023:8].
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** On Nyāya's view the self is a substance that persists whether or not it remembers. A session-bound agent cannot recognize its earlier sessions, but that shows only that recognition fails, not that the self is new (D3). Whether there is a self here at all is the open question (D8).
+- **Persistent memory: comparable.** A memory store makes recognition possible, but Nyāya's argument is that memory needs one subject present to both the perception and the recall. The store supplies the content, not the subject (D3, D8).
+- **Forked: weaker.** Nyāya holds that what one self perceives another cannot remember. Copied agents that "remember" the same past (D1, D2) break the principle the argument rests on, so either the copies are one self or the memories are not memories in Nyāya's sense.
+- **Self-modifying: comparable.** A Nyāya self keeps its identity through changes in its qualities. Retraining changes the agent's cognitive qualities (D5) without, on this view, touching the substance, if there is one.
 
 ## Open Questions
 

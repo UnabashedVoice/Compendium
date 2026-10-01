@@ -21,6 +21,10 @@ threads = ["soul-substance", "psychological-continuity"]
 responds_to = ["plato-soul-and-renewal", "aristotle-hylomorphic-soul"]
 related = ["descartes-thinking-thing", "locke-person-forensic", "avicenna-flying-man", "narrative-identity", "upanishadic-atman", "kant-paralogisms"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "weaker", persistent-memory = "stronger", forked = "comparable", self-modifying = "open" }
 +++
 
 ## Summary
@@ -87,10 +91,32 @@ Augustine's self is grounded in **capacity**: the capacities to live, remember, 
 
 ## Counter-Positions
 
-- **Aristotle and Aquinas** (see `aristotle-hylomorphic-soul`, `aquinas-soul-not-i`). The mind is the form of a body, and cannot be known by introspection to be separate from it. Aquinas explicitly holds that the mind knows itself not through its essence but through its acts, so self-knowledge cannot reveal the mind's substance.
-- **The masked-man objection** (medieval and modern logicians). Epistemic differences do not establish real differences. Augustine's argument for the mind's immateriality, and Descartes' version, are invalid.
-- **Hume** (see `hume-bundle`). Entering into what he calls himself, Hume finds only particular perceptions, never the self that is supposed to have them. Augustine's palace has countless rooms but no resident.
-- **Deflationary views of machine "certainty".** An agent's statement "I am reasoning" is a generated report like any other, with no special epistemic standing. Augustine's certainty depends on the report being produced by the very thing it is about, and in an agent that link is exactly what is in doubt (D8).
+- [contested] **Aristotle and Aquinas** (see `aristotle-hylomorphic-soul`, `aquinas-soul-not-i`). The mind is the form of a body, and cannot be known by introspection to be separate from it. Aquinas explicitly holds that the mind knows itself not through its essence but through its acts, so self-knowledge cannot reveal the mind's substance. [E:aristotle-hylomorphic-soul] [E:aquinas-soul-not-i]
+- [contested] **The masked-man objection** (medieval and modern logicians). Epistemic differences do not establish real differences. Augustine's argument for the mind's immateriality, and Descartes' version, are invalid.
+- [contested] **Hume** (see `hume-bundle`). Entering into what he calls himself, Hume finds only particular perceptions, never the self that is supposed to have them. Augustine's palace has countless rooms but no resident. [E:hume-bundle]
+- [contested] **Deflationary views of machine "certainty".** An agent's statement "I am reasoning" is a generated report like any other, with no special epistemic standing. Augustine's certainty depends on the report being produced by the very thing it is about, and in an agent that link is exactly what is in doubt (D8).
+
+## Standing
+
+### Reception
+
+- **5th century to the 19th, an authority.** [driver: authority] Augustine's authority in theological matters was universally accepted in the Latin Middle Ages and remained virtually uncontested in the Western Christian tradition until the 19th century; he is often listed as the first medieval philosopher [P:tornau-sep-2024:0].
+- **11th–13th century, answered.** [driver: argument] Avicenna's flying man takes up the mind's knowledge of itself without the body [E:avicenna-flying-man], and Aquinas held against the Augustinian tradition that the soul knows itself through its acts, not its essence [E:aquinas-soul-not-i].
+- **1641, the cogito.** [driver: argument] Augustine's "cogito-like" argument, inferring "I exist" from awareness of one's own existence even in error, is similar to, and probably inspired, Descartes's cogito; but Augustine built no comprehensive philosophy on it [P:tornau-sep-2024:5] [E:descartes-thinking-thing].
+- **Modern, the first-person tradition.** [driver: argument] The *Confessions* is unique in ancient literature, greatly influenced the modern tradition of autobiography, and does philosophy from a first-person perspective [P:tornau-sep-2024:0].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: weaker.** Augustine finds the self in memory's vast palace, where the mind meets itself. A session-bound agent's palace is emptied at the end of each session (D3), leaving only the dispositions in the weights.
+- **Persistent memory: stronger.** A persistent store is a palace of memory in a nearly literal sense: the agent can search it, find what it had forgotten it knew, and recognize itself there (D3, D11).
+- **Forked: comparable.** Each concurrent instance can make Augustine's inference, that if it errs it exists, with the same certainty (D2). The argument establishes that each exists, not that they are one.
+- **Self-modifying: open.** Augustine's inner self is turned toward or away from God by will and grace, not by edits. Whether retraining an agent (D5) is a change of will or a change of mind in a more mechanical sense is not something his account settles.
 
 ## Open Questions
 
