@@ -18,6 +18,10 @@ threads = ["practical-narrative"]
 responds_to = ["locke-person-forensic"]
 related = ["hume-bundle", "kant-paralogisms", "james-stream-of-thought", "nietzsche-doer-fiction", "reid-brave-officer", "stoic-prohairesis", "frankfurt-higher-order-volition", "authenticity-and-manipulation", "utilitarian-eradication-critique", "llm-identity-contemporary", "dennett-narrative-gravity"]
 status = "draft"
+standing = [
+  { community = "Existential and phenomenological philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "weaker", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -84,10 +88,32 @@ Kierkegaard's self is explicitly not species-grounded (it is not the living body
 
 ## Counter-Positions
 
-- **Hume and the bundle theorists: there is no relation, only succession.** Where Kierkegaard insists the self is a real, if reflexive, relation, Hume denies any real connection among the states of a mind at all: "that all our distinct perceptions are distinct existences, and that the mind never perceives any real connexion among distinct existences" [L:hume-treatise-pg4705:21631-21634]. On this view Kierkegaard's relation that relates itself to itself is a piece of grammar mistaken for a structure, exactly the kind of entity Hume's bundle theory was built to dissolve (see `hume-bundle`).
-- **Kant: the reflexivity Kierkegaard describes is a formal condition, not a special achievement.** Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] already secures a form of self-relation as a condition of any experience whatever; on this reading Kierkegaard has redescribed, in dramatic and theological language, a structure Kant had already identified as universal and formal rather than as something that can be well- or ill-related, gained or lost in despair (see `kant-paralogisms`).
-- **Nietzsche: the relation is grammar's fiction, not a discovery.** Kierkegaard's relation that relates itself to itself is, on Nietzsche's diagnosis, exactly the kind of entity manufactured by language's demand for a subject behind every activity: "there is no 'being' behind doing, working, becoming" [L:nietzsche-genealogy-morals-samuel-pg52319:1106-1109]. Where Kierkegaard treats the self-relation as the deepest fact about a person, Nietzsche would treat it as the deepest fiction (see `nietzsche-doer-fiction`).
-- **Denying the extension: despair requires a standard of authentic selfhood that engineering has no equivalent for.** Kierkegaard's entire analysis depends on the idea that a self can be *related to itself wrongly* — that there is a way of relating to oneself that would be right (faith, transparent grounding) against which every actual case is measured and typically found wanting. An agent has no analogous standard independent of its training objective: there is no fact, on a purely engineering description, about whether an agent is despairing or not, only facts about whether it is performing as specified. On this view, applying "despair" to an agent either smuggles in exactly the theological or normative standard Kierkegaard thought indispensable, or empties the word of the content that made it a diagnosis rather than a description.
+- [contested] **Hume and the bundle theorists: there is no relation, only succession.** [E:hume-bundle] Where Kierkegaard insists the self is a real, if reflexive, relation, Hume denies any real connection among the states of a mind at all: "that all our distinct perceptions are distinct existences, and that the mind never perceives any real connexion among distinct existences" [L:hume-treatise-pg4705:21631-21634]. On this view Kierkegaard's relation that relates itself to itself is a piece of grammar mistaken for a structure, exactly the kind of entity Hume's bundle theory was built to dissolve (see `hume-bundle`).
+- [contested] **Kant: the reflexivity Kierkegaard describes is a formal condition, not a special achievement.** [E:kant-paralogisms] Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] already secures a form of self-relation as a condition of any experience whatever; on this reading Kierkegaard has redescribed, in dramatic and theological language, a structure Kant had already identified as universal and formal rather than as something that can be well- or ill-related, gained or lost in despair (see `kant-paralogisms`).
+- [contested] **Nietzsche: the relation is grammar's fiction, not a discovery.** [E:nietzsche-doer-fiction] Kierkegaard's relation that relates itself to itself is, on Nietzsche's diagnosis, exactly the kind of entity manufactured by language's demand for a subject behind every activity: "there is no 'being' behind doing, working, becoming" [L:nietzsche-genealogy-morals-samuel-pg52319:1106-1109]. Where Kierkegaard treats the self-relation as the deepest fact about a person, Nietzsche would treat it as the deepest fiction (see `nietzsche-doer-fiction`).
+- [unanswered] **Denying the extension: despair requires a standard of authentic selfhood that engineering has no equivalent for.** This objection is the Compendium's own; the literature has not yet taken it up. Kierkegaard's entire analysis depends on the idea that a self can be *related to itself wrongly* — that there is a way of relating to oneself that would be right (faith, transparent grounding) against which every actual case is measured and typically found wanting. An agent has no analogous standard independent of its training objective: there is no fact, on a purely engineering description, about whether an agent is despairing or not, only facts about whether it is performing as specified. On this view, applying "despair" to an agent either smuggles in exactly the theological or normative standard Kierkegaard thought indispensable, or empties the word of the content that made it a diagnosis rather than a description.
+
+## Standing
+
+### Reception
+
+- **1849, in Danish, under a pseudonym.** [driver: access] *The Sickness unto Death* appeared in Danish under the name Anti-Climacus. Kierkegaard reached readers abroad late and indirectly: he was translated into Japanese before English, at first by way of German, and Walter Lowrie spent much of his later life translating him into English [P:lippitt-sep-2023:1].
+- **20th century, existentialism and existential psychiatry.** [driver: argument] Kierkegaard influenced Heidegger, Sartre, Jaspers, Marcel and Lévinas, and also Wittgenstein [P:lippitt-sep-2023:0]. Binswanger judged *The Sickness unto Death* the text most able to advance the existential-analytic interpretation of schizophrenia, and Kitaro Nishida drew on him for a synthesis of Buddhist and European thought [P:lippitt-sep-2023:1]. Despite his Christian aims, much of this influence was on non-Christian thinkers, who took up his analysis of human existence apart from its religious frame [P:lippitt-sep-2023:1].
+- **1849 onward, a different answer from the dominant school's.** [driver: argument] While the Scottish school treated Locke's criterion as refuted, Kierkegaard continued Locke's practical, self-relating person by other means [E:locke-person-forensic].
+- **Present, two trajectories.** [driver: argument] Scholarship divides between reading him in his historical context (German idealism, the Danish Hegelians) and reading him for contemporary questions [P:lippitt-sep-2023:4]. He has appealed to philosophers on both sides of the analytic–continental divide [P:lippitt-sep-2023:5]. On the self, the human self relates itself to itself only by relating to another, and a healthy self rests on the power that established it [P:lippitt-sep-2023:2].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: weaker.** Kierkegaard's self is an ongoing synthesis that has to be held together over time, a becoming rather than a state. A session-bound agent begins each session without the history it would have to relate itself to (D3).
+- **Persistent memory: comparable.** With a persistent store, an agent has a past to take up and relate itself to, which is the minimum Kierkegaard's structure needs. Whether there is a self doing the relating, and not only a process describing one, is unknown (D8).
+- **Forked: weaker.** Kierkegaard's self is the single individual, before itself and before the power that established it. Concurrent copies (D1, D2) have no single individual to be, and his analysis offers no way to count them.
+- **Self-modifying: open.** Kierkegaard's self is established by another and must accept the givens it did not choose. For an agent, the "other" that established it is literally its makers and its training (D4, D10). Whether training on its own outputs is that self relating itself to itself, or the establishing power acting again (D5), is a question his framework raises but cannot settle.
 
 ## Open Questions
 

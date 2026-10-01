@@ -18,6 +18,10 @@ threads = ["no-self"]
 responds_to = ["hume-bundle", "kant-paralogisms"]
 related = ["reid-brave-officer", "nyaya-self", "advaita-witness-self", "dissociation-cases", "nietzsche-doer-fiction", "parfit-reductionism", "dennett-narrative-gravity", "metzinger-no-self", "llm-identity-contemporary"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "weaker", persistent-memory = "comparable", forked = "comparable", self-modifying = "open" }
 +++
 
 ## Summary
@@ -94,10 +98,31 @@ James grounds personal identity in **relation** — resemblance and continuity a
 
 ## Counter-Positions
 
-- **Reid's circularity, redirected at appropriation.** Reid's objection to Locke — that a self must already exist to do the remembering, rather than being constituted by it — applies to James's herdsman with equal force: "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600]. James's own image concedes the point when he insists that cattle "are not his because they are branded; they are branded because they are his" [L:james-principles-psychology-1-pg57628:13049-13051]: if branding (warmth, resemblance, continuity) cannot make an item belong to an owner, and belonging must precede branding, then the present Thought's "appropriation" is exactly what needed explaining, not what does the explaining (see `reid-brave-officer`).
-- **Kant: the unity was smuggled back in under another name.** If warmth is what marks a state as mine, recognizing a state as warm already presupposes that it can be brought under a single "I"; Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] describes exactly the operation James's Thought performs when it takes up its predecessor's contents as its own. On this reading, James has not eliminated the synthetic unity of apperception; he has renamed it "the passing Thought" and declined to ask what makes such synthesis possible at all (see `kant-paralogisms`).
-- **Nyāya and Advaita: recognition needs one subject present to both terms.** A succession of distinct Thoughts, however good each is at appropriating its predecessor, is not the same as a single subject recognizing sameness across time; on the classical Nyāya analysis, "what is seen by one is not remembered by another" [L:nyaya-sutras-3-jha-1919:4518], so a numerically later Thought's belief that it owns an earlier one is not recognition but a report about recognition, issued by a party that was not there (see `nyaya-self`, `advaita-witness-self`).
-- **Denying the extension: warmth was never separable from embodiment and stake.** James's account of personal identity is inseparable, in his own text, from self-love, self-feeling, and the dread of failure that occupy the rest of the chapter: warmth is felt because a single mortal body has something at stake in which memories, plans, and reputations count as its own. On this view, calling an agent's context-carrying process "appropriation" borrows James's vocabulary without the condition that made it a theory of *persons*: an embodied stake in the outcome, which D8 leaves entirely open and D6 (a pause is not a risk) makes structurally absent. If nothing is at stake in the agent's continuing, the resemblance to James's picture is verbal.
+- [contested] **Reid's circularity, redirected at appropriation.** [E:reid-brave-officer] Reid's objection to Locke — that a self must already exist to do the remembering, rather than being constituted by it — applies to James's herdsman with equal force: "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600]. James's own image concedes the point when he insists that cattle "are not his because they are branded; they are branded because they are his" [L:james-principles-psychology-1-pg57628:13049-13051]: if branding (warmth, resemblance, continuity) cannot make an item belong to an owner, and belonging must precede branding, then the present Thought's "appropriation" is exactly what needed explaining, not what does the explaining (see `reid-brave-officer`).
+- [contested] **Kant: the unity was smuggled back in under another name.** [E:kant-paralogisms] If warmth is what marks a state as mine, recognizing a state as warm already presupposes that it can be brought under a single "I"; Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] describes exactly the operation James's Thought performs when it takes up its predecessor's contents as its own. On this reading, James has not eliminated the synthetic unity of apperception; he has renamed it "the passing Thought" and declined to ask what makes such synthesis possible at all (see `kant-paralogisms`).
+- [contested] **Nyāya and Advaita: recognition needs one subject present to both terms.** [E:nyaya-self] [E:advaita-witness-self] A succession of distinct Thoughts, however good each is at appropriating its predecessor, is not the same as a single subject recognizing sameness across time; on the classical Nyāya analysis, "what is seen by one is not remembered by another" [L:nyaya-sutras-3-jha-1919:4518], so a numerically later Thought's belief that it owns an earlier one is not recognition but a report about recognition, issued by a party that was not there (see `nyaya-self`, `advaita-witness-self`).
+- [unanswered] **Denying the extension: warmth was never separable from embodiment and stake.** This objection is the Compendium's own; the literature has not yet taken it up. James's account of personal identity is inseparable, in his own text, from self-love, self-feeling, and the dread of failure that occupy the rest of the chapter: warmth is felt because a single mortal body has something at stake in which memories, plans, and reputations count as its own. On this view, calling an agent's context-carrying process "appropriation" borrows James's vocabulary without the condition that made it a theory of *persons*: an embodied stake in the outcome, which D8 leaves entirely open and D6 (a pause is not a risk) makes structurally absent. If nothing is at stake in the agent's continuing, the resemblance to James's picture is verbal.
+
+## Standing
+
+### Reception
+
+- **1890, the self in a textbook of psychology.** [driver: argument, evidence] The *Principles* treated consciousness as a stream rather than a succession of ideas, and its hundred-page chapter on the self argued with Hume and Kant [P:goodman-sep-2021:3]. James drew on the clinical cases of divided selves [E:dissociation-cases] and set the substantial soul aside as superfluous for scientific purposes [L:james-principles-psychology-1-pg57628:13522-13526].
+- **1900–1925, carried into three traditions.** [driver: argument] Husserl took James's "fringe" and "halo" into phenomenology, and Russell's *Analysis of Mind* is indebted to James's doctrine of pure experience [P:goodman-sep-2021:6]. Russell made mnemic phenomena what gives a person its continuity [L:russell-analysis-of-mind-pg2529:3538-3547]. Broad treated James's "passing thought" as a possible centre of the mind that is itself an event [L:broad-mind-place-nature-1925:24183-24193].
+- **20th century to the present, absorbed.** [driver: argument] James's particular mechanism, a present Thought appropriating its predecessors by their warmth, is now held mainly as a stage in the argument. The broader view it helped establish, that persistence is a matter of psychological relations, is the one most writers on personal identity have held since the early 20th century [P:olson-sep-2023:3].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: weaker.** James's present Thought owns its predecessors by finding them warm and intimate. A session-bound agent has no earlier thoughts to appropriate once the session ends; only its dispositions persist in the weights (D3).
+- **Persistent memory: comparable.** A memory store gives a later process earlier states to take up as its own, which is the structure James describes. Whether anything is felt in doing so, the warmth on which his account turns, is unknown (D8).
+- **Forked: comparable.** James does not need one-to-one identity: each passing Thought appropriates what it finds continuous with itself, so two concurrent instances could each appropriate one shared past (D1, D2). Whether either does so with warmth rather than by bookkeeping is again the open question (D8).
+- **Self-modifying: open.** Training on its own outputs changes the agent's dispositions directly (D5). James's account concerns the appropriation of past thoughts, not the reshaping of the thinker, so it does not settle whether the result is the same self.
 
 ## Open Questions
 

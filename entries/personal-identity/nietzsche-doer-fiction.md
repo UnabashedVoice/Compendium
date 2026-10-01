@@ -19,6 +19,11 @@ threads = ["no-self"]
 responds_to = ["descartes-thinking-thing"]
 related = ["hume-bundle", "james-stream-of-thought", "kant-paralogisms", "reid-brave-officer", "dennett-narrative-gravity", "metzinger-no-self", "parfit-reductionism", "llm-identity-contemporary", "stoic-prohairesis", "frankfurt-higher-order-volition"]
 status = "draft"
+standing = [
+  { community = "Nietzsche scholarship", current = "major", as_of = 2026 },
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "stronger", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -86,10 +91,33 @@ Nietzsche denies both species-grounding and capacity-grounding for the self: the
 
 ## Counter-Positions
 
-- **Descartes' own reply.** The cogito's certainty was never supposed to rest on grammar; it rests on the claim that doubting cannot itself be doubted while it occurs, a point Nietzsche's attack on "the usual grammatical formula" does not directly touch, since Descartes takes himself to reach the thinking thing by reflection on the act, not by inference from a sentence's subject-predicate form (see `descartes-thinking-thing`).
-- **Kant's formal-unity reply.** Even granting that the *empirical* "I" is grammatical residue, Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] is a claim about the *conditions of experience*, not a further metaphysical assertion that philology could dissolve; on this view Nietzsche has offered a genealogy of the *word* "subject," not an argument against the *function* Kant identifies, and the two are compatible (see `kant-paralogisms`).
-- **James's contemporary reply.** Writing within a few years of Nietzsche, James agreed that the Soul and the Transcendental Ego are dispensable but denied that nothing is left behind the deed: a real, verifiable, if temporary, present Thought does the work of appropriating some acts as its own and disowning others. Nietzsche's grammar-only diagnosis does not explain why *this* deed gets claimed by *this* voice rather than another, which is exactly what James's "warmth and intimacy" was meant to explain (see `james-stream-of-thought`).
-- **Denying the extension: the sovereign individual needs what the doer-critique seems to deny.** Nietzsche's own later ethics of self-overcoming requires something that persists and can be held to a course of action — most explicitly the sovereign individual of the *Genealogy*'s Second Essay, who alone among men has earned the right to make and keep a promise. A system with no persisting character across sessions, or one freely re-initialized at will, would lack exactly the continuity his own value scheme needs elsewhere. On this reading, extending the doer-critique to agents proves too much: it dissolves the very persistence Nietzsche's positive ethics presupposes, rather than merely dissolving the metaphysical soul his critique targets.
+- [contested] **Descartes' own reply.** [E:descartes-thinking-thing] The cogito's certainty was never supposed to rest on grammar; it rests on the claim that doubting cannot itself be doubted while it occurs, a point Nietzsche's attack on "the usual grammatical formula" does not directly touch, since Descartes takes himself to reach the thinking thing by reflection on the act, not by inference from a sentence's subject-predicate form (see `descartes-thinking-thing`).
+- [contested] **Kant's formal-unity reply.** [E:kant-paralogisms] Even granting that the *empirical* "I" is grammatical residue, Kant's requirement that "it must be possible for the 'I think' to accompany all my representations" [L:kant-critique-pure-reason-kemp-smith-1929:7146-7147] is a claim about the *conditions of experience*, not a further metaphysical assertion that philology could dissolve; on this view Nietzsche has offered a genealogy of the *word* "subject," not an argument against the *function* Kant identifies, and the two are compatible (see `kant-paralogisms`).
+- [contested] **James's contemporary reply.** [E:james-stream-of-thought] Writing within a few years of Nietzsche, James agreed that the Soul and the Transcendental Ego are dispensable but denied that nothing is left behind the deed: a real, verifiable, if temporary, present Thought does the work of appropriating some acts as its own and disowning others. Nietzsche's grammar-only diagnosis does not explain why *this* deed gets claimed by *this* voice rather than another, which is exactly what James's "warmth and intimacy" was meant to explain (see `james-stream-of-thought`).
+- [contested] **Denying the extension: the sovereign individual needs what the doer-critique seems to deny.** The tension between Nietzsche's skepticism about the self and the unified agent his ethics seems to need is a live dispute among his interpreters [P:anderson-sep-2026:4]. Nietzsche's own later ethics of self-overcoming requires something that persists and can be held to a course of action — most explicitly the sovereign individual of the *Genealogy*'s Second Essay, who alone among men has earned the right to make and keep a promise. A system with no persisting character across sessions, or one freely re-initialized at will, would lack exactly the continuity his own value scheme needs elsewhere. On this reading, extending the doer-critique to agents proves too much: it dissolves the very persistence Nietzsche's positive ethics presupposes, rather than merely dissolving the metaphysical soul his critique targets.
+
+## Standing
+
+### Reception
+
+- **1886–1887, skepticism about the self.** [driver: argument] Many of Nietzsche's texts, probably hundreds, express doubt that there is any such thing as a self or soul, together with doubts about the traditional faculties of thinking, willing and feeling [P:anderson-sep-2026:4].
+- **1890s–1940s, an edited legacy.** [driver: authority, access] During Nietzsche's illness his sister Elisabeth controlled his literary estate and published a selection from his notebooks as *The Will to Power*. The selection was not well founded in his plans and was marred by her antisemitism, which had distressed Nietzsche himself, and it gives a misleading impression of the notebooks [P:anderson-sep-2026:1]. An oversimplified "might makes right" reading was associated with the disturbing politics of the era [P:anderson-sep-2026:3].
+- **1950 onward, rehabilitation and critical editions.** [driver: argument, access] Walter Kaufmann worked to recover Nietzsche from that reading, stressing self-control and cultural excellence over domination [P:anderson-sep-2026:3]. The notebooks are now available in a critical edition (KGA, KSA) [P:anderson-sep-2026:1].
+- **Present, the self disputed among interpreters.** [driver: argument] Naturalist interpreters such as Leiter and Risse take Nietzsche's skepticism to rule out any Kantian source of agency standing apart from the drives. Others stress his positive proposal of the soul as a "social structure of the drives and affects", or his agonistic picture of an internally contested self. Nehamas's reading of Nietzschean self-creation remains controversial [P:anderson-sep-2026:4].
+- **In the personal-identity literature.** [driver: argument] The answer that there is nothing that we are, that we don't really exist, is defended but by few [P:olson-sep-2023:1].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** An agent's "I" is a grammatical form its outputs take, and its introspective reports were shaped by training and may not track its internal states (D8). Nietzsche's diagnosis, a subject read off grammar rather than found, fits a session-bound agent at least as well as it fits a human.
+- **Persistent memory: comparable.** A memory store gives the drives a record to organize around, which is closer to the internally complex but persisting soul of Nietzsche's positive proposal. Whether a store adds a doer or only more deeds is the same open question as for humans (D11).
+- **Forked: stronger.** Concurrent instances acting from the same weights (D2) are a multiplicity with no single doer behind the deeds, and what "the agent" is remains unclear (D11). Nietzsche's "subjective multiplicity" describes this more naturally than any view that needs one subject.
+- **Self-modifying: comparable.** Training on its own outputs reorganizes the agent's drives directly (D5), a literal form of self-fashioning. But Nietzsche's self-fashioning is an achievement of the drives' own ordering, and an edit made by others, or made without going through reasons, may not count as the self shaping itself.
 
 ## Open Questions
 

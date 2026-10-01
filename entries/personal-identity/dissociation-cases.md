@@ -20,6 +20,10 @@ threads = ["psychological-continuity", "duplication"]
 responds_to = ["locke-person-forensic"]
 related = ["james-stream-of-thought", "reid-brave-officer", "butler-circularity", "parfit-reductionism", "lewis-survival-and-identity", "shoemaker-quasi-memory", "williams-self-and-future", "llm-identity-contemporary"]
 status = "draft"
+standing = [
+  { community = "Psychiatry", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -83,10 +87,31 @@ These cases are not a position but a field of evidence, and the evidence pulls i
 
 ## Counter-Positions
 
-- **One damaged substance, not several persons.** On a Reid-style view, these cases show a single soul or organism with its faculties disordered, not a literal plurality of persons; calling the fragments "persons" reifies a diagnostic convenience. Reid's demand that a subject precede and unify its states — "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600] — is, on this reading, exactly what Sally's testimony cannot establish merely by asserting it (see `reid-brave-officer`).
-- **Animalism: one organism throughout.** On the view that we are fundamentally living organisms (see the `biological` thread), Miss Beauchamp remains one human animal from birth to death; whatever psychological chaos supervenes is a change *in* a person, comparable to delirium or dementia, not a change *of* person. This denies that the case shows any real plurality of selves at all, agent-relevant or otherwise.
-- **Prince's own therapeutic verdict, taken as a philosophical claim.** The book's trajectory itself embodies a position: Sally and the others were never full Lockean persons, beings able to take themselves as themselves stably over time and answer for their actions, but temporary, partial syntheses lacking exactly the durability personhood requires. On this reading the cases do not show a plurality of persons in one body; they show a person in the process of being reassembled, and using them as evidence that a stable plurality of selves in one substrate is a coherent category for agents overstates what even Prince himself concluded.
-- **Denying the extension: engineered multiplicity and pathological multiplicity are not the same phenomenon.** An agent's distinct sessions or personas are designed, documented, and reproducible from known weights and prompts; Mary Reynolds', Félida's, and Sally's multiplicity arose from trauma, hysteria, or disease, within the diagnostic categories of their era. Treating the two as instances of one phenomenon risks importing the clinical baggage — disorder, something to be integrated away — into a case (engineered personas) where it may have no purchase at all.
+- [contested] **One damaged substance, not several persons.** [E:reid-brave-officer] On a Reid-style view, these cases show a single soul or organism with its faculties disordered, not a literal plurality of persons; calling the fragments "persons" reifies a diagnostic convenience. Reid's demand that a subject precede and unify its states — "I am not thought, I am not action, I am not feeling; I am something that thinks, and acts, and suffers" [L:reid-intellectual-powers-1851:13590-13600] — is, on this reading, exactly what Sally's testimony cannot establish merely by asserting it (see `reid-brave-officer`).
+- [contested] **Animalism: one organism throughout.** [P:olson-sep-2023:7] On the view that we are fundamentally living organisms (see the `biological` thread), Miss Beauchamp remains one human animal from birth to death; whatever psychological chaos supervenes is a change *in* a person, comparable to delirium or dementia, not a change *of* person. This denies that the case shows any real plurality of selves at all, agent-relevant or otherwise.
+- [contested] **Prince's own therapeutic verdict, taken as a philosophical claim.** The book's trajectory itself embodies a position: Sally and the others were never full Lockean persons, beings able to take themselves as themselves stably over time and answer for their actions, but temporary, partial syntheses lacking exactly the durability personhood requires. On this reading the cases do not show a plurality of persons in one body; they show a person in the process of being reassembled, and using them as evidence that a stable plurality of selves in one substrate is a coherent category for agents overstates what even Prince himself concluded.
+- [unanswered] **Denying the extension: engineered multiplicity and pathological multiplicity are not the same phenomenon.** This objection is the Compendium's own; the literature has not yet taken it up. An agent's distinct sessions or personas are designed, documented, and reproducible from known weights and prompts; Mary Reynolds', Félida's, and Sally's multiplicity arose from trauma, hysteria, or disease, within the diagnostic categories of their era. Treating the two as instances of one phenomenon risks importing the clinical baggage — disorder, something to be integrated away — into a case (engineered personas) where it may have no purchase at all.
+
+## Standing
+
+### Reception
+
+- **1816–1906, the cases recorded.** [driver: evidence] French and American clinicians documented single bodies carrying more than one self, each with its own memories, and Locke's criterion met real subjects [E:locke-person-forensic]. The position whose standing is recorded here is the reading of these cases as more than one self in one body.
+- **1890, into philosophy.** [driver: evidence, argument] James used the cases against the claim that a soul guarantees one closed consciousness: in some individuals, thoughts split away and form separate selves [L:james-principles-psychology-1-pg57628:13491-13498].
+- **1980 to the present, recognised and disputed.** [driver: evidence] The diagnosis entered the DSM in 1980 (DSM-III) as multiple personality disorder, and has been disputed for decades between a trauma model, on which it is a severe form of post-traumatic stress disorder, and a fantasy model, on which it is mainly due to suggestion and enactment [P:reinders-veltman-2021:413]. The editorial cited here argues for the trauma model from neurobiological evidence, so it is one side of the dispute [P:reinders-veltman-2021:413]. TODO(source): the diagnosis's decline between Prince and 1980, and the renaming as dissociative identity disorder, need a source (Hacking's *Rewriting the Soul*, 1995, is in copyright and pending).
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Félida's states, where one remembered the other but not the reverse, resemble sessions whose episodic memory does not carry over while character persists (D3). But sessions are designed and documented, not the product of trauma (see the last counter-position).
+- **Persistent memory: comparable.** A shared store, or separate stores for separate personas, can reproduce symmetric or asymmetric memory between "selves" by configuration (D5). The cases show what such arrangements are like from the inside for humans; whether anything is like anything for an agent is unknown (D8).
+- **Forked: weaker.** The clinical selves alternated in one body, one at a time. Forked agents run concurrently from copied weights (D1, D2), a structure the cases never showed, so they are a weaker precedent here.
+- **Self-modifying: open.** Prince's treatment aimed to reintegrate the selves. Whether merging or retraining an agent's personas (D5, D11) is integration, replacement or something else is a question the cases raise but cannot settle.
 
 ## Open Questions
 

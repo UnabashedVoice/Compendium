@@ -102,3 +102,35 @@ edition = "Internet Encyclopedia of Philosophy. No publication or revision date 
 year = 2026
 url = "https://iep.utm.edu/chrysippus/"
 rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."goodman-sep-2021"]
+author = "Russell Goodman"
+title = "William James"
+edition = "Stanford Encyclopedia of Philosophy, first published 7 September 2000, substantive revision 3 November 2021. Cited by section number (3 = The Principles of Psychology, 6 = Late Writings)."
+year = 2021
+url = "https://plato.stanford.edu/entries/james/"
+rights = "Copyright 2021 Russell Goodman; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."lippitt-sep-2023"]
+author = "John Lippitt"
+title = "Søren Kierkegaard"
+edition = "Stanford Encyclopedia of Philosophy, first published 22 May 2023. Cited by section number; 0 = the preamble before section 1 (1 = Life and Works, 2 = Analysis of Human Existence, 4 = Trajectories in Kierkegaard Scholarship, 5 = Conclusion)."
+year = 2023
+url = "https://plato.stanford.edu/entries/kierkegaard/"
+rights = "Copyright 2023 John Lippitt; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."anderson-sep-2026"]
+author = "R. Lanier Anderson"
+title = "Friedrich Nietzsche"
+edition = "Stanford Encyclopedia of Philosophy, first published 17 March 2017, substantive revision 25 June 2026. Cited by section number (1 = Life and Works, 3 = Value Creation, 4 = The Self and Self-fashioning)."
+year = 2026
+url = "https://plato.stanford.edu/entries/nietzsche/"
+rights = "Copyright 2026 R. Lanier Anderson; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."reinders-veltman-2021"]
+author = "Antje A. T. S. Reinders and Dick J. Veltman"
+title = "Dissociative identity disorder: out of the shadows at last?"
+edition = "Editorial, The British Journal of Psychiatry 219 (2): 413-414 (2021; published online 7 October 2020). doi:10.1192/bjp.2020.168"
+year = 2021
+url = "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/dissociative-identity-disorder-out-of-the-shadows-at-last/8E2884FA8669A9A64790E5C47AD72DC7"
+rights = "Copyright the authors (2020), published by Cambridge University Press for the Royal College of Psychiatrists; freely readable on Cambridge Core, license not stated. Short quotation only, page-cited; not stored here. The editorial argues for the trauma model, so it is cited for the history and as one side of the dispute."
