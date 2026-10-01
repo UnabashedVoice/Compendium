@@ -400,6 +400,7 @@ def locate(start: Path, env_var: str = "COMPENDIUM_ROOT") -> Path:
 
 if __name__ == "__main__":
     import sys
+    sys.stdout.reconfigure(encoding="utf-8")  # entry titles use diacritics; Windows pipes default to cp1252
     comp = Compendium()
     if len(sys.argv) > 1 and sys.argv[1] in comp.ids:
         print(comp.brief(sys.argv[1]))

@@ -35,6 +35,11 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Hazlitt in the library; CLI encoding
+- **Hazlitt 1805 added** as `hazlitt-principles-human-action-1805`: the first edition (London: J. Johnson), archive.org Google scan `anessayonprinci00hazlgoog`, OCR, stored verbatim. `parfit-reductionism`'s 1805 Reception bullet now cites it directly: lines 213–228 (no mechanical self-interest in one's future being, because the imagination that anticipates one's own future is the same faculty that carries one into others' feelings) and 451–462 (continued consciousness acts only retrospectively). This closes that bullet's `TODO(source)`; 4 remain corpus-wide (Grice 1941, Shoemaker 1970, Hacking 1995, the LLM-identity framing evidence).
+- **`compendium_access.py` CLI fix.** Printing the index crashed when stdout was a pipe on Windows (cp1252 cannot encode `Ś` and other diacritics in entry titles). The CLI now writes UTF-8.
+- **Checks:** build 35 ok (Standing required); library check 77 texts, 0 problems; verify 0 failed (901 citations, 186 entry cross-citations); smoke test 32/32.
+
 ### Standing required by default
 - **`build.py` now requires Standing of every entry** (user decision, 2026-10-01). An entry without a `standing` record and a `## Standing` section fails the build with a message pointing to SCHEMA.md. `--allow-missing-standing` relaxes the check for a work-in-progress build; `--require-standing` is still accepted and is now the default. SCHEMA.md says the same.
 - **Closed: Standing too long for small windows.** The concern was that Locke's 12.2k-character Standing, and its 8.7k Reception, would not fit an 8k model's budget. Measured on 10-01: windows of 16k and up show it whole (`budget_for_context` gives about one character per token), and every model on the dev machine supports at least 32k and is loaded at its maximum, up to 131k. Below 16k, `fit_section` still shows whole subsections and names the rest. No change needed.

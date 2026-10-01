@@ -145,6 +145,16 @@ format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 sha256 = "0176dd702dfcc4a11d355475cab857f2a521a72dc316ecd8921ef12a0495c5a1"
 
+[text."hazlitt-principles-human-action-1805"]
+author = "William Hazlitt"
+title = "An Essay on the Principles of Human Action: Being an Argument in Favour of the Natural Disinterestedness of the Human Mind"
+edition = "London: J. Johnson, 1805 (first edition); Google scan"
+source = "archive.org anessayonprinci00hazlgoog"
+format = "ocr"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+notes = "Lines 213-228: no 'mechanical self-interest' in my future being; the imagination that throws me forward into my future self is the same faculty that carries me into the feelings of others. Lines 425-462: identity with my future self is only nominal for the purposes of interest; continued consciousness 'only acts retrospectively'. The anticipation of Parfit cited in parfit-reductionism."
+sha256 = "85e6d3ccefb41c20891c7397a39b1f356a3f0edafc5049d10c8dd1fbcb4af329"
+
 [text."hobbes-ew1-de-corpore-molesworth-1839"]
 author = "Thomas Hobbes"
 title = "Elements of Philosophy: Concerning Body (English Works vol. I)"
