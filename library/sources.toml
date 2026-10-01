@@ -431,3 +431,19 @@ edition = "Internet Encyclopedia of Philosophy. No publication date shown; year 
 year = 2026
 url = "https://iep.utm.edu/mill-eth/"
 rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."crimmins-sep-2026"]
+author = "James E. Crimmins"
+title = "Jeremy Bentham"
+edition = "Stanford Encyclopedia of Philosophy, first published 17 March 2015, substantive revision 13 January 2026. Cited by top-level section number; 0 = the preamble before section 1 (1 = Life and Writings, 3 = Pains and Pleasures, including 3.2 the felicific calculus, 8 = Panopticon, 10 = Influence, 11 = Critics and Commentators)."
+year = 2026
+url = "https://plato.stanford.edu/entries/bentham/"
+rights = "Copyright 2026 James E. Crimmins; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."gruen-sep-2024"]
+author = "Lori Gruen"
+title = "The Moral Status of Animals"
+edition = "Stanford Encyclopedia of Philosophy, first published 1 July 2003, substantive revision 12 August 2024. Cited by top-level section number (1 = The Moral Considerability of Animals, including 1.4 Sentience; 2 = The Moral Significance of Animals' Moral Claims)."
+year = 2024
+url = "https://plato.stanford.edu/entries/moral-animal/"
+rights = "Copyright 2024 Lori Gruen; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

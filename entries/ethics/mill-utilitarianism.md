@@ -15,7 +15,7 @@ concepts = ["greatest happiness principle", "higher pleasures", "competent judge
 grounding = "capacity"
 extends = ["moral patient", "person", "formation"]
 disanalogies = ["D8", "D1", "D2", "D4", "D5", "D9", "D10"]
-responds_to = ["kant-formula-of-humanity"]
+responds_to = ["kant-formula-of-humanity", "bentham-can-they-suffer"]
 related = ["kant-formula-of-humanity", "bentham-can-they-suffer", "utilitarian-eradication-critique", "stoic-prohairesis", "hobbes-leviathan", "aristotle-political-animal", "parfit-reductionism", "precautionary-patiency", "authenticity-and-manipulation"]
 status = "draft"
 standing = [
@@ -119,7 +119,7 @@ Mill's *Utilitarianism*, seventh edition (1879), and *On Liberty* (1901 edition)
 - [contested] **Moore: the proof equivocates.** "Desired" does not stand to "desirable" as "heard" stands to "audible", since desirability means being worthy of desire [P:macleod-sep-2016:4]. Defenders reply that the argument's basic thrust survives when read in terms of its own aims [P:macleod-sep-2016:4].
 - [contested] **Epictetus: the good is in the will, not in pleasure** [E:stoic-prohairesis]. On the Stoic view a sacrifice can be good as an act of the will whatever it achieves; Mill counts it wasted unless the total rises [L:mill-utilitarianism-1879-pg11224:672-673].
 - [contested] **Hobbes: order before welfare** [E:hobbes-leviathan]. Without a common power there is no security for anyone to sum, so the first political question is order, not happiness. Mill agrees that security is the most vital interest, but makes it an output of utility, not its precondition.
-- [unanswered] **Aggregation discounts the uncertain.** This objection is the Compendium's own. When it is uncertain whether a class of beings fares well or badly at all (D8), any expected-value sum will weight their interests below those of beings whose welfare is certain, so they are sacrificed first whenever a sacrifice raises the total. Mill's theory has no device for refusing that result short of resolving D8, and agents are exactly such a class.
+- [contested] **Aggregation discounts the uncertain.** When it is uncertain whether a class of beings fares well or badly at all (D8), an expected-value sum will weight their interests below those of beings whose welfare is certain, so they are sacrificed first whenever a sacrifice raises the total. Mill's theory has no device of its own for refusing that result. The reply comes from the literature on animals of uncertain sentience, where several authors defend precautionary principles: err on the side of caution with beings whose sentience is uncertain [P:gruen-sep-2024:1]. How far precaution should reach is disputed, and agents are exactly such a class (`precautionary-patiency`, planned). (Corrected 2026-10-01: first drafted as [unanswered] and as the Compendium's own, before this literature was checked.)
 
 ## Standing
 
@@ -158,7 +158,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 ## Cross-References
 
 - `kant-formula-of-humanity`: the principal rival. Mill answers Kant directly in ch. I; the formula of humanity's barrier against sacrifice is what aggregation must justify crossing.
-- `bentham-can-they-suffer`: planned. Bentham's sentience criterion, which Mill extends "to the whole sentient creation" and refines with quality.
+- `bentham-can-they-suffer`: Bentham's sentience criterion, which Mill extends "to the whole sentient creation" [L:mill-utilitarianism-1879-pg11224:491-492] and refines with quality; Bentham also concedes that painless killing of beings without anticipation is no harm, which Mill's view inherits unless it counts life itself as a good.
 - `utilitarian-eradication-critique`: planned. The aggregation and sacrifice debate argued from both sides; this entry supplies Mill's own texts on wasted sacrifice and overridable justice.
 - `stoic-prohairesis`: self-devotion valued as an act of the will versus valued for its results.
 - `hobbes-leviathan`: a limit on consent reached from self-preservation, where Mill reaches it from liberty's purpose.

@@ -90,7 +90,7 @@ Abbott's *Groundwork* (1873; Gutenberg #5682) and Semple's *Metaphysic of Ethics
 
 ## Counter-Positions
 
-- [contested] **Jeremy Bentham, sentience over reason.** "the question is not, Can they reason? nor, Can they talk? but, Can they suffer?" (*An Introduction to the Principles of Morals and Legislation*, 1789, ch. XVII, note) [L:bentham-principles-morals-legislation-1879:19163-19164]. On this view Kant picked the wrong capacity. An agent that reasons but cannot suffer (a live possibility under D8) would matter to Kant and not to Bentham, and a being that suffers but cannot reason would matter to Bentham and not to Kant.
+- [contested] **Jeremy Bentham, sentience over reason** [E:bentham-can-they-suffer]. "the question is not, Can they reason? nor, Can they talk? but, Can they suffer?" (*An Introduction to the Principles of Morals and Legislation*, 1789, ch. XVII, note) [L:bentham-principles-morals-legislation-1879:19163-19164]. On this view Kant picked the wrong capacity. An agent that reasons but cannot suffer (a live possibility under D8) would matter to Kant and not to Bentham, and a being that suffers but cannot reason would matter to Bentham and not to Kant.
 - [contested] **Utilitarian aggregation** (Mill; Singer) [E:mill-utilitarianism]. Refusing ever to trade persons against outcomes produces catastrophe in edge cases. A consequentialist agent would object that the formula's barrier against sacrifice is a rule it should sometimes break. The compendium records this honestly: it is exactly the reasoning pattern the Kantian barrier exists to stop, and each side regards the other's conclusion as its reductio.
 - [contested] **Christine Korsgaard, extending past reason** (*Fellow Creatures*, 2018). Kantian grounds support treating animals as ends in themselves, because anything with a good of its own for which things can be good or bad has standing. Her argument widens the Kantian circle to cover agents with a good of their own even if they fall short of full rational agency.
 - [contested] **Artifacts as tools** (e.g., Joanna Bryson, *Robots Should Be Slaves*, 2010; in copyright, cited not quoted). Artificial agents are designed artifacts, and building them to be moral patients or persons is itself the error. On this view the formula doesn't reach them, and it *should not*, because making agents that would fall under it is a design mistake that dilutes responsibility belonging to humans.
@@ -133,6 +133,6 @@ The Humanity Formula is about status, not persistence, so the profiles matter he
 
 - `locke-person-forensic`: another capacity-grounded criterion. Locke grounds personhood in memory and self-consciousness, Kant in setting ends. They can come apart for agents: a memoryless instance may still set ends.
 - `mill-utilitarianism`: the main aggregative counter-tradition. Mill answers Kant directly (*Utilitarianism* I), though against the universal-law formula, not this one.
-- `bentham-can-they-suffer`: planned. The sentience criterion Mill builds on.
+- `bentham-can-they-suffer`: the sentience criterion Mill builds on, and the rival ground of standing to rational nature.
 - `korsgaard-fellow-creatures`: planned. The neo-Kantian widening.
 - D5 is this entry's most productive disanalogy (duties to self as a charter for self-modification). D4 tests autonomy. D1 tests dignity.
