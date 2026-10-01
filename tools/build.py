@@ -159,7 +159,8 @@ def validate(path: Path, meta: dict, sections: list[tuple[str, str]], dcodes: se
     if has_standing != ("Standing" in names):
         errs.append("standing frontmatter and ## Standing section must appear together")
     if REQUIRE_STANDING and not has_standing:
-        errs.append("missing standing (required: --require-standing)")
+        errs.append("missing standing: every entry needs a standing record and a ## Standing section "
+                    "(SCHEMA.md, \"Standing\"); --allow-missing-standing skips this check for a draft build")
     if has_standing and "Standing" in names:
         body = dict(sections)["Standing"]
         subs = re.findall(r"^### (.+)$", body, flags=re.M)
@@ -185,7 +186,9 @@ def validate(path: Path, meta: dict, sections: list[tuple[str, str]], dcodes: se
     return errs
 
 
-REQUIRE_STANDING = "--require-standing" in sys.argv
+# Standing is required of every entry (all 35 met it on 2026-10-01). --allow-missing-standing relaxes
+# this for a work-in-progress build; --require-standing is still accepted and is now the default.
+REQUIRE_STANDING = "--allow-missing-standing" not in sys.argv
 
 
 def main() -> int:

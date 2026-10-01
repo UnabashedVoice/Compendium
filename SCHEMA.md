@@ -25,7 +25,7 @@ threads = ["psychological-continuity"] # optional: thread slugs from domains/<do
 responds_to = ["plato-soul-and-renewal"] # optional: earlier entries this position answers
 related = ["parfit-reductionism"]     # other entry ids (may not exist yet)
 status = "draft"                      # stub | draft | reviewed
-standing = [                          # optional in phase 1; required once migration is done
+standing = [                          # required (build.py fails without it since 2026-10-01)
   { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
 ]
 agent_fit = { session-bound = "weaker", persistent-memory = "stronger", forked = "weaker", self-modifying = "open" }
@@ -50,7 +50,7 @@ standing_reviewed = 2026-10-01        # date the user reviewed the Standing sect
 6. `## Extension to Agents`: four H3 subsections: `### Transfers`, `### Strains`, `### Breaks`, `### New`. Cite disanalogies by code.
 7. `## Extension to Digital Ecosystems` *(optional; for social/political entries)*: same four subsections.
 8. `## Counter-Positions`: the strongest opposing views, including rejections of the extension. Each attributed.
-9. `## Standing` *(required when `standing` is in the frontmatter, and only then)*: three H3 subsections, in this order: `### Reception`, `### Measured`, `### For Agents`. See "Standing" below.
+9. `## Standing` *(required; it and the `standing` frontmatter must appear together)*: three H3 subsections, in this order: `### Reception`, `### Measured`, `### For Agents`. See "Standing" below.
 10. `## Open Questions`: numbered. Questions the entry cannot settle.
 11. `## Cross-References`: entry ids and D-codes, with one line on why each is relevant.
 

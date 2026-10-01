@@ -35,6 +35,10 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing required by default
+- **`build.py` now requires Standing of every entry** (user decision, 2026-10-01). An entry without a `standing` record and a `## Standing` section fails the build with a message pointing to SCHEMA.md. `--allow-missing-standing` relaxes the check for a work-in-progress build; `--require-standing` is still accepted and is now the default. SCHEMA.md says the same.
+- **Closed: Standing too long for small windows.** The concern was that Locke's 12.2k-character Standing, and its 8.7k Reception, would not fit an 8k model's budget. Measured on 10-01: windows of 16k and up show it whole (`budget_for_context` gives about one character per token), and every model on the dev machine supports at least 32k and is loaded at its maximum, up to 131k. Below 16k, `fit_section` still shows whole subsections and names the rest. No change needed.
+
 ### Standing, batch 7: ethics and political; every entry now has Standing
 - **`kant-formula-of-humanity`** (major; agent_fit comparable/comparable/comparable/weaker). Reception: the Humanity Formula as what draws philosophers to Kant; the Kingdom of Ends after Rawls; Korsgaard's extension to animals; SEP's AI section, on which the Kantian view finds artificial moral persons far off because they lack autonomy (D4, D5). Measured: deontology 32.1%, down from 25.9% to 22.5% in the comparable departments; Kantian practical reason 18.9%.
 - **`aristotle-political-animal`** (major; weaker/comparable/weaker/open). Reception: Hobbes's artificial state (cited from the library's *Leviathan*); the exclusions asserted without evidence; influence across the political spectrum. Measured: virtue ethics 37.0%, communitarianism 27.3%.
