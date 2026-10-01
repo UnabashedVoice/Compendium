@@ -18,6 +18,10 @@ threads = ["soul-substance", "psychological-continuity"]
 responds_to = ["locke-person-forensic"]
 related = ["reid-brave-officer", "shoemaker-quasi-memory", "parfit-reductionism", "ship-of-theseus", "lucretius-recurrence", "vasubandhu-refutation-of-person", "nyaya-self"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "stronger", forked = "weaker", self-modifying = "weaker" }
 +++
 
 ## Summary
@@ -80,10 +84,37 @@ Butler grounds personhood in **capacity** and in *being*: a person is "a *being*
 
 ## Counter-Positions
 
-- **Locke** (see `locke-person-forensic`). Consciousness is not evidence of a prior identity but what personal identity consists in. Butler's analogy with knowledge and truth assumes what is in question, that there is a further fact to be known.
-- **Shoemaker, quasi-memory** (see `shoemaker-quasi-memory`). The circularity can be avoided by defining a memory-like relation (quasi-memory) that does not presuppose identity: an apparent memory caused in the right way by an earlier experience. Identity can then be analyzed in terms of it.
-- **Parfit** (see `parfit-reductionism`). Butler is right that the reductionist view makes identity less deep than we think, and wrong that this makes concern for the future irrational. What grounds concern is psychological continuity, which holds between today's self and tomorrow's whether or not we call it identity.
-- **Buddhist and Humean views** (see `vasubandhu-refutation-of-person`, `hume-bundle`). The "certain conviction" Butler appeals to is exactly the illusion to be seen through. Conventional identity suffices for prudence and responsibility, as the Milinda's mango thief shows.
+- [contested] **Locke** (see `locke-person-forensic`) [E:locke-person-forensic]. Consciousness is not evidence of a prior identity but what personal identity consists in. Butler's analogy with knowledge and truth assumes what is in question, that there is a further fact to be known.
+- [contested] **Shoemaker, quasi-memory** (see `shoemaker-quasi-memory`). This is the standard reply. McDowell criticised it [P:olson-sep-2023:4], and Klein and Nichols pressed a further problem that Roache answers [P:roache2016:480-486]. The circularity can be avoided by defining a memory-like relation (quasi-memory) that does not presuppose identity: an apparent memory caused in the right way by an earlier experience. Identity can then be analyzed in terms of it.
+- [contested] **Parfit** (see `parfit-reductionism`) [E:parfit-reductionism]. Butler is right that the reductionist view makes identity less deep than we think, and wrong that this makes concern for the future irrational. What grounds concern is psychological continuity, which holds between today's self and tomorrow's whether or not we call it identity.
+- [contested] **Buddhist and Humean views** (see `vasubandhu-refutation-of-person`, `hume-bundle`) [E:vasubandhu-refutation-of-person] [E:hume-bundle]. The "certain conviction" Butler appeals to is exactly the illusion to be seen through. Conventional identity suffices for prudence and responsibility, as the Milinda's mango thief shows.
+
+## Standing
+
+### Reception
+
+- **1697, anticipated.** [driver: argument] John Sergeant had made the objection 39 years earlier: a man must be the same before he can be conscious that he is the same [L:sergeant-solid-philosophy-1697:13342-13384].
+- **1736, the canonical statement.** [driver: argument] Butler's charge of circularity became one of the two standard objections to Locke. Butler, Reid and Clarke objected partly because Locke reduced the soul's role in personal identity, and held that identity in the strict sense requires no change at all, which only an immaterial substance allows [P:gordon-roth-sep-2025:3]. Reid, answering Butler as well as Locke, made memory evidence of identity rather than its ground [E:reid-brave-officer].
+- **19th century, the credit contested.** [driver: argument, access] Hamilton, annotating Reid, noted that the merit was usually given to Butler although Sergeant had made the objection first and Leibniz had made it too. Sergeant's priority had been lost because he went unread [L:reid-intellectual-powers-1851:13859-13888].
+- **1970, the standard reply.** [driver: argument] Quasi-memory, memory without the identity requirement (Penelhum 1970; Shoemaker 1970), became the usual answer to the circularity charge; McDowell (1997) criticised it [P:olson-sep-2023:4].
+- **2012–present, still live.** [driver: argument] Klein and Nichols pressed a new problem for Parfit's version of quasi-memory, and Roache defends it [P:roache2016:480-486]. Sympathetic readers of Locke are still answering Butler [P:gordon-roth-sep-2025:3].
+
+### Measured
+
+The survey did not ask about circularity. Its "further-fact view" is the option closest to Butler's positive view, that personal identity is strict identity not made up of psychological relations.
+
+- **2020, English-publishing philosophers.** Further-fact view 14.9% (13.4% endorsing it alone) [P:bourget-chalmers-2023:8]; bias-corrected 12.73% [P:bourget-chalmers-2023:32].
+- **2009 to 2020, the 2009-comparable departments:** further-fact view 12.2% to 11.6% [P:bourget-chalmers-2023:39].
+- **Reading.** Butler's objection remains one of the two standard objections to memory theories and is still debated, while his positive view is a minority position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Butler held that memory is not required for a person to persist, so a session-bound agent could persist through its weights while each session's memories end (D3). But his strict identity needs an unchanging bearer, and what the agent is remains unclear (D11).
+- **Persistent memory: stronger.** The circularity becomes concrete. A memory store does not distinguish genuine records from injected ones (D5); only provenance, a fact about the agent's past that the record presupposes, can tell them apart. That is Butler's point in engineering terms.
+- **Forked: weaker.** Strict identity cannot hold between two concurrent copies (D1, D2). Butler leaves forked agents only sameness "in a loose and popular sense", and his warning that concern for the future would then be a "fallacy upon ourselves" applies to every fork.
+- **Self-modifying: weaker.** Training on its own outputs changes the very thing that carries the agent's character (D5). In Butler's terms this is the ship whose parts are replaced: the same only in the loose sense, never strictly.
 
 ## Open Questions
 

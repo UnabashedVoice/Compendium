@@ -33,6 +33,15 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-01
+
+### Standing, batch 1: Parfit, Reid, Butler
+Standing was added to the three entries closest to Locke, which share his sources. Each has state tags on every Counter-Positions bullet, a Reception list with a driver for each bullet, Measured figures from the 2020 PhilPapers Survey, and For Agents per deployment profile.
+- **`parfit-reductionism`** (major; agent_fit stronger/stronger/stronger/comparable). Reception covers Hazlitt's unread anticipation (1805, an `access` driver), fission (1970–71), Lewis's reply (1976), the Lockean lineage Parfit himself claimed, Korsgaard (1989), and the live dispute over whether identity matters. Measured adds the teletransporter question: survival 35.2%, death 40.1%, other 24.8%, with "death" rising since 2009, and a correlation with mind uploading (r = 0.65). One `TODO(source)` remains: add Hazlitt 1805 to the library.
+- **`reid-brave-officer`** (minority; comparable/stronger/stronger/open). Reception covers the line before Reid (Grove, Edwards, Berkeley, and Campbell as Reid's likely source), the Scottish school's dominance and the setting-aside of the substance view (both `fashion` drivers, sourced to Walker's notice and Broad), and how the objection was absorbed. Measured uses the further-fact view as the closest option (14.9%).
+- **`butler-circularity`** (minority; comparable/stronger/weaker/weaker). Reception covers Sergeant's priority, the 1736 statement, Hamilton on the contested credit, quasi-memory as the standard reply, and the still-live debate (Klein & Nichols, Roache).
+- The graph check reports no warnings for the four entries with Standing. Their Standing sections run 3.1–4.5k characters, so unlike Locke's they fit whole at the 6k minimum budget.
+
 ## 2026-09-29 → 2026-09-30
 
 ### Standing: weighting ideas without a weight

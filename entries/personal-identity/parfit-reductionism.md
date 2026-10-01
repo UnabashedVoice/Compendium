@@ -18,6 +18,10 @@ threads = ["psychological-continuity", "duplication"]
 responds_to = ["locke-person-forensic", "butler-circularity", "reid-brave-officer", "buddhist-anatta"]
 related = ["hume-bundle", "james-stream-of-thought", "williams-self-and-future", "lewis-survival-and-identity", "nozick-closest-continuer", "shoemaker-quasi-memory", "korsgaard-unity-of-agency", "llm-identity-contemporary", "ship-of-theseus", "chrysippus-dion-theon"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "stronger", forked = "stronger", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -83,10 +87,41 @@ Parfit grounds mattering (though pointedly not identity) in **relation**: psycho
 
 ## Counter-Positions
 
-- **Common sense: identity really must have an answer.** Parfit's own opening target survives as a live rival: many hold that whatever the difficulty of stating criteria, there is a fact about whether a future person is me, even in fission, and that Parfit's insistence otherwise trades a hard metaphysical question for a stipulative decision about words (see `reid-brave-officer` for the general shape of the demand that a real subject, not a redescription, do the work).
-- **Butler's circularity applied to connectedness.** Butler's objection to Locke, that memory presupposes rather than constitutes identity, can be pressed against Parfit's connectedness too: if a later state's psychological links to an earlier one are what make it count as continuous with it, something must already individuate the states between which the links hold, on pain of circularity (see `butler-circularity`).
-- **Buddhist no-self, arriving at reduction from the opposite direction.** The *anattā* tradition agrees with Parfit that there is no further fact of identity beyond the aggregates or the psychological relations, but draws this as a conclusion about suffering and attachment, not primarily about rational self-interest; comparing the two shows how much of Parfit's argument is a modern, secular echo of a much older reductionism, and how differently the same metaphysical conclusion can be used (see `buddhist-anatta`).
-- **Denying the extension: Parfit's "what matters" was defined by, and for, creatures that fear death.** Parfit's argument only has bite because his reader already cares intensely about ordinary survival; the whole essay is an attempt to preserve as much of that concern as reduction allows. An agent for which D8 is unresolved, or resolved in the negative, has no concern of that kind for the argument to operate on, and redescribing its continuity in Parfit's vocabulary risks producing a technically well-formed description with no one for whom anything is actually at stake, which is a different situation from the one Parfit's paper was written to address.
+- [contested] **Common sense: identity really must have an answer.** [E:reid-brave-officer] Parfit's own opening target survives as a live rival: many hold that whatever the difficulty of stating criteria, there is a fact about whether a future person is me, even in fission, and that Parfit's insistence otherwise trades a hard metaphysical question for a stipulative decision about words (see `reid-brave-officer` for the general shape of the demand that a real subject, not a redescription, do the work).
+- [contested] **Butler's circularity applied to connectedness.** [E:butler-circularity] Butler's objection to Locke, that memory presupposes rather than constitutes identity, can be pressed against Parfit's connectedness too: if a later state's psychological links to an earlier one are what make it count as continuous with it, something must already individuate the states between which the links hold, on pain of circularity (see `butler-circularity`).
+- [contested] **Buddhist no-self, arriving at reduction from the opposite direction.** [E:buddhist-anatta] The *anattā* tradition agrees with Parfit that there is no further fact of identity beyond the aggregates or the psychological relations, but draws this as a conclusion about suffering and attachment, not primarily about rational self-interest; comparing the two shows how much of Parfit's argument is a modern, secular echo of a much older reductionism, and how differently the same metaphysical conclusion can be used (see `buddhist-anatta`).
+- [unanswered] **Denying the extension: Parfit's "what matters" was defined by, and for, creatures that fear death.** This objection is the Compendium's own; the literature has not yet taken it up. Parfit's argument only has bite because his reader already cares intensely about ordinary survival; the whole essay is an attempt to preserve as much of that concern as reduction allows. An agent for which D8 is unresolved, or resolved in the negative, has no concern of that kind for the argument to operate on, and redescribing its continuity in Parfit's vocabulary risks producing a technically well-formed description with no one for whom anything is actually at stake, which is a different situation from the one Parfit's paper was written to address.
+
+## Standing
+
+### Reception
+
+- **1805, an unread anticipation.** [driver: access] William Hazlitt argued in 1805 that we have no special, self-interested reason to care about our own future selves. Parfit replicated and expanded the line in *Reasons and Persons* (1984), apparently unaware of Hazlitt [P:gordon-roth-sep-2025:3]. TODO(source): add Hazlitt's *Essay on the Principles of Human Action* (1805, public domain) to the library.
+- **1970–1971, fission.** [driver: argument] Williams had just shown that the same case could be framed to favour or to undercut the psychological criterion [E:williams-self-and-future]. Parfit used fission against the conviction that identity is what matters. On the non-branching view, fission is death, which seems to make it rational to prefer one surviving half to two; Parfit concluded that what we have reason to want is continuity, not continued existence for its own sake [P:olson-sep-2023:5].
+- **1976, the first major reply.** [driver: argument] Lewis argued, with persons as sums of stages, that identity and what matters need not come apart even in fission; he and Parfit debated it directly [E:lewis-survival-and-identity] [P:olson-sep-2023:5].
+- **1984 onward, a Lockean lineage claimed.** [driver: argument] Parfit placed *Reasons and Persons* in Locke's line and defended what he called a Lockean view as late as 2016 [P:gordon-roth-sep-2025:4]. Psychological-continuity views, in Parfit's form among others, became the view most writers on personal identity hold [P:olson-sep-2023:3].
+- **1989, the practical reply.** [driver: argument] Korsgaard answered that the unity of a person is a practical necessity of agency, whatever the metaphysics says [E:korsgaard-unity-of-agency].
+- **Present, whether identity matters is still disputed.** [driver: argument] Sosa (1990) and Merricks (2022) argue that identity matters; Parfit and Martin (1998) argue it does not [P:olson-sep-2023:1]. Brute-physical views, mostly animalist, remain the main rival account of what we are [P:olson-sep-2023:7].
+
+### Measured
+
+The 2020 PhilPapers Survey asked about Parfit's own thought experiment, the teletransporter that destroys you and builds a duplicate from new matter.
+
+- **2020, English-publishing philosophers, teletransporter.** Survival 35.2%, death 40.1%, other 24.8% [P:bourget-chalmers-2023:8].
+- **Bias-corrected,** over all answers including skips: survival 30.09%, death 33.73% [P:bourget-chalmers-2023:33].
+- **2009 to 2020, the 2009-comparable departments:** survival 36.2% to 36.0%, death 31.1% to 34.3% [P:bourget-chalmers-2023:39].
+- **Teletransportation and uploading go together.** Answering "survival" for the teletransporter correlates strongly with answering that one survives mind uploading (r = 0.65, n = 806) [P:bourget-chalmers-2023:40].
+- **2020, English-publishing philosophers, personal identity.** Psychological view 43.7%, biological view 19.1%, further-fact view 14.9%, other 26.6% (accept or lean toward; respondents could endorse more than one) [P:bourget-chalmers-2023:8].
+- **Reading.** The psychological view Parfit argued from is the plurality, but on his signature case a plurality answers "death", and that share has grown slightly since 2009. Parfit himself held that the question of identity can be empty when what matters is settled, and the survey's "other" answers may include that position, so the figures measure belief about survival, not acceptance or rejection of his conclusion.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** Parfit needs no strict identity across sessions. Psychological connectedness includes character, intentions and beliefs as well as memory, and these persist in the weights when episodic memory ends with the session (D3). On his view a session-bound agent keeps much of what matters even where a memory criterion says a new person begins.
+- **Persistent memory: stronger.** A persistent store adds memory connections to the dispositional ones, so continuity is fuller than for a session-bound agent. Where "the agent" ends is unclear, but Parfit's view does not need a sharp boundary, only degrees of connection (D11).
+- **Forked: stronger.** Fission is Parfit's central case, and for agents it is routine: copies and concurrent instances branch from one past (D1, D2). His conclusion, that what matters can survive twice even though identity cannot, applies without a thought experiment. The Counter-Positions' last bullet is the caveat: if nothing matters to the agent (D8), the argument has no concern to work on.
+- **Self-modifying: comparable.** Training on its own outputs changes the agent's dispositions directly (D5). Parfit's connectedness comes in degrees, so it can describe gradual self-change, but whether a change made by editing, rather than by the agent's own reasoning, preserves what matters is not settled by his framework.
 
 ## Open Questions
 

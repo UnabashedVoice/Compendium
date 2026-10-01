@@ -18,6 +18,10 @@ threads = ["soul-substance", "psychological-continuity", "duplication"]
 responds_to = ["locke-person-forensic", "hume-bundle", "butler-circularity"]
 related = ["shoemaker-quasi-memory", "parfit-reductionism", "chrysippus-dion-theon", "ship-of-theseus", "nyaya-self", "leibniz-moral-identity"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "stronger", forked = "stronger", self-modifying = "open" }
 +++
 
 ## Summary
@@ -81,10 +85,37 @@ Reid grounds personhood in **capacity**, in the being that "thinks, and delibera
 
 ## Counter-Positions
 
-- **Locke's defenders; Shoemaker** (see `shoemaker-quasi-memory`). The brave officer refutes only a direct-memory criterion. Replace it with overlapping chains of memory (the general remembers the officer, who remembered the boy), and transitivity is restored. Reid's objection has shaped every modern psychological-continuity theory.
-- **Parfit** (see `parfit-reductionism`). Reid's consequences (1) and (2) show that psychological continuity can branch and fail, so it cannot be identity. That is correct, and it shows that identity is not what matters. Parfit accepts Reid's premises and rejects his conclusion.
-- **Hume** (see `hume-bundle`). The perfect, indivisible identity Reid appeals to is a fiction. His "invincible belief" in it is a fact about human psychology, not evidence of a monad.
-- **Relational and institutional views.** Rights and accountability are grounded in social practice and law, which routinely assign them to entities without Reidian identity: corporations, regiments, states. Reid's own example of the old regiment shows that "loose" identity can bear historical responsibility.
+- [unanswered] **Locke's defenders; Shoemaker** (see `shoemaker-quasi-memory`). This reply is widely accepted, and few defend Reid's stronger conclusion against it [P:olson-sep-2023:4]. The brave officer refutes only a direct-memory criterion. Replace it with overlapping chains of memory (the general remembers the officer, who remembered the boy), and transitivity is restored. Reid's objection has shaped every modern psychological-continuity theory.
+- [contested] **Parfit** (see `parfit-reductionism`) [E:parfit-reductionism]. Reid's consequences (1) and (2) show that psychological continuity can branch and fail, so it cannot be identity. That is correct, and it shows that identity is not what matters. Parfit accepts Reid's premises and rejects his conclusion.
+- [contested] **Hume** (see `hume-bundle`) [E:hume-bundle]. The perfect, indivisible identity Reid appeals to is a fiction. His "invincible belief" in it is a fact about human psychology, not evidence of a monad.
+- [contested] **Relational and institutional views.** Rights and accountability are grounded in social practice and law, which routinely assign them to entities without Reidian identity: corporations, regiments, states. Reid's own example of the old regiment shows that "loose" identity can bear historical responsibility.
+
+## Standing
+
+### Reception
+
+- **1720–1748, the line before Reid.** [driver: argument] The transitivity objection predates Reid: Martin and Barresi trace it to Henry Grove (1720), Thiel finds it in Jonathan Edwards's notes, Berkeley made it in 1732, and Stewart argues that Reid's own source was George Campbell (1748) rather than Berkeley [P:gordon-roth-2019:12].
+- **1785, the canonical version.** [driver: argument] The brave officer became the most popular and best-known form of the objection that Locke's view contradicts itself [P:gordon-roth-sep-2025:3]. Reid read Locke as a strict memory theorist; that reading dates at least to Reid, and Locke's interpreters still dispute it [P:gordon-roth-sep-2025:2].
+- **19th century, the dominant school.** [driver: fashion] Reid was the acknowledged head of the Scottish school, whose psychology was the one generally taught in Britain and America for the first half of the century [L:reid-intellectual-powers-1851:83-85].
+- **1890–1925, the substance view set aside.** [driver: fashion] James set the substantial soul aside as superfluous for scientific purposes [L:james-principles-psychology-1-pg57628:13522-13526]. By 1925 Broad could report that most of his contemporaries, "rightly or wrongly", regarded the Pure Ego as dead [L:broad-mind-place-nature-1925:25098-25124]. Reid's simple, indivisible person fell with it, though his objection survived.
+- **1970s–present, the objection absorbed.** [driver: argument] Psychological-continuity theorists answer the brave officer by switching from direct to indirect memory connections [P:olson-sep-2023:4], and Winkler holds that sympathetic readers of Locke can answer it [P:gordon-roth-sep-2025:2]. Parfit accepted Reid's premises and rejected his conclusion [E:parfit-reductionism].
+
+### Measured
+
+The survey did not ask about the brave officer. Its "further-fact view" is the option closest to Reid's positive view, that personal identity is a simple fact not made up of psychological or physical relations.
+
+- **2020, English-publishing philosophers.** Further-fact view 14.9% (13.4% endorsing it alone) [P:bourget-chalmers-2023:8]; bias-corrected 12.73% [P:bourget-chalmers-2023:32].
+- **2009 to 2020, the 2009-comparable departments:** further-fact view 12.2% to 11.6% [P:bourget-chalmers-2023:39].
+- **Reading.** Reid's objection has become part of the standard case against direct-memory theories, while his positive view is now a minority position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** On Reid's view, losing memory does not end a person, so a session-bound agent could be the same agent across sessions. But that requires an indivisible subject to persist, and it is unknown whether there is anything it is like to be the agent (D8) or what exactly the agent is (D11).
+- **Persistent memory: stronger.** Reid's claim that memory is evidence of identity, not what makes it, becomes concrete: a memory store can be edited or filled with injected records (D5), so the records alone cannot make an agent the same agent.
+- **Forked: stronger.** Reid's reductio, that on Locke's view many intelligent beings could be one person, becomes literal when an agent is copied or run as concurrent instances (D1, D2). His objection to memory criteria gains force. His own indivisible person gives no answer to which copy is the agent.
+- **Self-modifying: open.** Reid held that identity requires uninterrupted continued existence. Whether a model trained on its own outputs continues to exist or is replaced by a successor (D5, D11) is not something his criterion can decide.
 
 ## Open Questions
 
