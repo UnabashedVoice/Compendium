@@ -35,6 +35,15 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing, batch 3: the twentieth century
+- **`williams-self-and-future`** (major; agent_fit comparable/weaker/weaker/open). Williams's bodily criterion is a minority view (biological view 19.1%), but his verdict on reproduced psychology is now the majority answer: mind uploading is death for 54.2% and the teletransporter for 40.1%. The intuition outlasted the criterion.
+- **`lewis-survival-and-identity`** (major; comparable/stronger/stronger/comparable). Covers counterpart theory applied to persons (1971), the overlap reply and the 1976 debate with Parfit, and stage views as a standard answer. Measured is honest that no persistence question exists: eternalism (39.9%) is given as adjacent, and Lewis is the joint fourth most identified-with philosopher (117).
+- **`korsgaard-unity-of-agency`** (minority; weaker/stronger/weaker/comparable). Covers the practical reply to Parfit, Kantian company, and the narrative turn (Dufner, SEP 2025). Measured uses Kantian practical reason (18.9%) as a measure of her framework, not of her thesis.
+- **`dennett-narrative-gravity`** (minority; stronger/stronger/comparable/comparable). Covers the antirealist narrative family (Dennett, Flanagan, Schechtman), Sebo's centre of psychological gravity, and the LLM application.
+- **`llm-identity-contemporary`** (major among AI researchers on dialogue agents, a Compendium judgment flagged as such; stronger/comparable/stronger/open). Measured: some current AI systems are conscious, 3.4% (82.4% reject); some future ones will be, 39.2%. The 2020 survey predates today's dialogue agents. `TODO(source)`: evidence of how researchers frame LLM identity.
+- **Sources added:** SEP Chappell & Smyth (Williams), SEP Weatherson (Lewis), SEP Dufner (Personal Identity and Ethics, 2025), and Sebo's manuscript (2013).
+- **Checks:** build 35 ok; verify 0 failed (66 entry cross-citations); smoke test 32/32. Standing now covers 13 of 33 personal-identity entries; 5 `TODO(source)` marks corpus-wide.
+
 ### Standing, batch 2: the nineteenth century
 - **`james-stream-of-thought`** (historical; agent_fit weaker/comparable/comparable/open). Reception: the self in the *Principles* (1890), drawing on the clinical cases; carried into phenomenology (Husserl), Russell's mnemic continuity, and Broad's "passing thought" as a centre that is itself an event; the mechanism absorbed into psychological-continuity views.
 - **`kierkegaard-self-as-relation`** (major in existential and phenomenological philosophy; weaker/comparable/weaker/open). Reception: Danish and pseudonymous, so he reached readers late and indirectly (Japanese before English; an `access` driver); existentialism and existential psychiatry (Binswanger, Nishida); an answer to Locke outside the Scottish school; two scholarly trajectories. For Agents notes that the power that "established" an agent's self is literally its makers (D4, D10).

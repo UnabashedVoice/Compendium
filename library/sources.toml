@@ -134,3 +134,35 @@ edition = "Editorial, The British Journal of Psychiatry 219 (2): 413-414 (2021; 
 year = 2021
 url = "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/dissociative-identity-disorder-out-of-the-shadows-at-last/8E2884FA8669A9A64790E5C47AD72DC7"
 rights = "Copyright the authors (2020), published by Cambridge University Press for the Royal College of Psychiatrists; freely readable on Cambridge Core, license not stated. Short quotation only, page-cited; not stored here. The editorial argues for the trauma model, so it is cited for the history and as one side of the dispute."
+
+[source."chappell-smyth-sep-2023"]
+author = "Sophie-Grace Chappell and Nicholas Smyth"
+title = "Bernard Williams"
+edition = "Stanford Encyclopedia of Philosophy, first published 1 February 2006, substantive revision 28 January 2023. Cited by section number; 0 = the preamble before section 1."
+year = 2023
+url = "https://plato.stanford.edu/entries/williams-bernard/"
+rights = "Copyright 2023 the authors; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."weatherson-sep-2026"]
+author = "Brian Weatherson"
+title = "David Lewis"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 July 2009, substantive revision 13 February 2026. Cited by section number; 0 = the preamble before section 1 (6 = Modality, including counterpart theory)."
+year = 2026
+url = "https://plato.stanford.edu/entries/david-lewis/"
+rights = "Copyright 2026 Brian Weatherson; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."dufner-sep-2025"]
+author = "Annette Dufner"
+title = "Personal Identity and Ethics"
+edition = "Stanford Encyclopedia of Philosophy, first published 30 June 2025. Cited by section number (2 = The Psychological View, 3 = The Identity Doesn't Matter View, 10 = Methodological Alternatives)."
+year = 2025
+url = "https://plato.stanford.edu/entries/identity-ethics/"
+rights = "Copyright 2025 Annette Dufner; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."sebo2013"]
+author = "Jeff Sebo"
+title = "The Self as a Center of Psychological Gravity"
+edition = "Author's manuscript, dated July 2013 (PDF metadata); no venue printed. Cited by the manuscript's printed page numbers (printed page = PDF page - 1); 0 = the unnumbered abstract page."
+year = 2013
+url = "https://jeffsebo.net/wp-content/uploads/2013/07/the-self-as-a-center-of-psychological-gravity.pdf"
+rights = "In copyright (author); posted on the author's own website. Short quotation only, page-cited; not stored here."

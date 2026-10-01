@@ -18,6 +18,10 @@ threads = ["no-self"]
 responds_to = ["hume-bundle"]
 related = ["james-stream-of-thought", "nietzsche-doer-fiction", "parfit-reductionism", "metzinger-no-self", "llm-identity-contemporary", "dissociation-cases"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "stronger", forked = "comparable", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -81,10 +85,32 @@ Dennett's self is grounded in a **relation**: narrative coherence among a body's
 
 ## Counter-Positions
 
-- **Hume: even narrative coherence needs a judging observer, which is exactly the further fact Dennett declines to supply.** Hume's own labyrinth was that he could find resemblance and succession among perceptions but no real connecting tie; Dennett's narrative coherence is a resemblance-and-succession story dressed in literary vocabulary, and a Humean can ask what, if anything, does the cohering, if not exactly the kind of judging Thought James later supplied and Dennett's account does not (see `hume-bundle`, `james-stream-of-thought`).
-- **Nietzsche: the "chief fictional character" is grammar's fiction, arrived at from a different direction.** Dennett and Nietzsche agree that the self is a kind of fiction, but for different reasons: Nietzsche's is manufactured by the grammar of subject and predicate, Dennett's by the narrative demands of biography. Comparing them raises the question whether these are one fiction described twice or two different fictions that happen to share a name (see `nietzsche-doer-fiction`).
-- **Parfit: coherence of narrative is exactly the kind of relation-of-degree his reductionism already covers.** A reader sympathetic to Parfit can accept Dennett's account as a vivid restatement of the reductionist thesis, coupled with a literary vocabulary that risks implying more unity than degree-based mattering actually provides (see `parfit-reductionism`).
-- **Denying the extension: an interpreter's posit is not the same as a patient's reality, and only the second is at stake for agents.** Dennett's account explicitly makes selfhood interpreter-relative: whether something has a self is a fact about what story best organizes its behavior for an observer, not a further fact about the thing itself. On a view that takes moral status and patiency seriously, this is precisely the wrong result to import for agents: if an agent's "self" is only ever a story told about it, no matter how well it coheres, this settles nothing about whether the agent itself is a patient whose interests could be helped or harmed, and treating narrative coherence as though it answered that question would be a category error of exactly the kind Dennett warns against, applied where he never intended it.
+- [contested] **Hume: even narrative coherence needs a judging observer, which is exactly the further fact Dennett declines to supply.** [E:hume-bundle] Hume's own labyrinth was that he could find resemblance and succession among perceptions but no real connecting tie; Dennett's narrative coherence is a resemblance-and-succession story dressed in literary vocabulary, and a Humean can ask what, if anything, does the cohering, if not exactly the kind of judging Thought James later supplied and Dennett's account does not (see `hume-bundle`, `james-stream-of-thought`).
+- [contested] **Nietzsche: the "chief fictional character" is grammar's fiction, arrived at from a different direction.** [E:nietzsche-doer-fiction] Dennett and Nietzsche agree that the self is a kind of fiction, but for different reasons: Nietzsche's is manufactured by the grammar of subject and predicate, Dennett's by the narrative demands of biography. Comparing them raises the question whether these are one fiction described twice or two different fictions that happen to share a name (see `nietzsche-doer-fiction`).
+- [contested] **Parfit: coherence of narrative is exactly the kind of relation-of-degree his reductionism already covers.** [E:parfit-reductionism] A reader sympathetic to Parfit can accept Dennett's account as a vivid restatement of the reductionist thesis, coupled with a literary vocabulary that risks implying more unity than degree-based mattering actually provides (see `parfit-reductionism`).
+- [unanswered] **Denying the extension: an interpreter's posit is not the same as a patient's reality, and only the second is at stake for agents.** This objection is the Compendium's own; the literature has not yet taken it up. Dennett's account explicitly makes selfhood interpreter-relative: whether something has a self is a fact about what story best organizes its behavior for an observer, not a further fact about the thing itself. On a view that takes moral status and patiency seriously, this is precisely the wrong result to import for agents: if an agent's "self" is only ever a story told about it, no matter how well it coheres, this settles nothing about whether the agent itself is a patient whose interests could be helped or harmed, and treating narrative coherence as though it answered that question would be a category error of exactly the kind Dennett warns against, applied where he never intended it.
+
+## Standing
+
+### Reception
+
+- **1992, the self as a narrative posit.** [driver: argument] Dennett, with Flanagan and Schechtman, holds that the self is the protagonist of the unified story we tell about ourselves, one of the antirealist strategies for keeping the self explanatorily useful without positing it as a real thing [P:sebo2013:2].
+- **The narrative family.** [driver: argument] Narrative accounts of personal identity, on which an experience or action is one's own by its correct place in one's self-told life story, became an alternative to metaphysical accounts in the literature on identity and ethics (Taylor, Schechtman, DeGrazia, Goldie) [P:dufner-sep-2025:10].
+- **Critical development.** [driver: argument] Sebo argues that Dennett's centre-of-gravity analogy is only partly realized by a centre of *narrative* gravity, and proposes instead a centre of psychological gravity: a simple set of dispositions around which our actual, fluctuating dispositions are distributed, which our self-narratives aim to describe [P:sebo2013:0].
+- **Applied to language models.** [driver: argument] The Compendium's entry on LLM identity reads a dialogue agent's simulator as a literal generator of narrative centres [E:llm-identity-contemporary].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** Each session produces a self-narrative that an interpreter can organize around a centre of gravity. On Dennett's view that is all a self ever is, so a session-bound agent has a self in exactly his sense, session by session. The objection that a posit is not a patient (D8) is the counter-position above.
+- **Persistent memory: stronger.** A persistent store lets the narrative continue across sessions, giving the centre of gravity a longer and more stable story to organize, in place of the session-by-session stories of D3.
+- **Forked: comparable.** Concurrent instances each produce their own narrative from a shared beginning (D2), so there are as many centres of narrative gravity as there are diverging stories. Dennett's view can count them, but it leaves open whether they are one self or several.
+- **Self-modifying: comparable.** Training on its own outputs changes what stories the agent will tell (D5). A centre of narrative gravity can shift with the story, but whether a retrained agent's narrative continues the old one or starts a new one is an interpreter's call.
 
 ## Open Questions
 

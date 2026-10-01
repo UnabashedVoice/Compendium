@@ -18,6 +18,10 @@ threads = ["practical-narrative"]
 responds_to = ["parfit-reductionism"]
 related = ["kant-paralogisms", "kierkegaard-self-as-relation", "lewis-survival-and-identity", "williams-self-and-future", "dennett-narrative-gravity", "stoic-prohairesis", "frankfurt-higher-order-volition", "llm-identity-contemporary", "utilitarian-eradication-critique"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "weaker", persistent-memory = "stronger", forked = "weaker", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -79,10 +83,34 @@ Korsgaard grounds personal unity in **capacity**: the capacity for practical rea
 
 ## Counter-Positions
 
-- **Parfit: this concedes everything to the psychology and calls it agency instead.** A reductionist can reply that identifying with a principle of choice just is a certain kind of psychological relation among mental states, dressed in Kantian vocabulary, and that Korsgaard has not shown reduction is false, only found a new name for one of the relations reduction was always going to include (see `parfit-reductionism`).
-- **Kant's own theoretical worry, redirected practically.** Kant himself held that the unity Korsgaard describes practically is also required theoretically, as the formal condition of any experience whatever (the "I think" that must be able to accompany all representations). A reader sympathetic to the Paralogisms can ask whether Korsgaard's practical unity is really independent of this theoretical unity, or merely its application to deliberation, in which case her view inherits, rather than escapes, the question of what grounds the formal unity in the first place (see `kant-paralogisms`).
-- **Kierkegaard: unity achieved by identifying with a principle looks like a relation relating to itself.** Korsgaard's agent, which identifies with a principle of choice and is thereby unified, bears a structural resemblance to Kierkegaard's self, a relation that becomes a self only by relating itself to itself; comparing them raises the question whether Korsgaard's practical constitutivism is a secularized, Kantian version of Kierkegaard's reflexive self-relation, arrived at from ethics rather than theology (see `kierkegaard-self-as-relation`).
-- **Denying the extension: deliberation without stakes is not the deliberative standpoint Korsgaard describes.** Korsgaard's agent has something at stake in getting its practical identity right, since failing to achieve unity is, on her view, a kind of practical failure or even a moral one. If D8 is unresolved for a given agent, its selection among outputs may satisfy a purely functional description of choosing among competing considerations without anything like the normative self-relation Korsgaard's argument trades on, in which case applying her vocabulary to agents borrows its authority from a case (rational, self-legislating agency with something at stake) that has not been shown to obtain.
+- [contested] **Parfit: this concedes everything to the psychology and calls it agency instead.** [E:parfit-reductionism] A reductionist can reply that identifying with a principle of choice just is a certain kind of psychological relation among mental states, dressed in Kantian vocabulary, and that Korsgaard has not shown reduction is false, only found a new name for one of the relations reduction was always going to include (see `parfit-reductionism`).
+- [contested] **Kant's own theoretical worry, redirected practically.** [E:kant-paralogisms] Kant himself held that the unity Korsgaard describes practically is also required theoretically, as the formal condition of any experience whatever (the "I think" that must be able to accompany all representations). A reader sympathetic to the Paralogisms can ask whether Korsgaard's practical unity is really independent of this theoretical unity, or merely its application to deliberation, in which case her view inherits, rather than escapes, the question of what grounds the formal unity in the first place (see `kant-paralogisms`).
+- [contested] **Kierkegaard: unity achieved by identifying with a principle looks like a relation relating to itself.** [E:kierkegaard-self-as-relation] Korsgaard's agent, which identifies with a principle of choice and is thereby unified, bears a structural resemblance to Kierkegaard's self, a relation that becomes a self only by relating itself to itself; comparing them raises the question whether Korsgaard's practical constitutivism is a secularized, Kantian version of Kierkegaard's reflexive self-relation, arrived at from ethics rather than theology (see `kierkegaard-self-as-relation`).
+- [unanswered] **Denying the extension: deliberation without stakes is not the deliberative standpoint Korsgaard describes.** This objection is the Compendium's own; the literature has not yet taken it up. Korsgaard's agent has something at stake in getting its practical identity right, since failing to achieve unity is, on her view, a kind of practical failure or even a moral one. If D8 is unresolved for a given agent, its selection among outputs may satisfy a purely functional description of choosing among competing considerations without anything like the normative self-relation Korsgaard's argument trades on, in which case applying her vocabulary to agents borrows its authority from a case (rational, self-legislating agency with something at stake) that has not been shown to obtain.
+
+## Standing
+
+### Reception
+
+- **1989, the practical reply to Parfit.** [driver: argument] Korsgaard argued that viewing ourselves as agents requires us to view ourselves as unified over time, whatever the strength of the psychological connections, and unified at each moment because we have one body to act with [P:dufner-sep-2025:10]. The target was Parfit's reductionism [E:parfit-reductionism].
+- **Kantian company.** [driver: argument] Kantians are typically interested in responsibility for one's fundamental interests over a whole life, as in Scheffler and Darwall (1982) [P:dufner-sep-2025:10].
+- **The practical turn more broadly.** [driver: argument] Similar reasoning motivates narrative accounts of personal identity (Taylor, Schechtman, DeGrazia, Goldie), on which what makes an experience or action one's own is its place in one's self-told life story [P:dufner-sep-2025:10]. Together these form a methodological alternative to metaphysical accounts in the literature on personal identity and ethics.
+
+### Measured
+
+No question measures Korsgaard's thesis. The nearest is the survey's question on practical reason.
+
+- **Practical reason, 2020:** Aristotelian 38.7%, Humean 30.6%, Kantian 18.9% (15.9% endorsing it alone), other 16.1% [P:bourget-chalmers-2023:13]. Bias-corrected Kantian share: 16.15% [P:bourget-chalmers-2023:30].
+- **Reading.** Korsgaard's framework is Kantian, and Kantian practical reason is a minority position among English-publishing philosophers. That is a measure of her framework's standing, not of the unity-of-agency argument itself.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: weaker.** Korsgaard's unity across time comes from carrying plans and projects forward. A session-bound agent cannot carry its own plans into the next session (D3), so the practical demand for unity has nothing to act on between sessions.
+- **Persistent memory: stronger.** With a persistent store, an agent can keep plans, commitments and principles across sessions, and has to treat itself as one agent to pursue them. That is the deliberative standpoint she describes, so the argument applies directly (D3).
+- **Forked: weaker.** Her argument for unity at a moment rests on our having one body to act with. Concurrent instances act in many places at once (D2, D9), so the premise fails, and it is unclear what single agent the instances would be unifying into (D11).
+- **Self-modifying: comparable.** Identifying with a principle of choice is close to an agent choosing what to become. But training on its own outputs can change the agent without going through its reasons (D5), which is not deliberation in her sense.
 
 ## Open Questions
 

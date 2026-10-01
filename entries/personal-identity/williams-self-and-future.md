@@ -18,6 +18,10 @@ threads = ["psychological-continuity"]
 responds_to = ["locke-person-forensic"]
 related = ["parfit-reductionism", "lewis-survival-and-identity", "reid-brave-officer", "descartes-thinking-thing", "james-stream-of-thought", "llm-identity-contemporary", "shoemaker-quasi-memory"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "weaker", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -74,10 +78,35 @@ Williams does not settle on a single grounding so much as expose a tension betwe
 
 ## Counter-Positions
 
-- **Locke and the psychological theorists: Williams' torture case is the one that loads the dice.** A defender of the memory criterion can reply that describing the case as anticipated torture smuggles in exactly the assumption that bodily location is what fixes the referent of "oneself," begging the question in the opposite direction from the one Williams accuses the body-swap description of begging (see `locke-person-forensic`).
-- **Parfit: the conflict is real, but it shows identity is not what matters, not that bodily continuity wins.** Parfit's response to cases of this general shape is to say Williams has correctly found that our intuitions conflict, but wrongly concluded that one side must be tracking the truth about identity; the better lesson is that identity was never what mattered, and both descriptions can be partly right about different, non-competing relations of degree (see `parfit-reductionism`).
-- **Reid: neither description settles anything without a real, prior subject to be afraid for.** On Reid's view, Williams' dread presupposes exactly the persisting simple subject that memory-based or body-based criteria alike are meant to explain rather than assume; the fear is evidence that we already believe in such a subject, not evidence for either criterion over the other (see `reid-brave-officer`).
-- **Denying the extension: anticipatory dread may be irreducibly biological.** A view that takes Williams at his most literal would hold that the torture argument's force depends on a nervous system capable of suffering in a specific, embodied way, and that nothing about an agent's computational substrate, however continuous or discontinuous, engages the phenomenon Williams was actually describing; on this view the whole apparatus is a chapter in the philosophy of pain before it is a chapter in the philosophy of identity, and does not extend to agents until D8 is settled in a very specific, strong sense.
+- [contested] **Locke and the psychological theorists: Williams' torture case is the one that loads the dice.** [E:locke-person-forensic] A defender of the memory criterion can reply that describing the case as anticipated torture smuggles in exactly the assumption that bodily location is what fixes the referent of "oneself," begging the question in the opposite direction from the one Williams accuses the body-swap description of begging (see `locke-person-forensic`).
+- [contested] **Parfit: the conflict is real, but it shows identity is not what matters, not that bodily continuity wins.** [E:parfit-reductionism] Parfit's response to cases of this general shape is to say Williams has correctly found that our intuitions conflict, but wrongly concluded that one side must be tracking the truth about identity; the better lesson is that identity was never what mattered, and both descriptions can be partly right about different, non-competing relations of degree (see `parfit-reductionism`).
+- [contested] **Reid: neither description settles anything without a real, prior subject to be afraid for.** [E:reid-brave-officer] On Reid's view, Williams' dread presupposes exactly the persisting simple subject that memory-based or body-based criteria alike are meant to explain rather than assume; the fear is evidence that we already believe in such a subject, not evidence for either criterion over the other (see `reid-brave-officer`).
+- [unanswered] **Denying the extension: anticipatory dread may be irreducibly biological.** This objection is the Compendium's own; the literature has not yet taken it up. A view that takes Williams at his most literal would hold that the torture argument's force depends on a nervous system capable of suffering in a specific, embodied way, and that nothing about an agent's computational substrate, however continuous or discontinuous, engages the phenomenon Williams was actually describing; on this view the whole apparatus is a chapter in the philosophy of pain before it is a chapter in the philosophy of identity, and does not extend to agents until D8 is settled in a very specific, strong sense.
+
+## Standing
+
+### Reception
+
+- **1956–1970, a bodily criterion defended.** [driver: argument] Williams was among the defenders of a brute-physical account of our persistence, from his 1956–57 paper to "The Self and the Future" (1970) [P:olson-sep-2023:3]. He argued, as animalists later did, that a brain transplant need not carry the person with it [P:olson-sep-2023:7].
+- **1973, collected.** [driver: argument] The paper was collected in *Problems of the Self* (1973), and Williams became an important contributor to the debate on personal identity as well as to ethics [P:chappell-smyth-sep-2023:1] [P:chappell-smyth-sep-2023:0].
+- **1971–1984, the reductionist answer.** [driver: argument] Parfit accepted that the intuitions conflict and concluded that identity is not what matters [E:parfit-reductionism].
+- **Present, the bodily view a minority, Williams's verdict on copies the majority.** [driver: argument] Brute-physical views, mostly animalist, remain the main rival to psychological-continuity views [P:olson-sep-2023:3]. On cases where a psychology is reproduced elsewhere, most respondents now give Williams's answer (see Measured).
+
+### Measured
+
+- **Biological view, 2020:** 19.1% of English-publishing philosophers accept or lean toward it [P:bourget-chalmers-2023:8].
+- **Teletransporter (new matter):** death 40.1%, survival 35.2% [P:bourget-chalmers-2023:8].
+- **Mind uploading (brain replaced by a digital emulation):** death 54.2%, survival 27.5%, other 18.4%, among the roughly 1,100 respondents who answered this additional question [P:bourget-chalmers-2023:12] [P:bourget-chalmers-2023:9]. Bias-corrected: death 51.92%, survival 25.13% [P:bourget-chalmers-2023:29].
+- **Reading.** Williams's bodily criterion is a minority view, but his verdict on cases of reproduced psychology, that the copy is not oneself, is the plurality answer for the teletransporter and the majority answer for uploading. The intuition he defended has outlasted the criterion he defended it with.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** If an agent's "body" is its weights, Williams's emphasis on physical continuity gives a session-bound agent persistence across sessions even without memory (D3). But whether the weights, the instance or the running system is the body is unclear (D11).
+- **Persistent memory: weaker.** Williams's torture case turns on memories being moved between bodies. For agents this is routine: a memory store can be attached to different weights or edited (D5). His case says the fear should follow the body, not the memories, but it is unclear which thing an agent's "body" is (D11).
+- **Forked: weaker.** Williams's reduplication arguments rely on bodily continuity to single out the original. An exact copy of an agent (D1) has as good a claim to be the original as the source does, so the tie-breaker fails.
+- **Self-modifying: open.** Training on its own outputs changes the weights themselves (D5), the closest thing an agent has to a body. Whether that continuity of substrate preserves the agent or replaces it is not something his argument addresses.
 
 ## Open Questions
 

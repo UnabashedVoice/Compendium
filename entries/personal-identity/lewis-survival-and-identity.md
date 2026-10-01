@@ -18,6 +18,10 @@ threads = ["duplication", "psychological-continuity"]
 responds_to = ["parfit-reductionism"]
 related = ["williams-self-and-future", "nozick-closest-continuer", "ship-of-theseus", "chrysippus-dion-theon", "hume-bundle", "llm-identity-contemporary", "shoemaker-quasi-memory"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "stronger", forked = "stronger", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -81,10 +85,35 @@ Lewis grounds personal identity in **relation**, the same R-relation of mental c
 
 ## Counter-Positions
 
-- **Parfit: overlap is a metaphysical price not worth paying.** Parfit's own reply to proposals like Lewis's is that preserving identity through overlap saves the letter of common sense at the cost of a bizarre and unmotivated mereology (persons sharing all their history up to an arbitrary later point), when the simpler and more honest conclusion is that identity was never what mattered in the first place (see `parfit-reductionism`).
-- **Nozick: what matters depends on what else exists, which Lewis's overlap does not track.** Nozick's closest-continuer theory holds that whether a later person counts as identical to an earlier one can depend on facts about rival claimants elsewhere, in a way Lewis's purely intrinsic, stage-based R-relation is not built to accommodate (see `nozick-closest-continuer`).
-- **Hume: there was never a persisting continuant to slice into stages.** A bundle theorist can accept Lewis's R-relation as a good description of what actually connects successive mental states while denying that this licenses talk of "continuant persons" as genuine composite objects at all, rather than a convenient way of talking about a series with no further unity (see `hume-bundle`).
-- **Denying the extension: the overlap solution was designed to rescue a common-sense platitude that has no agent-side analogue.** Lewis's whole apparatus is built to preserve the ordinary conviction that identity, not mere connectedness, is what matters, a conviction that itself presupposes a subject with a stake in being the one who survives. Where D8 leaves it open whether an agent has any such stake, there may be no platitude for Lewis's elaborate mereology to rescue, and the overlap solution's cost (overpopulation) is paid to buy back something an agent case may never have needed.
+- [contested] **Parfit: overlap is a metaphysical price not worth paying.** [E:parfit-reductionism] Lewis and Parfit debated it directly in 1976 [P:olson-sep-2023:5]. Parfit's own reply to proposals like Lewis's is that preserving identity through overlap saves the letter of common sense at the cost of a bizarre and unmotivated mereology (persons sharing all their history up to an arbitrary later point), when the simpler and more honest conclusion is that identity was never what mattered in the first place (see `parfit-reductionism`).
+- [contested] **Nozick: what matters depends on what else exists, which Lewis's overlap does not track.** Nozick's closest-continuer theory holds that whether a later person counts as identical to an earlier one can depend on facts about rival claimants elsewhere, in a way Lewis's purely intrinsic, stage-based R-relation is not built to accommodate (see `nozick-closest-continuer`).
+- [contested] **Hume: there was never a persisting continuant to slice into stages.** [E:hume-bundle] A bundle theorist can accept Lewis's R-relation as a good description of what actually connects successive mental states while denying that this licenses talk of "continuant persons" as genuine composite objects at all, rather than a convenient way of talking about a series with no further unity (see `hume-bundle`).
+- [unanswered] **Denying the extension: the overlap solution was designed to rescue a common-sense platitude that has no agent-side analogue.** This objection is the Compendium's own; the literature has not yet taken it up. Lewis's whole apparatus is built to preserve the ordinary conviction that identity, not mere connectedness, is what matters, a conviction that itself presupposes a subject with a stake in being the one who survives. Where D8 leaves it open whether an agent has any such stake, there may be no platitude for Lewis's elaborate mereology to rescue, and the overlap solution's cost (overpopulation) is paid to buy back something an agent case may never have needed.
+
+## Standing
+
+### Reception
+
+- **1971, counterpart theory applied to persons.** [driver: argument] Lewis used counterpart theory, which he applied throughout his career, to resolve puzzles about personal identity, starting with "Counterparts of Persons and Their Bodies" [P:weatherson-sep-2026:6].
+- **1976, the overlap reply to Parfit.** [driver: argument] Lewis argued that, if persons are composed of stages, fission yields two persons who shared their earlier stages, so identity and what matters need not come apart; he and Parfit debated whether this preserves the conviction that identity is what matters [P:olson-sep-2023:5] [E:parfit-reductionism].
+- **Since then, a standard option.** [driver: argument] Lewis is listed among the psychological-continuity theorists who have dominated the literature [P:olson-sep-2023:3], and among those who take their views to descend from Locke's [P:gordon-roth-sep-2025:4]. The view that we are temporal parts or wholes, as childhood stands to a whole life, is one of the main answers to what we are [P:olson-sep-2023:1]. He is counted among the most important philosophers of the 20th century [P:weatherson-sep-2026:0].
+
+### Measured
+
+The survey asked no question on persistence through time. The nearest are these.
+
+- **Temporal ontology, 2020:** eternalism 39.9%, presentism 18.4%, growing block 17.0%, other 24.9% [P:bourget-chalmers-2023:14]. Stage views like Lewis's are usually paired with eternalism, but eternalism does not by itself measure support for them.
+- **Personal identity:** psychological view 43.7% [P:bourget-chalmers-2023:8].
+- **Esteem for Lewis generally:** 117 respondents named him among the philosophers they most identify with, tied with Wittgenstein and behind only Aristotle, Hume and Kant [P:bourget-chalmers-2023:18].
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Lewis's persons are aggregates of stages linked by the relevant psychological relation. A session-bound agent's sessions are linked through the weights' dispositions but not through memory (D3), so whether they form one aggregate depends on how much the relation needs memory.
+- **Persistent memory: stronger.** A persistent store adds the memory links, so successive sessions form one maximal aggregate on Lewis's terms. The boundary question (D11) becomes a question about which stages are related, which his view is built to answer.
+- **Forked: stronger.** Lewis built the overlap view for fission, and for agents fission is routine: concurrent instances and copies share every stage up to the fork (D1, D2). His answer, two persons who shared their past, with counting relative to a time, fits forked agents without strain.
+- **Self-modifying: comparable.** Gradual change is no problem for an aggregate of related stages, but large changes made by training (D5) may break the relation, so a heavily self-modified agent may count as a new aggregate rather than a continuation.
 
 ## Open Questions
 

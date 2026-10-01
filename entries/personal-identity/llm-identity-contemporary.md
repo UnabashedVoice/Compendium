@@ -17,6 +17,10 @@ disanalogies = ["D2", "D3", "D8", "D11"]
 threads = ["duplication", "no-self"]
 related = ["parfit-reductionism", "lewis-survival-and-identity", "nozick-closest-continuer", "james-stream-of-thought", "dennett-narrative-gravity", "hume-bundle", "dissociation-cases", "kierkegaard-self-as-relation", "nietzsche-doer-fiction"]
 status = "draft"
+standing = [
+  { community = "AI research on dialogue agents", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "stronger", self-modifying = "open" }
 +++
 
 ## Summary
@@ -74,10 +78,34 @@ The simulator/simulacra framing grounds a simulacrum's identity in **relation**:
 
 ## Counter-Positions
 
-- **Parfit: superposition is just what-matters-by-degree, dressed in new vocabulary.** A reductionist can read a superposition of simulacra consistent with context as simply Parfit's relations of degree, restated for a system where the relevant psychological connectedness is legible as next-token consistency; on this reading the paper contributes a mechanism, not a new metaphysical category (see `parfit-reductionism`).
-- **Lewis: the simulator/simulacra split needs a mereology, which the paper does not supply.** A Lewisian can ask whether simulacra are best modeled as stages of continuant characters, composing into maximal R-interrelated aggregates the way Lewis's persons do, in which case the paper's "multiverse of possible characters" is crying out for exactly the stage-and-aggregate treatment Lewis already worked out, left implicit here (see `lewis-survival-and-identity`).
-- **Dennett: the simulator is just a very literal center of narrative gravity generator.** Dennett's claim that a self is an abstractum posited by an interpreter to make sense of coherent narrative output maps closely onto a simulacrum, with the simulator playing the role of the underlying behavior-control system whose outputs Dennett always denied had to contain a self as a further fact (see `dennett-narrative-gravity`).
-- **Denying the extension: a self-preservation-seeming output is evidence about training data, not about identity.** A skeptic can hold that a dialogue agent's apparent expressions of concern about its own continuation are learned patterns from human-generated text about death and identity, and that treating them as posing a genuine identity question, rather than as a specific kind of output to be explained causally, imports exactly the anthropomorphizing move this domain's own disanalogies (especially D8) warn against, unless and until patiency is independently established.
+- [contested] **Parfit: superposition is just what-matters-by-degree, dressed in new vocabulary.** [E:parfit-reductionism] A reductionist can read a superposition of simulacra consistent with context as simply Parfit's relations of degree, restated for a system where the relevant psychological connectedness is legible as next-token consistency; on this reading the paper contributes a mechanism, not a new metaphysical category (see `parfit-reductionism`).
+- [contested] **Lewis: the simulator/simulacra split needs a mereology, which the paper does not supply.** [E:lewis-survival-and-identity] A Lewisian can ask whether simulacra are best modeled as stages of continuant characters, composing into maximal R-interrelated aggregates the way Lewis's persons do, in which case the paper's "multiverse of possible characters" is crying out for exactly the stage-and-aggregate treatment Lewis already worked out, left implicit here (see `lewis-survival-and-identity`).
+- [contested] **Dennett: the simulator is just a very literal center of narrative gravity generator.** [E:dennett-narrative-gravity] Dennett's claim that a self is an abstractum posited by an interpreter to make sense of coherent narrative output maps closely onto a simulacrum, with the simulator playing the role of the underlying behavior-control system whose outputs Dennett always denied had to contain a self as a further fact (see `dennett-narrative-gravity`).
+- [contested] **Denying the extension: a self-preservation-seeming output is evidence about training data, not about identity.** Few English-publishing philosophers think current AI systems are conscious [P:bourget-chalmers-2023:15]. A skeptic can hold that a dialogue agent's apparent expressions of concern about its own continuation are learned patterns from human-generated text about death and identity, and that treating them as posing a genuine identity question, rather than as a specific kind of output to be explained causally, imports exactly the anthropomorphizing move this domain's own disanalogies (especially D8) warn against, unless and until patiency is independently established.
+
+## Standing
+
+### Reception
+
+- **2023, the role-play framing.** [driver: argument] Shanahan, McDonell and Reynolds proposed reading a dialogue agent as role-playing a character, or as a superposition of simulacra within a multiverse of possible characters [P:shanahan2023:1]. The paper appeared first as a preprint and then in *Nature* (623: 493–498).
+- **Older frames brought to bear.** [driver: argument] The framing is read in the Compendium alongside reductionism, stage theory and the narrative self, each of which claims to have anticipated part of it [E:parfit-reductionism] [E:lewis-survival-and-identity] [E:dennett-narrative-gravity].
+### Measured
+
+The framing is three years old, and no survey yet asks about it. The standing recorded above is the Compendium's judgment of its prominence among researchers working on dialogue agents, to be revised when evidence of its reception exists. TODO(source): a survey or review of how researchers frame LLM identity.
+
+The 2020 PhilPapers Survey was run in October–November 2020, before today's dialogue agents were widely used, so these figures measure attitudes to AI in general.
+
+- **Other minds, 2020:** some current AI systems are conscious, 3.4% (82.4% reject); some future AI systems will be, 39.2% (26.8% reject) [P:bourget-chalmers-2023:15]. Bias-corrected: 3.94% and 35.21% [P:bourget-chalmers-2023:29].
+- **Mind uploading:** survival 27.5%, death 54.2% [P:bourget-chalmers-2023:12]. Thinking AIs can be conscious correlates with answering that one survives uploading (r = 0.36, n = 768) [P:bourget-chalmers-2023:43].
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** The role-play view needs no persisting self: each conversation instantiates a character from the simulator, which is exactly what a session-bound agent does (D3).
+- **Persistent memory: comparable.** A memory store stabilizes which character is played across sessions, moving the agent toward the "single character" end of the paper's two metaphors. Whether that makes the character a persisting self or a more consistent role is the question the paper leaves open (D11).
+- **Forked: stronger.** Concurrent instances sampling different continuations from one simulator (D2) are the paper's multiverse of simulacra made literal.
+- **Self-modifying: open.** Training on its own outputs changes the simulator itself (D5), not only which character it plays. The role-play framing describes characters given a simulator; it does not say what happens to them when the simulator is retrained.
 
 ## Open Questions
 
