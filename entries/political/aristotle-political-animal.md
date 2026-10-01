@@ -93,7 +93,7 @@ Jowett's translation, ed. H. W. C. Davis (Oxford 1905; archive.org OCR); checked
 
 ## Counter-Positions
 
-- [contested] **Hobbes, the artificial state** (*Leviathan*, 1651, Introduction and ch. 13-17). The commonwealth is not natural but made by covenant among individuals driven by fear. This framing may fit digital ecosystems *better* than Aristotle's, since they are explicitly constructed, and it shifts the question from nature to consent and security.
+- [contested] **Hobbes, the artificial state** [E:hobbes-leviathan] (*Leviathan*, 1651, Introduction and ch. 13-17). The commonwealth is not natural but made by covenant among individuals driven by fear. This framing may fit digital ecosystems *better* than Aristotle's, since they are explicitly constructed, and it shifts the question from nature to consent and security.
 - [contested] **Republican non-domination** (Philip Pettit, *Republicanism*, 1997). Freedom means not being subject to arbitrary power, even if that power is exercised kindly. Where Aristotle asks whether a benevolent owner rules for the common good (kingship), Pettit argues that the owner's *capacity* to rule arbitrarily is itself unfreedom. This sharpens the D7 problem.
 - [contested] **Instrumentalism about AI.** Agents are tools, and ecosystems of agents are machinery, not polities. Applying political categories to them is a category mistake. On this view the tripods passage is simply fulfilled: the tools came, and no new class of beings came with them.
 - [contested] **Critiques of Aristotle's exclusions.** Aristotle also excluded women, laborers, and foreigners from full political standing on capacity grounds. The recurring pattern of exclusion justified by a claimed deficit of capacity is itself evidence about how reliable such claims are.
@@ -103,7 +103,7 @@ Jowett's translation, ed. H. W. C. Davis (Oxford 1905; archive.org OCR); checked
 ### Reception
 
 - **Antiquity onward, among the most influential.** [driver: argument] Along with Plato, Aristotle is generally regarded as one of the most influential ancient thinkers in political theory [P:miller-sep-2022:0].
-- **1651, the artificial state.** [driver: argument] Hobbes made the commonwealth an artificial man, made by covenant rather than grown by nature [L:hobbes-ew3-leviathan-molesworth-1839:386-392].
+- **1651, the artificial state.** [driver: argument] Hobbes made the commonwealth an artificial man, made by covenant rather than grown by nature [L:hobbes-ew3-leviathan-molesworth-1839:386-392], and answered the bees passage directly [E:hobbes-leviathan].
 - **His exclusions.** [driver: argument] Aristotle defended natural slavery and held that women's deliberative faculty lacks authority, claims he asserts without evidence; his arguments about slaves and women appear so weak that some commentators take them to be ironic [P:miller-sep-2022:3].
 - **Present, claimed across the spectrum.** [driver: argument] Aristotle continues to influence conservatives (Arendt, Strauss, Voegelin), communitarians (MacIntyre, Sandel), liberals (Galston, Nussbaum), libertarians and democratic theorists; his habit of finding truth on each side invites divergent readings [P:miller-sep-2022:5].
 
@@ -133,5 +133,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 
 - `kant-formula-of-humanity`: Kant's rational nature is roughly Aristotle's logos treated as a basis for rights. The natural-slave argument is exactly what the formula's "never as means only" [L:kant-groundwork-abbott-pg5682:1713-1714] rules out.
 - `locke-person-forensic`: the forensic person is the unit a polity can hold responsible. Aristotle's citizen is the unit that shares in holding others responsible.
-- `hobbes-leviathan`, `pettit-non-domination`: planned. Alternative foundations for the polity that may fit digital ecosystems better.
+- `hobbes-leviathan`: the commonwealth as artifact, made by covenant. Hobbes answers the bees passage (*Leviathan* XVII) and the many-instances question (the unity of the representer makes the person one).
+- `pettit-non-domination`: planned. An alternative foundation for the polity that may fit digital ecosystems better.
 - D10 (designed purpose) is the most dangerous disanalogy here because it reproduces the natural-slave argument. D7 and D9 decide whether an ecosystem can be a polis at all.

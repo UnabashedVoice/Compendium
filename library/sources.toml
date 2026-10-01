@@ -366,3 +366,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 1 July 1998, sub
 year = 2022
 url = "https://plato.stanford.edu/entries/aristotle-politics/"
 rights = "Copyright 2022 Fred Miller; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."lloyd-sreedhar-sep-2022"]
+author = "Sharon A. Lloyd and Susanne Sreedhar"
+title = "Hobbes's Moral and Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 12 February 2002, substantive revision 12 September 2022. Cited by top-level section number; 0 = the preamble before section 1 (5 = Further Questions About the State of Nature, 6 = The Laws of Nature, 7 = Establishing Sovereign Authority, 8 = Absolutism, 9 = Responsibility and the Limits of Political Obligation, 11 = Hobbes on Gender and Race)."
+year = 2022
+url = "https://plato.stanford.edu/entries/hobbes-moral/"
+rights = "Copyright 2022 Sharon A. Lloyd and Susanne Sreedhar; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."duncan-sep-2025"]
+author = "Stewart Duncan"
+title = "Thomas Hobbes"
+edition = "Stanford Encyclopedia of Philosophy, first published 11 March 2009, substantive revision 1 March 2025. Cited by top-level section number (6 = Reception)."
+year = 2025
+url = "https://plato.stanford.edu/entries/hobbes/"
+rights = "Copyright 2025 Stewart Duncan; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."williams-iep-hobbes"]
+author = "Garrath Williams (Lancaster University)"
+title = "Thomas Hobbes: Moral and Political Philosophy"
+edition = "Internet Encyclopedia of Philosophy. No publication date shown; year is the access year (retrieved 2026-10-01). Cited by section, with lettered subsections written without the dot (1 = Introduction, 2 = Life and Times, 3 = Two Intellectual Influences, 4c = Motivation, 6 = Conclusion)."
+year = 2026
+url = "https://iep.utm.edu/hobmoral/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
