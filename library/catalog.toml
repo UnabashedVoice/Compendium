@@ -342,6 +342,7 @@ rights = "Public domain: author/translator died over 100 years ago; published be
 sha256 = "e849186d3483c1779053a5f70c8ae477316c019907c740f878de0d2c788975f8"
 
 [text."reid-intellectual-powers-1851"]
+secondary_spans = [[83, 85], [13859, 13888]]   # Walker's editor's notice; Hamilton's note on Locke's personal identity
 author = "Thomas Reid"
 title = "Essays on the Intellectual Powers of Man"
 edition = "original English (1785); 1851 edition"
@@ -687,3 +688,43 @@ rights = "Public domain source (1849 first edition; this reprint 1920, editors a
 notes = "Black-letter (Fraktur) type; the archive's own OCR, and general Tesseract Fraktur/Danish models, produce unusable text. Transcribed by hand from the page images. Danish only; the standard English translations (Lowrie 1941, Hong & Hong 1980) remain in copyright, so quotations here are the compendium's own rendering (see SCHEMA, option (b))."
 sha256 = "c0b1a26f7c2ff98ce843551df8a111328c41cbfda55ebb687b5f15a49a40f71b"
 
+[text."sergeant-solid-philosophy-1697"]
+author = "John Sergeant"
+title = "Solid Philosophy Asserted, Against the Fancies of the Ideists: Or, the Method to Science Farther Illustrated. With Reflexions on Mr. Locke's Essay concerning Human Understanding"
+edition = "London: Roger Clavil, Abel Roper and Thomas Metcalfe, 1697 (first edition); Princeton Theological Seminary Library copy"
+source = "archive.org solidya00serg"
+format = "ocr"
+rights = "Public domain: published 1697"
+notes = "Reflexion Fourteenth sec. 12 (1697 pp. 265-266; lines 13342-13384; checked against page images, leaves n306-n307) answers Locke II.xxvii; the margin reads 'Consciousness cannot constitute Personal Identity'. The OCR reads the section number '12.' as 'Ti.'. Hamilton (reid-intellectual-powers-1851, line 13883) miscites it as sec. 14, which is the passage on angels (p. 267). The archive.org scandata page numbers are one too low here: leaf n306 is printed p. 265. Sec. 12 argues that a man must be the same before he can be conscious that he is the same, which is the circularity objection 39 years before Butler. Long s is OCR'd as 'f' (Confcioufnefs) and the side-notes are interleaved, so match quotations fuzzily and check them against page images. EEBO-TCP has no transcription of this work; a Tesseract re-OCR (tools/ocr_archive.py) would not fix the long s either. A second scan exists: archive.org bim_early-english-books-1641-1700_solid-philosophy-asserte_sergeant-john_1697."
+sha256 = "a4c615345b6e216e5e0aec68eb8c99f9d6bb1577f8277b3caec9d7f8b5086e04"
+
+[text."berkeley-works-2-fraser-1901"]
+author = "George Berkeley"
+title = "The Works of George Berkeley, vol. II: Philosophical Works, 1732-33 (Alciphron; The Theory of Vision Vindicated; The Analyst)"
+edition = "ed. Alexander Campbell Fraser, Oxford: Clarendon Press, 1901, in four volumes. Alciphron first published 1732"
+source = "archive.org worksgeorgeberk01berkgoog (Google Books scan)"
+format = "ocr"
+rights = "US public domain: published before 1931 (Fraser died 1914). The file opens with Google's scan notice, kept as downloaded."
+notes = "Alciphron, Seventh Dialogue, sec. 8 (pp. 334-335; lines 19295-19362) runs Locke's consciousness criterion through a three-stage A/B/C case and concludes that 'personal identity doth not consist in consciousness'. This is the transitivity objection 53 years before Reid's brave officer. Fraser's footnote points to Locke II.xxvii. A second OCR of the same edition exists: archive.org in.ernet.dli.2015.53644."
+sha256 = "6bff1fa750a0d78f9c3ce874b2e722aae51f5be56ef8963a772c6308f83f4233"
+
+[text."russell-analysis-of-mind-pg2529"]
+author = "Bertrand Russell"
+title = "The Analysis of Mind"
+edition = "London: George Allen & Unwin; New York: Macmillan, 1921"
+source = "Project Gutenberg #2529"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Lecture IV (lines 2262-2271): 'one biography' defined as a series of occurrences linked by mnemic causation. Lecture VII (lines 3538-3547): mnemic phenomena give the continuity of a 'person' or a 'mind'. A causal-memory account of persons, half a century before Shoemaker."
+sha256 = "35516b0cbfd35f872976ea4f795f06b11979970b3619286fac9fcb3601b6364d"
+
+[text."broad-mind-place-nature-1925"]
+author = "C. D. Broad"
+title = "The Mind and Its Place in Nature"
+edition = "Tarner Lectures 1923; New York: Harcourt, Brace & Company, 1925 (International Library of Psychology, Philosophy and Scientific Method); University of Florida copy"
+source = "archive.org minditsplaceinna00broa"
+format = "ocr"
+rights = "US public domain: published 1925 (US works of 1925 entered the public domain on 1 January 2021)"
+notes = "Ch. XIII 'The Unity of the Mind' (p. 556ff.) classifies centre and non-centre theories and names James's 'passing thought'. Pp. 578-579 (lines 25098-25124) discuss Russell's Analysis of Mind and report that denying a Pure Ego flogs what most of Broad's contemporaries 'rightly or wrongly' regard as a dead horse. Those lines are a report on contemporary opinion, so they are marked as a secondary span."
+secondary_spans = [[25098, 25124]]
+sha256 = "ca312f024cd7ecdaf38d95668cc961d7d630f19fc74c2c3729ec46a98fb13f2d"

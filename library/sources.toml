@@ -52,3 +52,53 @@ edition = "Nature 623: 493-498 (2023); preprint arXiv:2305.16367"
 year = 2023
 url = "https://arxiv.org/abs/2305.16367"
 rights = "In copyright (authors), but distributed as an open-access arXiv preprint under the authors' own license. Short quotation only, page/section-cited to the arXiv preprint, not stored here."
+
+# ---- Added 2026-09-30 for the Standing sections (reception literature, survey data).
+
+[source."olson-sep-2023"]
+author = "Eric T. Olson"
+title = "Personal Identity"
+edition = "Stanford Encyclopedia of Philosophy, first published 20 August 2002, substantive revision 30 June 2023. The entry has no page numbers; citations are by section number (e.g. [P:olson-sep-2023:4] = section 4, 'Psychological-Continuity Views'), the way dennett1992 is cited by paragraph."
+year = 2023
+url = "https://plato.stanford.edu/entries/identity-personal/"
+rights = "In copyright (Metaphysics Research Lab, Stanford University); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here. Pin the revision date on every use, since SEP entries are revised in place."
+
+[source."bourget-chalmers-2023"]
+author = "David Bourget and David J. Chalmers"
+title = "Philosophers on Philosophy: The 2020 PhilPapers Survey"
+edition = "Philosophers' Imprint 23 (11), April 2023, 53 pp. doi:10.3998/phimp.2109. Page numbers are the article's own printed pagination (footer '- n -'), which matches the PDF page index."
+year = 2023
+url = "https://journals.publishing.umich.edu/phimp/article/2109/galley/2463/view/"
+rights = "(c) 2023 David Bourget and David Chalmers, licensed CC BY-NC-ND 3.0 (stated on p. 1). Cited figures and short quotation only, page-cited. Not stored in the Compendium. The user's copy (downloaded through the browser past the bot-check, 2026-09-29) is kept at CompendiumDraft/download1.pdf, outside the corpus."
+
+[source."gordon-roth-sep-2025"]
+author = "Jessica Gordon-Roth"
+title = "Locke on Personal Identity"
+edition = "Stanford Encyclopedia of Philosophy, first published 11 February 2019, substantive revision 29 September 2025. No page numbers; cited by section number: 1 The Basics, 2 What's Up for Debate, 3 The Early Modern Reception of Locke's Picture of Persons, 4 Locke's Lasting Impact."
+year = 2025
+url = "https://plato.stanford.edu/entries/locke-personal-identity/"
+rights = "Copyright 2025 Jessica Gordon-Roth; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."gordon-roth-2019"]
+author = "Jessica Gordon-Roth"
+title = "Tracing Reid's 'Brave Officer' Objection Back to Berkeley—and Beyond"
+edition = "Berkeley Studies 28 (2019): 3-22. Cited by the journal's printed page numbers; in the PDF, printed page = PDF page + 2."
+year = 2019
+url = "https://berkeleystudies.philosophy.fsu.edu/sites/g/files/upcbnu886/files/BS%2028%20Gordon-Roth%20(Revised).pdf"
+rights = "In copyright (author / Berkeley Studies); open-access journal PDF hosted by Florida State University. Short quotation only, page-cited; not stored here."
+
+[source."roache2016"]
+author = "Rebecca Roache"
+title = "Memory and mineness in personal identity"
+edition = "Philosophical Psychology 29 (4): 479-489 (2016). doi:10.1080/09515089.2015.1102216. Cited by journal page. The author's PDF is the publisher's version with a download cover sheet, so journal page = PDF page + 478."
+year = 2016
+url = "https://rebeccaroache.weebly.com/uploads/2/4/9/0/24901968/memory_and_mineness_in_personal_identity.pdf"
+rights = "In copyright (Informa UK / Taylor & Francis). Short quotation only, page-cited to the journal pagination; read from the author's own website (accepted as a legitimate copy by the user, 2026-09-29), not stored here."
+
+[source."kirby-iep-chrysippus"]
+author = "Jeremy Kirby (Albion College)"
+title = "Chrysippus (c. 280—207 B.C.E.)"
+edition = "Internet Encyclopedia of Philosophy. No publication or revision date is shown on the page, so year is the access year (retrieved 2026-09-29). No page numbers; cited by the article's own section labels, written without the dot: 5.c 'The Growing Argument' is [P:kirby-iep-chrysippus:5c]."
+year = 2026
+url = "https://iep.utm.edu/chrysippus/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

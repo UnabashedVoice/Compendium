@@ -20,6 +20,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 | 2026-09-26 01:39–03:10 | `[P:]` page citations and `library/sources.toml`; **twentieth century** 6/12; full audit; roadmap, schema and handoff updated | 35 |
 | 2026-09-26 04:15 | `compendium_access.py`: progressive disclosure | 35 |
 | 2026-09-26 midday | **Wired into Arbitrator, Actualizer and Palaestra** (opt-in, at the user's request); README "How the siblings read it"; `dist/` rebuilt (14:49) | 35 |
+| 2026-09-28 | `compendium_access.py`: multi-section selection (`sections`, `max_sections`) and a stricter selector prompt | 35 |
+| 2026-09-29 → 09-30 | **Standing**: ideas weighted as sourced evidence, not numbers. Drafted in `CompendiumDraft/` while a test run used the Compendium, merged 09-30; Locke is the first entry with it | 35 |
+| 2026-09-30 | Disclosure budgets scale to the model's loaded context (`budget_for_context`); committed and pushed with the above | 35 |
 
 **State as of 2026-09-26:**
 - 35 entries: 33 personal identity, 1 ethics, 1 political.
@@ -29,6 +32,21 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - 77 quotations match OCR text only fuzzily (`~ok`) and are awaiting spot-checks against the page images.
 
 ---
+
+## 2026-09-29 → 2026-09-30
+
+### Standing: weighting ideas without a weight
+Asked whether the corpus weights ideas, the answer was no, and a single score was rejected: it would tell a model what to conclude without showing why, which is a floor built through data. Instead, `SCHEMA.md` gains a **Standing** section that records reception as sourced evidence. It was drafted in `CompendiumDraft/` (PLAN.md has the full record) while a test run was using the Compendium, and merged on 09-30 once the run finished.
+- **Schema.** `standing` records (community, current standing, `as_of`); `agent_fit`, with one value per deployment profile in the new `foundations/deployments.md` (session-bound, persistent-memory, forked, self-modifying); and `standing_reviewed`, the date the user reviewed the section, required before `status = "reviewed"`. The `## Standing` section has three parts: Reception, Measured and For Agents. Counter-Positions bullets carry state tags (`[answered]`, `[contested]`, `[unanswered]`, `[conceded]`).
+- **User decisions.** Standing is level-2 only. No community's reception is authoritative, and each Reception bullet carries a **driver** (argument, evidence, authority, access, fashion) so that a condemnation is not mistaken for a refutation. `fashion` needs a secondary source. Driver tags stay visible to models. The user reviews the tags.
+- **Citations.** `[E:<entry-id>]` cites another entry. `[P:]` locators accept section labels (`4`, `5c`) for unpaginated sources. Catalog texts can be marked `secondary = true`, or carry `secondary_spans` for editorial notes inside a primary text.
+- **Tools.** `build.py` validates all of this and warns when an entry that responds to another is missing from that entry's ledger. `library.py` verifies `[E:]` ids, lints Standing citations and counts `TODO(source)` like a paraphrase mark.
+- **Access layer.** Adds `Standing` to the level-2 sections, strips state tags from briefs, strips `[E:]`, and keeps driver tags. New: `fit_section()` discloses the whole H3 subsections that fit when a section is over budget, in order, and names the rest; it never cuts mid-text. Actualizer's provider uses it.
+- **Library.** Adds Sergeant, *Solid Philosophy* (1697); Berkeley, *Works* vol. II (Fraser 1901: *Alciphron*); Russell, *The Analysis of Mind* (1921); and Broad, *The Mind and Its Place in Nature* (1925). The Reid 1851 record gets `secondary_spans` (Walker's notice and Hamilton's note). `sources.toml` adds six records: SEP Olson 2023, PhilPapers 2020 (Bourget & Chalmers), Roache 2016, IEP Kirby, SEP Gordon-Roth 2025, and Gordon-Roth 2019.
+- **`locke-person-forensic`** is the first entry with Standing: 15 Reception bullets from 1694 to the present, the 2020 survey figures, and For Agents per profile. The Locke reception story was corrected twice against the sources: it was not "refuted, then revived in 1970". Sergeant (1697) and Berkeley (1732) anticipated Butler and Reid. Hamilton miscites Sergeant (sec. 14 for sec. 12). Whether Locke held a memory criterion at all is disputed.
+- **Budgets scale to the context (09-30, user request: windows must never be too small for the system's work).** `budget_for_context(context_tokens)` sets the disclosure budget at about 1 character per token of the model's loaded window, between 6k and 100k characters. Defaults are now 5 entries, any number of sections, a 100k-character budget and a 40k-character index budget. Live check: gpt-oss-20b at a 131k window chose 5 entries and was shown 48k characters, including Locke's Standing.
+- **Also in this commit, from 2026-09-28 and previously uncommitted:** a selection can ask for several sections per entry (`sections` list, `max_sections`; the single `section` form is still read). The selector prompt adds a relevance test: would the right answer change depending on whether the entry's position is true? It also warns that an AI decision-maker does not by itself make identity entries relevant.
+- **Checks on 09-30.** Build: 35 ok. Verify: 0 failed. Lint: Locke has 2 `TODO(source)` marks, Grice 1941 and Shoemaker 1970, which wait on copies. A 32-check smoke test passed across the access layer, Actualizer, Arbitrator, Palaestra and Annals. The full suites pass (91, 802, 58, 38).
 
 ## 2026-09-26
 
@@ -149,7 +167,8 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 ---
 
 ## Open items (ROADMAP "Sourcing status and open items" and HANDOFF)
-- **Twentieth century 6/12:** Shoemaker, Nozick, the narrative-identity trio, Olson, Baker and Metzinger each need the user's own copy, a library loan or a purchase.
+- **Twentieth century 6/12:** Shoemaker, Nozick, the narrative-identity trio, Olson, Baker and Metzinger each need the user's own copy, a library loan or a purchase. Grice 1941 and Shoemaker 1970 are both reprinted in Perry (ed.), *Personal Identity*, 2nd ed. (2008).
+- **Standing:** only Locke has it so far. The rest of the personal-identity spine is next, and then `--require-standing`. Locke's Reception (8.7k chars) is larger than an 8k model's whole budget, so its driver tags are never shown at that size (see CompendiumDraft/PLAN.md).
 - **OCR spot-checks:** 77 `~ok` fuzzy matches to check against page images before any entry moves from `draft` to `reviewed`. All 35 entries are still `status = "draft"`.
 - **Texts not yet in the library:**
   - Aquinas, *Super I Cor.* 15: the claim is cited but not verified.

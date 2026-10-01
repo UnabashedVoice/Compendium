@@ -1,7 +1,10 @@
 """compendium_access.py — Showing the Compendium to a model a little at a time.
 
-A local model has roughly 8k tokens of context, and the whole corpus is far
-larger than that. Retrieval was tried first and reverted: lexical scoring
+A local model's context window is finite, and the whole corpus is far larger
+than any window. How much is disclosed scales with the window the model is
+actually loaded with (budget_for_context): ~1 character per token of context,
+between 6k and 100k characters, so a 16k window gets ~16k characters and a
+131k window ~100k (about a fifth of it). Retrieval was tried first and reverted: lexical scoring
 over a small corpus matched on incidental word overlap, and a fixed "top k"
 forced irrelevant entries into the prompt. This module uses progressive
 disclosure instead. Each level is small enough to read in full, and the
@@ -12,19 +15,26 @@ model, not a word-overlap score, decides what to open next.
                         Once the index outgrows its budget, a domain list comes
                         first and the model opens only the domains it names.
     Level 1  brief      an entry's Summary and its strongest counter-position.
-    Level 2  section    one named section of an entry, on request.
+    Level 2  sections   named sections of an entry, on request (up to
+                        max_sections each, within the disclosure budget).
 
 `consult()` runs the selection step: the model reads the index and the
-question, and names at most a few entries (and optionally one section of
+question, and names at most a few entries (and optionally some sections of
 each). An empty selection is a good answer when the corpus doesn't cover
 the question, and nothing is disclosed then.
 
 What is disclosed is the corpus's own text, never a model's paraphrase of
-it. Citation markers ([L:...], [P:...]) are stripped from the model-facing
-text to save tokens. The entry ids stay, so every line can be traced back
+it. Citation markers ([L:...], [P:...], [E:...]) are stripped from the
+model-facing text to save tokens; [driver: ...] tags in a Standing section
+are kept, because they say what moved a position's reception. The entry ids stay, so every line can be traced back
 to its sourced entry. Each brief carries the entry's first counter-position
 as well: the Compendium requires counter-positions, and showing a position
 without its rival would be a floor built out of data.
+
+Standing (how a position has been received, how its objections fared, how
+it fits agents per deployment profile) is level-2 only: it appears when the
+model asks for the Standing section, never in a brief. The brief's counter-
+position therefore has its state tag ([contested] etc.) removed.
 
 Reads dist/compendium.jsonl, so run tools/build.py after editing entries.
 `stale` is True when an entry file is newer than the build. Standard
@@ -47,9 +57,26 @@ DIST = ROOT / "dist" / "compendium.jsonl"
 # Sections a model may ask for at level 2. Summary is already in the brief,
 # and Key Passages / Original Position are the sourcing apparatus.
 SECTIONS = ("Grounding", "Extension to Agents", "Extension to Digital Ecosystems",
-            "Counter-Positions", "Open Questions", "Context")
+            "Counter-Positions", "Standing", "Open Questions", "Context")
 
-_CITATION = re.compile(r"\s*\[(?:L|P):[^\]]+\]")
+# Disclosure budgets (characters), scaled to the model's loaded context.
+MIN_BUDGET_CHARS = 6000
+MAX_BUDGET_CHARS = 100_000
+MAX_ENTRIES = 5
+
+
+def budget_for_context(context_tokens: int) -> int:
+    """Characters the Compendium may disclose to a model with this context window:
+    ~1 character per token (a quarter to a third of the window, since text runs 3-4
+    characters per token), clamped to [MIN_BUDGET_CHARS, MAX_BUDGET_CHARS].
+    An unknown window (0) gets the minimum."""
+    if not context_tokens:
+        return MIN_BUDGET_CHARS
+    return max(MIN_BUDGET_CHARS, min(MAX_BUDGET_CHARS, int(context_tokens)))
+
+
+_CITATION = re.compile(r"\s*\[(?:L|P|E):[^\]]+\]")
+_STATE_TAG = re.compile(r"^\[(?:answered|contested|unanswered|conceded)\]\s*")
 
 HEADER = (
     "FROM THE COMPENDIUM ({version}). The Compendium is a philosophy corpus. Each entry "
@@ -65,6 +92,10 @@ SELECT_SYSTEM = (
     "You are not answering the question. Read the index, then name the entries whose "
     "concepts the question actually turns on. Shared words are not enough: an entry about "
     "personal identity doesn't bear on a tax question because both mention 'persons'. "
+    "Nor does the decision-maker being an AI agent make entries about agents, identity or "
+    "personhood relevant: an AI changing a meeting length raises no question of its identity. "
+    "Test each entry: would the right answer to the question change depending on whether the "
+    "entry's position is true? If not, leave it out. "
     "An empty list is a good answer when the corpus doesn't cover the question."
 )
 
@@ -84,11 +115,15 @@ SELECT_USER = """QUESTION:
 COMPENDIUM INDEX (id | title [grounding]: concepts)
 {index}
 
-Choose at most {max_entries} entries. For each, you may also ask for one further section,
-from: {sections}. Ask only if the brief summary would not be enough.
+Choose at most {max_entries} entries. Each is shown to you as its summary and strongest
+counter-position. For each, you may also ask for up to {max_sections} further sections, from:
+{sections}. Ask for them where the question turns on them: Grounding and Extension to Agents
+when the question is about agents, Counter-Positions when the position looks decisive,
+Standing when it matters how the position has fared (its reception and why it changed, the
+state of its objections, and how well it fits agents under different deployments).
 
 Respond with JSON only, no other text:
-{{"entries": [{{"id": "<entry id>", "why": "<one sentence>", "section": "<section name or null>"}}]}}"""
+{{"entries": [{{"id": "<entry id>", "why": "<one sentence>", "sections": ["<section name>"]}}]}}"""
 
 
 def strip_citations(text: str) -> str:
@@ -111,7 +146,7 @@ class Consultation:
     """What one consult() call asked, chose and disclosed. Kept by the caller as provenance."""
     version: str
     question: str
-    selected: list[dict] = field(default_factory=list)   # {"id", "why", "section"}
+    selected: list[dict] = field(default_factory=list)   # {"id", "why", "sections", "section"}
     rejected: list[str] = field(default_factory=list)    # ids the model named that don't exist
     domains: Optional[list[str]] = None                  # domains opened, if the index was split
     text: str = ""                                       # the disclosed block ("" if nothing)
@@ -211,41 +246,68 @@ class Compendium:
         """Level 2: one section of an entry, citations stripped ("" if it has none)."""
         return strip_citations(self._entries[entry_id]["sections"].get(name, "")).strip()
 
+    def fit_section(self, entry_id: str, name: str, room: int) -> str:
+        """A section within `room` characters: whole if it fits, else the whole H3 subsections
+        that fit, in order, with a note naming the rest. Never cut mid-text. "" if nothing fits."""
+        body = self.section(entry_id, name)
+        if len(body) <= room:
+            return body
+        parts = re.split(r"(?=^### )", body, flags=re.M)
+        subs = [p.rstrip() for p in parts if p.startswith("### ")]
+        kept, dropped, used = [], [], 0
+        for p in subs:
+            if used + len(p) + 2 <= room - 120:  # 120: room for the omission note
+                kept.append(p)
+                used += len(p) + 2
+            else:
+                dropped.append(p.split("\n", 1)[0][4:].strip())
+        if not kept:
+            return ""
+        return "\n\n".join(kept) + f"\n\n(Omitted to fit the context budget: {', '.join(dropped)}.)"
+
     @staticmethod
     def _first_item(text: str) -> str:
         text = strip_citations(text).strip()
         m = re.search(r"^- (.+?)(?=^- |\Z)", text, flags=re.S | re.M)
-        return re.sub(r"\s+", " ", (m.group(1) if m else text)).strip()
+        item = re.sub(r"\s+", " ", (m.group(1) if m else text)).strip()
+        return _STATE_TAG.sub("", item)  # standing stays at level 2
 
-    def disclose(self, selected: list[dict], budget_chars: int = 6000) -> str:
+    def disclose(self, selected: list[dict], budget_chars: int = MAX_BUDGET_CHARS) -> str:
         """Briefs for every selected entry first, then requested sections while they fit."""
         if not selected:
             return ""
         parts = [HEADER.format(version=self.version)]
         parts += [self.brief(s["id"]) for s in selected]
         used = sum(len(p) for p in parts)
-        for s in selected:
-            name = s.get("section")
-            if not name:
-                continue
-            body = self.section(s["id"], name)
-            if not body:
-                continue
-            block = f"[{s['id']}] {name}:\n{body}"
-            if used + len(block) > budget_chars:
-                parts.append(f"[{s['id']}] {name}: omitted, it would not fit the context budget.")
-                continue
-            parts.append(block)
-            used += len(block)
+        # Sections go round-robin (each entry's first request, then each entry's
+        # second), so one entry can't use up the whole budget.
+        depth = max((len(_sections_of(s)) for s in selected), default=0)
+        for round_ in range(depth):
+            for s in selected:
+                names = _sections_of(s)
+                if round_ >= len(names):
+                    continue
+                name = names[round_]
+                if not self.section(s["id"], name):
+                    continue
+                label = f"[{s['id']}] {name}:\n"
+                body = self.fit_section(s["id"], name, budget_chars - used - len(label))
+                if not body:
+                    parts.append(f"[{s['id']}] {name}: omitted, it would not fit the context budget.")
+                    continue
+                block = label + body
+                parts.append(block)
+                used += len(block)
         return "\n\n".join(parts)
 
     # ------------------------------------------------------------- selection
 
-    def selection_prompts(self, question: str, max_entries: int = 3,
-                          domains: Optional[list[str]] = None) -> tuple[str, str]:
+    def selection_prompts(self, question: str, max_entries: int = MAX_ENTRIES,
+                          domains: Optional[list[str]] = None,
+                          max_sections: int = len(SECTIONS)) -> tuple[str, str]:
         return SELECT_SYSTEM, SELECT_USER.format(
             question=question.strip(), index=self.index_text(domains), max_entries=max_entries,
-            sections=", ".join(SECTIONS))
+            max_sections=max_sections, sections=", ".join(SECTIONS))
 
     @staticmethod
     def _json_answer(raw: str, key: str) -> dict:
@@ -259,7 +321,8 @@ class Compendium:
                 return cand
         raise ValueError(f"no {{\"{key}\": [...]}} object in the answer")
 
-    def parse_selection(self, raw: str, max_entries: int = 3) -> tuple[list[dict], list[str]]:
+    def parse_selection(self, raw: str, max_entries: int = MAX_ENTRIES,
+                        max_sections: int = len(SECTIONS)) -> tuple[list[dict], list[str]]:
         """(valid selections, unknown ids). Raises ValueError if no JSON answer is found."""
         obj = self._json_answer(raw, "entries")
         selected, rejected, seen = [], [], set()
@@ -276,13 +339,21 @@ class Compendium:
             if eid in seen:
                 continue
             seen.add(eid)
-            section = item.get("section")
+            asked = item.get("sections")
+            if not isinstance(asked, list):
+                asked = [item.get("section")]  # the earlier single-section form
+            sections = []
+            for name in asked:
+                if name in SECTIONS and name not in sections:
+                    sections.append(name)
+            sections = sections[:max_sections]
             selected.append({"id": eid, "why": str(item.get("why") or "").strip(),
-                             "section": section if section in SECTIONS else None})
+                             "sections": sections, "section": sections[0] if sections else None})
         return selected[:max_entries], rejected
 
-    def consult(self, question: str, complete: Callable[[str, str], str], max_entries: int = 3,
-                budget_chars: int = 6000, index_budget_chars: int = 8000) -> Consultation:
+    def consult(self, question: str, complete: Callable[[str, str], str], max_entries: int = MAX_ENTRIES,
+                budget_chars: int = MAX_BUDGET_CHARS, index_budget_chars: int = 40_000,
+                max_sections: int = len(SECTIONS)) -> Consultation:
         """Let the model choose from the index, then disclose what it chose. Never raises.
 
         If the whole index is longer than index_budget_chars, the model first picks
@@ -299,14 +370,20 @@ class Compendium:
                     c.raw = raw
                     return c
                 domains = named
-            system, user = self.selection_prompts(question, max_entries, domains)
+            system, user = self.selection_prompts(question, max_entries, domains, max_sections)
             c.raw = complete(system, user)
-            c.selected, c.rejected = self.parse_selection(c.raw, max_entries)
+            c.selected, c.rejected = self.parse_selection(c.raw, max_entries, max_sections)
         except Exception as e:  # the caller's analysis goes on without the Compendium
             c.error = f"{type(e).__name__}: {e}"
             return c
         c.text = self.disclose(c.selected, budget_chars)
         return c
+
+
+def _sections_of(selection: dict) -> list[str]:
+    if isinstance(selection.get("sections"), list):
+        return selection["sections"]
+    return [selection["section"]] if selection.get("section") else []
 
 
 def locate(start: Path, env_var: str = "COMPENDIUM_ROOT") -> Path:

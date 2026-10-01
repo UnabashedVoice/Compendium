@@ -15,7 +15,8 @@ same bullet or paragraph as the citation is checked against the cited lines (wit
 line breaks drift). Ellipses split a quotation into segments that must each be found, in order. Matching
 ignores case, punctuation, diacritics and line-break hyphenation; OCR texts fall back to fuzzy matching.
 
-[P:<key>:<page>] or [P:<key>:<start>-<end>] cites an in-copyright, page-numbered source registered in
+[P:<key>:<page>] or [P:<key>:<start>-<end>] cites an in-copyright source registered in library/sources.toml,
+by page, or for unpaginated sources (encyclopedia articles) by section: 4, or subsection label: 5c. Registered in
 library/sources.toml (README, "Works in copyright": short quotations only, never stored in this repository).
 verify checks that <key> is registered and reports the citation; it cannot check a P-cited quotation's exact
 wording, since no full text is held to check it against, so accuracy there rests on the page citation being
@@ -46,7 +47,9 @@ INDEX = LIB / "index.sqlite"
 ENTRIES = ROOT / "entries"
 
 CITE = re.compile(r"\[L:([a-z0-9][a-z0-9.-]*):(\d+)(?:-(\d+))?\]")
-CITE_P = re.compile(r"\[P:([a-z0-9][a-z0-9.-]*):(\d+)(?:-(\d+))?\]")
+# locator: a page (27), a section (4) or a subsection label (5c) for sources without pages; ranges 27-29, 5c-5d
+CITE_P = re.compile(r"\[P:([a-z0-9][a-z0-9.-]*):(\d+[a-z]?)(?:-(\d+[a-z]?))?\]")
+CITE_E = re.compile(r"\[E:([a-z0-9-]+)\]")  # another entry in the corpus; Standing / Counter-Positions only
 QUOTE = re.compile(r"[\"“]([^\"“”]*)[\"”]")  # pair every quote; length filter applied by callers
 WINDOW_BEFORE, WINDOW_AFTER = 40, 120
 FUZZY_OK = 0.90
@@ -97,6 +100,14 @@ def cmd_check(args) -> int:
         for field in ("author", "title", "edition", "source", "rights"):
             if not cat[tid].get(field):
                 print(f"INCOMPLETE {tid}: no {field}"); bad += 1
+        # secondary = true (whole text) or secondary_spans = [[start, end], ...] (editorial notes in a primary text)
+        spans = cat[tid].get("secondary_spans", [])
+        if "secondary" in cat[tid] and not isinstance(cat[tid]["secondary"], bool):
+            print(f"BAD {tid}: secondary must be true or false"); bad += 1
+        n = sum(1 for _ in files[tid].open(encoding="utf-8")) if spans else 0
+        for sp in spans:
+            if not (isinstance(sp, list) and len(sp) == 2 and all(isinstance(x, int) for x in sp) and 1 <= sp[0] <= sp[1] <= n):
+                print(f"BAD {tid}: secondary span {sp!r} is not [start, end] within 1-{n}"); bad += 1
     if args.pin:
         text = CATALOG.read_text(encoding="utf-8")
         for tid, h in pins.items():
@@ -259,9 +270,14 @@ def cmd_verify(args) -> int:
     cat = load_catalog()
     srcs = load_sources()
     cache: dict[str, list[str]] = {}
-    ok = fuzzy = fail = cites = p_cites = trusted = 0
+    ok = fuzzy = fail = cites = p_cites = trusted = e_cites = 0
+    entry_ids = {p.stem for p in ENTRIES.rglob("*.md")}
     for path in entry_paths(args.entries):
         text = path.read_text(encoding="utf-8")
+        for eid in CITE_E.findall(text.split("+++", 2)[-1]):
+            e_cites += 1
+            if eid not in entry_ids:
+                print(f"FAIL {path.stem}: [E:{eid}] names no existing entry"); fail += 1
         for blk in blocks(text.split("+++", 2)[-1]):
             found = CITE.findall(blk)
             found_p = CITE_P.findall(blk)
@@ -312,16 +328,17 @@ def cmd_verify(args) -> int:
                 else:
                     fail += 1
                     print(f"FAIL {path.stem}: \"{label}\" not found near {', '.join(f'{t}:{a}' for t, a, _ in found)} (best {worst:.2f})")
-    print(f"{cites} citations ({p_cites} page-cited, in-copyright); "
+    print(f"{cites} citations ({p_cites} page-cited, in-copyright), {e_cites} entry cross-citations; "
           f"quotes: {ok} exact, {fuzzy} OCR-fuzzy, {fail} failed, {trusted} in-copyright (not checked by tool)")
     return 1 if fail else 0
 
 
 def cmd_lint(args) -> int:
-    total_para = total_unsourced = total_stray = 0
+    total_para = total_unsourced = total_stray = total_standing = 0
     for path in entry_paths(args.entries):
         text = path.read_text(encoding="utf-8").split("+++", 2)[-1]
         paraphrase = len(re.findall(r"\bparaphrase[ds]?\b", text, flags=re.I))
+        paraphrase += text.count("TODO(source)")  # same to-do status as a paraphrase mark
         sections = dict((m.group(1), m.group(2)) for m in re.finditer(r"^## ([^\n]+)\n(.*?)(?=^## |\Z)", text, flags=re.M | re.S))
         op = sections.get("Original Position", "")
         paras = [p for p in blocks(op) if len(p) > 80]
@@ -344,10 +361,24 @@ def cmd_lint(args) -> int:
             return all(s in cited_all for s in segs if len(s.split()) >= 2)
 
         stray = [norm(q) for q in loose_q if not echoed(q)]
+        standing_uncited = []
+        if "Standing" in sections:
+            subs = dict((m.group(1).strip(), m.group(2)) for m in
+                        re.finditer(r"^### ([^\n]+)\n(.*?)(?=^### |\Z)", sections["Standing"], flags=re.M | re.S))
+            standing_uncited += [b for b in blocks(subs.get("Reception", ""))
+                                 if not (CITE.search(b) or CITE_P.search(b) or CITE_E.search(b))]
+            standing_uncited += [b for b in blocks(subs.get("Measured", ""))
+                                 if b.strip() != "None available." and re.search(r"\d+(\.\d+)?\s*%", b)
+                                 and not CITE_P.search(b)]
+            # one bullet per deployment profile, each driven by at least one D-code
+            standing_uncited += [b for b in blocks(subs.get("For Agents", ""))
+                                 if b.startswith("- ") and not re.search(r"\bD\d+\b", b)]
         total_para += paraphrase; total_unsourced += len(unsourced); total_stray += len(stray)
-        status = "clean" if not (paraphrase or unsourced or kp_uncited or stray) else ""
+        total_standing += len(standing_uncited)
+        status = "clean" if not (paraphrase or unsourced or kp_uncited or stray or standing_uncited) else ""
         print(f"{path.stem:40s} paraphrase {paraphrase:3d} | OP unsourced {len(unsourced):2d}/{len(paras):2d} "
-              f"| KP uncited {len(kp_uncited):2d}/{len(kp_items):2d} | stray quotes {len(stray):2d} {status}")
+              f"| KP uncited {len(kp_uncited):2d}/{len(kp_items):2d} | stray quotes {len(stray):2d} "
+              f"| standing uncited {len(standing_uncited):2d} {status}")
         if args.verbose:
             for p in unsourced:
                 print(f"    unsourced OP: {' '.join(p.split())[:90]}")
@@ -355,8 +386,10 @@ def cmd_lint(args) -> int:
                 print(f"    uncited KP: {' '.join(b.split())[:90]}")
             for q in stray:
                 print(f"    stray: \"{q[:80]}\"")
+            for b in standing_uncited:
+                print(f"    uncited Standing: {' '.join(b.split())[:90]}")
     print(f"total: {total_para} paraphrase marks, {total_unsourced} unsourced Original Position paragraphs, "
-          f"{total_stray} uncited quotations")
+          f"{total_stray} uncited quotations, {total_standing} uncited Standing items")
     return 0
 
 
