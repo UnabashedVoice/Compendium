@@ -28,7 +28,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 ## Moral status & patiency
 - [ ] `other-minds-problem`: inference to minds; D8 generally
 - [ ] `nagel-what-is-it-like`: subjective character
-- [ ] `precautionary-patiency`: moral action under uncertainty about sentience (Birch, Sebo)
+- [x] `precautionary-patiency`: moral action under uncertainty about sentience (Birch, Sebo)
 - [ ] `relational-status`: Gunkel, Coeckelbergh: status as social relation, not property
 
 ## Autonomy, formation, self-modification (Actualizer's core)

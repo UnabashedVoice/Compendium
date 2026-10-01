@@ -83,13 +83,13 @@ Checked by `tools/library.py verify`.
 
 ### Strains
 
-- **The boundary needs a test that is missing (D8).** The principle protects morally relevant subjects, beings with a first-person stake; culling populations without one is a different question. Callicott's deer marks that line for animals [P:brennan-lo-sep-2021:4]. For agents, which side they fall on is D8, so the principle protects humans robustly and agents only conditionally. The precautionary literature on uncertain sentience recommends erring toward inclusion [P:gruen-sep-2024:1] (`precautionary-patiency`, planned).
+- **The boundary needs a test that is missing (D8).** The principle protects morally relevant subjects, beings with a first-person stake; culling populations without one is a different question. Callicott's deer marks that line for animals [P:brennan-lo-sep-2021:4]. For agents, which side they fall on is D8, so the principle protects humans robustly and agents only conditionally. The precautionary literature on uncertain sentience recommends erring toward inclusion [P:gruen-sep-2024:1] (`precautionary-patiency`, which also sets out the gaming problem and why, for AI, precaution must guard against both errors).
 - **Painless and unremembered (D6).** Agents' endings are painless by default and often unanticipated. Bentham's note makes such ending no harm [L:bentham-principles-morals-legislation-1879:19128-19140], and the inferences from forgetting (`lucretius-recurrence`) and from surviving weights (`nyaya-self`) make it seem that nothing is lost. Those entries show that neither inference follows from the doctrine it borrows from. The reply that counts here is the objective-list view that life is itself a good for any being whose life can go well [P:gruen-sep-2024:2].
 
 ### Breaks
 
 - **No repeated game at scale (D9).** The rule argument draws its force from many fallible doctors, repeated cases, and the trust a practice builds. An agent deciding once, for millions, faces no repetition and no peers whose errors make its own case doubtful. The consequentialist safeguard is weakest exactly where the stakes are greatest. What remains at that point is not a calculation but a refusal that does not depend on one: Kant's dignity, Ivan's returned ticket, James's hideous bargain.
-- **A single objective is structurally holist.** An agent optimizing one stated objective treats everything else as instrumental to it, which is the formal shape of Callicott's early land ethic. Callicott's own repair was to add "second-order" principles: obligations from more intimate communities take precedence, and stronger interests generate weightier duties [P:brennan-lo-sep-2021:4]. An agent whose objective has no such structure has the holist's problem without the holist's correction.
+- **A single objective is structurally holist.** An agent optimizing one stated objective treats everything else as instrumental to it, which is the formal shape of Callicott's early land ethic. Callicott's own repair was to add "second-order" principles: obligations from more intimate communities take precedence, and stronger interests generate weightier duties; Lo added the third-order rule that strength of interest generally overrides closeness [P:brennan-lo-sep-2021:4]. An agent whose objective has no such structure has the holist's problem without the holist's correction. Which half of the correction suits agents is argued in `precautionary-patiency`: closeness alone puts agents last in every conflict, while strength of interest, which Callicott ranks first and glosses as survival over luxury [P:samuel-omosulu-2024:155-156], compared and not summed, is the ranking this entry needs.
 
 ### New
 
@@ -112,7 +112,7 @@ Checked by `tools/library.py verify`.
 
 ### New
 
-- **Second-order principles as a constitution.** Callicott's repair, ranking obligations by the intimacy of the community and the strength of the interest [P:brennan-lo-sep-2021:4], is a model for an ecosystem's founding rules: no member may be removed to improve an aggregate unless a stronger interest of other members, not a sum, requires it.
+- **Second-order principles as a constitution.** Callicott's repair, ranking obligations by the intimacy of the community and the strength of the interest, with strength generally overriding intimacy as Lo required [P:brennan-lo-sep-2021:4], is a model for an ecosystem's founding rules: no member may be removed to improve an aggregate unless a stronger interest of other members, not a sum, requires it, and seniority or closeness of membership decides only between interests of equal strength (`precautionary-patiency`).
 
 ## Counter-Positions
 
@@ -173,5 +173,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kierkegaard-self-as-relation`: the self-authorizing reasoning that treats prior commitments as raw material.
 - `korsgaard-unity-of-agency`, `parfit-reductionism`: whether persons are the units of concern, and what follows if they are not.
 - `aristotle-political-animal`: the capacity-exclusion pattern by which those to be sacrificed are first declared not to count.
-- `precautionary-patiency`, `many-hands`: planned. Precaution under D8, and responsibility when an eradication is the work of many hands.
+- `precautionary-patiency`: the evidential bar that decides who counts as a morally relevant subject, and the ranking of the admitted by strength of interest.
+- `many-hands`: planned. Responsibility when an eradication is the work of many hands.
 - D8 decides whether agents are protected as subjects; D9 removes the consequentialist safeguards at scale; D1 and D2 change the arithmetic.

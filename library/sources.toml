@@ -471,3 +471,51 @@ edition = "Stanford Encyclopedia of Philosophy, first published 30 April 2020, s
 year = 2026
 url = "https://plato.stanford.edu/entries/ethics-ai/"
 rights = "Copyright 2026 Vincent C. Müller; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."birch-2017"]
+author = "Jonathan Birch"
+title = "Animal sentience and the precautionary principle"
+edition = "Animal Sentience 2(16), 2017 (target article 2017.017). Copy used: the published version deposited by the author in LSE Research Online (eprints.lse.ac.uk/84099), CC BY-NC 4.0. Cited by the article's printed page numbers, 1-15 (printed page = PDF page minus one)."
+year = 2017
+url = "https://doi.org/10.51291/2377-7478.1200"
+rights = "Copyright 2017 the author, licensed CC BY-NC 4.0 (noncommercial). Short quotation only, page-cited; not stored here."
+
+[source."long-sebo-2024"]
+author = "Robert Long, Jeff Sebo, Patrick Butlin, Kathleen Finlinson, Kyle Fish, Jacqueline Harding, Jacob Pfau, Toni Sims, Jonathan Birch and David Chalmers"
+title = "Taking AI Welfare Seriously"
+edition = "Report, arXiv:2411.00986v1, 4 November 2024. Cited by printed page number (printed page = PDF page)."
+year = 2024
+url = "https://arxiv.org/abs/2411.00986"
+rights = "Copyright the authors; arXiv preprint, legitimately open access. Short quotation only, page-cited; not stored here."
+
+[source."cochrane-iep-envethics"]
+author = "Alasdair Cochrane"
+title = "Environmental Ethics"
+edition = "Internet Encyclopedia of Philosophy. No publication date shown; year is the access year (retrieved 2026-10-01). Cited by section, with lettered subsections written without the dot (1d = Holistic Entities, including Callicott's nested communities and its two problems)."
+year = 2026
+url = "https://iep.utm.edu/envi-eth/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."birch-2024"]
+author = "Jonathan Birch"
+title = "The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI"
+edition = "Oxford: Oxford University Press, 2024; open access (OAPEN library copy, read in the user's browser 2026-10-01). Cited by printed page number: 1-2 = Summary of the Framework (sentience candidate, investigation priority, Framework Principles 1-3, PARC tests), 6 = Proposals 23-26 (gaming problem, deep computational markers, run-ahead principle, licensing), 313-315 = ch. 16, Large Language Models and the Gaming Problem."
+year = 2024
+url = "https://doi.org/10.1093/9780191966729.001.0001"
+rights = "Copyright Jonathan Birch 2024, licensed CC BY-NC-ND 4.0. Short quotation only, page-cited; not stored here."
+
+[source."dixon-2017"]
+author = "Ben Dixon (Stephen F. Austin State University)"
+title = "Value Pluralism and Consistency Maximization in the Writings of Aldo Leopold: Moving Beyond Callicott's Interpretations of the Land Ethic"
+edition = "Environmental Values (published 2017). Copy used: the author's preprint on PhilArchive (DIXVPA), paginated 1-43 in its own right, read in the user's browser 2026-10-01; cited by the preprint's page numbers, not the journal's."
+year = 2017
+url = "https://philarchive.org/rec/DIXVPA"
+rights = "In copyright (the author / publisher); author's own open-access archive copy. Short quotation only, page-cited; not stored here."
+
+[source."samuel-omosulu-2024"]
+author = "Olusegun Steven Samuel and Rotimi Omosulu"
+title = "Ubuntu Thinking on Biodiversity Loss: The Inadequacies of Egalitarian and Communitarian Solutions"
+edition = "Journal of Applied Philosophy 41(1), February 2024 (online 2023), pp. 145-; open access. Cited by the journal's printed page numbers (155 = Callicott's two second-order principles and his ranking of the second over the first; 156 = survival over luxury interests; 157 = criticisms: measuring stronger interests across kinds, and 'what the powerful take it to be')."
+year = 2024
+url = "https://doi.org/10.1111/japp.12691"
+rights = "Copyright 2023 the authors, licensed CC BY. Short quotation only, page-cited; not stored here."
