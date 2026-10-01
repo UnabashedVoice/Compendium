@@ -407,3 +407,27 @@ edition = "Internet Encyclopedia of Philosophy. No publication date shown; year 
 year = 2026
 url = "https://iep.utm.edu/epictetu/"
 rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."brink-sep-2022"]
+author = "David Brink"
+title = "Mill's Moral and Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 9 October 2007, substantive revision 22 August 2022. Cited by top-level section number; 0 = the preamble before section 1 (2 = Mill's Utilitarianism, including 2.2 higher pleasures, 2.7-2.8 act and rule readings, 2.12 sanctions and demandingness; 3 = Mill's Liberalism, including 3.6 the harm principle and 3.9 moralism)."
+year = 2022
+url = "https://plato.stanford.edu/entries/mill-moral-political/"
+rights = "Copyright 2022 David Brink; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."macleod-sep-2016"]
+author = "Christopher Macleod"
+title = "John Stuart Mill"
+edition = "Stanford Encyclopedia of Philosophy, first published 25 August 2016. Cited by top-level section number; 0 = the preamble (1 = Life, 4 = Mill's Practical Philosophy, including 4.1 the 'proof')."
+year = 2016
+url = "https://plato.stanford.edu/entries/mill/"
+rights = "Copyright 2016 Christopher Macleod; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."schefczyk-iep-mill"]
+author = "Michael Schefczyk (Karlsruhe Institute of Technology)"
+title = "John Stuart Mill: Ethics"
+edition = "Internet Encyclopedia of Philosophy. No publication date shown; year is the access year (retrieved 2026-10-01). Cited by section number (1 = Introductory Remarks, 5 = Rule or Act Utilitarianism?, 9 = Utility and Justice)."
+year = 2026
+url = "https://iep.utm.edu/mill-eth/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

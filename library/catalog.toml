@@ -681,6 +681,27 @@ rights = "US public domain: published before 1931"
 notes = "Chapter X, 'The Consciousness of Self', is the source for james-stream-of-thought."
 sha256 = "fb845d8bb07487d4cc6d14acd03104bf98cc22dcff8a877400b1534f36af37ae"
 
+[text."mill-on-liberty-1901-pg34901"]
+author = "John Stuart Mill"
+title = "On Liberty"
+edition = "London and Felling-on-Tyne: Walter Scott Publishing Co., with an introduction by W. L. Courtney dated 5 July 1901 (text first published 1859)"
+source = "Project Gutenberg #34901"
+format = "gutenberg"
+rights = "Public domain: author died 1873; this edition published before 1931"
+notes = "Courtney's introduction (lines 74-436) is a secondary span. Ch. I, the harm principle and individual sovereignty (808-829); the exclusion of children and 'backward states of society' (831-852); utility 'in the largest sense' (857-866). Ch. II, 'all mankind minus one' (1038-1042). Ch. III, 'automatons in human form' and 'not a machine ... but a tree' (2612-2628). Ch. V, no freedom to sell oneself as a slave (4252-4269)."
+secondary_spans = [[74, 436]]
+sha256 = "fad90451253e40190995748ed5d5b60b48b0881cd1a37fa705e471bc628b36ca"
+
+[text."mill-utilitarianism-1879-pg11224"]
+author = "John Stuart Mill"
+title = "Utilitarianism"
+edition = "Seventh edition, London: Longmans, Green, and Co., 1879 (first published in Fraser's Magazine, 1861; book 1863)"
+source = "Project Gutenberg #11224"
+format = "gutenberg"
+rights = "Public domain: author died 1873; published before 1931"
+notes = "Ch. II: the Greatest Happiness Principle (291-296); Socrates dissatisfied (398-410); competent judges (436-446); the standard secured to 'the whole sentient creation' (482-493); self-devotion and wasted sacrifice (666-678); impartiality, the golden rule, and education forming an 'indissoluble association' (680-709); the Nautical Almanack (940-958). Ch. IV, the proof (1397-1408). Ch. V: rights and security (2121-2135); Bentham's dictum (2436-2445); justice overruled to save a life (2470-2484)."
+sha256 = "2b2e413b8df7d42790546a6c636802f10da3ee472cc94a85d3e12204b6385241"
+
 [text."nietzsche-beyond-good-evil-zimmern-pg4363"]
 author = "Friedrich Nietzsche"
 title = "Beyond Good and Evil"

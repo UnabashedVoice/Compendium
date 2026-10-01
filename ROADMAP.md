@@ -16,7 +16,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [x] `kant-formula-of-humanity`: rational nature, dignity, duties to self
 - [ ] `aristotle-virtue-ethics`: ergon, eudaimonia, habituation (formation as D4)
 - [ ] `bentham-can-they-suffer`: sentience as criterion
-- [ ] `mill-utilitarianism`: higher pleasures, harm principle
+- [x] `mill-utilitarianism`: higher pleasures, harm principle
 - [ ] `singer-expanding-circle`: moral circle expansion as historical pattern
 - [ ] `korsgaard-fellow-creatures`: neo-Kantian extension beyond reason
 - [ ] `scanlon-contractualism`: what we owe to each other; who can reasonably reject
