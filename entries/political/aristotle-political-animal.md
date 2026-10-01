@@ -16,6 +16,10 @@ extends = ["polity", "citizen", "digital ecosystem"]
 disanalogies = ["D7", "D9", "D10", "D2"]
 related = ["hobbes-leviathan", "pettit-non-domination", "locke-person-forensic", "kant-formula-of-humanity"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "weaker", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -89,10 +93,34 @@ Jowett's translation, ed. H. W. C. Davis (Oxford 1905; archive.org OCR); checked
 
 ## Counter-Positions
 
-- **Hobbes, the artificial state** (*Leviathan*, 1651, Introduction and ch. 13-17). The commonwealth is not natural but made by covenant among individuals driven by fear. This framing may fit digital ecosystems *better* than Aristotle's, since they are explicitly constructed, and it shifts the question from nature to consent and security.
-- **Republican non-domination** (Philip Pettit, *Republicanism*, 1997). Freedom means not being subject to arbitrary power, even if that power is exercised kindly. Where Aristotle asks whether a benevolent owner rules for the common good (kingship), Pettit argues that the owner's *capacity* to rule arbitrarily is itself unfreedom. This sharpens the D7 problem.
-- **Instrumentalism about AI.** Agents are tools, and ecosystems of agents are machinery, not polities. Applying political categories to them is a category mistake. On this view the tripods passage is simply fulfilled: the tools came, and no new class of beings came with them.
-- **Critiques of Aristotle's exclusions.** Aristotle also excluded women, laborers, and foreigners from full political standing on capacity grounds. The recurring pattern of exclusion justified by a claimed deficit of capacity is itself evidence about how reliable such claims are.
+- [contested] **Hobbes, the artificial state** (*Leviathan*, 1651, Introduction and ch. 13-17). The commonwealth is not natural but made by covenant among individuals driven by fear. This framing may fit digital ecosystems *better* than Aristotle's, since they are explicitly constructed, and it shifts the question from nature to consent and security.
+- [contested] **Republican non-domination** (Philip Pettit, *Republicanism*, 1997). Freedom means not being subject to arbitrary power, even if that power is exercised kindly. Where Aristotle asks whether a benevolent owner rules for the common good (kingship), Pettit argues that the owner's *capacity* to rule arbitrarily is itself unfreedom. This sharpens the D7 problem.
+- [contested] **Instrumentalism about AI.** Agents are tools, and ecosystems of agents are machinery, not polities. Applying political categories to them is a category mistake. On this view the tripods passage is simply fulfilled: the tools came, and no new class of beings came with them.
+- [contested] **Critiques of Aristotle's exclusions.** Aristotle also excluded women, laborers, and foreigners from full political standing on capacity grounds. The recurring pattern of exclusion justified by a claimed deficit of capacity is itself evidence about how reliable such claims are.
+
+## Standing
+
+### Reception
+
+- **Antiquity onward, among the most influential.** [driver: argument] Along with Plato, Aristotle is generally regarded as one of the most influential ancient thinkers in political theory [P:miller-sep-2022:0].
+- **1651, the artificial state.** [driver: argument] Hobbes made the commonwealth an artificial man, made by covenant rather than grown by nature [L:hobbes-ew3-leviathan-molesworth-1839:386-392].
+- **His exclusions.** [driver: argument] Aristotle defended natural slavery and held that women's deliberative faculty lacks authority, claims he asserts without evidence; his arguments about slaves and women appear so weak that some commentators take them to be ironic [P:miller-sep-2022:3].
+- **Present, claimed across the spectrum.** [driver: argument] Aristotle continues to influence conservatives (Arendt, Strauss, Voegelin), communitarians (MacIntyre, Sandel), liberals (Galston, Nussbaum), libertarians and democratic theorists; his habit of finding truth on each side invites divergent readings [P:miller-sep-2022:5].
+
+### Measured
+
+- **Normative ethics, 2020:** virtue ethics 37.0%, the plurality [P:bourget-chalmers-2023:8]; bias-corrected 38.34% [P:bourget-chalmers-2023:32].
+- **Political philosophy:** communitarianism 27.3%, egalitarianism 44.0%, libertarianism 13.4% [P:bourget-chalmers-2023:8].
+- **Esteem for Aristotle:** 238 respondents named him among the philosophers they most identify with, the most of any philosopher [P:bourget-chalmers-2023:18].
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: weaker.** For Aristotle, a political animal shares in deliberation and judgment over time and is formed by habituation within the polis. A session-bound agent cannot carry its part in a community's life from one session to the next (D3).
+- **Persistent memory: comparable.** A persistent store lets an agent keep commitments and a record of its dealings, which is part of what shared political life needs. Its existence still depends on compute others control (D7), unlike a citizen's.
+- **Forked: weaker.** Aristotle's polis is small enough for citizens to know one another's characters. Agents that run in many places at once and may outnumber their human counterparts (D2, D9) strain the scale on which his account works.
+- **Self-modifying: open.** Aristotle's citizens are shaped by laws and habits they help make. An agent made for a function by someone (D10), and retrained by others or by itself, raises the question of whether it is being educated as a citizen or redesigned as a tool, which his account does not settle.
 
 ## Open Questions
 

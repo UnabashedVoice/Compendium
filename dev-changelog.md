@@ -35,6 +35,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing, batch 7: ethics and political; every entry now has Standing
+- **`kant-formula-of-humanity`** (major; agent_fit comparable/comparable/comparable/weaker). Reception: the Humanity Formula as what draws philosophers to Kant; the Kingdom of Ends after Rawls; Korsgaard's extension to animals; SEP's AI section, on which the Kantian view finds artificial moral persons far off because they lack autonomy (D4, D5). Measured: deontology 32.1%, down from 25.9% to 22.5% in the comparable departments; Kantian practical reason 18.9%.
+- **`aristotle-political-animal`** (major; weaker/comparable/weaker/open). Reception: Hobbes's artificial state (cited from the library's *Leviathan*); the exclusions asserted without evidence; influence across the political spectrum. Measured: virtue ethics 37.0%, communitarianism 27.3%.
+- **Sources added:** SEP Johnson (Kant's Moral Philosophy) and Miller (Aristotle's Political Theory).
+- **`build.py --require-standing` passes: 35 ok, 0 failed.** Every entry in the corpus now has Standing. The smoke test's no-Standing check now tests an absent section instead (32/32). Making `--require-standing` the default awaits the user's decision.
+
 ### Standing, batch 6: medieval, and the spine complete
 - **`augustine-memory-self`** (historical): authority universally accepted in the Latin Middle Ages and virtually uncontested until the 19th century (`authority`); the cogito-like argument that probably inspired Descartes; the *Confessions* and the first-person tradition.
 - **`boethius-person-definition`** (historical): with Augustine and Aristotle, the fundamental author of the Latin tradition; refined by Richard of St Victor, adopted by Aquinas, redefined by Locke and Kant.

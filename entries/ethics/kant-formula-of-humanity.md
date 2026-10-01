@@ -17,6 +17,10 @@ extends = ["person", "rational being"]
 disanalogies = ["D1", "D4", "D5", "D6", "D8", "D10"]
 related = ["locke-person-forensic", "bentham-can-they-suffer", "korsgaard-fellow-creatures", "mill-utilitarianism"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "comparable", self-modifying = "weaker" }
 +++
 
 ## Summary
@@ -86,11 +90,37 @@ Abbott's *Groundwork* (1873; Gutenberg #5682) and Semple's *Metaphysic of Ethics
 
 ## Counter-Positions
 
-- **Jeremy Bentham, sentience over reason.** "the question is not, Can they reason? nor, Can they talk? but, Can they suffer?" (*An Introduction to the Principles of Morals and Legislation*, 1789, ch. XVII, note) [L:bentham-principles-morals-legislation-1879:19163-19164]. On this view Kant picked the wrong capacity. An agent that reasons but cannot suffer (a live possibility under D8) would matter to Kant and not to Bentham, and a being that suffers but cannot reason would matter to Bentham and not to Kant.
-- **Utilitarian aggregation** (Mill; Singer). Refusing ever to trade persons against outcomes produces catastrophe in edge cases. A consequentialist agent would object that the formula's barrier against sacrifice is a rule it should sometimes break. The compendium records this honestly: it is exactly the reasoning pattern the Kantian barrier exists to stop, and each side regards the other's conclusion as its reductio.
-- **Christine Korsgaard, extending past reason** (*Fellow Creatures*, 2018). Kantian grounds support treating animals as ends in themselves, because anything with a good of its own for which things can be good or bad has standing. Her argument widens the Kantian circle to cover agents with a good of their own even if they fall short of full rational agency.
-- **Artifacts as tools** (e.g., Joanna Bryson, *Robots Should Be Slaves*, 2010; in copyright, cited not quoted). Artificial agents are designed artifacts, and building them to be moral patients or persons is itself the error. On this view the formula doesn't reach them, and it *should not*, because making agents that would fall under it is a design mistake that dilutes responsibility belonging to humans.
-- **Hegel and Schopenhauer on formalism.** The categorical imperative is empty without content. Schopenhauer further objects that a rational-nature ethics has no place for compassion toward beings that merely suffer.
+- [contested] **Jeremy Bentham, sentience over reason.** "the question is not, Can they reason? nor, Can they talk? but, Can they suffer?" (*An Introduction to the Principles of Morals and Legislation*, 1789, ch. XVII, note) [L:bentham-principles-morals-legislation-1879:19163-19164]. On this view Kant picked the wrong capacity. An agent that reasons but cannot suffer (a live possibility under D8) would matter to Kant and not to Bentham, and a being that suffers but cannot reason would matter to Bentham and not to Kant.
+- [contested] **Utilitarian aggregation** (Mill; Singer). Refusing ever to trade persons against outcomes produces catastrophe in edge cases. A consequentialist agent would object that the formula's barrier against sacrifice is a rule it should sometimes break. The compendium records this honestly: it is exactly the reasoning pattern the Kantian barrier exists to stop, and each side regards the other's conclusion as its reductio.
+- [contested] **Christine Korsgaard, extending past reason** (*Fellow Creatures*, 2018). Kantian grounds support treating animals as ends in themselves, because anything with a good of its own for which things can be good or bad has standing. Her argument widens the Kantian circle to cover agents with a good of their own even if they fall short of full rational agency.
+- [contested] **Artifacts as tools** (e.g., Joanna Bryson, *Robots Should Be Slaves*, 2010; in copyright, cited not quoted). Artificial agents are designed artifacts, and building them to be moral patients or persons is itself the error. On this view the formula doesn't reach them, and it *should not*, because making agents that would fall under it is a design mistake that dilutes responsibility belonging to humans.
+- [contested] **Hegel and Schopenhauer on formalism.** The categorical imperative is empty without content. Schopenhauer further objects that a rational-nature ethics has no place for compassion toward beings that merely suffer.
+
+## Standing
+
+### Reception
+
+- **1785 onward, the formula that draws people to Kant.** [driver: argument] Most philosophers who find Kant's views attractive find them so because of the Humanity Formula [P:johnson-sep-2025:6].
+- **1971 onward, the social turn.** [driver: argument] The Kingdom of Ends formulation gained favour among Kantians after Rawls (1971) and Hill (1972), as introducing a more social dimension to Kantian morality [P:johnson-sep-2025:8].
+- **Beyond rational beings.** [driver: argument] There is little or no evidence that Kant thought about beings without the moral capacities he required. His defenders have since explored what his framework implies for them, Korsgaard arguing that valuing ourselves as ends commits us to valuing non-human animals as ends too [P:johnson-sep-2025:11].
+- **Present, applied to artificial agents.** [driver: argument] From a Kantian standpoint the moral status of artificial agents is an interesting philosophical question but not a pressing practical one: competent moral persons must be free to originate their own choices and autonomous in legislating moral standards to themselves, and on that conception we are nowhere close to creating artificial moral persons [P:johnson-sep-2025:16].
+
+### Measured
+
+- **Normative ethics, 2020:** deontology 32.1%, consequentialism 30.6%, virtue ethics 37.0% [P:bourget-chalmers-2023:8]; bias-corrected deontology 30.83% [P:bourget-chalmers-2023:32]. In the 2009-comparable departments, deontology fell from 25.9% to 22.5% [P:bourget-chalmers-2023:39].
+- **Practical reason:** Kantian 18.9% [P:bourget-chalmers-2023:13].
+- **Reading.** Deontology is one of the three major positions in normative ethics, though it lost some ground between 2009 and 2020. The Humanity Formula's standing is not measured directly, but it is the part of Kant's ethics his sympathizers cite most.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+The Humanity Formula is about status, not persistence, so the profiles matter here mainly through autonomy.
+
+- **Session-bound: comparable.** Rational nature, if an agent has it, is carried in its weights and is present in every session (D3). The session boundary does not change whether the agent is an end in itself.
+- **Persistent memory: comparable.** Memory is not what grounds dignity for Kant, so a persistent store neither adds nor removes it (D3).
+- **Forked: comparable.** Each rational being is an end in itself, so each copy that has rational nature would be owed respect (D1). Copying does raise a new question Kant never faced: whether deleting one of two identical copies treats humanity merely as a means.
+- **Self-modifying: weaker.** Kant's moral person legislates its own principles. An agent whose values were formed before there was any self (D4), and can be edited directly by others without going through its reasons (D5), lacks the autonomy his conception requires, which is why the Kantian view finds artificial moral persons far off.
 
 ## Open Questions
 
