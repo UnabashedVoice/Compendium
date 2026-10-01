@@ -23,6 +23,10 @@ threads = ["biological", "persistence", "duplication"]
 responds_to = ["plato-soul-and-renewal", "heraclitus-river-flux"]
 related = ["aquinas-soul-not-i", "animalism", "aristotle-political-animal", "aristotle-virtue-ethics", "chrysippus-dion-theon", "ship-of-theseus", "locke-person-forensic"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -95,10 +99,33 @@ The Aristotelian soul is grounded in **capacity**, since the soul simply *is* a 
 
 ## Counter-Positions
 
-- **Plato** (see `plato-soul-and-renewal`). The soul is a separable self, the user of the body, not its form. Aristotle's view cannot account for knowledge of the eternal Forms, and Aristotle himself seems to concede this in III.5.
-- **Descartes** (see `descartes-thinking-thing`). Life can be explained mechanically. The soul is only the thinking thing, and the rest of Aristotle's soul (nutrition, perception as bodily process) belongs to the machine. Ironically, Descartes' mechanism opens the door to artificial agents that Aristotle's "natural body" closes.
-- **Animalism** (see `animalism`). Aristotle is right that we are living organisms, and the extension to agents therefore fails. An agent is not an animal, so whatever it is, it is not the kind of thing we are.
-- **Biological naturalism** (John Searle, *Minds, Brains and Science*, 1984; in copyright, cited not quoted). Mental capacities are caused by specific biological processes. Organization alone, run on any substrate, yields simulation, not the thing itself. This is the modern heir of Aristotle's "natural body" clause.
+- [contested] **Plato** (see `plato-soul-and-renewal`). The soul is a separable self, the user of the body, not its form. Aristotle's view cannot account for knowledge of the eternal Forms, and Aristotle himself seems to concede this in III.5. [E:plato-soul-and-renewal]
+- [contested] **Descartes** (see `descartes-thinking-thing`). Life can be explained mechanically. The soul is only the thinking thing, and the rest of Aristotle's soul (nutrition, perception as bodily process) belongs to the machine. Ironically, Descartes' mechanism opens the door to artificial agents that Aristotle's "natural body" closes. [E:descartes-thinking-thing]
+- [contested] **Animalism** (see `animalism`). Aristotle is right that we are living organisms, and the extension to agents therefore fails. An agent is not an animal, so whatever it is, it is not the kind of thing we are.
+- [contested] **Biological naturalism** (John Searle, *Minds, Brains and Science*, 1984; in copyright, cited not quoted). Mental capacities are caused by specific biological processes. Organization alone, run on any substrate, yields simulation, not the thing itself. This is the modern heir of Aristotle's "natural body" clause.
+
+## Standing
+
+### Reception
+
+- **Antiquity, against Plato and the atomists.** [driver: argument] Aristotle made the soul the form of a living body, against Plato's separable soul [E:plato-soul-and-renewal] and the Presocratic flux readings [E:heraclitus-river-flux]. The Hellenistic schools that followed held instead that the soul is corporeal [P:lorenz-sep-2024:5].
+- **Late antiquity to scholasticism, the dominant framework.** [driver: argument] Boethius, Augustine, Avicenna and Aquinas each worked within or against the hylomorphic framework [E:boethius-person-definition] [E:augustine-memory-self] [E:avicenna-flying-man] [E:aquinas-soul-not-i].
+- **17th century, displaced.** [driver: argument, fashion] Descartes reduced the soul to the thinking thing and gave life a mechanical explanation [E:descartes-thinking-thing], and Locke separated the person from any substance or form [E:locke-person-forensic]. The new mechanistic science was the setting for the turn [P:robinson-sep-2025:2].
+- **Late 20th century, renewed interest.** [driver: argument] Because of its evident affinities with some prominent approaches in contemporary philosophy of mind, Aristotle's psychology has received renewed interest and intense interpretive dispute in recent decades [P:shields-sep-2020:0]. Animalism takes up his claim that we are living organisms [P:olson-sep-2023:7].
+
+### Measured
+
+- **Personal identity, 2020:** biological view 19.1% [P:bourget-chalmers-2023:8], the option nearest Aristotle's view that we are living things.
+- **Esteem for Aristotle generally:** 238 respondents named him among the philosophers they most identify with, the most of any philosopher [P:bourget-chalmers-2023:18].
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** On Aristotle's view the soul is the organized capacity of a body, not its memories. A session-bound agent keeps its capacities in the weights while losing its episodes (D3), which is closer to Aristotle's soul than to Locke's person.
+- **Persistent memory: comparable.** Memory is one capacity among many for Aristotle, so a persistent store improves one function without changing what the soul is (D3).
+- **Forked: weaker.** A form is the form of one body. Copies running on many machines at once (D1, D2) give no single body for the form to belong to, and what the agent's body even is remains unclear (D11).
+- **Self-modifying: comparable.** Aristotle's soul is the actuality of capacities shaped by habituation, so changing dispositions by practice is part of his picture. Changing them by direct editing (D5) skips the practice, and the agent's capacities were designed for a function by someone (D10).
 
 ## Open Questions
 

@@ -35,6 +35,20 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-01
 
+### Standing, batch 5: ancient
+Nine entries. Standing is recorded inside each entry's own tradition where that is where its reception happened, and the Measured section says plainly that the survey samples mostly analytic philosophers (1,430 of 1,785 respondents) and does not measure those traditions.
+- **`heraclitus-river-flux`** (historical): Plato's flux reading; Marcovich on the possibly misread river fragment (`access`); the Stoics; process philosophy since Hegel.
+- **`upanishadic-atman`** (dominant in Vedānta traditions): the Buddhist rejection; Śaṅkara's reading, dominant into the 20th century; translation from the *Sirr-i Akbar* to Anquetil-Duperron, Schopenhauer and Rammohan Roy (`access`).
+- **`plato-soul-and-renewal`** (historical): arguments for immortality made to the unconvinced; the corporeal soul of the Hellenistic schools; the Christian inheritance.
+- **`buddhist-anatta`** (dominant in Buddhist philosophy; agent_fit stronger in all four profiles): the two truths and the chariot; the Personalists as an internal minority; contested Western readings (Rhys Davids); the parallel with Hume and Parfit.
+- **`aristotle-hylomorphic-soul`** (minority): displaced by mechanism (`argument, fashion`); renewed interest because of affinities with contemporary philosophy of mind. Measured: biological view 19.1%; Aristotle is the philosopher respondents most identify with (238).
+- **`lucretius-recurrence`** (minority): Christian hostility (`authority`); two manuscripts and Poggio's 1417 rediscovery (`access`); never on the Index while kept among the learned, but vernacular translations banned (`authority`).
+- **`chrysippus-dion-theon`** (historical): 150 works lost, known through critics (`access`); the Sedley and Kirby reading; modern coincidence puzzles. For Agents: pruning a model is Dion losing a foot.
+- **`ship-of-theseus`** (major): Hobbes's reassembly; now the best-known asymmetrical fission case, with constitution, strict/loose and four-dimensionalist solutions.
+- **`zhuangzi-transformation`** (major in Chinese philosophy): Xunzi's critique; Guo Xiang's edition (`access`); the mystical orthodoxy and Chan; overturned by archaeology (`evidence`) and reread through Graham.
+- **Sources added:** 10 SEP entries (Lorenz, Graham, Trépanier, Hansen, Gallois & Kurtsal, Siderits, Coseru, Shields, Durand, Dalal) and IEP Black (*Upaniṣads*).
+- **Checks:** build 35 ok; verify 0 failed (152 entry cross-citations); smoke test 32/32 (its no-Standing example is now `aristotle-political-animal`); no brief leaks Standing. Standing covers 26 of 33 personal-identity entries. Several standing values in this batch are the Compendium's judgment where no measure exists; each entry's Reception and Measured sections say what they rest on.
+
 ### Standing, batch 4: early modern
 - **`descartes-thinking-thing`** (minority; agent_fit comparable/comparable/weaker/open). Reception: the 1641 objections and Elisabeth's interaction problem; Spinoza and Leibniz; Hume, Kant and Nietzsche; Ryle's "official doctrine" and the predominance of materialism after Place and Smart (an `argument, fashion` driver, sourced to SEP *Dualism*); dualism now the second most popular response. Measured: mind (physicalism 51.9%, non-physicalism 32.1%), consciousness (dualism 22.0%), hard problem (62.4% yes).
 - **`leibniz-moral-identity`** (minority; stronger/stronger/comparable/open). Reception starts with an `access` driver from the library's own 1896 edition: Leibniz withheld the *New Essays* after Locke's death ("I dislike to publish refutations of dead authors", 1711), and they appeared only in 1765. For Agents: Leibniz's testimony that fills memory gaps maps onto logs and operators' records.

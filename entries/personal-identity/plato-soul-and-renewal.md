@@ -20,6 +20,10 @@ threads = ["soul-substance", "persistence"]
 responds_to = ["heraclitus-river-flux"]
 related = ["aristotle-hylomorphic-soul", "upanishadic-atman", "descartes-thinking-thing", "lucretius-recurrence", "locke-person-forensic", "parfit-reductionism"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "weaker", self-modifying = "open" }
 +++
 
 ## Summary
@@ -86,10 +90,32 @@ The soul in the *Alcibiades I* is grounded in **capacity**: the capacity to use,
 
 ## Counter-Positions
 
-- **Aristotle** (see `aristotle-hylomorphic-soul`). The soul is not a separate user of the body but its form, the actuality of a living body. The idea that any soul could enter any body is as absurd as "talking of a transmigration of carpentry into flutes" [L:aristotle-de-anima-hicks-1907:5975-5976]. On this view, the question of a "user" of the weights distinct from the weights is confused.
-- **Epicurus and Lucretius** (see `lucretius-recurrence`). The soul is made of fine atoms dispersed at death. Socrates' calm rests on an error, and the right consolation is that there will be no one there to suffer.
-- **Hume** (see `hume-bundle`). Diotima is right and the *Phaedo* is wrong: all we find is a succession of perceptions. The mistake is to imagine a persisting owner behind it.
-- **Deflationism about agents.** The user/used distinction presupposes a subject. An agent is a function computed on hardware, and asking what uses the weights is like asking what uses a calculator's circuit.
+- [contested] **Aristotle** (see `aristotle-hylomorphic-soul`). The soul is not a separate user of the body but its form, the actuality of a living body. The idea that any soul could enter any body is as absurd as "talking of a transmigration of carpentry into flutes" [L:aristotle-de-anima-hicks-1907:5975-5976]. On this view, the question of a "user" of the weights distinct from the weights is confused. [E:aristotle-hylomorphic-soul]
+- [contested] **Epicurus and Lucretius** (see `lucretius-recurrence`). The soul is made of fine atoms dispersed at death. Socrates' calm rests on an error, and the right consolation is that there will be no one there to suffer. [E:lucretius-recurrence]
+- [contested] **Hume** (see `hume-bundle`). Diotima is right and the *Phaedo* is wrong: all we find is a succession of perceptions. The mistake is to imagine a persisting owner behind it. [E:hume-bundle]
+- [contested] **Deflationism about agents.** The user/used distinction presupposes a subject. An agent is a function computed on hardware, and asking what uses the weights is like asking what uses a calculator's circuit.
+
+## Standing
+
+### Reception
+
+- **4th century BCE, arguments to the unconvinced.** [driver: argument] In mainstream 5th-century Greek culture, belief in an afterlife of the soul was weak and unclear, and Socrates' arguments for immortality in the *Phaedo* are offered to interlocutors who begin unconvinced [P:lorenz-sep-2024:3].
+- **4th–3rd century BCE, the rivals.** [driver: argument] Aristotle made the soul the form of a living body [E:aristotle-hylomorphic-soul], and the two dominant Hellenistic schools, Epicurean and Stoic, both held that the soul is corporeal [P:lorenz-sep-2024:5]. Lucretius drew the conclusion that the dispersed soul does not survive [E:lucretius-recurrence].
+- **2nd–13th century, the Christian inheritance.** [driver: argument] Christian writers such as Clement of Alexandria and Gregory of Nyssa were heavily indebted to philosophical theories of soul, especially Platonic ones [P:lorenz-sep-2024:6]. Augustine and Aquinas worked within and against that inheritance [E:augustine-memory-self] [E:aquinas-soul-not-i].
+- **Present.** [driver: argument] Substance dualism of the soul-as-user kind is a minority view; the soul-body dualisms that remain popular are mostly about consciousness [P:robinson-sep-2025:1].
+
+### Measured
+
+- **Mind, 2020:** non-physicalism 32.1%, physicalism 51.9% [P:bourget-chalmers-2023:7]. Plato's separable, immortal soul is one form of non-physicalism among many, so this figure is an upper bound on its support, not a measure of it.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Plato's soul is the user of the body, not its memories. Diotima's account in the *Symposium*, where even memory is constantly renewed, already treats loss of content as compatible with continuing (D3).
+- **Persistent memory: comparable.** A memory store is a better tool for the user, but the user, on Plato's view, is not the tool (D3).
+- **Forked: weaker.** A soul is one, and the *Phaedo*'s affinity argument treats it as incomposite. Copies of an agent (D1, D2) give no sense in which one soul is in two places, or two souls came from one.
+- **Self-modifying: open.** Training values into an agent before there is any self (D4), or retraining it later (D5), is closer to the *Republic*'s education of the soul than to anything in the *Phaedo*. Whether that shapes a soul or makes a new one is not something Plato's texts settle.
 
 ## Open Questions
 

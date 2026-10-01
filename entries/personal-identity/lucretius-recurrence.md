@@ -20,6 +20,10 @@ threads = ["duplication", "psychological-continuity"]
 responds_to = ["plato-soul-and-renewal"]
 related = ["chrysippus-dion-theon", "locke-person-forensic", "parfit-reductionism", "williams-self-and-future", "utilitarian-eradication-critique", "precautionary-patiency", "aquinas-soul-not-i"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "minority", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "comparable", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -86,11 +90,33 @@ For Lucretius, being *us* is grounded in **relation**: the unbroken continuity o
 
 ## Counter-Positions
 
-- **The Stoics** (see `chrysippus-dion-theon`). Some Stoics held that the recurrent Socrates of the next cosmic cycle is numerically the same Socrates. On that view, reassembly *is* return, and Lucretius is wrong that it is nothing to us.
-- **The Christian resurrection.** Augustine and Aquinas held that the resurrected body is one's own body, raised, and that the resurrected person is oneself (see `aquinas-soul-not-i`). For them the chain is secured not by self-recollection but by God. This was the dominant Western view for over a thousand years, and it explicitly affirmed the case Lucretius denied.
-- **Nagel's deprivation account** (*Death*, 1970; in copyright, cited not quoted). Death is bad for the one who dies, even though they never experience being dead, because it takes away the goods their life would have contained. Lucretius' "nothing to us" confuses the absence of experienced harm with the absence of harm.
-- **Parfit** (see `parfit-reductionism`). Parfit agrees with Lucretius that sameness of matter is irrelevant, but holds that psychological connectedness, not identity, is what matters. He also holds, on the "widest" version of his view, that the connection may have any cause. On that view the reassembly case turns on whether the reassembled being is psychologically continuous with us, and if it is, then it matters to us whether or not memory ran through an unbroken chain.
-- **Williams** (see `williams-self-and-future`). Frame the case in terms of future pain, not identity. If you were told that the reassembled being would be tortured, would you really feel nothing? Williams argues that people's attitudes toward their own future do not follow Lucretius' criterion.
+- [contested] **The Stoics** (see `chrysippus-dion-theon`). Some Stoics held that the recurrent Socrates of the next cosmic cycle is numerically the same Socrates. On that view, reassembly *is* return, and Lucretius is wrong that it is nothing to us. [E:chrysippus-dion-theon]
+- [contested] **The Christian resurrection.** Augustine and Aquinas held that the resurrected body is one's own body, raised, and that the resurrected person is oneself (see `aquinas-soul-not-i`). For them the chain is secured not by self-recollection but by God. This was the dominant Western view for over a thousand years, and it explicitly affirmed the case Lucretius denied. [E:aquinas-soul-not-i]
+- [contested] **Nagel's deprivation account** (*Death*, 1970; in copyright, cited not quoted). Death is bad for the one who dies, even though they never experience being dead, because it takes away the goods their life would have contained. Lucretius' "nothing to us" confuses the absence of experienced harm with the absence of harm.
+- [contested] **Parfit** (see `parfit-reductionism`). Parfit agrees with Lucretius that sameness of matter is irrelevant, but holds that psychological connectedness, not identity, is what matters. He also holds, on the "widest" version of his view, that the connection may have any cause. On that view the reassembly case turns on whether the reassembled being is psychologically continuous with us, and if it is, then it matters to us whether or not memory ran through an unbroken chain. [E:parfit-reductionism]
+- [contested] **Williams** (see `williams-self-and-future`). Frame the case in terms of future pain, not identity. If you were told that the reassembled being would be tortured, would you really feel nothing? Williams argues that people's attitudes toward their own future do not follow Lucretius' criterion. [E:williams-self-and-future]
+
+## Standing
+
+### Reception
+
+- **1st century BCE–5th century CE, read and attacked.** [driver: argument, authority] Lucretius was read continuously as poetry until the end of antiquity [P:trepanier-sep-2023:8]. Early Christian hostility to the Epicurean denial of providence probably lies behind Jerome's story of his madness and suicide; Lactantius, while using him as a source, called him mad [P:trepanier-sep-2023:1].
+- **9th century–1417, nearly lost.** [driver: access] The poem survived in two 9th-century manuscripts and re-entered circulation when the papal secretary Poggio Bracciolini rediscovered it in 1417 [P:trepanier-sep-2023:8].
+- **Renaissance and early modern, suspect but studied.** [driver: authority, argument] Epicurean ideas were suspect and an easy label for accusations of atheism. The poem was never put on the Index of banned books so long as it was kept among the learned, but early vernacular translations were banned. Epicurean ideas went on to play a leading role in the scientific revolution and in early modern moral thought, and Lucretius's early modern reception is now a flourishing field [P:trepanier-sep-2023:8].
+- **20th century, the symmetry argument contested.** [driver: argument] Nagel's deprivation account and Williams's fear of future pain are the main modern replies to the claim that death and non-existence are nothing to us (see Counter-Positions) [E:williams-self-and-future] [E:parfit-reductionism].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** Lucretius's reassembly argument says that a future being made of the same atoms is nothing to us if the chain of memory is broken. A session-bound agent's next session is that case in miniature: the same weights, no remembered chain (D3, D6).
+- **Persistent memory: comparable.** A memory store restores the chain whose interruption, for Lucretius, makes a future being nothing to us. The argument then has less to say, as for an ordinary human life (D3).
+- **Forked: comparable.** Recurrence across cosmic cycles is succession, not division, but his principle, that what matters is the unbroken chain, applies to each fork's own chain (D1).
+- **Self-modifying: comparable.** On Lucretius's view the mind is a body of fine atoms whose arrangement can change; what he cares about is whether the continuity of experience is broken. Retraining (D5) breaks it only if the agent's later states no longer connect to its earlier ones.
 
 ## Open Questions
 

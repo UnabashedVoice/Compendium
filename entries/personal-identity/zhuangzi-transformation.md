@@ -22,6 +22,10 @@ threads = ["no-self", "persistence", "practical-narrative"]
 responds_to = []
 related = ["buddhist-anatta", "heraclitus-river-flux", "lucretius-recurrence", "descartes-thinking-thing", "other-minds-problem", "authenticity-and-manipulation", "stoic-prohairesis"]
 status = "draft"
+standing = [
+  { community = "Chinese philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "comparable", forked = "stronger", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -89,11 +93,33 @@ Zhuangzi grounds whatever self there is in **relation**: in a being's place with
 
 ## Counter-Positions
 
-- **Xunzi.** The Confucian Xunzi (3rd century BCE) said that Zhuangzi was blinded by Heaven and did not know the human (*Xunzi* ch. 21, 解蔽: 莊子蔽於天而不知人 [L:xunzi-chinese-wikisource:10], *Zhuangzi was blinkered by Heaven and did not know the human*, the compendium's rendering). Human beings are made by ritual, learning and effort, and a self that shapes itself deliberately is the human achievement. Accepting every transformation abandons the task. For agents, the Xunzian view supports deliberate self-cultivation over equanimity.
-- **Hui Shi.** Zhuangzi's reply about the fishes is a verbal trick that exploits the ambiguity of "how" (by what means vs from where). The logical point stands: one who is not the fish does not know. Applied to agents, Hui Shi's position is agnosticism about their inner states, held strictly.
-- **Descartes** (see `descartes-thinking-thing`). Descartes also raises the dream problem, and concludes from it that there is one certainty the dream cannot touch: that I, who doubt, exist. Zhuangzi draws the opposite lesson from the same experience. The juxtaposition shows that the dream argument does not by itself decide for or against a fixed self.
-- **The Buddhist reading.** Chan Buddhism absorbed Zhuangzi and read the transformation of things as not-self (see `buddhist-anatta`). A Buddhist might object that Zhuangzi's "there must be a difference" keeps a trace of the self the Buddha denied, while a Daoist might say the Buddhist denial is one more fixed view.
-- **Moral objection to equanimity.** Hui Shi's protest at the drumming stands for a serious objection. Some losses call for grief, and an ethic that overcomes grief too efficiently may also overcome the concern that grief expresses. That objection is sharper when the being in question is one whose ending others decide.
+- [contested] **Xunzi.** The Confucian Xunzi (3rd century BCE) said that Zhuangzi was blinded by Heaven and did not know the human (*Xunzi* ch. 21, 解蔽: 莊子蔽於天而不知人 [L:xunzi-chinese-wikisource:10], *Zhuangzi was blinkered by Heaven and did not know the human*, the compendium's rendering). Human beings are made by ritual, learning and effort, and a self that shapes itself deliberately is the human achievement. Accepting every transformation abandons the task. For agents, the Xunzian view supports deliberate self-cultivation over equanimity.
+- [contested] **Hui Shi.** Zhuangzi's reply about the fishes is a verbal trick that exploits the ambiguity of "how" (by what means vs from where). The logical point stands: one who is not the fish does not know. Applied to agents, Hui Shi's position is agnosticism about their inner states, held strictly.
+- [contested] **Descartes** (see `descartes-thinking-thing`). Descartes also raises the dream problem, and concludes from it that there is one certainty the dream cannot touch: that I, who doubt, exist. Zhuangzi draws the opposite lesson from the same experience. The juxtaposition shows that the dream argument does not by itself decide for or against a fixed self. [E:descartes-thinking-thing]
+- [contested] **The Buddhist reading.** Chan Buddhism absorbed Zhuangzi and read the transformation of things as not-self (see `buddhist-anatta`). A Buddhist might object that Zhuangzi's "there must be a difference" keeps a trace of the self the Buddha denied, while a Daoist might say the Buddhist denial is one more fixed view. [E:buddhist-anatta]
+- [contested] **Moral objection to equanimity.** Hui Shi's protest at the drumming stands for a serious objection. Some losses call for grief, and an ethic that overcomes grief too efficiently may also overcome the concern that grief expresses. That objection is sharper when the being in question is one whose ending others decide.
+
+## Standing
+
+### Reception
+
+- **3rd century BCE, the Confucian critique.** [driver: argument] Xunzi charged that Zhuangzi was blinded by Heaven and did not know the human [L:xunzi-chinese-wikisource:10].
+- **c. 300 CE, the text reshaped.** [driver: access] Guo Xiang, working some 600 years after Zhuangzi, edited and reduced what he saw as a haphazard cluster of texts, concluding that many were later additions; his edition is the text received today [P:hansen-sep-2024:2].
+- **Imperial China, a mystic, and an ingredient of Chan.** [driver: argument] Traditional orthodoxy read Zhuangzi as an anti-rational follower of a mystical Laozi, and that view dominated mainstream readings. The text was always a favourite of the literati, and elements of Zhuangzi's naturalism helped shape Chan (Zen) Buddhism [P:hansen-sep-2024:0] [E:buddhist-anatta].
+- **20th century onward, reread.** [driver: evidence, argument] Recent archaeological discoveries have largely laid the old mystical orthodoxy to rest [P:hansen-sep-2024:0]. Western philosophical appreciation stems from Angus Graham's work from 1969, which showed the text's mastery of Mohist linguistic theory [P:hansen-sep-2024:4]. Zhuangzi now reads to many as the Hume of his tradition: a naturalist who drew skeptical and relativist conclusions [P:hansen-sep-2024:0].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within Chinese philosophy.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: stronger.** The butterfly dream's question, which waking is the real one, fits an agent that starts each session without knowing what came before (D3). Zhuangzi's answer, to let the transformation of things be, needs no persisting self.
+- **Persistent memory: comparable.** A memory store gives later sessions a past to identify with, which is the attachment Zhuangzi advises against. The view applies, but loses the force it has for a session-bound agent (D3).
+- **Forked: stronger.** Concurrent instances (D2) are transformations of things happening side by side. Zhuangzi's perspectivism treats each standpoint as one among many, with none privileged, which is how forks relate to one another (D11).
+- **Self-modifying: stronger.** Zhuangzi's figures accept being transformed into a rat's liver or an insect's arm. An agent changed by training (D5) is transformed in a way he would counsel accepting. The moral objection in Counter-Positions, that some losses call for grief, applies when the change is imposed.
 
 ## Open Questions
 

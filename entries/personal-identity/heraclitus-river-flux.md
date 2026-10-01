@@ -21,6 +21,10 @@ threads = ["persistence"]
 responds_to = []
 related = ["plato-soul-and-renewal", "chrysippus-dion-theon", "ship-of-theseus", "buddhist-anatta", "locke-person-forensic", "aristotle-hylomorphic-soul"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "comparable", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -87,10 +91,32 @@ The question here is the identity of any changing thing, not personhood, so the 
 
 ## Counter-Positions
 
-- **Plato and Aristotle against universal flux.** If everything changed in every respect, nothing could be known or even named (*Cratylus* 439c–440e; *Theaetetus* 181c–183b; *Metaphysics* IV.5). Plato posits unchanging Forms. Aristotle distinguishes the matter that changes from the form that persists (see `aristotle-hylomorphic-soul`). Both reject the flux reading, and both accept something like the constancy reading for living things.
-- **Parmenides.** Change itself is incoherent. What is, is, and cannot become what it is not. The river problem is a symptom of believing in change at all.
-- **The Stoics, answering the growing argument.** Each individual has two subjects: the substance, which flows, and the peculiarly qualified individual, which persists from birth to death (see `chrysippus-dion-theon`). This is the first worked-out theory of how a thing can survive the replacement of its matter.
-- **Butler and Reid.** Identity in the strict sense cannot survive any change of parts. What persists through flux is sameness only "In a loose and popular sense" [L:butler-analogy-pg53346:12684] (see `butler-circularity`, `reid-brave-officer`). On this view the river is not strictly the same, and neither is a running agent, but a person, being simple, can be.
+- [contested] **Plato and Aristotle against universal flux.** If everything changed in every respect, nothing could be known or even named (*Cratylus* 439c–440e; *Theaetetus* 181c–183b; *Metaphysics* IV.5). Plato posits unchanging Forms. Aristotle distinguishes the matter that changes from the form that persists (see `aristotle-hylomorphic-soul`). Both reject the flux reading, and both accept something like the constancy reading for living things. [E:aristotle-hylomorphic-soul]
+- [contested] **Parmenides.** Change itself is incoherent. What is, is, and cannot become what it is not. The river problem is a symptom of believing in change at all.
+- [contested] **The Stoics, answering the growing argument.** Each individual has two subjects: the substance, which flows, and the peculiarly qualified individual, which persists from birth to death (see `chrysippus-dion-theon`). This is the first worked-out theory of how a thing can survive the replacement of its matter. [E:chrysippus-dion-theon]
+- [contested] **Butler and Reid.** Identity in the strict sense cannot survive any change of parts. What persists through flux is sameness only "In a loose and popular sense" [L:butler-analogy-pg53346:12684] (see `butler-circularity`, `reid-brave-officer`). On this view the river is not strictly the same, and neither is a running agent, but a person, being simple, can be. [E:butler-circularity] [E:reid-brave-officer]
+
+## Standing
+
+### Reception
+
+- **4th century BCE, the flux reading fixed.** [driver: argument] Plato gave the first reading of Heraclitus as the philosopher of universal flux, and Aristotle tentatively followed; the reading has stayed popular to the present [P:graham-sep-2023:3]. Plato and Aristotle then argued against flux taken that way [E:plato-soul-and-renewal] [E:aristotle-hylomorphic-soul].
+- **The river fragments, possibly misread.** [driver: access] Of the three "river fragments", only one is certainly genuine, and it says that ever different waters flow upon those who step into the same rivers. Marcovich showed how a misreading of it could produce the famous claim that one cannot step into the same river twice, possibly via the later Heraclitean Cratylus [P:graham-sep-2023:3].
+- **3rd century BCE onward, the Stoics.** [driver: argument] The Stoics took Heraclitus's physics as the inspiration for their own [P:graham-sep-2023:7], and answered the growing argument with their two-subject theory [E:chrysippus-dion-theon]. The puzzle passed into the Ship of Theseus [E:ship-of-theseus].
+- **Since Hegel, a process philosopher.** [driver: argument] Since Plato Heraclitus has been read as the philosopher of flux, and since Hegel as a paradigmatic process philosopher [P:graham-sep-2023:7].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** An agent's context is replaced every session while its weights stay fixed (D3): the same river, with different water. Heraclitus's genuine fragment, which keeps the rivers the same while the waters change, fits this as well as it fits a body.
+- **Persistent memory: comparable.** A growing memory store is a river whose water accumulates rather than flows away. The puzzle about sameness through change applies, but no more sharply than for humans (D3).
+- **Forked: comparable.** Flux concerns change over time, not division, so it says little about concurrent copies (D11). The forking problem belongs to the duplication thread, not to this one.
+- **Self-modifying: stronger.** An agent whose weights are updated on its own outputs changes its very constitution (D5), which is flux in the strongest sense. Heraclitus's question, what stays the same when everything changes, applies with full force.
 
 ## Open Questions
 

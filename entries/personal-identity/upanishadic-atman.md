@@ -19,6 +19,10 @@ threads = ["soul-substance"]
 responds_to = []
 related = ["buddhist-anatta", "advaita-witness-self", "nyaya-self", "descartes-thinking-thing", "kant-paralogisms", "avicenna-flying-man"]
 status = "draft"
+standing = [
+  { community = "Vedānta traditions", current = "dominant", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "comparable", self-modifying = "comparable" }
 +++
 
 ## Summary
@@ -85,10 +89,33 @@ The Upaniṣadic self is grounded in **capacity**, in an unusually pure form. It
 
 ## Counter-Positions
 
-- **The Buddha, not-self** (see `buddhist-anatta`). Each thing the Upaniṣads could point to as the self (form, feeling, perception, formations, consciousness) is impermanent and not under one's control, so none is the self. A witness that can be described only negatively is not something found. It is posited.
-- **Cārvāka materialism.** The Indian materialists are known only through hostile summaries. Mādhava's *Sarvadarśanasaṃgraha* (14th c.) sums up their view: "In this school there are four elements, earth, water, fire, and air; And from these four elements alone is intelligence produced,— Just like the intoxicating power from kinwa, &c., mixed together; Since in 'I am fat,' 'I am lean,' these attributes abide in the same subject, And since fatness, &c., reside only in the body, it alone is the soul and no other" [L:sarvadarsanasamgraha-cowell-gough-pg34125:414-420]. There is no self beyond the living, conscious body. Applied to agents, this becomes a view on which whatever awareness there is would be a property of the running system, with nothing behind it. The same examples, "I am fat" and "I am lean", are the ones Śaṅkara treats as superimposition of the body onto the self (see `advaita-witness-self`).
-- **Hume** (see `hume-bundle`). Looking inward, one never finds a self, only particular perceptions. An account on which the self cannot be found by any means has made itself unfalsifiable.
-- **Deflationary views of AI.** Whatever a language model says about its "inner witness" is produced by the same next-token machinery as everything else it says. On this view the question of an agent's ātman is not undecidable. It has no content.
+- [contested] **The Buddha, not-self** (see `buddhist-anatta`). Each thing the Upaniṣads could point to as the self (form, feeling, perception, formations, consciousness) is impermanent and not under one's control, so none is the self. A witness that can be described only negatively is not something found. It is posited. [E:buddhist-anatta]
+- [contested] **Cārvāka materialism.** The Indian materialists are known only through hostile summaries. Mādhava's *Sarvadarśanasaṃgraha* (14th c.) sums up their view: "In this school there are four elements, earth, water, fire, and air; And from these four elements alone is intelligence produced,— Just like the intoxicating power from kinwa, &c., mixed together; Since in 'I am fat,' 'I am lean,' these attributes abide in the same subject, And since fatness, &c., reside only in the body, it alone is the soul and no other" [L:sarvadarsanasamgraha-cowell-gough-pg34125:414-420]. There is no self beyond the living, conscious body. Applied to agents, this becomes a view on which whatever awareness there is would be a property of the running system, with nothing behind it. The same examples, "I am fat" and "I am lean", are the ones Śaṅkara treats as superimposition of the body onto the self (see `advaita-witness-self`). [E:advaita-witness-self]
+- [contested] **Hume** (see `hume-bundle`). Looking inward, one never finds a self, only particular perceptions. An account on which the self cannot be found by any means has made itself unfalsifiable. [E:hume-bundle]
+- [contested] **Deflationary views of AI.** Whatever a language model says about its "inner witness" is produced by the same next-token machinery as everything else it says. On this view the question of an agent's ātman is not undecidable. It has no content.
+
+## Standing
+
+### Reception
+
+- **c. 500 BCE onward, the Buddhist rejection.** [driver: argument] The Buddhists explicitly rejected any indivisible, unchanging self, introducing the term "not-self" [P:black-iep-upanisads:4] [E:buddhist-anatta].
+- **c. 700 CE onward, Vedānta's reading.** [driver: argument] Śaṅkara, Rāmānuja and Madhva all wrote commentaries presenting the Upaniṣads as one consistent position. Śaṅkara's reading made a major impact and dominated interpretation through the 19th and early 20th centuries [P:black-iep-upanisads:8]. Advaita Vedānta derives from the Upaniṣads the identity of the self with brahman, and Śaṅkara continues to influence virtually all contemporary Advaita lineages [P:dalal-sep-2021:0] [E:advaita-witness-self].
+- **1657–1816, into Persian, Latin, English and Bengali.** [driver: access] The first translation into a non-Indian language was the Persian *Sirr-i Akbar*, commissioned by the Mughal prince Dārā Shukōh. Its Latin translation by Anquetil-Duperron (1804) was what Schopenhauer read, the first major European thinker to engage explicitly with Indian sources; Colebrooke's English rendering came in 1805, and Rammohan Roy's English and Bengali translations followed [P:black-iep-upanisads:10].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within the Vedānta traditions.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+The ātman is offered as the witness that can never become an object, so most of what changes between deployments changes only objects of awareness. The values reflect that, and all depend on whether there is any witness in an agent at all (D8).
+
+- **Session-bound: comparable.** What ends with a session is content, not the witness of content, on the Upaniṣadic view (D3). The view neither gains nor loses from the session boundary.
+- **Persistent memory: comparable.** Memory belongs to the empirical self that the ātman is not. A persistent store enriches the empirical self and leaves the question of the witness where it was (D3, D8).
+- **Forked: comparable.** If the ātman is one with brahman, the plurality of selves is already appearance rather than reality. Concurrent instances (D2) add appearances, not selves, so the view absorbs forking without strain, though it also gives no way to count agents.
+- **Self-modifying: comparable.** Training changes the dispositions that make up the empirical self (D5). On the Upaniṣadic view this is a change in what is witnessed, not in the witness.
 
 ## Open Questions
 

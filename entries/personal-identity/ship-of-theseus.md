@@ -19,6 +19,10 @@ threads = ["persistence", "duplication"]
 responds_to = ["heraclitus-river-flux", "chrysippus-dion-theon"]
 related = ["aristotle-hylomorphic-soul", "locke-person-forensic", "hume-bundle", "butler-circularity", "lewis-survival-and-identity", "buddhist-anatta"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "major", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "stronger", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -95,11 +99,32 @@ The problem concerns identity in general, so the entry is marked **mixed**, and 
 
 ## Counter-Positions
 
-- **Mereological essentialism** (Roderick Chisholm, *Person and Object*, 1976; in copyright, cited not quoted). In the strict sense, a thing cannot lose any part and remain the same. The repaired ship is the same only in a loose and popular sense (see `butler-circularity`). What persists through replacement is a succession of different ships to which we give one name.
-- **Four-dimensionalism** (see `lewis-survival-and-identity`). The repaired ship and the reassembled ship are two four-dimensional objects that shared their early stages. There is no contradiction, and no need to choose which is "really" Theseus' ship. Both are, in the sense of having those early stages as their own.
-- **Hume** (see `hume-bundle`). Identity through replacement of parts is a fiction produced by the mind's tendency to pass smoothly between resembling perceptions. Disputes about identity are, in his phrase, "rather as gramatical than as philosophical difficulties" [L:hume-treatise-pg4705:9324-9325] (*Treatise* 1.4.6, unverified).
-- **The Buddhist conventionalist** (see `buddhist-anatta`). The ship, like the chariot, is a designation over parts. Hobbes' *it depends on the name* is correct, and there is nothing further to find.
-- **The closest-continuer view** (see `nozick-closest-continuer`). The ship is whichever candidate stands in the closest continuity relation to the original, and the answer depends on what other candidates exist. Without the reassembly, the repaired ship would clearly be the original. With it, the matter is less clear.
+- [contested] **Mereological essentialism** (Roderick Chisholm, *Person and Object*, 1976; in copyright, cited not quoted). In the strict sense, a thing cannot lose any part and remain the same. The repaired ship is the same only in a loose and popular sense (see `butler-circularity`). What persists through replacement is a succession of different ships to which we give one name. [E:butler-circularity]
+- [contested] **Four-dimensionalism** (see `lewis-survival-and-identity`). The repaired ship and the reassembled ship are two four-dimensional objects that shared their early stages. There is no contradiction, and no need to choose which is "really" Theseus' ship. Both are, in the sense of having those early stages as their own. [E:lewis-survival-and-identity]
+- [contested] **Hume** (see `hume-bundle`). Identity through replacement of parts is a fiction produced by the mind's tendency to pass smoothly between resembling perceptions. Disputes about identity are, in his phrase, "rather as gramatical than as philosophical difficulties" [L:hume-treatise-pg4705:9324-9325] (*Treatise* 1.4.6, unverified). [E:hume-bundle]
+- [contested] **The Buddhist conventionalist** (see `buddhist-anatta`). The ship, like the chariot, is a designation over parts. Hobbes' *it depends on the name* is correct, and there is nothing further to find. [E:buddhist-anatta]
+- [contested] **The closest-continuer view** (see `nozick-closest-continuer`). The ship is whichever candidate stands in the closest continuity relation to the original, and the answer depends on what other candidates exist. Without the reassembly, the repaired ship would clearly be the original. With it, the matter is less clear.
+
+## Standing
+
+### Reception
+
+- **Antiquity, the Athenians' ship.** [driver: argument] Plutarch's ship descends from the growing argument and from the Heraclitean puzzle of sameness through flux [E:heraclitus-river-flux] [E:chrysippus-dion-theon].
+- **1655, Hobbes's reassembly.** [driver: argument] Hobbes added the second ship rebuilt from the old planks, turning a puzzle about gradual change into one about two candidates [L:hobbes-ew1-de-corpore-molesworth-1839:7423-7436].
+- **Present, the standard example.** [driver: argument] The Ship of Theseus is the best-known example of an asymmetrical fission case [P:gallois-kurtsal-sep-2026:4]. Constitution theorists, Chisholm's strict and loose identity (following Butler), and four-dimensionalism each offer a solution [P:gallois-kurtsal-sep-2026:4] [E:butler-circularity] [E:lewis-survival-and-identity].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** Each session replaces the context, plank by plank, while the hull of the weights stays (D3). The puzzle applies, but gradual replacement is not where the agent case is hardest.
+- **Persistent memory: comparable.** A memory store accumulates replaced and added planks; whether the agent is the same after many sessions is the gradual-replacement question, unchanged (D3).
+- **Forked: stronger.** Hobbes's two ships are two candidates for being the original. Copying an agent produces them on demand, with both candidates exact (D1).
+- **Self-modifying: stronger.** Fine-tuning replaces parameters gradually while the system keeps running (D5), and a checkpoint of the old weights can be restored beside the new model: Hobbes's reassembled ship made literal. Which one is the agent is a choice of naming, as Hobbes said (D11).
 
 ## Open Questions
 

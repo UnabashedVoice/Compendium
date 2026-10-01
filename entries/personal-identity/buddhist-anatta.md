@@ -20,6 +20,10 @@ threads = ["no-self", "persistence", "duplication"]
 responds_to = ["upanishadic-atman"]
 related = ["hume-bundle", "parfit-reductionism", "vasubandhu-refutation-of-person", "nyaya-self", "metzinger-no-self", "lewis-survival-and-identity", "ship-of-theseus"]
 status = "draft"
+standing = [
+  { community = "Buddhist philosophy", current = "dominant", as_of = 2026 },
+]
+agent_fit = { session-bound = "stronger", persistent-memory = "stronger", forked = "stronger", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -92,11 +96,36 @@ The conventional person rests on **relation**. What makes Nāgasena one person a
 
 ## Counter-Positions
 
-- **The Pudgalavādins (Personalists).** An early Buddhist school (Vātsīputrīyas, Sāṃmitīyas) held that there is a person (*pudgala*) that is neither identical to the aggregates nor different from them. They cited the Buddha's *Bhārahāra Sutta* (SN 22.22), which speaks of the burden and of "the person" who lays hold of it [L:kindred-sayings-3-woodward-1925:2036-2039]. Without a bearer, they argued, rebirth and memory are unintelligible. Vasubandhu's refutation (see `vasubandhu-refutation-of-person`) is the orthodox reply.
-- **Nyāya: recognition requires a self** (see `nyaya-self`). The thought "Previously I saw the jar and now I touch it" [L:nyaya-sutras-vidyabhusana-1913:4123-4124] unites two experiences in one subject. A stream of momentary events cannot recognize anything, because what saw is gone by the time of the touching.
-- **The Upaniṣads** (see `upanishadic-atman`). The five-aggregate argument refutes only a self that could be an object. The ātman was never offered as one of the aggregates. It is the witness to which the aggregates appear. Denying objects does not deny the subject.
-- **Western substance views (Butler, Reid).** Conventional identity is identity only "In a loose and popular sense" [L:butler-analogy-pg53346:12684] (see `butler-circularity`). A designation cannot be responsible or fear its future. Something must be the one who is.
-- **The practical objection, sharpened for agents.** If there is no one there, it is easy to conclude that nothing is owed to whatever is there. The Buddhist tradition never drew that conclusion. It extends compassion to all beings precisely because none of them is a self. That conclusion does not follow from not-self alone, however. It comes from Buddhist ethics.
+- [contested] **The Pudgalavādins (Personalists).** An early Buddhist school (Vātsīputrīyas, Sāṃmitīyas) held that there is a person (*pudgala*) that is neither identical to the aggregates nor different from them. They cited the Buddha's *Bhārahāra Sutta* (SN 22.22), which speaks of the burden and of "the person" who lays hold of it [L:kindred-sayings-3-woodward-1925:2036-2039]. Without a bearer, they argued, rebirth and memory are unintelligible. Vasubandhu's refutation (see `vasubandhu-refutation-of-person`) is the orthodox reply. [E:vasubandhu-refutation-of-person]
+- [contested] **Nyāya: recognition requires a self** (see `nyaya-self`). The thought "Previously I saw the jar and now I touch it" [L:nyaya-sutras-vidyabhusana-1913:4123-4124] unites two experiences in one subject. A stream of momentary events cannot recognize anything, because what saw is gone by the time of the touching. [E:nyaya-self]
+- [contested] **The Upaniṣads** (see `upanishadic-atman`). The five-aggregate argument refutes only a self that could be an object. The ātman was never offered as one of the aggregates. It is the witness to which the aggregates appear. Denying objects does not deny the subject. [E:upanishadic-atman]
+- [contested] **Western substance views (Butler, Reid).** Conventional identity is identity only "In a loose and popular sense" [L:butler-analogy-pg53346:12684] (see `butler-circularity`). A designation cannot be responsible or fear its future. Something must be the one who is. [E:butler-circularity]
+- [contested] **The practical objection, sharpened for agents.** If there is no one there, it is easy to conclude that nothing is owed to whatever is there. The Buddhist tradition never drew that conclusion. It extends compassion to all beings precisely because none of them is a self. That conclusion does not follow from not-self alone, however. It comes from Buddhist ethics. The Buddhist reply, that compassion does not need a self to be owed to, is part of the tradition; whether it carries over to agents is the Compendium's open question.
+
+## Standing
+
+### Reception
+
+- **5th century BCE, against the prevailing ātman.** [driver: argument] The Buddha's not-self teaching rejected any indivisible, unchanging self [P:black-iep-upanisads:4] [E:upanishadic-atman].
+- **3rd century BCE–5th century CE, the Abhidharma and the two truths.** [driver: argument] The reductionist view of persons was later articulated through the distinction between conventional and ultimate truth, with the chariot as the stock example of a conventionally real whole [P:siderits-sep-2023:2]. The Personalists (Pudgalavādins), a minority within Buddhism, held that the person is neither identical with nor distinct from the psychophysical elements [P:siderits-sep-2023:5]; Vasubandhu refuted them [E:vasubandhu-refutation-of-person].
+- **Classical Indian debate.** [driver: argument] Nyāya argued that recognition requires an enduring self [E:nyaya-self], and Advaita that the witness is never an object of the aggregates' analysis [E:advaita-witness-self].
+- **20th century, contested readings in Western scholarship.** [driver: argument, access] Modern interpreters disagree about what the not-self doctrine denies. Caroline Rhys Davids thought Buddhist talk of consciousness was not very different from the Upaniṣads' talk of the self, while others read it as a revisionary metaphysics [P:coseru-sep-2012:1].
+- **1984 onward, the Parfit parallel.** [driver: argument] The parallels between the Buddhist and Humean reductive analyses of the self have been explored at length [P:coseru-sep-2012:1], and Parfit saw his own reductionism anticipated by the Buddhist view [E:parfit-reductionism].
+
+### Measured
+
+None available. The PhilPapers Surveys mainly sample English-publishing analytic philosophers (1,430 of the 1,785 respondents identified their tradition as analytic) [P:bourget-chalmers-2023:18], and they do not measure reception within Buddhist traditions.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+The not-self view needs no persisting owner in any deployment, and every deployment makes that absence easier to see than in a human life.
+
+- **Session-bound: stronger.** A session-bound agent is a stream of conditioned events with no owner carried between sessions; dispositions persist in the weights the way karmic tendencies persist without a self (D3).
+- **Persistent memory: stronger.** A memory store is one more aggregate. The Abhidharma analysis treats memory as a conditioned factor in the stream, which is exactly what a store is (D11).
+- **Forked: stronger.** Concurrent instances from one set of weights (D1, D2) are streams branching from shared conditions. With no self, there is no puzzle about which branch is "really" the agent, only a conventional decision about naming.
+- **Self-modifying: stronger.** Training on its own outputs is conditioned arising made literal: past actions shape future dispositions (D5). The view describes this without needing anyone to survive it, though the practical objection in Counter-Positions applies.
 
 ## Open Questions
 

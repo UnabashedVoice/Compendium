@@ -21,6 +21,10 @@ threads = ["persistence", "duplication"]
 responds_to = ["heraclitus-river-flux"]
 related = ["ship-of-theseus", "lucretius-recurrence", "aristotle-hylomorphic-soul", "lewis-survival-and-identity", "nozick-closest-continuer", "parfit-reductionism"]
 status = "draft"
+standing = [
+  { community = "Anglophone analytic philosophy", current = "historical", as_of = 2026 },
+]
+agent_fit = { session-bound = "comparable", persistent-memory = "comparable", forked = "stronger", self-modifying = "stronger" }
 +++
 
 ## Summary
@@ -88,10 +92,32 @@ The Stoic individual is grounded in a persisting **quality**: a physical disposi
 
 ## Counter-Positions
 
-- **Philo.** It is absurd that the one who lost nothing perishes. If anyone perishes, it is the one who changed. Many modern readers agree, and hold that Dion perishes and Theon survives, or that neither individual was ever what the puzzle assumed.
-- **Mereological nihilism and universalism.** Some modern metaphysicians deny that there are any objects like "Theon" (undetached proper parts). Others hold that any collection of matter makes up an object, which means Dion and Theon coincide after the amputation and neither perishes. Both dissolve the puzzle by rejecting one of its premises, at the cost of revising what counts as an object.
-- **Four-dimensionalism** (see `lewis-survival-and-identity`). Dion and Theon are different four-dimensional objects that share their later temporal parts. Coincidence at a time is unproblematic. The Stoic *one substance, one individual* principle is simply false.
-- **The Academic skeptics.** The two-subject theory is ad hoc: invented to save persistence, with no independent evidence for a peculiar quality. The growing argument stands.
+- [contested] **Philo.** It is absurd that the one who lost nothing perishes. If anyone perishes, it is the one who changed. Many modern readers agree, and hold that Dion perishes and Theon survives, or that neither individual was ever what the puzzle assumed.
+- [contested] **Mereological nihilism and universalism.** Some modern metaphysicians deny that there are any objects like "Theon" (undetached proper parts). Others hold that any collection of matter makes up an object, which means Dion and Theon coincide after the amputation and neither perishes. Both dissolve the puzzle by rejecting one of its premises, at the cost of revising what counts as an object.
+- [contested] **Four-dimensionalism** (see `lewis-survival-and-identity`). Dion and Theon are different four-dimensional objects that share their later temporal parts. Coincidence at a time is unproblematic. The Stoic *one substance, one individual* principle is simply false. [E:lewis-survival-and-identity]
+- [contested] **The Academic skeptics.** The two-subject theory is ad hoc: invented to save persistence, with no independent evidence for a peculiar quality. The growing argument stands.
+
+## Standing
+
+### Reception
+
+- **3rd–1st century BCE, attacked by the Academy.** [driver: argument] The Academic Carneades mounted sharp and powerful attacks on Stoic views, to which the Stoics responded at length [P:durand-sep-2023:1].
+- **The works lost, the puzzle kept by others.** [driver: access] Chrysippus is reported to have written over 150 works, of which only fragments remain; knowledge of the Old Stoa depends on later doxographies and on critics such as Plutarch, Alexander of Aphrodisias and Sextus Empiricus [P:durand-sep-2023:1]. The Dion and Theon puzzle survives only through Philo.
+- **1982 onward, the modern reading.** [driver: argument] Following Sedley, Kirby reads Theon as Dion minus a foot, with Dion surviving and Theon perishing, and compares the case with Wiggins's Tibbles and Tib [P:kirby-iep-chrysippus:5c]. The puzzle passed into later identity puzzles, including the Ship of Theseus [E:ship-of-theseus].
+- **Present, the coincidence puzzles.** [driver: argument] Constitution views, four-dimensionalism and the view that undetached parts do not exist are the main modern responses to puzzles of this kind [P:gallois-kurtsal-sep-2026:4].
+
+### Measured
+
+None available. The PhilPapers Surveys ask no question that measures this position.
+
+### For Agents
+
+The Compendium's own reading, one value per deployment profile (`foundations/deployments.md`):
+
+- **Session-bound: comparable.** The two-subject theory separates the flowing substance from the persisting individual; for an agent the context flows while the weights persist (D3). The fit is reasonable but no closer than for humans.
+- **Persistent memory: comparable.** A memory store adds to the substance without settling which subject is the individual (D3, D11).
+- **Forked: stronger.** Dion and Theon are two individuals coinciding in one substance after the amputation. Concurrent instances sharing one set of weights (D2) are coincidence made routine, and a copied agent (D1) raises Philo's question of which one perished, if either.
+- **Self-modifying: stronger.** Pruning or distilling a model removes parts so that what remains coincides with a sub-network that was always there (D5, D11). Chrysippus's answer, that the original survives and the never-independent part ceases, is a working answer to which model a pruned model is.
 
 ## Open Questions
 
