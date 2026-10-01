@@ -501,6 +501,16 @@ format = "ocr"
 rights = "US public domain: published before 1931"
 sha256 = "a195fb683b9ba877ea37ed2653d49980602bfb176ee112d56f23b967d5b88728"
 
+[text."aristotle-works-9-ethics-ross-1925"]
+author = "Aristotle"
+title = "The Works of Aristotle, vol. IX: Ethica Nicomachea, Magna Moralia, Ethica Eudemia, De Virtutibus et Vitiis"
+edition = "Oxford translation ed. W. D. Ross; Ethica Nicomachea tr. W. D. Ross (preface dated July 1925), Magna Moralia tr. St. George Stock, Ethica Eudemia and De Virtutibus tr. J. Solomon (vol. first published 1915); photographic reprint, Oxford University Press (Geoffrey Cumberlege), 1949"
+source = "archive.org dli.ernet.6106"
+format = "ocr"
+rights = "US public domain: translations published 1915 and 1925 (US works of 1925 entered the public domain on 1 January 2021); the reprint is photographic, with no new matter"
+notes = "Ethica Nicomachea begins at line 834 (Book I); Magna Moralia at about line 14425. Bekker numbers appear in the margins. Key places: I.1 (839-846); I.7 the function argument (1333-1388); I.8 external goods (1528-1534); II.1 habituation (1968-1996); II.3 brought up from our very youth (2128-2136); II.4 conditions of virtuous action (2230-2256); II.6 the definition of virtue (2416-2419); VI.5 practical wisdom (6793-6798); VI.12 cleverness (7344-7379); VI.13 natural virtue (7381-7412); VIII.11 the slave as living tool, friendship qua man (9753-9771); X.7 the divine element (11945-11949); X.9 laws and habituation (12250-12272). The II.1 passage on habits formed from youth (around 2000-2012) is badly damaged in the scan."
+sha256 = "6f288465b5df1fead0680dedc3eb87486babddd5d1198324f674f9c4f3875251"
+
 [text."aristotle-generation-corruption-joachim-1922"]
 author = "Aristotle; H. H. Joachim (ed.)"
 title = "On Coming-to-be and Passing-away (De Generatione et Corruptione): revised Greek text with introduction and commentary"

@@ -19,7 +19,7 @@ grounding = "capacity"
 extends = ["moral patient"]
 disanalogies = ["D8", "D1", "D2", "D3", "D5", "D7", "D9", "D11"]
 responds_to = ["bentham-can-they-suffer"]
-related = ["bentham-can-they-suffer", "utilitarian-eradication-critique", "mill-utilitarianism", "kant-formula-of-humanity", "llm-identity-contemporary", "other-minds-problem", "relational-status", "hobbes-leviathan"]
+related = ["bentham-can-they-suffer", "utilitarian-eradication-critique", "aristotle-virtue-ethics", "mill-utilitarianism", "kant-formula-of-humanity", "llm-identity-contemporary", "other-minds-problem", "relational-status", "hobbes-leviathan"]
 status = "draft"
 standing = [
   { community = "Animal welfare science and policy (precautionary attribution of sentience)", current = "major", as_of = 2026 },
@@ -175,6 +175,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `llm-identity-contemporary`: the dialogue agents whose self-descriptions the report asks to be calibrated.
 - `hobbes-leviathan`: ecosystems with no common power, where no directive can share the cost of protection.
 - `kant-formula-of-humanity`: rational nature, which the robust-agency route brings back as a ground of standing.
+- `aristotle-virtue-ethics`: the character-based alternative to ranking interests, and why argument alone does not form a character.
 - `mill-utilitarianism`: aggregation's uncertainty discount, which this entry's precautionary literature answers.
 - `other-minds-problem`, `relational-status`: planned. The evidence problem in general, and standing as a relation rather than a capacity.
 - D8 decides whether agents clear the bar; D7 decides who assesses them; D1 and D2 multiply both errors.

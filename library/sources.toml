@@ -519,3 +519,19 @@ edition = "Journal of Applied Philosophy 41(1), February 2024 (online 2023), pp.
 year = 2024
 url = "https://doi.org/10.1111/japp.12691"
 rights = "Copyright 2023 the authors, licensed CC BY. Short quotation only, page-cited; not stored here."
+
+[source."kraut-sep-2026"]
+author = "Richard Kraut"
+title = "Aristotle's Ethics"
+edition = "Stanford Encyclopedia of Philosophy, first published 1 May 2001, substantive revision 11 August 2026. Cited by top-level section number (2 = The Human Good and the Function Argument, 5 = The Doctrine of the Mean, including 5.2 Ethical Theory Does Not Offer a Decision Procedure)."
+year = 2026
+url = "https://plato.stanford.edu/entries/aristotle-ethics/"
+rights = "Copyright 2026 Richard Kraut; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."hursthouse-pettigrove-sep-2026"]
+author = "Rosalind Hursthouse and Glen Pettigrove"
+title = "Virtue Ethics"
+edition = "Stanford Encyclopedia of Philosophy, first published 18 July 2003, substantive revision 3 May 2026. Cited by top-level section number; 0 = the preamble (1 = Preliminaries, including the revival; 3 = Objections to virtue ethics, including anti-codifiability and the situationist challenge)."
+year = 2026
+url = "https://plato.stanford.edu/entries/ethics-virtue/"
+rights = "Copyright 2026 Rosalind Hursthouse and Glen Pettigrove; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
