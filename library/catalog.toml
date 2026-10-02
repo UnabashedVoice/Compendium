@@ -711,6 +711,16 @@ rights = "US public domain: published before 1931"
 notes = "Chapter X, 'The Consciousness of Self', is the source for james-stream-of-thought."
 sha256 = "fb845d8bb07487d4cc6d14acd03104bf98cc22dcff8a877400b1534f36af37ae"
 
+[text."mill-examination-hamilton-1872"]
+author = "John Stuart Mill"
+title = "An Examination of Sir William Hamilton's Philosophy, and of the Principal Philosophical Questions Discussed in His Writings"
+edition = "Fourth edition, London: Longmans, Green, Reader, and Dyer, 1872 (first edition 1865); University of Toronto copy"
+source = "archive.org hamiltonsexamin00milluoft"
+format = "ocr"
+rights = "Public domain: author died 1873; published before 1931"
+notes = "Ch. XII, 'The Psychological Theory of the Belief in Matter, how far applicable to Mind' (begins line 11847): the argument from analogy for other minds, pp. 243-244 (lines 11990-12040): bodies like mine as antecedent conditions, acts and outward signs as consequences, and 'I must either believe them to be alive, or to be automatons'."
+sha256 = "6d4e9228017026bcf1947dcf500d7e9b4e0ad03fc2319648888b1487afb12873"
+
 [text."mill-on-liberty-1901-pg34901"]
 author = "John Stuart Mill"
 title = "On Liberty"

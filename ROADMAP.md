@@ -26,7 +26,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `levinas-face`: the ethical demand of the other
 
 ## Moral status & patiency
-- [ ] `other-minds-problem`: inference to minds; D8 generally
+- [x] `other-minds-problem`: inference to minds; D8 generally
 - [ ] `nagel-what-is-it-like`: subjective character
 - [x] `precautionary-patiency`: moral action under uncertainty about sentience (Birch, Sebo)
 - [x] `relational-status`: Gunkel, Coeckelbergh: status as social relation, not property

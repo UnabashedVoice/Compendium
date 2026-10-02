@@ -559,3 +559,19 @@ edition = "Ethics and Information Technology 23 (2021): 579-587; open access (Sp
 year = 2021
 url = "https://doi.org/10.1007/s10676-021-09596-w"
 rights = "Copyright the author 2021, licensed CC BY 4.0. Short quotation only, page-cited; not stored here."
+
+[source."avramides-sep-2023"]
+author = "Anita Avramides"
+title = "Other Minds"
+edition = "Stanford Encyclopedia of Philosophy, first published 2 May 2019, substantive revision 19 December 2023. Cited by top-level section number; 0 = the preamble (1 = The (Traditional) Epistemological Problem: analogy, best explanation, criteria, perception; 3 = The Naturalist Turn; 4 = Thinking about Mind Prior to the Twentieth Century, including Reid and Mill, and Dharmakirti)."
+year = 2023
+url = "https://plato.stanford.edu/entries/other-minds/"
+rights = "Copyright 2023 Anita Avramides; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."oppy-dowe-sep-2021"]
+author = "Graham Oppy and David Dowe"
+title = "The Turing Test"
+edition = "Stanford Encyclopedia of Philosophy, first published 9 April 2003, substantive revision 4 October 2021. Cited by top-level section number (1 = Turing (1950) and the Imitation Game; 2 = Turing (1950) and Responses to Objections, including 2.4 the Argument from Consciousness; 4 = Assessment of the Current Standing)."
+year = 2021
+url = "https://plato.stanford.edu/entries/turing-test/"
+rights = "Copyright 2021 Graham Oppy and David Dowe; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

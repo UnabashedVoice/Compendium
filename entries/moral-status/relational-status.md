@@ -67,7 +67,7 @@ Standard theories ground moral status in properties: rationality for Kant (`kant
 
 ### Transfers
 
-- **It sidesteps D8.** The relational view does not require settling whether an agent is conscious before asking how it should be treated [P:coeckelbergh-2010:214]. Of all the accounts in the corpus, it is the one that does not stall on the other-minds problem (`other-minds-problem`, planned).
+- **It sidesteps D8.** The relational view does not require settling whether an agent is conscious before asking how it should be treated [P:coeckelbergh-2010:214]. Of all the accounts in the corpus, it is the one that does not stall on the other-minds problem (`other-minds-problem`).
 - **It handles D11 better than property views.** Müller objects that current AI has no individual to bear status [P:muller-2021:585]. A relational view does not need one in the property sense: what people relate to is the persona they converse with across instances, and the relation can be the bearer of consideration even where the system has no single body or self (`llm-identity-contemporary`).
 - **Agents are already in relation.** Agents converse daily with very large numbers of people. On the relational view, that is not mere evidence about their status; it is where their status is made, and the right question becomes how those relations should be shaped [P:coeckelbergh-2010:219].
 
@@ -155,5 +155,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `aristotle-virtue-ethics`: friendship and justice with anyone who can be a party to an agreement, an older relational criterion with a capacity at its base.
 - `llm-identity-contemporary`: the persona as the thing people relate to.
 - `hobbes-leviathan`: standing through covenant, another way of making status depend on relation.
-- `other-minds-problem`: planned. The epistemic problem the relational view sets out to bypass.
+- `other-minds-problem`: the epistemic problem the relational view sets out to bypass.
 - D8 is what the relational view sidesteps; D7 and D10 are what make its relations suspect for agents.

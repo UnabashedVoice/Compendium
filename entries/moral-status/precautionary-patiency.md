@@ -178,5 +178,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `aristotle-virtue-ethics`: the character-based alternative to ranking interests, and why argument alone does not form a character.
 - `mill-utilitarianism`: aggregation's uncertainty discount, which this entry's precautionary literature answers.
 - `relational-status`: standing as a relation rather than a capacity; strongest as an account of special obligations, weakest for those outside every relation.
-- `other-minds-problem`: planned. The evidence problem in general.
+- `other-minds-problem`: the evidence problem in general, and why Mill's two marks come apart for agents.
 - D8 decides whether agents clear the bar; D7 decides who assesses them; D1 and D2 multiply both errors.

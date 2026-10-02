@@ -160,5 +160,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `utilitarian-eradication-critique`: where Bentham's painless-killing note is set against the replies.
 - `precautionary-patiency`: Birch's burden of proof for uncertain sentience and its extension to AI, where both errors are grave.
 - `relational-status`: standing as a relation rather than a capacity, which sidesteps Bentham's question.
-- `other-minds-problem`, `korsgaard-fellow-creatures`: planned. The evidence problem, and the Kantian route to obligations toward animals.
+- `other-minds-problem`: the evidence problem behind "Can they suffer?", and why trained signs make it harder for agents.
+- `korsgaard-fellow-creatures`: planned. The Kantian route to obligations toward animals.
 - D8 decides whether the criterion applies to agents at all; D6 decides whether it protects their existence or only their comfort.
