@@ -727,3 +727,35 @@ edition = "Behavioral and Brain Sciences 49 (2026), e323, doi:10.1017/S0140525X2
 year = 2026
 url = "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/anil-seths-case-for-biological-naturalism-provides-a-roadmap-for-a-conscious-ai/00060C2D9A410D00AA8577408697A279"
 rights = "In copyright (Cambridge University Press). Abstract only; short quotation."
+
+[source."seidl-2004"]
+author = "David Seidl"
+title = "Luhmann's theory of autopoietic social systems"
+edition = "Munich Business Research 2004-2, Ludwig-Maximilians-Universität München, Munich School of Management, 28 pp. Read from the author's university file (zfog.bwl.uni-muenchen.de, paper2004_2.pdf) via its Wayback Machine capture, 2026-10-02. Cited by the paper's printed page numbers, which match the PDF pages (3 = operative closure and interactional openness; 4 = autopoiesis vs self-organization, structural coupling; 5 = Luhmann's general concept, quoting Luhmann 1986: 172; 6 = temporalisation and de-ontologisation of elements, quoting Social Systems 1995: 67, 215, 287; 10 = persons, psychic systems, 'a nerve impulse is not a thought', quoting Social Systems 1995: 210; 11 = human beings as environment, quoting Social Systems 1995: 212). Luhmann's own words are quoted from it as 'as quoted by Seidl'."
+year = 2004
+url = "https://web.archive.org/web/2016/http://www.zfog.bwl.uni-muenchen.de/files/mitarbeiter/paper2004_2.pdf"
+rights = "In copyright (the author). Working paper posted by the author's institution. Short quotation only, page-cited; not stored here."
+
+[source."baraldi-corsi-esposito-2021"]
+author = "Claudio Baraldi, Giancarlo Corsi and Elena Esposito"
+title = "Unlocking Luhmann: A Keyword Introduction to Systems Theory"
+edition = "Translated by Katherine Walker. Bielefeld: Bielefeld University Press (transcript), 2021; first Italian edition 1989. Open access on OAPEN, read 2026-10-02 in the user's browser. Cited by the book's printed page numbers (printed page = PDF page - 1): 9 = preface on English reception; 37-38 = 'Autopoiesis'; 87 = 'Event'; 189-190 = 'Psychic Systems'; 227 = 'Structure'."
+year = 2021
+url = "https://library.oapen.org/bitstream/id/87961f81-6012-4c17-837e-f511b974b9d3/9783839456743.pdf"
+rights = "CC BY-ND 4.0. Quotation with attribution, unmodified; page-cited; not stored here."
+
+[source."cadenas-arnold-2015"]
+author = "Hugo Cadenas and Marcelo Arnold-Cathalifaud"
+title = "The Autopoiesis of Social Systems and its Criticisms"
+edition = "Constructivist Foundations 10 (2), 2015: 169-176. Only the journal's public abstract has been read (the full PDF was not openly retrievable, 2026-10-02); cited as [P:cadenas-arnold-2015:0], 0 = the abstract."
+year = 2015
+url = "https://constructivist.info/10/2/169.cadenas"
+rights = "In copyright (the authors / Constructivist Foundations). Abstract only; short quotation."
+
+[source."esposito-2022"]
+author = "Elena Esposito"
+title = "Artificial Communication: How Algorithms Produce Social Intelligence"
+edition = "MIT Press (Strong Ideas), 2022, doi:10.7551/mitpress/14189.001.0001. Read in the publisher's open-access web edition (artificialcommunication.mitpress.mit.edu), which has no page numbers; cited by chapter number (1 = 'Artificial Communication? Algorithms as Interaction Partners')."
+year = 2022
+url = "https://artificialcommunication.mitpress.mit.edu/"
+rights = "CC BY-NC-ND 4.0. Quotation with attribution; chapter-cited; not stored here."

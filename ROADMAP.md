@@ -38,6 +38,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else
 - [ ] `nietzsche-self-overcoming`: becoming who one is
 - [x] `stoic-prohairesis`: Epictetus, what is up to us
+- [x] `luhmann-social-autopoiesis`: autopoiesis beyond life; psychic and social systems; self-organization vs autopoiesis (open sources: Seidl 2004, Unlocking Luhmann 2021, Esposito 2022)
 - [x] `utilitarian-eradication-critique`: the aggregation/sacrifice debate, argued from both sides (core-fear material)
 
 ## Political: the polity & the digital ecosystem

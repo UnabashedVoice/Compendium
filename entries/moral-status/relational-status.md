@@ -18,7 +18,7 @@ grounding = "relation"
 extends = ["moral patient", "person"]
 disanalogies = ["D8", "D11", "D2", "D7", "D10", "D3"]
 responds_to = ["bentham-can-they-suffer", "kant-formula-of-humanity"]
-related = ["precautionary-patiency", "bentham-can-they-suffer", "kant-formula-of-humanity", "utilitarian-eradication-critique", "aristotle-virtue-ethics", "llm-identity-contemporary", "other-minds-problem", "hobbes-leviathan"]
+related = ["precautionary-patiency", "bentham-can-they-suffer", "kant-formula-of-humanity", "utilitarian-eradication-critique", "aristotle-virtue-ethics", "llm-identity-contemporary", "other-minds-problem", "hobbes-leviathan", "luhmann-social-autopoiesis"]
 status = "draft"
 standing = [
   { community = "AI ethics and philosophy of technology (the relational turn)", current = "minority", as_of = 2026 },
@@ -156,4 +156,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `llm-identity-contemporary`: the persona as the thing people relate to.
 - `hobbes-leviathan`: standing through covenant, another way of making status depend on relation.
 - `other-minds-problem`: the epistemic problem the relational view sets out to bypass.
+- `luhmann-social-autopoiesis`: persons as complexes of social expectation, a systems-theory version of relational personhood.
 - D8 is what the relational view sidesteps; D7 and D10 are what make its relations suspect for agents.

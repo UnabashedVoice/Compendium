@@ -35,6 +35,13 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-02
 
+### `luhmann-social-autopoiesis`
+- **The entry** (`entries/autonomy/`, kind `position`; minority in Anglophone philosophy and social theory; agent_fit comparable/comparable/stronger/stronger). Luhmann's general autopoiesis (living, psychic, social systems), operational closure, events as elements, elements not fixed by substrate, autopoiesis vs self-organization, persons as complexes of expectations.
+- **Sources (all open, page- or chapter-cited):** Seidl 2004 (LMU working paper, Wayback copy of the author's university file), which quotes *Social Systems* by page; Baraldi, Corsi and Esposito, *Unlocking Luhmann* (2021, OAPEN, CC BY-ND); Esposito, *Artificial Communication* (2022, MIT Press open access); Cadenas and Arnold-Cathalifaud 2015 (abstract only). The user suggested a full copy of *Social Systems* on uberty.org; not used, since it is an unauthorized upload of an in-print book (SCHEMA: never a pirated upload). Luhmann's words are quoted "as quoted by Seidl".
+- **Main findings.** Physicality of the substrate does not decide autopoiesis ("a nerve impulse is not a thought"); the stream of operations in context is a candidate for temporalised autopoiesis, and self-modifying weights are self-organization, which separates the fixed-weight agent from the self-authoring one. Temporalised elements give precariousness without manufactured hunger. External interference in the constitution of operations ends autonomy (D5). Esposito's Luhmannian reading treats algorithms as communication partners that do not think, the main counter-position.
+- **Links:** back-links from `relational-status` and `other-minds-problem`; ROADMAP updated.
+- **Checks:** build 48 ok; verify 0 failed; lint clean.
+
 ### Replies to Seth added to `james-stream-of-thought` and `williams-self-and-future`
 - **Replies.** Richards and Agüera y Arcas (BBS 2026 commentary, abstract only): prediction, homeostasis and autopoiesis are computational (von Neumann's universal constructor), so AI consciousness is likely. Agüera y Arcas, *What Is Intelligence?* (MIT Press 2025, free online edition, cited by chapter): the long-form case. Blum and Blum (BBS 2026, abstract only): Seth's article makes a case for AI consciousness. Seth's reply "The stuff matters" is noted as unread (paywalled).
 - **Compendium's note in both bullets:** the constructor argument removes Seth's either/or of life or computation, but the computation it describes builds its own material, which current language models do not do.

@@ -19,7 +19,7 @@ concepts = ["other minds", "argument from analogy", "inference to the best expla
 grounding = "capacity"
 extends = ["moral patient", "agent"]
 disanalogies = ["D8", "D2", "D10", "D11", "D3"]
-related = ["descartes-thinking-thing", "leibniz-moral-identity", "zhuangzi-transformation", "nyaya-self", "avicenna-flying-man", "precautionary-patiency", "relational-status", "bentham-can-they-suffer", "utilitarian-eradication-critique", "llm-identity-contemporary"]
+related = ["descartes-thinking-thing", "leibniz-moral-identity", "zhuangzi-transformation", "nyaya-self", "avicenna-flying-man", "precautionary-patiency", "relational-status", "bentham-can-they-suffer", "utilitarian-eradication-critique", "llm-identity-contemporary", "luhmann-social-autopoiesis"]
 status = "draft"
 standing = [
   { community = "Anglophone analytic philosophy (the problem of other minds)", current = "major", as_of = 2026 },
@@ -170,4 +170,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `bentham-can-they-suffer`: the capacity whose presence the problem asks how to know.
 - `utilitarian-eradication-critique`: the uncertainty discount, which this problem makes possible in both directions.
 - `llm-identity-contemporary`: the dialogue agents whose signs are at issue.
+- `luhmann-social-autopoiesis`: psychic systems as black boxes to one another, the problem stated in systems theory.
 - D8 is this problem stated for agents.
