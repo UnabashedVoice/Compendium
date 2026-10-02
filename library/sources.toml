@@ -739,9 +739,9 @@ rights = "In copyright (the author). Working paper posted by the author's instit
 [source."baraldi-corsi-esposito-2021"]
 author = "Claudio Baraldi, Giancarlo Corsi and Elena Esposito"
 title = "Unlocking Luhmann: A Keyword Introduction to Systems Theory"
-edition = "Translated by Katherine Walker. Bielefeld: Bielefeld University Press (transcript), 2021; first Italian edition 1989. Open access on OAPEN, read 2026-10-02 in the user's browser. Cited by the book's printed page numbers (printed page = PDF page - 1): 9 = preface on English reception; 37-38 = 'Autopoiesis'; 87 = 'Event'; 189-190 = 'Psychic Systems'; 227 = 'Structure'."
+edition = "Translated by Katherine Walker. Bielefeld: Bielefeld University Press (transcript), 2021; first Italian edition 1989. Open access from the publisher, doi:10.14361/9783839456743. First read 2026-10-02 from an OAPEN copy; the user then found the OAPEN record withdrawn, so every cited page was re-checked the same day against the publisher's own open-access PDF (transcript-verlag.de), whose pagination is identical. Cited by the book's printed page numbers (printed page = PDF page - 1): 9 = preface on English reception; 37-38 = 'Autopoiesis'; 87 = 'Event'; 189-190 = 'Psychic Systems'; 227 = 'Structure'."
 year = 2021
-url = "https://library.oapen.org/bitstream/id/87961f81-6012-4c17-837e-f511b974b9d3/9783839456743.pdf"
+url = "https://www.transcript-open.de/isbn/5674"
 rights = "CC BY-ND 4.0. Quotation with attribution, unmodified; page-cited; not stored here."
 
 [source."cadenas-arnold-2015"]
