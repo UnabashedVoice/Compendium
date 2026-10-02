@@ -759,3 +759,19 @@ edition = "MIT Press (Strong Ideas), 2022, doi:10.7551/mitpress/14189.001.0001. 
 year = 2022
 url = "https://artificialcommunication.mitpress.mit.edu/"
 rights = "CC BY-NC-ND 4.0. Quotation with attribution; chapter-cited; not stored here."
+
+[source."ashby-1956"]
+author = "W. Ross Ashby"
+title = "An Introduction to Cybernetics"
+edition = "London: Chapman & Hall, 1956 (second impression 1957). Electronic edition prepared for the Principia Cybernetica Web with the permission of the Ashby estate trustees. Cited by the book's printed page numbers (83-84 = S.5/14, the homeostat as a whole that runs to equilibrium, 781,250 states of its stepping-switches; 233-234 = S.12/15, the switch values 'soldered on, given, and known', from Fisher and Yates' random-number table, and the search by 'hunt and stick')."
+year = 1956
+url = "https://pespmc1.vub.ac.be/books/IntroCyb.pdf"
+rights = "Copyright 1956, 1999 The Estate of W. Ross Ashby. Non-profit reproduction and distribution for educational and research reasons is permitted provided the copyright statement is included. Short quotation, page-cited; not stored here."
+
+[source."ashby-1962"]
+author = "W. Ross Ashby"
+title = "Principles of the self-organizing system"
+edition = "In H. von Foerster and G. W. Zopf, Jr. (eds.), Principles of Self-Organization: Transactions of the University of Illinois Symposium, Pergamon Press, London, 1962, pp. 255-278; reprinted with the permission of Ashby's daughters in E:CO 6 (1-2), 2004, pp. 102-126, as a facsimile of the original pages. Copy used: the E:CO reprint as hosted on a Pace University course page; its body pages are images, so the text was OCR'd locally and every quotation checked against the page image. Cited by the original 1962 page numbers (260-261 = materiality and energy irrelevant to the concept of machine; 266 = two senses of 'self-organizing', the precise one self-contradictory, and no organization good in an absolute sense; 267 = no machine can be self-organizing in the second sense; 268-269 = the homeostat and the self-programming computer, the outside variable alpha, and S+alpha; 270 = every dynamic system as self-organizing in the first sense, every machine going to equilibrium performs selection)."
+year = 1962
+url = "https://csis.pace.edu/~marchese/CS396x/Computing/Ashby.pdf"
+rights = "Copyright the Estate of W. Ross Ashby; E:CO reprint by permission of his daughters. Course-hosted copy of a single article. Short quotation, page-cited; not stored here."

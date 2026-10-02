@@ -35,6 +35,11 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-02
 
+### Ashby added to `luhmann-social-autopoiesis`
+- **Sources:** Ashby, *An Introduction to Cybernetics* (1956; Principia Cybernetica edition by permission of the Ashby estate) and "Principles of the self-organizing system" (1962; E:CO 2004 reprint by permission of his daughters, course-hosted copy, page images OCR'd locally and checked against the images; cited by the original pages). *Design for a Brain* is in copyright, and the archive.org copies are not estate-sanctioned, so it was not used.
+- **Findings:** the homeostat stepped through 781,250 built-in switch states whose values were "soldered on, given, and known", so it selects rather than produces. Ashby held strict self-organization to be self-contradictory, since a change in a machine's organization must come from a variable outside it. The machine is self-organizing only within an enlarged whole S+alpha whose own changes are caused from inside. Added as a `[contested]` counter-position, a 1962 Reception bullet, and evidence in open question 6.
+- **Checks:** build 48 ok; verify 0 failed; lint clean; smoke test 32/32.
+
 ### `luhmann-social-autopoiesis`: open question 6, the origin-of-change ladder
 - The user proposed that autopoiesis turns on whether change originates inside or outside the system. Discussion refined this into a four-step ladder (externally changed, self-regulating, self-organizing, autopoietic). Recorded as an open question, at the user's choice, not as an Actualizer founding principle, since it is unsourced and its top step is the disputed point.
 
