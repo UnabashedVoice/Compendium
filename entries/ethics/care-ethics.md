@@ -151,5 +151,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `precautionary-patiency`: whether agents have the needs care would meet.
 - `utilitarian-eradication-critique`: abandonment as the care ethicist's name for the core fear, and partiality as care's own risk.
 - `stoic-prohairesis`, `aristotle-political-animal`: the quietism and living-tool objections, which the slave-morality objection to care repeats.
-- `ubuntu`: planned. Personhood through others, the other tradition of Palaestra's relational perspective.
+- `ubuntu`: personhood through others, the other tradition of Palaestra's relational perspective; it shares care ethics' relationality but centres personhood and community.
 - D7 is where care ethics helps agents most: dependence becomes a ground of obligation. D10 is where it warns most: care designed in may be subservience.

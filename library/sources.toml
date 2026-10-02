@@ -515,7 +515,7 @@ rights = "In copyright (the author / publisher); author's own open-access archiv
 [source."samuel-omosulu-2024"]
 author = "Olusegun Steven Samuel and Rotimi Omosulu"
 title = "Ubuntu Thinking on Biodiversity Loss: The Inadequacies of Egalitarian and Communitarian Solutions"
-edition = "Journal of Applied Philosophy 41(1), February 2024 (online 2023), pp. 145-; open access. Cited by the journal's printed page numbers (155 = Callicott's two second-order principles and his ranking of the second over the first; 156 = survival over luxury interests; 157 = criticisms: measuring stronger interests across kinds, and 'what the powerful take it to be')."
+edition = "Journal of Applied Philosophy 41(1), February 2024 (online 2023), pp. 145-; open access. Cited by the journal's printed page numbers (145 = abstract; 155 = Callicott's two second-order principles and his ranking of the second over the first; 156 = survival over luxury interests; 157 = criticisms: measuring stronger interests across kinds, and 'what the powerful take it to be'; 158-161 = ubuntu personhood and conservation ethics, re-read in the user's browser 2026-10-02)."
 year = 2024
 url = "https://doi.org/10.1111/japp.12691"
 rights = "Copyright 2023 the authors, licensed CC BY. Short quotation only, page-cited; not stored here."
@@ -591,3 +591,35 @@ edition = "Stanford Encyclopedia of Philosophy, first published 27 May 2019, sub
 year = 2025
 url = "https://plato.stanford.edu/entries/feminism-ethics/"
 rights = "Copyright 2025 Kathryn Norlock; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."s-v-makwanyane-1995"]
+author = "Constitutional Court of South Africa (Chaskalson P; concurring judgments of Langa J, Madala J, Mokgoro J and others)"
+title = "S v Makwanyane and Another (CCT3/94) [1995] ZACC 3; 1995 (3) SA 391 (CC)"
+edition = "Judgment of 6 June 1995, as published by SAFLII (saflii.org/za/cases/ZACC/1995/3.html), read in the user's browser 2026-10-02 with paragraph numbers confirmed against SAFLII's PDF of the judgment. Cited by paragraph number (224-225 = Langa J; 237, 241 = Madala J; 307-308 = Mokgoro J)."
+year = 1995
+url = "https://www.saflii.org/za/cases/ZACC/1995/3.html"
+rights = "Official judicial text; under South Africa's Copyright Act s 12(8)(a) no copyright subsists in official texts of a judicial nature. Short quotations only here, paragraph-cited; not stored."
+
+[source."coeckelbergh-2022"]
+author = "Mark Coeckelbergh"
+title = "The Ubuntu Robot: Towards a Relational Conceptual Framework for Intercultural Robotics"
+edition = "Science and Engineering Ethics 28:16 (2022); open access (Springer, CC BY). Cited by the article's page numbers (1-15)."
+year = 2022
+url = "https://doi.org/10.1007/s11948-022-00370-9"
+rights = "Copyright the author 2022, licensed CC BY 4.0. Short quotation only, page-cited; not stored here."
+
+[source."flikschuh-2016"]
+author = "Katrin Flikschuh"
+title = "The arc of personhood: Menkiti and Kant on becoming and being a person"
+edition = "Journal of the American Philosophical Association (2016). Copy used: the author's accepted version in LSE Research Online (eprints.lse.ac.uk/67676), paginated 1-39 in its own right; cited by that version's page numbers, not the journal's."
+year = 2016
+url = "http://eprints.lse.ac.uk/67676/"
+rights = "Copyright the author / American Philosophical Association; author's accepted manuscript in an institutional repository. Short quotation only, page-cited; not stored here."
+
+[source."gyekye-sep-2010"]
+author = "Kwame Gyekye"
+title = "African Ethics"
+edition = "Stanford Encyclopedia of Philosophy, first published 9 September 2010. Cited by top-level section number (3 = The Notion of Character as Central to African Ethics, 4 = Moral Personhood, 8 = Social, Not Individualistic, Ethics, 9 = The Ethics of Duty, Not of Rights)."
+year = 2010
+url = "https://plato.stanford.edu/entries/african-ethics/"
+rights = "Copyright the author; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
