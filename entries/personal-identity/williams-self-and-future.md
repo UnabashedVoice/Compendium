@@ -89,6 +89,7 @@ Williams does not settle on a single grounding so much as expose a tension betwe
 
 - **1956–1970, a bodily criterion defended.** [driver: argument] Williams was among the defenders of a brute-physical account of our persistence, from his 1956–57 paper to "The Self and the Future" (1970) [P:olson-sep-2023:3]. He argued, as animalists later did, that a brain transplant need not carry the person with it [P:olson-sep-2023:7].
 - **1973, collected.** [driver: argument] The paper was collected in *Problems of the Self* (1973), and Williams became an important contributor to the debate on personal identity as well as to ethics [P:chappell-smyth-sep-2023:1] [P:chappell-smyth-sep-2023:0].
+- **1970, the no-branching answer.** [driver: argument] Shoemaker answered Williams's one-one requirement by counting memory-connected states as one person's unless the causal chain branched [P:shoemaker-1970:278-279] [E:shoemaker-quasi-memory].
 - **1971–1984, the reductionist answer.** [driver: argument] Parfit accepted that the intuitions conflict and concluded that identity is not what matters [E:parfit-reductionism].
 - **Present, the bodily view a minority, Williams's verdict on copies the majority.** [driver: argument] Brute-physical views, mostly animalist, remain the main rival to psychological-continuity views [P:olson-sep-2023:3]. On cases where a psychology is reproduced elsewhere, most respondents now give Williams's answer (see Measured).
 

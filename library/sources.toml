@@ -639,3 +639,11 @@ edition = "Environmental Ethics 27 (Winter 2005): 411-428. Copy used: purchased 
 year = 2005
 url = "https://www.pdcnet.org/enviroethics/content/enviroethics_2005_0027_0004_0411_0428"
 rights = "Copyright Environmental Ethics / the author; a copy the user owns. Short quotation only, page-cited; not stored here."
+
+[source."shoemaker-1970"]
+author = "Sydney Shoemaker"
+title = "Persons and Their Pasts"
+edition = "American Philosophical Quarterly 7 (4), October 1970, pp. 269-285. JSTOR stable 20009360. Cited by the journal's page numbers (269 = special access and Locke; 271 = quasi-memory defined; 272 = whether most quasi-remembering could fail to be remembering; 277 = the causal strengthening, Sect. IV; 278 = M-connection defined, fn. 17 on 'the right kind'; 279 = branching; 281 = Butler and the weak sense of 'remember'; 282 = Brownson; 284-285 = Sect. VII, fission and concern for offshoots)."
+year = 1970
+url = "https://www.jstor.org/stable/20009360"
+rights = "In copyright (University of Illinois Press / North American Philosophical Publications). Read 2026-10-02 in JSTOR's reader on the user's own free reading account; not downloaded and not stored here. Short quotation only, page-cited."

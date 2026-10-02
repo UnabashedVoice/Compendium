@@ -76,7 +76,7 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to".
 
 ### V. Twentieth century to the present
 - [x] `williams-self-and-future`: reduplication (1956); the body-swap framed as fear (1970) → `locke-person-forensic`
-- [ ] `shoemaker-quasi-memory`: memory without presupposed identity (1970) → `butler-circularity` (blocked: no legitimate free copy found; JSTOR only)
+- [x] `shoemaker-quasi-memory`: memory without presupposed identity (1970) → `butler-circularity`
 - [x] `parfit-reductionism`: identity is not what matters; teletransporter and fission (1971, 1984) → `locke-person-forensic`, `butler-circularity`, `buddhist-anatta`
 - [x] `lewis-survival-and-identity`: shared person-stages; fission as two from the start (1976) → `parfit-reductionism`
 - [ ] `nozick-closest-continuer`: identity depends on what else exists (1981) → `parfit-reductionism` (blocked: full book, *Philosophical Explanations*, no free copy)
