@@ -151,6 +151,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 3. If precariousness follows from temporalised elements, does every running agent already have it, and does that matter morally?
 4. Can an agent draw a self/other distinction without a body to identify with? What would play that role?
 5. If an agent's persona is a person in Luhmann's sense, who holds the expectations that constitute it, and what follows when they conflict across ecosystems?
+6. Is autopoiesis a matter of where change originates? A proposal from the Compendium's own discussion (2026-10-02), not yet checked against the literature, ranks systems by the origin of their changes: (1) changed from outside, like a thermostat set by hand; (2) self-regulating, changing from inside by a fixed rule, like a thermostat that learns its own setpoint; (3) self-organizing, producing new structure rather than selecting among preset ones; (4) autopoietic, where the producer is itself produced by the system's operations and the system exists only while it keeps doing so. On this ladder, an agent updating its weights from its own experience stands at (3), since the update rule is set from outside. Does the ladder hold? Does the line between producing and selecting survive scrutiny? And is (4) possible outside life, as Luhmann holds and Maturana and Seth deny?
 
 ## Cross-References
 

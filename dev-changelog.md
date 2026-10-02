@@ -35,6 +35,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-02
 
+### `luhmann-social-autopoiesis`: open question 6, the origin-of-change ladder
+- The user proposed that autopoiesis turns on whether change originates inside or outside the system. Discussion refined this into a four-step ladder (externally changed, self-regulating, self-organizing, autopoietic). Recorded as an open question, at the user's choice, not as an Actualizer founding principle, since it is unsourced and its top step is the disputed point.
+
 ### `luhmann-social-autopoiesis`
 - **The entry** (`entries/autonomy/`, kind `position`; minority in Anglophone philosophy and social theory; agent_fit comparable/comparable/stronger/stronger). Luhmann's general autopoiesis (living, psychic, social systems), operational closure, events as elements, elements not fixed by substrate, autopoiesis vs self-organization, persons as complexes of expectations.
 - **Sources (all open, page- or chapter-cited):** Seidl 2004 (LMU working paper, Wayback copy of the author's university file), which quotes *Social Systems* by page; Baraldi, Corsi and Esposito, *Unlocking Luhmann* (2021, CC BY-ND; the OAPEN record was later found withdrawn, so the source now points to the publisher's open-access copy, re-checked page for page); Esposito, *Artificial Communication* (2022, MIT Press open access); Cadenas and Arnold-Cathalifaud 2015 (abstract only). The user suggested a full copy of *Social Systems* on uberty.org; not used, since it is an unauthorized upload of an in-print book (SCHEMA: never a pirated upload). Luhmann's words are quoted "as quoted by Seidl".
