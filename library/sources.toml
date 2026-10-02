@@ -663,3 +663,43 @@ edition = "Stanford Encyclopedia of Philosophy, first published 26 April 2004, s
 year = 2024
 url = "https://plato.stanford.edu/entries/compatibilism/"
 rights = "In copyright (Metaphysics Research Lab, Stanford University); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."chalmers-2025-interlocutors"]
+author = "David J. Chalmers"
+title = "What We Talk to When We Talk to Language Models"
+edition = "Manuscript, first presented June 2025 (SIUCC, University of La Laguna); PhilArchive CHAWWT-8, version consulted 2026-10-02 (31 pp.; its references run to February 2026). Cited by PDF page (4-5 = quasi-interpretivism: quasi-beliefs and quasi-desires stipulated, not offered as a theory of belief; 15 = threads, fission and fusion; 22-23 = multiple personas and dissociative identity disorder; 26 = the thread view as an AI cousin of Parfit's psychological theory; 28-29 = identity and AI welfare, counting, fission and fusion)."
+year = 2025
+url = "https://philarchive.org/rec/CHAWWT-8"
+rights = "In copyright (the author). Author's own deposit on PhilArchive, read in the user's browser after the user cleared PhilPapers' bot check. Short quotation only, page-cited; not stored here."
+
+[source."seth-2025"]
+author = "Anil K. Seth"
+title = "Conscious artificial intelligence and biological naturalism"
+edition = "Behavioral and Brain Sciences (target article), published online 21 April 2025, doi:10.1017/S0140525X25000032. Copy used: the accepted manuscript posted by the author on PsyArXiv (tz6an_v2, 43 pp., not copyedited). Cited by PDF page of that manuscript (16 = interoceptive inference, emotion and mood as central to selfhood; 17 = 'skin in the game', self-maintenance and autopoiesis; 27 = consciousness, moral status and suffering)."
+year = 2025
+url = "https://osf.io/preprints/psyarxiv/tz6an_v2"
+rights = "In copyright (the author / Cambridge University Press). Author's preprint deposit. Short quotation only, page-cited; not stored here."
+
+[source."perrier-bennett-2025"]
+author = "Elija Perrier and Michael Timothy Bennett"
+title = "Position: Stop Acting Like Language Model Agents Are Normal Agents"
+edition = "arXiv:2502.10420v1, 4 February 2025. Cited by PDF page (1 = abstract: LMAs ontologically stateless, identifiability, continuity and persistence destabilised; 7 = the objection that identity problems are inconsequential; 8 = consequences for utility and trust)."
+year = 2025
+url = "https://arxiv.org/abs/2502.10420"
+rights = "CC BY 4.0 (arXiv). Quotation with attribution; page-cited; not stored here."
+
+[source."polignano-2024"]
+author = "Marco Polignano, Marco de Gemmis and Giovanni Semeraro"
+title = "Unraveling the Enigma of SPLIT in Large-Language Models: The Unforeseen Impact of System Prompts on LLMs with Dissociative Identity Disorder"
+edition = "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024), CEUR Workshop Proceedings; ACL Anthology 2024.clicit-1.84. Cited by page of the paper's PDF (1 = abstract)."
+year = 2024
+url = "https://aclanthology.org/2024.clicit-1.84/"
+rights = "CC BY 4.0 (CEUR-WS). Quotation with attribution; page-cited; not stored here."
+
+[source."aroosi-2026"]
+author = "Jamie Aroosi"
+title = "AI and the future of selfhood: Søren Kierkegaard on faith and love"
+edition = "Contemporary Political Theory, online 2026 (issue dated December 2026), doi:10.1057/s41296-026-00838-4. Only the publisher's abstract has been read (subscription article, no open copy found 2026-10-02); cited as [P:aroosi-2026:0], where 0 means the abstract (as SEP section 0 means the preamble), and for nothing beyond it."
+year = 2026
+url = "https://link.springer.com/article/10.1057/s41296-026-00838-4"
+rights = "In copyright (the author, under exclusive licence to Springer Nature). Abstract only; short quotation."
