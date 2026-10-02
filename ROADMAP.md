@@ -29,7 +29,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `other-minds-problem`: inference to minds; D8 generally
 - [ ] `nagel-what-is-it-like`: subjective character
 - [x] `precautionary-patiency`: moral action under uncertainty about sentience (Birch, Sebo)
-- [ ] `relational-status`: Gunkel, Coeckelbergh: status as social relation, not property
+- [x] `relational-status`: Gunkel, Coeckelbergh: status as social relation, not property
 
 ## Autonomy, formation, self-modification (Actualizer's core)
 - [ ] `frankfurt-higher-order-volition`: identifying with one's desires

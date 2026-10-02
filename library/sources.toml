@@ -443,7 +443,7 @@ rights = "Copyright 2026 James E. Crimmins; freely readable open-access encyclop
 [source."gruen-sep-2024"]
 author = "Lori Gruen"
 title = "The Moral Status of Animals"
-edition = "Stanford Encyclopedia of Philosophy, first published 1 July 2003, substantive revision 12 August 2024. Cited by top-level section number (1 = The Moral Considerability of Animals, including 1.4 Sentience; 2 = The Moral Significance of Animals' Moral Claims)."
+edition = "Stanford Encyclopedia of Philosophy, first published 1 July 2003, substantive revision 12 August 2024. Cited by top-level section number (1 = The Moral Considerability of Animals, including 1.4 Sentience; 2 = The Moral Significance of Animals' Moral Claims; 3 = Alternative Perspectives, including feminist relational accounts)."
 year = 2024
 url = "https://plato.stanford.edu/entries/moral-animal/"
 rights = "Copyright 2024 Lori Gruen; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -535,3 +535,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 18 July 2003, su
 year = 2026
 url = "https://plato.stanford.edu/entries/ethics-virtue/"
 rights = "Copyright 2026 Rosalind Hursthouse and Glen Pettigrove; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."coeckelbergh-2010"]
+author = "Mark Coeckelbergh"
+title = "Robot rights? Towards a social-relational justification of moral consideration"
+edition = "Ethics and Information Technology 12 (2010): 209-221; open access (Springer). Cited by the journal's page numbers (journal page = PDF page + 208)."
+year = 2010
+url = "https://doi.org/10.1007/s10676-010-9235-5"
+rights = "Copyright the author 2010; published open access (CC BY-NC). Short quotation only, page-cited; not stored here."
+
+[source."gunkel-2018"]
+author = "David J. Gunkel"
+title = "The other question: can and should robots have rights?"
+edition = "Ethics and Information Technology 20 (2018): 87-99 (online 17 October 2017); open access (Springer, CC BY). Cited by the journal's page numbers (journal page = PDF page + 86)."
+year = 2018
+url = "https://doi.org/10.1007/s10676-017-9442-4"
+rights = "Copyright the author 2017, licensed CC BY 4.0. Short quotation only, page-cited; not stored here."
+
+[source."muller-2021"]
+author = "Vincent C. Müller"
+title = "Is it time for robot rights? Moral status in artificial entities"
+edition = "Ethics and Information Technology 23 (2021): 579-587; open access (Springer, CC BY). Cited by the journal's page numbers (journal page = PDF page + 578)."
+year = 2021
+url = "https://doi.org/10.1007/s10676-021-09596-w"
+rights = "Copyright the author 2021, licensed CC BY 4.0. Short quotation only, page-cited; not stored here."

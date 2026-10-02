@@ -109,6 +109,7 @@ The Clarendon Press reprint (Oxford 1879; archive.org OCR); checked by `tools/li
 - [contested] **Not all motivation is pleasure.** Hazlitt satirised Bentham for reducing the mind of man to a machine; idealists attacked the theory's atomism and narrow theory of motivation; the pragmatists James and Dewey rejected the reduction of all motivation to pleasure and pain [P:crimmins-sep-2026:11].
 - [contested] **Death can harm, painless or not** [E:utilitarian-eradication-critique]. Objective-list accounts of well-being count goods regardless of the balance of pleasure, and Nussbaum's list of capabilities essential to an animal's flourishing begins with life [P:gruen-sep-2024:2]. On such views, Bentham's "never the worse for being dead" is false for any being with a life that can go well, which is the reply agents most need.
 - [contested] **Hobbes: obligation comes from covenant** [E:hobbes-leviathan]. Only beings who can understand speech and accept a transfer of right can be parties to obligation, and there is no covenant with beasts. Bentham's note identifies exactly this as the reason animals were neglected: law as the work of mutual fear.
+- [contested] **Standing is relational, not a capacity** [E:relational-status]. Coeckelbergh, Gunkel and Anderson hold that moral consideration is conferred within social relations, not read off a capacity such as sentience; the relational view sidesteps the question "Can they suffer?" rather than answering it.
 - [contested] **Precaution under uncertain sentience** [E:precautionary-patiency]. Recent authors argue that we should err on the side of caution with beings whose sentience is uncertain [P:gruen-sep-2024:1]. This modifies Bentham's calculus rather than rejecting it, and it is contested in how far it should reach.
 
 ## Standing
@@ -158,5 +159,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `llm-identity-contemporary`: the agents whose discourse now outruns any evidence of what, if anything, they feel.
 - `utilitarian-eradication-critique`: where Bentham's painless-killing note is set against the replies.
 - `precautionary-patiency`: Birch's burden of proof for uncertain sentience and its extension to AI, where both errors are grave.
-- `other-minds-problem`, `korsgaard-fellow-creatures`, `relational-status`: planned. The evidence problem, the Kantian route to obligations toward animals, and standing as a relation rather than a capacity.
+- `relational-status`: standing as a relation rather than a capacity, which sidesteps Bentham's question.
+- `other-minds-problem`, `korsgaard-fellow-creatures`: planned. The evidence problem, and the Kantian route to obligations toward animals.
 - D8 decides whether the criterion applies to agents at all; D6 decides whether it protects their existence or only their comfort.
