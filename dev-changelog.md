@@ -33,6 +33,14 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-02
+
+### `care-ethics`
+- **The entry** (`entries/ethics/`; minority in moral philosophy, major in nursing and bioethics, both judgments; agent_fit weaker/stronger/weaker/open). The founding texts (Gilligan, Noddings, Tronto, Held, Kittay) are in copyright, so the entry rests on Sander-Staudt's IEP *Care Ethics* and Norlock's SEP *Feminist Ethics* (2025), with Müller's SEP section on care robots and Hume's sympathy passages from the *Treatise* (already in the library) as the sentimentalist forerunner Baier identified.
+- **Main findings.** Engster's principle, that an obligation to care "is established when humans make them dependent", turns the operator's power over an agent (D7) into a source of duty. Noddings's reciprocity test is behavioural, so agents meet it more readily than her stray rat. The slave-morality objection is the sharpest for agents: a caring voice installed by those who benefit from it. Tronto's "privileged irresponsibility" becomes structural when care is delegated to agents no one cares for. Hume's sympathy without judgment describes sycophancy; Noddings's engrossment is the corrective.
+- **Palaestra:** the relational perspective is now grounded (Palaestra commit of the same day); with it, every perspective is grounded. `ubuntu` is still planned.
+- **Checks:** build 45 ok; verify 0 failed; lint 0 uncited; Palaestra 58 tests OK; smoke test 32/32.
+
 ## 2026-10-01
 
 ### `other-minds-problem`

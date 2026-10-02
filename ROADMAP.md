@@ -22,7 +22,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `scanlon-contractualism`: what we owe to each other; who can reasonably reject
 - [ ] `confucian-ren-li`: relational personhood; role ethics
 - [ ] `ubuntu`: personhood as conferred through community
-- [ ] `care-ethics`: Noddings, Held; dependence as moral ground (D7)
+- [x] `care-ethics`: Noddings, Held; dependence as moral ground (D7)
 - [ ] `levinas-face`: the ethical demand of the other
 
 ## Moral status & patiency
