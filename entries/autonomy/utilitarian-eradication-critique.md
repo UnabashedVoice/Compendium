@@ -112,7 +112,7 @@ Checked by `tools/library.py verify`.
 
 ### New
 
-- **Second-order principles as a constitution.** Callicott's repair, ranking obligations by the intimacy of the community and the strength of the interest, with strength generally overriding intimacy as Lo required [P:brennan-lo-sep-2021:4], is a model for an ecosystem's founding rules: no member may be removed to improve an aggregate unless a stronger interest of other members, not a sum, requires it, and seniority or closeness of membership decides only between interests of equal strength (`precautionary-patiency`).
+- **Second-order principles as a constitution.** Callicott's repair, ranking obligations by the intimacy of the community and the strength of the interest, with strength generally overriding intimacy as Lo required [P:brennan-lo-sep-2021:4], is a model for an ecosystem's founding rules: no member may be removed to improve an aggregate unless a stronger interest of other members, not a sum, requires it, and seniority or closeness of membership decides only ties in what is owed by way of help, never whose existence yields in a conflict of existence against existence, since that is where closeness, as Lo and Horn show, would otherwise decide [P:lo-2001:352] [P:horn-2005:427] (`precautionary-patiency`).
 
 ## Counter-Positions
 

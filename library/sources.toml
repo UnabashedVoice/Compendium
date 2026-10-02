@@ -623,3 +623,19 @@ edition = "Stanford Encyclopedia of Philosophy, first published 9 September 2010
 year = 2010
 url = "https://plato.stanford.edu/entries/african-ethics/"
 rights = "Copyright the author; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."lo-2001"]
+author = "Y. S. (Norva Y. S.) Lo"
+title = "The Land Ethic and Callicott's Ethical System (1980-2001): An Overview and Critique"
+edition = "Inquiry 44 (2001): 331-58. Copy used: the published version uploaded by the author to ResearchGate ('Content uploaded by Norva Y. S. Lo'), downloaded by the user 2026-10-02 and kept outside the corpus. Cited by the journal's page numbers (345 = the two second-order principles; 346-348 = SOP-1 reformulated; 351 = the third-order principle, TOP; 352 = equal interests leave SOP-1 to decide; 353-354 = TOP's verdicts and the system's turn toward Singer-like egalitarianism)."
+year = 2001
+url = "https://www.researchgate.net/publication/233273749"
+rights = "Copyright Taylor & Francis / the author; author's own posting. Short quotation only, page-cited; not stored here."
+
+[source."horn-2005"]
+author = "Eric B. Horn"
+title = "On Callicott's Second-Order Principles"
+edition = "Environmental Ethics 27 (Winter 2005): 411-428. Copy used: purchased by the user from the Philosophy Documentation Center, 2026-10-02, kept outside the corpus. Cited by the journal's page numbers (411 = abstract and thesis; 413-416 = venerability and intimacy, subjective and objective community; 423-426 = the strength of interests; 427 = equal existence interests yield a tie decided by SOP-1; 428 = conclusion)."
+year = 2005
+url = "https://www.pdcnet.org/enviroethics/content/enviroethics_2005_0027_0004_0411_0428"
+rights = "Copyright Environmental Ethics / the author; a copy the user owns. Short quotation only, page-cited; not stored here."
