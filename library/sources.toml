@@ -647,3 +647,19 @@ edition = "American Philosophical Quarterly 7 (4), October 1970, pp. 269-285. JS
 year = 1970
 url = "https://www.jstor.org/stable/20009360"
 rights = "In copyright (University of Illinois Press / North American Philosophical Publications). Read 2026-10-02 in JSTOR's reader on the user's own free reading account; not downloaded and not stored here. Short quotation only, page-cited."
+
+[source."luban-2018"]
+author = "Daniel Luban"
+title = "Hobbesian Slavery"
+edition = "Political Theory 46 (5), 2018: 726-748. doi:10.1177/0090591717731070. Copy used: the author's accepted manuscript in the Oxford University Research Archive (ORA), paginated 1-29 in its own right; citations use the manuscript's page numbers, not the journal's (1 = Lawson's charge; 2 = the slave's right of resistance in Elements, De Cive, Leviathan; 4 = the narrow-definition objection; 23-25 = reversibility of the servant's covenant and Bramhall's 'rebel's catechism'; 26-28 = slavery as a real, widespread institution; 29 = conclusion)."
+year = 2018
+url = "https://ora.ox.ac.uk/objects/uuid:38008604-235c-42f7-92af-ac0346cdc897"
+rights = "In copyright (SAGE / the author). Accepted manuscript deposited in Oxford's institutional repository under ORA's terms of use. Short quotation only, page-cited; not stored here."
+
+[source."mckenna-coates-sep-2024"]
+author = "Michael McKenna and D. Justin Coates"
+title = "Compatibilism"
+edition = "Stanford Encyclopedia of Philosophy, first published 26 April 2004, substantive revision 16 April 2024. No page numbers; cited by top-level section (4 = Contemporary Compatibilism, where manipulation cases are set against Frankfurt's mesh view, Wolf's reason view and reasons-responsive compatibilism)."
+year = 2024
+url = "https://plato.stanford.edu/entries/compatibilism/"
+rights = "In copyright (Metaphysics Research Lab, Stanford University); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

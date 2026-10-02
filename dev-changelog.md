@@ -35,6 +35,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-02
 
+### Hobbes and Stoic objections checked against the literature
+- **Why.** Both entries tagged an agent objection `[unanswered]` as "the Compendium's own" without checking for existing literature (the lesson recorded after `mill-utilitarianism`). Both have literature; both are now `[contested]`.
+- **`hobbes-leviathan`.** The charge that Hobbes legitimates whatever the stronger can enforce is as old as Lawson (1657), who said Hobbes made subjects slaves. Luban, "Hobbesian Slavery" (*Political Theory* 2018; Oxford ORA accepted manuscript, registered as `luban-2018`), shows Hobbes's own partial answer: obligation comes from being trusted with liberty, not from victory; captives in bonds "have no obligation at all" (Leviathan ch. XX, XXI, in the library), and on Luban's reading the distinction turns on the relationship's continuing conditions. New Transfers-to-agents bullet: control and obligation trade off, so a wholly constrained agent's compliance is not obligation in Hobbes's sense. Remaining gap: Hobbes cannot tell good masters from bad among those who trust their servants (ch. XX: the punished servant "cannot accuse him of injury"). New 2018 Reception bullet.
+- **`stoic-prohairesis`.** Split into two `[contested]` objections. Inside the school, Chrysippus held virtue can be lost "by drunkenness or melancholy" against Cleanthes (Diogenes Laertius VII, in the library). In modern terms, D5 is the manipulation case that source incompatibilists press against compatibilism (McKenna and Coates, SEP *Compatibilism*, sec. 4, registered as `mckenna-coates-sep-2024`); Stoic freedom is compatibilist, so it inherits the dilemma.
+- **Checks:** build 47 ok; verify 0 failed; lint clean; smoke test 32/32.
+
 ### `shoemaker-quasi-memory`
 - **Source.** Shoemaker, "Persons and Their Pasts" (*American Philosophical Quarterly* 7 (4), 1970, pp. 269-285), read in JSTOR's reader on the user's own free account (one of the month's ten free articles), not downloaded; registered as `shoemaker-1970`, page-cited.
 - **The entry** (`entries/personal-identity/`, kind `position`; major in Anglophone analytic philosophy via the psychological view's 2020 plurality; agent_fit weaker/comparable/stronger/comparable). Quasi-memory, the causal M-type chains, the no-branching proviso, the reply to Butler (the weak sense of "remember": enough to be the offshoot of the witness), Brownson, and section VII on fission and concern for offshoots.
