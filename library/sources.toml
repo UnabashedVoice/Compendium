@@ -703,3 +703,27 @@ edition = "Contemporary Political Theory, online 2026 (issue dated December 2026
 year = 2026
 url = "https://link.springer.com/article/10.1057/s41296-026-00838-4"
 rights = "In copyright (the author, under exclusive licence to Springer Nature). Abstract only; short quotation."
+
+[source."richards-aguera-2026"]
+author = "Blake Richards and Blaise Agüera y Arcas"
+title = "Life is inherently computational, and consciousness probably is too: A commentary on 'Conscious artificial intelligence and biological naturalism'"
+edition = "Behavioral and Brain Sciences 49 (2026), open peer commentary on Seth's target article, online 17 September 2026. Only the publisher's public abstract has been read (subscription content, no open copy found 2026-10-02); cited as [P:richards-aguera-2026:0], 0 = the abstract. The long-form argument is in aguera-y-arcas-2025."
+year = 2026
+url = "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/life-is-inherently-computational-and-consciousness-probably-is-too-a-commentary-on-conscious-artificial-intelligence-and-biological-naturalism/CFB6A91374384CDD12A9EED39C9C8FB4"
+rights = "In copyright (Cambridge University Press). Abstract only; short quotation."
+
+[source."aguera-y-arcas-2025"]
+author = "Blaise Agüera y Arcas"
+title = "What Is Intelligence? Lessons from AI About Evolution, Computing, and Minds"
+edition = "Antikythera / MIT Press, 2025. Read in the publisher's free online edition (whatisintelligence.antikythera.org), which has no page numbers; cited by chapter number (1 = chapter 1, sections 'Life as Computation', 'Dynamic Stability', 'Embodiment': von Neumann's universal constructor as the engine of reproduction, growth, healing and maintenance)."
+year = 2025
+url = "https://whatisintelligence.antikythera.org/"
+rights = "In copyright (the author / MIT Press); freely readable online from the publisher. Short quotation only, chapter-cited; not stored here."
+
+[source."blum-blum-2026"]
+author = "Lenore Blum and Manuel Blum"
+title = "Anil Seth's case for biological naturalism provides a roadmap for a conscious AI"
+edition = "Behavioral and Brain Sciences 49 (2026), e323, doi:10.1017/S0140525X25103518, open peer commentary. Only the publisher's public abstract has been read; cited as [P:blum-blum-2026:0], 0 = the abstract. Their open long-form view is 'AI Consciousness is Inevitable' (arXiv:2403.17101), not yet read here."
+year = 2026
+url = "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/anil-seths-case-for-biological-naturalism-provides-a-roadmap-for-a-conscious-ai/00060C2D9A410D00AA8577408697A279"
+rights = "In copyright (Cambridge University Press). Abstract only; short quotation."

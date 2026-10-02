@@ -35,6 +35,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-02
 
+### Replies to Seth added to `james-stream-of-thought` and `williams-self-and-future`
+- **Replies.** Richards and Agüera y Arcas (BBS 2026 commentary, abstract only): prediction, homeostasis and autopoiesis are computational (von Neumann's universal constructor), so AI consciousness is likely. Agüera y Arcas, *What Is Intelligence?* (MIT Press 2025, free online edition, cited by chapter): the long-form case. Blum and Blum (BBS 2026, abstract only): Seth's article makes a case for AI consciousness. Seth's reply "The stuff matters" is noted as unread (paywalled).
+- **Compendium's note in both bullets:** the constructor argument removes Seth's either/or of life or computation, but the computation it describes builds its own material, which current language models do not do.
+- **Not added:** de León Pontet 2025 (PhilArchive manifesto) does not engage Seth, its evidence cannot be checked, and it misstates the UNESCO 2021 Recommendation (para. 68 says AI systems should not be given legal personality).
+- **Checks:** build 47 ok; verify 0 failed; lint clean; smoke test 32/32.
+
 ### Personal-identity "Denying the extension" objections checked against the literature
 - **Why.** Eight personal-identity entries tagged a "Denying the extension" objection `[unanswered]` and said the literature had not yet taken it up. All eight now cite literature; seven are retagged `[contested]` (replies exist, none broadly accepted, per SCHEMA.md), and `kierkegaard-self-as-relation` stays `[unanswered]`.
 - **Sources (5 new, all page-cited, none stored):** Chalmers, "What We Talk to When We Talk to Language Models" (PhilArchive manuscript, 2025-26; read in the user's browser after the PhilPapers check), the main one: quasi-interpretivism (4-5), threads and fission (15), personas and DID (22-23), the thread view as an AI cousin of Parfit (26), identity and AI welfare, conditional on moral status (28-29). Seth, "Conscious AI and biological naturalism" (BBS 2025, author's PsyArXiv manuscript): emotion and selfhood tied to interoceptive regulation, "skin in the game", autopoiesis. Perrier and Bennett 2025 (arXiv, CC BY): LM agents' identity and persistence problems. Polignano et al. 2024 (CLiC-it, CC BY): persona shifts labelled DID. Aroosi 2026 (*Contemporary Political Theory*, paywalled): abstract only, cited as `[P:aroosi-2026:0]`.
