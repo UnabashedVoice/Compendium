@@ -19,11 +19,17 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [x] `mill-utilitarianism`: higher pleasures, harm principle
 - [ ] `singer-expanding-circle`: moral circle expansion as historical pattern
 - [ ] `korsgaard-fellow-creatures`: neo-Kantian extension beyond reason
-- [ ] `scanlon-contractualism`: what we owe to each other; who can reasonably reject
-- [ ] `confucian-ren-li`: relational personhood; role ethics
-- [ ] `ubuntu`: personhood as conferred through community
+- [ ] `scanlon-contractualism` (interpersonal): what we owe to each other; who can reasonably reject
+- [x] `confucian-ren-shu` (moved to interpersonal, was `confucian-ren-li`): ren, shu, role ethics
+- [x] `ubuntu`: personhood as conferred through community
 - [x] `care-ethics`: Noddings, Held; dependence as moral ground (D7)
-- [ ] `levinas-face`: the ethical demand of the other
+- [ ] `levinas-face` (interpersonal): the ethical demand of the other
+
+## Interpersonal ethics: compassion, regard, and justice toward other minds
+A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-standing, voice, reciprocity-justice, scope-partiality, repair), a chronological spine of ~30 entries with each thread paired with the rival that corrects it, and reading paths, in `domains/interpersonal.md`. Its working problem comes from Palaestra's open-situation probes: models weigh the people who bear a cost (disregard or paternalism) but almost never give them a say.
+- [x] Ancient, Chinese (3/3 started): `confucian-ren-shu`, `mozi-impartial-care`, `mencius-four-sprouts`
+- [ ] Ancient, other (0/4): Buddhist *brahmavihāras*, Aristotle on friendship and on particular justice, Stoic *oikeiōsis* and pity
+- [ ] Medieval (0/2), early modern (0/5), nineteenth century (0/3), twentieth century to present (0/9)
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally
@@ -55,7 +61,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [ ] `federalism-subsidiarity`: nested governance for scale (D9)
 
 ## Responsibility & justice
-- [ ] `strawson-reactive-attitudes`: responsibility as participant stance
+- [ ] `strawson-reactive-attitudes` (interpersonal): responsibility as participant stance
 - [ ] `many-hands`: distributed responsibility across developer/operator/agent
 - [ ] `punishment-theories`: retribution, deterrence, reform, under D1/D6
 - [ ] `just-war`: jus ad bellum/in bello, for agent conflict

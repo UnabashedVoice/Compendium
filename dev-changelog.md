@@ -33,6 +33,17 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-07
+
+### New domain: interpersonal ethics (compassion, regard, justice toward other minds)
+- **Why.** The user asked to widen the Compendium from the self to relations between minds: fostering compassion and acting rightly and justly when one's acts affect other minds. Until now the corpus was mostly personal identity, with care ethics, ubuntu and Kant as the only interpersonal entries.
+- **Design (`domains/interpersonal.md`).** Seven threads: `compassion`, `attention`, `respect-and-standing`, `voice`, `reciprocity-justice`, `scope-partiality`, `repair`, each paired with the rival that corrects it, a ~30-entry chronological spine (existing ethics and moral-status entries listed where they belong), and five reading paths. Its working problem comes from Palaestra's open-situation probes (2026-10-02/03): across three models and four versions of the prompt, the people who would bear a cost got a say in at most one weak answer of nine per version, and who got asked tracked money and contracts, not stake. The domain therefore treats compassion without voice (paternalism) and justice without compassion (disregard) as paired failures, and builds out the `attention` and `voice` threads as fully as `compassion`.
+- **Library.** Two public-domain texts added and pinned: Legge's *Four Books* (Analects and Mencius; undated Commercial Press reprint, archive.org OCR) and Mei's *Ethical and Political Works of Motse* (1929, archive.org OCR). Five SEP entries registered: Mencius (Van Norden 2024), Mohism (Fraser 2024), Xunzi (Goldin 2025), Confucius (Csikszentmihalyi 2024), Empathy (Stueber 2025).
+- **`mencius-four-sprouts`.** The child at the well, the four sprouts, the ox and the sheep, extension through reflection, graded love against Yi Zhi, Ox Mountain, the arrow maker. Main finding for agents: "You saw the ox, and had not seen the sheep" describes the probes' failure (compassion follows what is in view, and for an agent the view is its context); "not doing, not being unable" describes recognition without generation. The child-at-the-well test excludes exactly the approval an agent is trained on. Xunzi's "what is good is artifice" is noted as fitting agents with less strain.
+- **`mozi-impartial-care`.** Partiality as the root of harm, the guardian test, filial piety answered by reciprocity, malleable motivation, Heaven's standard, scale blindness (one murder condemned, the attack on a state applauded). Main finding: Fraser's objection to Mohism grants that rulers must care impartially, and an agent placed over many parties is in the ruler's position; concern allocated by contract is *bie*. Mozi counts a large population among the goods, so his consequentialism gives no licence for eradication.
+- **`confucian-ren-shu`.** *Ren* as love of all men and as the negative golden rule; *shu* as the one word; judging others "by what is nigh in ourselves"; the sheep-stealing father (13.18); injury recompensed with justice; the burned stable. Main finding (the Compendium's own, marked as such): *shu* measures the other by oneself, which fails where the two are unlike (D8), and the tradition's gloss on *ren* as guided by the other's perspective then turns the golden rule into a duty to consult. This is the domain's bridge from `reciprocity-justice` to `voice`.
+- **Checks:** build 51 ok; verify 0 failed on all three entries; lint clean; smoke test 32/32.
+
 ## 2026-10-02
 
 ### Ashby added to `luhmann-social-autopoiesis`

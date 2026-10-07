@@ -832,3 +832,23 @@ rights = "US public domain: published 1925 (US works of 1925 entered the public 
 notes = "Ch. XIII 'The Unity of the Mind' (p. 556ff.) classifies centre and non-centre theories and names James's 'passing thought'. Pp. 578-579 (lines 25098-25124) discuss Russell's Analysis of Mind and report that denying a Pure Ego flogs what most of Broad's contemporaries 'rightly or wrongly' regard as a dead horse. Those lines are a report on contemporary opinion, so they are marked as a secondary span."
 secondary_spans = [[25098, 25124]]
 sha256 = "ca312f024cd7ecdaf38d95668cc961d7d630f19fc74c2c3729ec46a98fb13f2d"
+
+[text."four-books-legge-commercial-press"]
+author = "Confucius; Mencius (and disciples)"
+title = "The Four Books: Confucian Analects, The Great Learning, The Doctrine of the Mean, and The Works of Mencius"
+edition = "tr. James Legge (Analects 1861, Mencius 1861/1895, revised), with Legge's notes and the Chinese text; undated Commercial Press (Shanghai) reprint, [19--]"
+source = "archive.org fourbooksconfuci00leggiala"
+format = "ocr"
+rights = "Public domain: translator died 1897; translation published 1861-1895"
+notes = "Legge's notes run in a parallel column and interleave with the translation in the OCR; the Chinese text is OCR noise. Cite Analects and Mencius passages by book/chapter in prose as well as by line."
+sha256 = "36c89167956c9ad23d10e02f7ef60056f5246e20f0d701948eb4f53cd29597ed"
+
+[text."mozi-works-mei-1929"]
+author = "Mozi (Mo Di) and the Mohist school"
+title = "The Ethical and Political Works of Motse"
+edition = "tr. Yi-Pao Mei, London: Arthur Probsthain, 1929 (Probsthain's Oriental Series XIX)"
+source = "archive.org in.ernet.dli.2015.283868"
+format = "ocr"
+rights = "US public domain: published before 1931"
+sha256 = "622625cd061054956c2a1ccc6876c8676b5e60e01a5fa4d851847afb7aace6dc"
+

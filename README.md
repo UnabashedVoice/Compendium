@@ -59,7 +59,7 @@ ROADMAP.md                 planned entries by domain; sourcing status and open i
 foundations/
   terms.md                 extended vocabulary: person, agent, polity, ecosystem...
   disanalogies.md          D-codes: the recurring human/agent differences
-domains/<domain>.md        a domain's threads, chronological spine, reading paths (personal-identity so far)
+domains/<domain>.md        a domain's threads, chronological spine, reading paths (personal-identity, interpersonal)
 sources/<domain>.md        primary-source register: locators, translations, rights, transcription quirks
 entries/<domain>/<id>.md   one position, thinker, problem or concept per file
 library/

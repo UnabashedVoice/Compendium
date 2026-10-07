@@ -775,3 +775,43 @@ edition = "In H. von Foerster and G. W. Zopf, Jr. (eds.), Principles of Self-Org
 year = 1962
 url = "https://csis.pace.edu/~marchese/CS396x/Computing/Ashby.pdf"
 rights = "Copyright the Estate of W. Ross Ashby; E:CO reprint by permission of his daughters. Course-hosted copy of a single article. Short quotation, page-cited; not stored here."
+
+[source."van-norden-sep-2024"]
+author = "Bryan Van Norden"
+title = "Mencius"
+edition = "Stanford Encyclopedia of Philosophy, first published 16 October 2004, substantive revision 27 September 2024. Cited by top-level section number (1 = Life and Confucian Background, 2 = The Virtues and Their Cultivation, 3 = The Goodness of Human Nature, 4 = Mencius and His Philosophical Opponents, 5 = Later Influence and Interpretations). Its Mengzi translations are Van Norden's (2008)."
+year = 2024
+url = "https://plato.stanford.edu/entries/mencius/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."fraser-sep-2024"]
+author = "Chris Fraser"
+title = "Mohism"
+edition = "Stanford Encyclopedia of Philosophy, first published 21 October 2002, substantive revision 1 September 2024. Cited by top-level section number (1 = Mozi and the Mohists, 2 = The Ten Mohist Doctrines, 6 = Political Theory, 7 = Ethical Theory, including Inclusive Care and Practical Objections, 9 = Historical Influence and Decline)."
+year = 2024
+url = "https://plato.stanford.edu/entries/mohism/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."goldin-sep-2025"]
+author = "Paul R. Goldin"
+title = "Xunzi"
+edition = "Stanford Encyclopedia of Philosophy, first published 6 July 2018, substantive revision 2 June 2025. Cited by top-level section number (2 = Human Nature (xing), 3 = Modes of Moral Self-Cultivation: Ritual and Music, 9 = Xunzi's Reception after His Death)."
+year = 2025
+url = "https://plato.stanford.edu/entries/xunzi/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."csikszentmihalyi-sep-2024"]
+author = "Mark Csikszentmihalyi"
+title = "Confucius"
+edition = "Stanford Encyclopedia of Philosophy, first published 31 March 2020, substantive revision 2 May 2024. Cited by top-level section number (3 = Ritual Psychology and Social Values, 4 = Virtues and Character Formation, 5 = The Family and the State)."
+year = 2024
+url = "https://plato.stanford.edu/entries/confucius/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."stueber-sep-2025"]
+author = "Karsten Stueber"
+title = "Empathy"
+edition = "Stanford Encyclopedia of Philosophy, first published 31 March 2008, substantive revision 6 October 2025. Cited by top-level section number (1 = Historical Introduction, 2 = Aspects of Empathy-Related Phenomena, 3 = Empathy and Knowledge of Other Minds, 4 = Empathy, Moral Philosophy, and Moral Psychology, including 4.1 altruistic motivation (Batson) and 4.2 partiality and bias (Hoffman, Prinz, Bloom))."
+year = 2025
+url = "https://plato.stanford.edu/entries/empathy/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
