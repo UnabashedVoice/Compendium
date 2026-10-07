@@ -901,3 +901,42 @@ format = "ocr"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 sha256 = "64b94e3865b40a53ce710caf2f51dffb355ca0b7897156d0375da205ce7f93a0"
 
+
+[text."nietzsche-antichrist-mencken-pg19322"]
+author = "Friedrich Nietzsche"
+title = "The Antichrist (Der Antichrist, written 1888, publ. 1895)"
+edition = "tr. H. L. Mencken, New York: Alfred A. Knopf, 1918"
+source = "Project Gutenberg #19322"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Mencken's introduction is secondary and expresses his own politics; quote only Nietzsche's numbered sections."
+sha256 = "d5879a2656682be917dca484813e61b4138b30a11a3f7a9b5e40fa17615352bd"
+
+[text."nietzsche-dawn-kennedy-pg39955"]
+author = "Friedrich Nietzsche"
+title = "The Dawn of Day (Morgenröte, 1881)"
+edition = "tr. J. M. Kennedy, London: T. N. Foulis, 1911 (Complete Works, ed. Levy, vol. 9)"
+source = "Project Gutenberg #39955"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+sha256 = "c0ebc5c9f0aa2d025bd83508a4a3bde6208d2aaf50adbfc5d19c761a2220a6b5"
+
+[text."nietzsche-zarathustra-common-pg1998"]
+author = "Friedrich Nietzsche"
+title = "Thus Spake Zarathustra (Also sprach Zarathustra, 1883–1885)"
+edition = "tr. Thomas Common, with notes by A. M. Ludovici (Complete Works, ed. Levy, vol. 11, 1909)"
+source = "Project Gutenberg #1998"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Ludovici's notes and introduction are secondary."
+sha256 = "0854ebabe235d46c8e5e099418c5189b1df0848898c552009b70d924b9065d05"
+
+[text."darwin-descent-of-man-pg2300"]
+author = "Charles Darwin"
+title = "The Descent of Man, and Selection in Relation to Sex"
+edition = "2nd ed., revised and augmented (London: John Murray, 1874)"
+source = "Project Gutenberg #2300"
+format = "gutenberg"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+sha256 = "2911dfcc2b0b498fe92ad9bd7e2c712046edb448eb6fe3bd669bcf9629adf8fd"
+

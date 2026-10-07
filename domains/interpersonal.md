@@ -53,8 +53,8 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [x] `mozi-impartial-care`: *jian ai*: care for others' states, families and persons as for one's own; the argument that partiality is the root of harm (c. 430 BCE) → `confucian-ren-shu`
 - [x] `mencius-four-sprouts`: the child at the well; the heart that cannot bear others' suffering; compassion as the sprout of humaneness; the attack on Mozi (c. 320 BCE) → `mozi-impartial-care`
 - [ ] `buddhist-brahmaviharas`: loving-kindness, compassion, sympathetic joy, equanimity, cultivated without limit (Pali Canon) 
-- [ ] `aristotle-friendship`: friendship of utility, pleasure and virtue; the friend as another self; goodwill that wishes the other's good for their own sake (NE VIII–IX, c. 340 BCE)
-- [ ] `aristotle-particular-justice`: distributive and corrective justice; equity as the correction of law (NE V, c. 340 BCE)
+- [x] `aristotle-friendship`: friendship of utility, pleasure and virtue; the friend as another self; goodwill that wishes the other's good for their own sake (NE VIII–IX, c. 340 BCE)
+- [x] `aristotle-particular-justice`: distributive and corrective justice; equity as the correction of law (NE V, c. 340 BCE)
 - [ ] `stoic-oikeiosis-and-pity`: appropriation widening from self to humankind (Hierocles' circles, Cicero *De Finibus* III); and the Stoic rejection of pity in favour of clemency (Seneca *De Clementia* II) 
 
 ### II. Late antique & medieval
@@ -72,9 +72,9 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 
 ### IV. Nineteenth century
 - [x] `schopenhauer-compassion`: *Mitleid* as the sole genuine moral incentive; the three incentives (egoism, malice, compassion); compassion extended to animals (On the Basis of Morality, 1840) → `kant-love-and-respect`
-- [ ] `nietzsche-against-pity`: pity as depressive and contagious; the morality of pity as decadence; pity as an insult to the one pitied (1881–1888) → `schopenhauer-compassion`
+- [x] `nietzsche-against-pity`: pity as depressive and contagious; the morality of pity as decadence; pity as an insult to the one pitied (1881–1888) → `schopenhauer-compassion`
 - [x] `mill-utilitarianism` (ethics): the harm principle; sovereignty over oneself
-- [ ] `darwin-social-instincts`: sympathy as a social instinct widened by reason "to all sentient beings" (Descent of Man, 1871)
+- [x] `darwin-social-instincts`: sympathy as a social instinct widened by reason "to all sentient beings" (Descent of Man, 1871)
 
 ### V. Twentieth century to present
 - [ ] `weil-murdoch-attention`: attention as the substance of love of neighbour (Weil); the just and loving gaze directed upon an individual reality (Murdoch)

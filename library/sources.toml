@@ -523,7 +523,7 @@ rights = "Copyright 2023 the authors, licensed CC BY. Short quotation only, page
 [source."kraut-sep-2026"]
 author = "Richard Kraut"
 title = "Aristotle's Ethics"
-edition = "Stanford Encyclopedia of Philosophy, first published 1 May 2001, substantive revision 11 August 2026. Cited by top-level section number (2 = The Human Good and the Function Argument, 5 = The Doctrine of the Mean, including 5.2 Ethical Theory Does Not Offer a Decision Procedure)."
+edition = "Stanford Encyclopedia of Philosophy, first published 1 May 2001, substantive revision 11 August 2026. Cited by top-level section number (2 = The Human Good and the Function Argument, 5 = The Doctrine of the Mean, including 5.2 Ethical Theory Does Not Offer a Decision Procedure, 9 = Friendship)."
 year = 2026
 url = "https://plato.stanford.edu/entries/aristotle-ethics/"
 rights = "Copyright 2026 Richard Kraut; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -862,4 +862,28 @@ title = "Baruch Spinoza"
 edition = "Stanford Encyclopedia of Philosophy, first published 29 June 2001, substantive revision 8 November 2023. Cited by top-level section number (1 = Biography; 2 = Ethics; 3 = Theological-Political Treatise)."
 year = 2023
 url = "https://plato.stanford.edu/entries/spinoza/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."leiter-sep-2024"]
+author = "Brian Leiter"
+title = "Nietzsche's Moral and Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 26 August 2004, substantive revision 5 September 2024. Cited by top-level section number (1 = The Critique of Morality, including 1.3 the normative component; 2 = Nietzsche's Positive Ethical Vision; 3 = Metaethics; 4 = Nietzsche's Lack of a Political Philosophy)."
+year = 2024
+url = "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."fitzpatrick-sep-2025"]
+author = "William FitzPatrick"
+title = "Morality and Evolutionary Biology"
+edition = "Stanford Encyclopedia of Philosophy, first published 19 December 2008, substantive revision 15 July 2025. Cited by top-level section number (1 = Overview; 2 = Descriptive Evolutionary Ethics; 3 = Evolutionary Biology and Normative Ethics, including Spencer; 4 = Evolutionary Metaethics, including the hive-bee passage and selective debunking)."
+year = 2025
+url = "https://plato.stanford.edu/entries/morality-biology/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."helm-sep-2021"]
+author = "Bennett Helm"
+title = "Friendship"
+edition = "Stanford Encyclopedia of Philosophy, first published 17 May 2005, substantive revision 30 July 2021. Cited by top-level section number (1 = The Nature of Friendship; 2 = Value and Justification of Friendship; 3 = Friendship and Moral Theory)."
+year = 2021
+url = "https://plato.stanford.edu/entries/friendship/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
