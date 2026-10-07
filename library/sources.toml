@@ -274,7 +274,7 @@ rights = "Copyright 2020 Christopher Shields; freely readable open-access encycl
 [source."durand-sep-2023"]
 author = "Marion Durand"
 title = "Stoicism"
-edition = "Stanford Encyclopedia of Philosophy, first published 20 January 2023. Cited by top-level section number; 0 = the preamble before section 1 (1 = Preliminaries, including sources; 2 = Physical Theory, including 2.8 Causes and Determinism; 5 = Influence, including 5.4 On Contemporary Philosophy)."
+edition = "Stanford Encyclopedia of Philosophy, first published 20 January 2023. Cited by top-level section number; 0 = the preamble before section 1 (1 = Preliminaries, including sources; 2 = Physical Theory, including 2.8 Causes and Determinism; 4 = Ethics, including 4.5 Stoic Cosmopolitanism, 4.6 Oikeiôsis and 4.7 Passions; 5 = Influence, including 5.4 On Contemporary Philosophy)."
 year = 2023
 url = "https://plato.stanford.edu/entries/stoicism/"
 rights = "Copyright 2023 Marion Durand; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -886,4 +886,44 @@ title = "Friendship"
 edition = "Stanford Encyclopedia of Philosophy, first published 17 May 2005, substantive revision 30 July 2021. Cited by top-level section number (1 = The Nature of Friendship; 2 = Value and Justification of Friendship; 3 = Friendship and Moral Theory)."
 year = 2021
 url = "https://plato.stanford.edu/entries/friendship/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."goodman-sep-2016"]
+author = "Charles Goodman"
+title = "Śāntideva"
+edition = "Stanford Encyclopedia of Philosophy, first published 19 September 2016. Cited by top-level section number (1 = Biography; 2 = Metaphysics: No Self and Emptiness; 3 = Ethics and Ethical Theory, including 3.2 From Metaphysics to Ethics (the Ownerless Suffering Argument, BCA VIII.94–102), 3.3 Consequentialist Elements, 3.4 Non-Consequentialist Elements). Its verse translations are Crosby and Skilton's, slightly modified."
+year = 2016
+url = "https://plato.stanford.edu/entries/shantideva/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."kleingeld-sep-2019"]
+author = "Pauline Kleingeld"
+title = "Cosmopolitanism"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 February 2002, substantive revision 17 October 2019. Cited by top-level section number (1 = History of Cosmopolitanisms, including 1.1 Greek and Roman; 2 = Taxonomy; 3 = Objections)."
+year = 2019
+url = "https://plato.stanford.edu/entries/cosmopolitanism/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."finnis-sep-2021"]
+author = "John Finnis"
+title = "Aquinas' Moral, Political, and Legal Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 2 December 2005, substantive revision 16 March 2021. Cited by top-level section number (2 = Practical reason's first principles; 3 = Moral principles, including 3.4.1 Homicide; 4 = Virtues; 5 = Political community; 7 = Law)."
+year = 2021
+url = "https://plato.stanford.edu/entries/aquinas-moral-political/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."mcintyre-sep-2023"]
+author = "Alison McIntyre"
+title = "Doctrine of Double Effect"
+edition = "Stanford Encyclopedia of Philosophy, first published 28 July 2004, substantive revision 17 July 2023. Cited by top-level section number (1 = Formulations; 2 = Applications; 4 = Criticisms)."
+year = 2023
+url = "https://plato.stanford.edu/entries/double-effect/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."goodman-buddhist-ethics-sep-2024"]
+author = "Charles Goodman"
+title = "Ethics in Indian and Tibetan Buddhism"
+edition = "Stanford Encyclopedia of Philosophy, first published 22 June 2010, substantive revision 1 February 2024. Cited by top-level section number (1 = Basic Teachings; 2 = Forms of Buddhist Ethics, including the Four Divine Abidings; 3 = Theoretical Structure; 5 = Animals and the Environment; 6 = War, Violence and Punishment; 8 = AI and Technology)."
+year = 2024
+url = "https://plato.stanford.edu/entries/ethics-indian-buddhism/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

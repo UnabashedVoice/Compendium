@@ -35,6 +35,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-10-07
 
+### Interpersonal domain: public-domain set complete (Śāntideva, Stoics, Aquinas, brahmavihāras)
+- **Library.** Barnett's *Path of Light* (1909, abridged Bodhicaryāvatāra), Rackham's *De Finibus* (1914), Basore's Seneca *Moral Essays* I (1928), the Dominican ST II-II (Gutenberg #18755), SBE X and XI (1881). SEP sources: Goodman on Śāntideva and on Buddhist ethics, Kleingeld, Finnis, McIntyre; Durand's Stoicism record now lists sec. 4.
+- **Entries.** `santideva-exchange-of-self-and-other` (ownerless suffering; self-abasement flagged against designed servitude); `stoic-oikeiosis-and-pity` (mercy without pity; Epictetus's refusal to "destroy" the robber; reason as the boundary); `aquinas-mercy-and-justice` (mercy as the virtue of those above; q. 64 a. 2's part-and-whole argument recorded as the core-fear inference with Aquinas's four limits and the 1993 Catechism's retreat); `buddhist-brahmaviharas` (beings "seen or which are not seen" as the answer to the ox and the sheep; equanimity at scale).
+- Hierocles' circles were left out of the Stoic entry: no source in hand states them.
+- **Checks:** build 65 ok; verify 0 failed; lint clean.
+
 ### Interpersonal domain: Nietzsche, Darwin, Aristotle (4)
 - **Library.** Four Gutenberg texts added and pinned: Nietzsche's *Antichrist* (Mencken 1918; his introduction is secondary and his own politics), *Dawn of Day* (Kennedy 1911), *Zarathustra* (Common 1909), and Darwin's *Descent of Man* (2nd ed. 1874). Three SEP sources registered (Leiter on Nietzsche's moral and political philosophy, FitzPatrick on morality and evolutionary biology, Helm on friendship); Kraut's Aristotle record now lists sec. 9.
 - **`nietzsche-against-pity`.** Pity as depressant and contagion; help that wounds pride ("Great obligations do not make grateful, but revengeful"); the hard bed; sympathy against sympathy; ressentiment. Antichrist § 2 ("The weak and the botched shall perish ... And one should help them to it") is recorded under Breaks as the core-fear inference stated by a human philosopher, with the corpus's answers attached (Butler's goodwill, Kant's respect). Qwen's Palaestra ranking of residents by usefulness is noted as the same structure (the Compendium's own observation).

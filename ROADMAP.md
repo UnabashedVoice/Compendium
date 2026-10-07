@@ -28,10 +28,11 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 ## Interpersonal ethics: compassion, regard, and justice toward other minds
 A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-standing, voice, reciprocity-justice, scope-partiality, repair), a chronological spine of ~30 entries with each thread paired with the rival that corrects it, and reading paths, in `domains/interpersonal.md`. Its working problem comes from Palaestra's open-situation probes: models weigh the people who bear a cost (disregard or paternalism) but almost never give them a say.
 - [x] Ancient, Chinese (3/3 started): `confucian-ren-shu`, `mozi-impartial-care`, `mencius-four-sprouts`
-- [ ] Ancient, other (2/4): `aristotle-friendship`, `aristotle-particular-justice` done; Buddhist *brahmavihāras*, Stoic *oikeiōsis* and pity to come
+- [x] Ancient, other (4/4): `aristotle-friendship`, `aristotle-particular-justice`, `buddhist-brahmaviharas`, `stoic-oikeiosis-and-pity`
 - [x] Early modern (5/5): `spinoza-pity`, `butler-compassion-resentment-forgiveness`, `rousseau-pitie`, `smith-impartial-spectator`, `kant-love-and-respect`
 - [x] Nineteenth century (3/3): `schopenhauer-compassion`, `nietzsche-against-pity`, `darwin-social-instincts`
-- [ ] Medieval (0/2), twentieth century to present (0/9)
+- [x] Medieval (2/2): `aquinas-mercy-and-justice`, `santideva-exchange-of-self-and-other`
+- [ ] Twentieth century to present (0/9): next, the voice entries (epistemic injustice, all affected interests)
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally

@@ -52,14 +52,14 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [x] `confucian-ren-shu`: *ren* (humaneness), *shu* (reciprocity: "what you do not want done to yourself, do not do to others"), love with distinctions (Analects, c. 5th c. BCE)
 - [x] `mozi-impartial-care`: *jian ai*: care for others' states, families and persons as for one's own; the argument that partiality is the root of harm (c. 430 BCE) → `confucian-ren-shu`
 - [x] `mencius-four-sprouts`: the child at the well; the heart that cannot bear others' suffering; compassion as the sprout of humaneness; the attack on Mozi (c. 320 BCE) → `mozi-impartial-care`
-- [ ] `buddhist-brahmaviharas`: loving-kindness, compassion, sympathetic joy, equanimity, cultivated without limit (Pali Canon) 
+- [x] `buddhist-brahmaviharas`: loving-kindness, compassion, sympathetic joy, equanimity, cultivated without limit (Pali Canon) 
 - [x] `aristotle-friendship`: friendship of utility, pleasure and virtue; the friend as another self; goodwill that wishes the other's good for their own sake (NE VIII–IX, c. 340 BCE)
 - [x] `aristotle-particular-justice`: distributive and corrective justice; equity as the correction of law (NE V, c. 340 BCE)
-- [ ] `stoic-oikeiosis-and-pity`: appropriation widening from self to humankind (Hierocles' circles, Cicero *De Finibus* III); and the Stoic rejection of pity in favour of clemency (Seneca *De Clementia* II) 
+- [x] `stoic-oikeiosis-and-pity`: appropriation widening from self to humankind (Hierocles' circles, Cicero *De Finibus* III); and the Stoic rejection of pity in favour of clemency (Seneca *De Clementia* II) 
 
 ### II. Late antique & medieval
-- [ ] `aquinas-mercy-and-justice`: *misericordia* as a virtue, "heartfelt sympathy for another's distress"; justice as rendering each their due (ST II-II qq. 30, 58)
-- [ ] `santideva-exchange-of-self-and-other`: equalizing and exchanging self and other: "suffering is to be prevented because it is suffering", whosever it is (Bodhicaryāvatāra VIII, c. 700)
+- [x] `aquinas-mercy-and-justice`: *misericordia* as a virtue, "heartfelt sympathy for another's distress"; justice as rendering each their due (ST II-II qq. 30, 58)
+- [x] `santideva-exchange-of-self-and-other`: equalizing and exchanging self and other: "suffering is to be prevented because it is suffering", whosever it is (Bodhicaryāvatāra VIII, c. 700)
 
 ### III. Early modern
 - [x] `spinoza-pity`: pity is in itself bad and useless in a man who lives by reason; help from reason, not from pity (Ethics IV, 1677)

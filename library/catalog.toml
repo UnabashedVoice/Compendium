@@ -940,3 +940,66 @@ format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 sha256 = "2911dfcc2b0b498fe92ad9bd7e2c712046edb448eb6fe3bd669bcf9629adf8fd"
 
+
+[text."santideva-path-of-light-barnett-1909"]
+author = "Śāntideva"
+title = "The Path of Light (Bodhicaryāvatāra, abridged)"
+edition = "tr. L. D. Barnett, Wisdom of the East series, London: John Murray / New York: E. P. Dutton, 1909"
+source = "archive.org pathoflight00santiala"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Barnett's translation is abridged and sometimes paraphrastic; he omits 'a good deal of the text' and the scholastic disputation of ch. IX. Verse numbers are not given; cite chapter and give the SEP's verse-numbered translation (Crosby and Skilton) alongside where precision matters. Barnett's introduction is secondary."
+sha256 = "ce8bde7babbab672838d0383ae0e63b31a3b1019bdab4c9b14f497255e75a676"
+
+
+[text."cicero-de-finibus-rackham-1914"]
+author = "Marcus Tullius Cicero"
+title = "De Finibus Bonorum et Malorum"
+edition = "Latin text with tr. H. Rackham, Loeb Classical Library, London: Heinemann / New York: Macmillan, 1914"
+source = "archive.org cicerodefinibusb0000hrac"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Latin and English on facing pages, interleaved in the OCR; Rackham's notes are secondary. Book III is the Stoic exposition (Cato)."
+sha256 = "9cf7acfa47d0fd19d47f387e30c183d1980529274dd080d61fc7aa35c3f7fa01"
+
+[text."seneca-moral-essays-1-basore-1928"]
+author = "Lucius Annaeus Seneca"
+title = "Moral Essays, vol. I (De Providentia, De Constantia, De Ira, De Clementia)"
+edition = "Latin text with tr. John W. Basore, Loeb Classical Library, London: Heinemann / New York: Putnam, 1928"
+source = "archive.org moralessayswithe01seneuoft"
+format = "ocr"
+rights = "US public domain: published before 1931"
+notes = "Latin and English on facing pages, interleaved in the OCR."
+sha256 = "aa49944005bdf9ade7337c854cd99a82b7302d259a5281f6cb15709ae05af461"
+
+
+[text."aquinas-summa-part-ii-ii-dominicans-pg18755"]
+author = "Thomas Aquinas"
+title = "Summa Theologica, Part II-II (Secunda Secundae)"
+edition = "tr. Fathers of the English Dominican Province (London, 1911–1925), as printed by Benziger Brothers"
+source = "Project Gutenberg #18755"
+format = "gutenberg"
+rights = "US public domain: translation published before 1931"
+sha256 = "eeea1030b31e6c5d4b6fb7522770f108902d704cb2eee56bae1b10b1afa57b6f"
+
+
+[text."sbe10-dhammapada-sutta-nipata-1881"]
+author = "Pali Canon (Khuddaka Nikāya)"
+title = "The Dhammapada and the Sutta-Nipāta (Sacred Books of the East, vol. X)"
+edition = "Dhammapada tr. F. Max Müller; Sutta-Nipāta tr. V. Fausbøll; Oxford: Clarendon Press, 1881"
+source = "archive.org wg910"
+format = "ocr"
+rights = "Public domain: translators died over 100 years ago; published before 1931"
+notes = "The Mettasutta is Sutta-Nipāta I.8 (verses 143–152 in Fausbøll's numbering)."
+sha256 = "765dab4098261b30231a1c5aedeee6bf90ab92dfe3e2fb08aeeecb0536b2144c"
+
+[text."sbe11-buddhist-suttas-rhysdavids-1881"]
+author = "Pali Canon (Dīgha and Majjhima Nikāyas, selections)"
+title = "Buddhist Suttas (Sacred Books of the East, vol. XI)"
+edition = "tr. T. W. Rhys Davids, Oxford: Clarendon Press, 1881"
+source = "archive.org buddhistsuttas00daviuoft"
+format = "ocr"
+rights = "Public domain: translator died over 100 years ago; published before 1931"
+notes = "Includes the Tevigga Sutta (DN 13), whose ch. III gives the four brahmavihāras; Rhys Davids's notes are secondary."
+sha256 = "6679d6eedf3c75490990d54346c7bee1f910cf954a840c57dfcaf6bf171255f9"
+
