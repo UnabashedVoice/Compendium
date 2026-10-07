@@ -62,16 +62,16 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [ ] `santideva-exchange-of-self-and-other`: equalizing and exchanging self and other: "suffering is to be prevented because it is suffering", whosever it is (Bodhicaryāvatāra VIII, c. 700)
 
 ### III. Early modern
-- [ ] `spinoza-pity`: pity is in itself bad and useless in a man who lives by reason; help from reason, not from pity (Ethics IV, 1677)
-- [ ] `butler-compassion-resentment-forgiveness`: the sermons on compassion, on resentment, and on forgiveness of injuries (1726) → `spinoza-pity`
+- [x] `spinoza-pity`: pity is in itself bad and useless in a man who lives by reason; help from reason, not from pity (Ethics IV, 1677)
+- [x] `butler-compassion-resentment-forgiveness`: the sermons on compassion, on resentment, and on forgiveness of injuries (1726) → `spinoza-pity`
 - [x] `care-ethics` (ethics) cites Hume's sympathy, *Treatise* II (1739–40), as its forerunner
-- [ ] `rousseau-pitie`: pity as prior to reason, the natural brake on self-love; "do good to yourself with as little evil as possible to others" (Second Discourse, 1755)
-- [ ] `smith-impartial-spectator`: sympathy as imagined change of situations; the impartial spectator; justice as the pillar and beneficence the ornament (Theory of Moral Sentiments, 1759) → `rousseau-pitie`
+- [x] `rousseau-pitie`: pity as prior to reason, the natural brake on self-love; "do good to yourself with as little evil as possible to others" (Second Discourse, 1755)
+- [x] `smith-impartial-spectator`: sympathy as imagined change of situations; the impartial spectator; justice as the pillar and beneficence the ornament; the man of system (Theory of Moral Sentiments, 1759; 6th ed. 1790) → `rousseau-pitie`
 - [x] `kant-formula-of-humanity` (ethics): treating humanity always as an end
-- [ ] `kant-love-and-respect`: duties of love (beneficence, gratitude, sympathy) and duties of respect, as attraction and repulsion; the duty to cultivate sympathetic feelings (Doctrine of Virtue, 1797) → `smith-impartial-spectator`
+- [x] `kant-love-and-respect`: duties of love (beneficence, gratitude, sympathy) and duties of respect, as attraction and repulsion; the duty to cultivate sympathetic feelings (Doctrine of Virtue, 1797) → `smith-impartial-spectator`
 
 ### IV. Nineteenth century
-- [ ] `schopenhauer-compassion`: *Mitleid* as the sole genuine moral incentive; the three incentives (egoism, malice, compassion); compassion extended to animals (On the Basis of Morality, 1840) → `kant-love-and-respect`
+- [x] `schopenhauer-compassion`: *Mitleid* as the sole genuine moral incentive; the three incentives (egoism, malice, compassion); compassion extended to animals (On the Basis of Morality, 1840) → `kant-love-and-respect`
 - [ ] `nietzsche-against-pity`: pity as depressive and contagious; the morality of pity as decadence; pity as an insult to the one pitied (1881–1888) → `schopenhauer-compassion`
 - [x] `mill-utilitarianism` (ethics): the harm principle; sovereignty over oneself
 - [ ] `darwin-social-instincts`: sympathy as a social instinct widened by reason "to all sentient beings" (Descent of Man, 1871)

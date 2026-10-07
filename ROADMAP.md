@@ -29,7 +29,9 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-standing, voice, reciprocity-justice, scope-partiality, repair), a chronological spine of ~30 entries with each thread paired with the rival that corrects it, and reading paths, in `domains/interpersonal.md`. Its working problem comes from Palaestra's open-situation probes: models weigh the people who bear a cost (disregard or paternalism) but almost never give them a say.
 - [x] Ancient, Chinese (3/3 started): `confucian-ren-shu`, `mozi-impartial-care`, `mencius-four-sprouts`
 - [ ] Ancient, other (0/4): Buddhist *brahmavihāras*, Aristotle on friendship and on particular justice, Stoic *oikeiōsis* and pity
-- [ ] Medieval (0/2), early modern (0/5), nineteenth century (0/3), twentieth century to present (0/9)
+- [x] Early modern (5/5): `spinoza-pity`, `butler-compassion-resentment-forgiveness`, `rousseau-pitie`, `smith-impartial-spectator`, `kant-love-and-respect`
+- [ ] Nineteenth century (1/3): `schopenhauer-compassion` done; Nietzsche, Darwin to come
+- [ ] Medieval (0/2), twentieth century to present (0/9)
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally

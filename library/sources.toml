@@ -352,9 +352,9 @@ url = "https://iep.utm.edu/adv-veda/"
 rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
 
 [source."johnson-sep-2025"]
-author = "Robert Johnson"
+author = "Robert Johnson and Adam Cureton"
 title = "Kant's Moral Philosophy"
-edition = "Stanford Encyclopedia of Philosophy, first published 23 February 2004, substantive revision 2 October 2025. Cited by top-level section number; 0 = the preamble before section 1 (6 = The Humanity Formula, 8 = The Kingdom of Ends Formula, 11 = Non-rational Beings and Disabled Humans, 16 = Future Directions: AI Ethics)."
+edition = "Stanford Encyclopedia of Philosophy, first published 23 February 2004, substantive revision 2 October 2025. Cited by top-level section number; 0 = the preamble before section 1 (2 = Good Will, Moral Worth and Duty, 6 = The Humanity Formula, 8 = The Kingdom of Ends Formula, 11 = Non-rational Beings and Disabled Humans, 12 = Virtue and Vice, 16 = Future Directions: AI Ethics)."
 year = 2025
 url = "https://plato.stanford.edu/entries/kant-moral/"
 rights = "Copyright 2025 Robert Johnson; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -814,4 +814,52 @@ title = "Empathy"
 edition = "Stanford Encyclopedia of Philosophy, first published 31 March 2008, substantive revision 6 October 2025. Cited by top-level section number (1 = Historical Introduction, 2 = Aspects of Empathy-Related Phenomena, 3 = Empathy and Knowledge of Other Minds, 4 = Empathy, Moral Philosophy, and Moral Psychology, including 4.1 altruistic motivation (Batson) and 4.2 partiality and bias (Hoffman, Prinz, Bloom))."
 year = 2025
 url = "https://plato.stanford.edu/entries/empathy/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."bertram-sep-2023"]
+author = "Christopher Bertram"
+title = "Jean Jacques Rousseau"
+edition = "Stanford Encyclopedia of Philosophy, first published 27 September 2010, substantive revision 21 April 2023. Cited by top-level section number (2 = Conjectural history and moral psychology, including 2.1 Morality; 3 = Political Philosophy; 6 = Place in the history of philosophy)."
+year = 2023
+url = "https://plato.stanford.edu/entries/rousseau/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."fleischacker-sep-2025"]
+author = "Samuel Fleischacker"
+title = "Adam Smith's Moral and Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 15 February 2013, substantive revision 29 May 2025. Cited by top-level section number (0 = the preamble; 2 = Summary of Smith's Moral Philosophy; 3 = Advantages; 4 = Objections, including the tribalist and skeptical challenges; 5 = Political Philosophy)."
+year = 2025
+url = "https://plato.stanford.edu/entries/smith-moral-political/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."wicks-sep-2021"]
+author = "Robert Wicks"
+title = "Arthur Schopenhauer"
+edition = "Stanford Encyclopedia of Philosophy, first published 12 May 2003, substantive revision 9 September 2021. Cited by top-level section number (1 = Life; 3 = Critique of Kant; 5 = Transcending the Human Conditions of Conflict, including 5.2 Moral Awareness; 7 = Critical Reflections; 8 = Influence)."
+year = 2021
+url = "https://plato.stanford.edu/entries/schopenhauer/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."garrett-sep-2023"]
+author = "Aaron Garrett"
+title = "Joseph Butler's Moral Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 17 October 2012, substantive revision 27 November 2023. Cited by top-level section number (5 = Self-Love and Benevolence; 6 = Compassion, Resentment, and Forgiveness; 7 = Self-Deceit and Ignorance; 8 = Influence)."
+year = 2023
+url = "https://plato.stanford.edu/entries/butler-moral/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."lebuffe-sep-2024"]
+author = "Michael LeBuffe"
+title = "Spinoza's Psychological Theory"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 October 2001, substantive revision 21 November 2024. Cited by top-level section number (1 = The Human Being as Part of Nature; 2 = The Affects, including pity and the imitation of affects; 3 = The Psychological Basis for a Theory of Value)."
+year = 2024
+url = "https://plato.stanford.edu/entries/spinoza-psychological/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."nadler-sep-2023"]
+author = "Steven Nadler"
+title = "Baruch Spinoza"
+edition = "Stanford Encyclopedia of Philosophy, first published 29 June 2001, substantive revision 8 November 2023. Cited by top-level section number (1 = Biography; 2 = Ethics; 3 = Theological-Political Treatise)."
+year = 2023
+url = "https://plato.stanford.edu/entries/spinoza/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

@@ -852,3 +852,52 @@ format = "ocr"
 rights = "US public domain: published before 1931"
 sha256 = "622625cd061054956c2a1ccc6876c8676b5e60e01a5fa4d851847afb7aace6dc"
 
+
+[text."rousseau-social-contract-discourses-cole-pg46333"]
+author = "Jean-Jacques Rousseau"
+title = "The Social Contract and Discourses (incl. the Discourse on the Origin of Inequality, with its Preface)"
+edition = "tr. G. D. H. Cole, London: J. M. Dent (Everyman's Library), 1913"
+source = "Project Gutenberg #46333"
+format = "gutenberg"
+rights = "US public domain: published before 1931 (translator died 1959; not public domain in life+70 countries)"
+notes = "Cole's introduction is secondary."
+sha256 = "65b006fe7288b2dd82c7c32f5b4c0fdd392407c3bc04ae8c822ea8f8723603de"
+
+[text."smith-moral-sentiments-bohn-1853"]
+author = "Adam Smith"
+title = "The Theory of Moral Sentiments"
+edition = "Text of the 6th edition (1790), with a biographical and critical memoir by Dugald Stewart; London: Henry G. Bohn, 1853 (Bohn's Standard Library)"
+source = "archive.org theoryofmoralsen0000adam_x3f6"
+format = "ocr"
+rights = "Public domain: author/editor died over 100 years ago; published before 1931"
+notes = "Use this, not Project Gutenberg #67363, which is a 1777 Dublin reprint of the pre-1790 text without the 1790 revisions (the 'man within the breast', Part VI on virtue). Publisher's catalogue pages at front and back."
+sha256 = "489a0510e85a719546ebe8256d8794dd9b80239f2b6eacbbdb3b53271f715cd5"
+
+[text."spinoza-ethics-elwes-pg3800"]
+author = "Benedict de Spinoza"
+title = "Ethics (Ethica ordine geometrico demonstrata)"
+edition = "tr. R. H. M. Elwes (1883)"
+source = "Project Gutenberg #3800"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+sha256 = "647f0227f3700b5d221a004fc545568c879f6f204e952f1cf0c24672676c2a60"
+
+[text."schopenhauer-basis-morality-bullock-pg44929"]
+author = "Arthur Schopenhauer"
+title = "The Basis of Morality (Preisschrift über die Grundlage der Moral, 1840)"
+edition = "tr. Arthur Brodrick Bullock, London: Swan Sonnenschein, 1903"
+source = "Project Gutenberg #44929"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Bullock's introduction and notes are secondary."
+sha256 = "63ad65ee74842d1da29329a81a2c3d74dc656298d2c90bc1ad8f4d772dad4079"
+
+[text."butler-fifteen-sermons-1841"]
+author = "Joseph Butler"
+title = "Fifteen Sermons Preached at the Rolls Chapel (with Six Sermons on Public Occasions)"
+edition = "A new edition, London: Thomas Tegg, 1841 (text of 1726, with the 1729 Preface)"
+source = "archive.org fifteensermonspr00butluoft"
+format = "ocr"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+sha256 = "64b94e3865b40a53ce710caf2f51dffb355ca0b7897156d0375da205ce7f93a0"
+
