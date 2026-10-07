@@ -82,8 +82,8 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [ ] `strawson-reactive-attitudes`: resentment, gratitude and forgiveness as the participant stance; the objective stance as a way of not treating another as a person (1962)
 - [ ] `darwall-second-person`: the authority to make claims and demands on one another
 - [ ] `scanlon-contractualism`: principles no one could reasonably reject
-- [ ] `epistemic-injustice`: testimonial and hermeneutical injustice (Fricker); whose report about their own condition is believed
-- [ ] `all-affected-interests`: the principle that those affected by a decision should have a say in it; consent and its limits
+- [x] `epistemic-injustice`: testimonial and hermeneutical injustice (Fricker); whose report about their own condition is believed
+- [x] `all-affected-interests`: the principle that those affected by a decision should have a say in it; consent and its limits
 - [ ] `empathy-and-its-critics`: empathy research (Batson's empathy-altruism hypothesis) and the case against empathy as a guide (Prinz, Bloom)
 - [ ] `nussbaum-compassion`: compassion's judgments of seriousness, non-desert and the eudaimonistic judgment; the circle of concern
 - [x] `ubuntu` (ethics): personhood through other persons

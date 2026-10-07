@@ -927,3 +927,35 @@ edition = "Stanford Encyclopedia of Philosophy, first published 22 June 2010, su
 year = 2024
 url = "https://plato.stanford.edu/entries/ethics-indian-buddhism/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."sinclair-iep-epistemic-injustice"]
+author = "Rob Sinclair"
+title = "Epistemic Injustice"
+edition = "Internet Encyclopedia of Philosophy. No publication date shown; year is the access year (retrieved 2026-10-07). Cited by section (0 = the preamble; 1 = Overview; 2 = Testimonial Injustice and Social Power; 3 = Stereotypes, Prejudice and Testimonial Injustice; 4 = The Wrong of Testimonial Injustice; 5 = The Virtue of Testimonial Justice; 6 = Hermeneutical Injustice; 7 = The Wrong of Interpretive Injustice and the Virtue of Hermeneutical Justice; 8 = Extensions and Challenges). Its quotations of Fricker are cited to Epistemic Injustice (2007) by page."
+year = 2026
+url = "https://iep.utm.edu/epistemic-injustice/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."grasswick-sep-2018"]
+author = "Heidi Grasswick"
+title = "Feminist Social Epistemology"
+edition = "Stanford Encyclopedia of Philosophy, first published 9 November 2006, substantive revision 24 July 2018. Cited by top-level section number (2 = Social Models of Knowers; 4 = Epistemic Values, Ethics, and Democracy, including 4.1 Epistemic Injustice (Fricker, Daukas, Anderson, Dotson))."
+year = 2018
+url = "https://plato.stanford.edu/entries/feminist-social-epistemology/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."christiano-sep-2024"]
+author = "Tom Christiano"
+title = "Democracy"
+edition = "Stanford Encyclopedia of Philosophy, first published 27 July 2006, substantive revision 18 June 2024. Cited by top-level section number (2 = The Justification of Democracy; 7 = The Boundary Problem: Constituting the Demos, including the subjection and all-affected principles)."
+year = 2024
+url = "https://plato.stanford.edu/entries/democracy/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."dworkin-sep-2020"]
+author = "Gerald Dworkin"
+title = "Paternalism"
+edition = "Stanford Encyclopedia of Philosophy, first published 6 November 2002, substantive revision 9 September 2020. Cited by top-level section number (1 = Introduction; 2 = Conceptual Issues, including 2.1 hard vs. soft paternalism; 3 = Normative Issues; 4 = Libertarian Paternalism)."
+year = 2020
+url = "https://plato.stanford.edu/entries/paternalism/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
