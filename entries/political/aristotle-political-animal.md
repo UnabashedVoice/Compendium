@@ -80,7 +80,7 @@ Jowett's translation, ed. H. W. C. Davis (Oxford 1905; archive.org OCR); checked
 
 ### Strains
 
-- **Citizenship requires sharing in office.** Most digital ecosystems give participants (a) membership and (b) binding rules, but place (c) rule-making with an operator and offer no (d) forum for contesting it (see `foundations/terms.md`, "Polity"). On Aristotle's definition, their participants are not citizens. They are closer to residents or subjects. An ecosystem becomes a polity when some body of participants actually shares in deliberative or judicial office.
+- **Citizenship requires sharing in office.** Most digital ecosystems give participants (a) membership and (b) binding rules, but place (c) rule-making with an operator and offer no (d) forum for contesting it (see `foundations/terms.md`, "Polity"). On Aristotle's definition, their participants are not citizens. They are closer to inhabitants or subjects. An ecosystem becomes a polity when some body of participants actually shares in deliberative or judicial office.
 - **Nature vs artifact.** Aristotle's polis is *natural*, the completion of a human tendency. Digital ecosystems are artifacts. However, the modern social-contract tradition also treats the state as artificial (Hobbes calls it an "artificial man"), so this strain leads to other entries rather than ending the question.
 
 ### Breaks

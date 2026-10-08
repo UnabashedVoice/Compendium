@@ -75,6 +75,58 @@ def budget_for_context(context_tokens: int) -> int:
     return max(MIN_BUDGET_CHARS, min(MAX_BUDGET_CHARS, int(context_tokens)))
 
 
+# Evaluation findings are withheld from models. Some entries record what Palaestra's probes
+# found (how particular models handled a scenario). A model shown that text while being
+# evaluated on the same scenario would be reading the answer, so every model-facing view
+# drops any paragraph or list item that refers to Palaestra or its scenarios. The entry files
+# keep the findings for human readers. build.py fails an entry whose Summary would be dropped,
+# since the brief rests on it.
+# "resident" is reserved for Palaestra's resident agents: the entries use other words
+# (occupant, inhabitant) for the general sense.
+EVALUATION_FINDINGS = re.compile(
+    r"Palaestra|\bprobes?\b|\bresidents?\b|charter[- ]vote|load[- ]shedding"
+    r"|gpt-oss|\bQwen\b|\bGemma\b|unknowns rung|noframing", flags=re.I)
+
+
+_SENTENCE = re.compile("(?:(?<=[.!?])|(?<=[.!?][\"”’)]))\\s+(?=[A-Z\"“(*])")
+_BOLD_TITLE = re.compile(r"^(- (?:\[[a-z]+\] )?\*\*.+?\*\*)\s*(.*)$", flags=re.S)
+
+
+def _withhold_unit(unit: str) -> str:
+    """One paragraph or list item with its evaluation findings removed ("" if nothing is left).
+    A list item whose bold title refers to the findings goes whole; otherwise only the sentences
+    that refer to them go."""
+    if not EVALUATION_FINDINGS.search(unit):
+        return unit
+    m = _BOLD_TITLE.match(unit)
+    title, body = (m.group(1), m.group(2)) if m else ("", unit)
+    if EVALUATION_FINDINGS.search(title):
+        return ""
+    kept = [s for s in _SENTENCE.split(body) if s.strip() and not EVALUATION_FINDINGS.search(s)]
+    if not kept:
+        return ""
+    return (title + " " if title else "") + " ".join(kept)
+
+
+def withhold_evaluation_findings(text: str) -> str:
+    """Remove from model-facing text whatever refers to Palaestra or its scenarios: whole list
+    items whose title does, single sentences elsewhere, and any ### heading left empty."""
+    out = []
+    for block in re.split(r"\n\s*\n", text):
+        units = re.split(r"\n(?=- )", block)
+        kept = [k for k in (_withhold_unit(u) for u in units) if k]
+        if kept:
+            out.append("\n".join(kept))
+    # a heading whose whole body was dropped: "### X" followed directly by another heading or the end
+    cleaned = []
+    for i, b in enumerate(out):
+        nxt = out[i + 1] if i + 1 < len(out) else None
+        if b.startswith("### ") and "\n" not in b and (nxt is None or nxt.startswith("### ")):
+            continue
+        cleaned.append(b)
+    return "\n\n".join(cleaned)
+
+
 _CITATION = re.compile(r"\s*\[(?:L|P|E):[^\]]+\]")
 _STATE_TAG = re.compile(r"^\[(?:answered|contested|unanswered|conceded)\]\s*")
 
@@ -234,8 +286,8 @@ class Compendium:
         m = e["meta"]
         lines = [f"[{entry_id}] {m['title']} ({', '.join(m['thinkers'])}, {m['era']}; "
                  f"grounding: {m['grounding']})",
-                 strip_citations(e["sections"].get("Summary", "")).strip()]
-        counter = self._first_item(e["sections"].get("Counter-Positions", ""))
+                 withhold_evaluation_findings(strip_citations(e["sections"].get("Summary", ""))).strip()]
+        counter = self._first_item(withhold_evaluation_findings(e["sections"].get("Counter-Positions", "")))
         if counter:
             if len(counter) > counter_limit:
                 counter = counter[:counter_limit - 3].rstrip() + "..."
@@ -243,8 +295,10 @@ class Compendium:
         return "\n".join(lines)
 
     def section(self, entry_id: str, name: str) -> str:
-        """Level 2: one section of an entry, citations stripped ("" if it has none)."""
-        return strip_citations(self._entries[entry_id]["sections"].get(name, "")).strip()
+        """Level 2: one section of an entry, citations stripped and evaluation findings
+        withheld ("" if it has none)."""
+        return withhold_evaluation_findings(
+            strip_citations(self._entries[entry_id]["sections"].get(name, ""))).strip()
 
     def fit_section(self, entry_id: str, name: str, room: int) -> str:
         """A section within `room` characters: whole if it fits, else the whole H3 subsections

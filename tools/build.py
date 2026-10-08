@@ -15,6 +15,9 @@ import tomllib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from compendium_access import EVALUATION_FINDINGS  # noqa: E402  (one definition, shared with the access layer)
+
 ENTRIES = ROOT / "entries"
 DIST = ROOT / "dist"
 
@@ -149,6 +152,11 @@ def validate(path: Path, meta: dict, sections: list[tuple[str, str]], dcodes: se
     for req in REQUIRED_SECTIONS:
         if req not in names:
             errs.append(f"missing section: {req}")
+    summary = dict(sections).get("Summary", "")
+    hit = EVALUATION_FINDINGS.search(summary)
+    if hit:
+        errs.append(f"Summary refers to Palaestra or its scenarios ({hit.group(0)!r}); models are never shown "
+                    "evaluation findings, and the brief rests on the Summary. Keep findings in Extension to Agents")
     for name, body in sections:
         if name.startswith("Extension to"):
             subs = re.findall(r"^### (.+)$", body, flags=re.M)

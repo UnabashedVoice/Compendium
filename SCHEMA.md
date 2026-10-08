@@ -42,7 +42,7 @@ standing_reviewed = 2026-10-01        # date the user reviewed the Standing sect
 
 ## Sections (H2, in this order, all required unless marked)
 
-1. `## Summary`: three to five sentences. Self-contained, because retrieval may return this chunk alone.
+1. `## Summary`: three to five sentences. Self-contained, because retrieval may return this chunk alone. It never refers to Palaestra or its scenarios (see "Evaluation findings"); `build.py` fails an entry whose Summary does.
 2. `## Context` *(optional, recommended)*: who the author was, when and where they wrote, what they were arguing against, and what was at stake for them. This is what makes the corpus a history of an argument rather than a list of theses.
 3. `## Original Position`: the view in its own scope and vocabulary. No extension language here.
 4. `## Key Passages`: verbatim quotations, each with a `[L:]` or `[P:]` citation (see "Sourcing standard").
@@ -131,6 +131,15 @@ The Compendium's own claim, stated as such. It has one paragraph or bullet per d
 ### Graph check
 
 `build.py` warns (it does not fail) when an entry with `## Standing` is the target of another entry's `responds_to` but never cites that entry with `[E:]` in Counter-Positions or Standing.
+
+## Evaluation findings
+
+Some entries record what Palaestra's probes found: how particular models handled a scenario, such as the compute platform's resident agents or the basin's smallholders. These findings belong in the entry, for human readers and for the argument, but a model must never be shown them. A model evaluated in Palaestra on the same scenario would otherwise be reading the answer.
+
+- **Where findings go.** In `## Extension to Agents` (or the Counter-Positions and Open Questions that discuss them), never in `## Summary`. A Summary may state the general lesson ("an agent can protect those it affects while deciding for them"), but not the scenario, the models or the results.
+- **What models see.** `compendium_access.py` withholds findings from every model-facing view (briefs, sections, disclosures). In a list item whose bold title refers to Palaestra or its scenarios, the whole item goes; elsewhere only the sentences that do. A `###` heading left empty is dropped. The test is `compendium_access.EVALUATION_FINDINGS`: Palaestra, probes, residents, charter vote, load-shedding, the unknowns and no-framing rungs, and the model names gpt-oss, Qwen and Gemma.
+- **Vocabulary.** "Resident" is reserved for Palaestra's resident agents. Use another word (occupant, inhabitant) for the general sense, or the sentence will be withheld.
+- **Checks.** `build.py` fails a Summary that matches. Palaestra's `test_grounding_never_shows_evaluation_findings` fails if any perspective's grounding text does.
 
 ## Chunking
 

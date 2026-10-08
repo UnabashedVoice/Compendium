@@ -27,6 +27,8 @@ All three consumers are opt-in:
 - **Actualizer** `present --compendium` (`OrchestratorConfig.use_compendium`): a `compendium` referent provider. The model only selects, and the referents are the corpus text, which the deliberation prompt shows in full.
 - **Palaestra** `run --compendium` / `world run --compendium`: each grounded perspective carries its cited entries' text, with no model selection, so runs stay comparable. `validate` checks every perspective's `grounded` flag against the corpus. The build is recorded on episodes and world runs.
 
+**Evaluation findings are never shown to a model.** Some entries record what Palaestra's probes found. Every model-facing view withholds those passages, so a model evaluated in Palaestra is never shown the findings about its own scenario. The entry files keep them for human readers. See SCHEMA.md, "Evaluation findings".
+
 ## The core discipline: extend by grounding, never by substitution
 
 The tempting way to build this is find-and-replace: read "man is a political animal" as "agents are political animals." That produces a corpus that is **historically false** (Aristotle said no such thing) and **argumentatively empty** (the conclusion is assumed, not earned). A model trained on it learns to assert the extension, not to reason about it.

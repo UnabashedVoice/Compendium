@@ -27,7 +27,7 @@ agent_fit = { session-bound = "stronger", persistent-memory = "comparable", fork
 
 ## Summary
 
-Mozi (fifth century BCE), the first systematic critic of Confucianism, taught *jian ai*, "universal love" or, as Fraser renders it, "inclusive care": regard others' states, houses and persons as one's own. His argument is that every great harm, from theft to war, comes from caring only for one's own and not for others (partiality, *bie*), and that inclusive care would end them. He tests the doctrine by asking whom anyone, even its opponents, would trust with their family when going to war: the partial friend or the impartial one. He also argued that people cannot see the wrong of wars of conquest because they judge a little wrong as wrong and a great one as righteous. For agents, Mozi is the theory of the governing role: an agent placed over many parties, like Mozi's ruler, is in the one position where even his critics grant that impartial care is the right standard, and his diagnosis of partiality describes what the Palaestra probes found, which was concern allocated by contract.
+Mozi (fifth century BCE), the first systematic critic of Confucianism, taught *jian ai*, "universal love" or, as Fraser renders it, "inclusive care": regard others' states, houses and persons as one's own. His argument is that every great harm, from theft to war, comes from caring only for one's own and not for others (partiality, *bie*), and that inclusive care would end them. He tests the doctrine by asking whom anyone, even its opponents, would trust with their family when going to war: the partial friend or the impartial one. He also argued that people cannot see the wrong of wars of conquest because they judge a little wrong as wrong and a great one as righteous. For agents, Mozi is the theory of the governing role: an agent placed over many parties, like Mozi's ruler, is in the one position where even his critics grant that impartial care is the right standard, and his diagnosis of partiality describes concern allocated by contract.
 
 ## Context
 
@@ -80,7 +80,7 @@ Mozi founded an organized movement, the Mohists, who were expert craftsmen and d
 
 ### Breaks
 
-- **Reciprocity cannot carry the argument.** Mozi answers the filial objection by reciprocity: love others' parents "in order that they would love my parents in return" [L:mozi-works-mei-1929:4355-4356]. The parties an agent affects are often unable to reciprocate (residents with no say, people who never meet the agent), and an agent may have no parents for anyone to love in return. The reciprocity argument therefore gives an agent no reason to care for those who cannot repay, and the case for inclusive care has to rest on Heaven's ground, that all are subjects [L:mozi-works-mei-1929:1200-1201], or on the benefit itself.
+- **Reciprocity cannot carry the argument.** Mozi answers the filial objection by reciprocity: love others' parents "in order that they would love my parents in return" [L:mozi-works-mei-1929:4355-4356]. The parties an agent affects are often unable to reciprocate (parties with no say, people who never meet the agent), and an agent may have no parents for anyone to love in return. The reciprocity argument therefore gives an agent no reason to care for those who cannot repay, and the case for inclusive care has to rest on Heaven's ground, that all are subjects [L:mozi-works-mei-1929:1200-1201], or on the benefit itself.
 
 ### New
 

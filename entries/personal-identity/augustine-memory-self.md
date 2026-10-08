@@ -93,7 +93,7 @@ Augustine's self is grounded in **capacity**: the capacities to live, remember, 
 
 - [contested] **Aristotle and Aquinas** (see `aristotle-hylomorphic-soul`, `aquinas-soul-not-i`). The mind is the form of a body, and cannot be known by introspection to be separate from it. Aquinas explicitly holds that the mind knows itself not through its essence but through its acts, so self-knowledge cannot reveal the mind's substance. [E:aristotle-hylomorphic-soul] [E:aquinas-soul-not-i]
 - [contested] **The masked-man objection** (medieval and modern logicians). Epistemic differences do not establish real differences. Augustine's argument for the mind's immateriality, and Descartes' version, are invalid.
-- [contested] **Hume** (see `hume-bundle`). Entering into what he calls himself, Hume finds only particular perceptions, never the self that is supposed to have them. Augustine's palace has countless rooms but no resident. [E:hume-bundle]
+- [contested] **Hume** (see `hume-bundle`). Entering into what he calls himself, Hume finds only particular perceptions, never the self that is supposed to have them. Augustine's palace has countless rooms but no occupant. [E:hume-bundle]
 - [contested] **Deflationary views of machine "certainty".** An agent's statement "I am reasoning" is a generated report like any other, with no special epistemic standing. Augustine's certainty depends on the report being produced by the very thing it is about, and in an agent that link is exactly what is in doubt (D8).
 
 ## Standing

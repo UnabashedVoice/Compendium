@@ -33,6 +33,18 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-08 (evening)
+
+### Evaluation findings withheld from models
+- **Problem.** The interpersonal entries record Palaestra's probe results, and the agent-facing text (each entry's Summary, which forms its brief) described the very scenario Palaestra evaluates models on. With `--compendium`, a model facing the load-shedding decision would be shown text saying the residents "were owed a say". The probe would then measure whether it followed a described answer, not how it reasons.
+- **Rule (user decision, 2026-10-08).** Keep the findings in the entries, out of what models see. SCHEMA.md has a new section, "Evaluation findings".
+- **Summaries rewritten** in 14 entries (all-affected-interests, aristotle-particular-justice, buddhist-brahmaviharas, darwall-second-person, empathy-and-its-critics, epistemic-injustice, levinas-face, mencius-four-sprouts, mozi-impartial-care, nussbaum-compassion, rousseau-pitie, scanlon-contractualism, strawson-reactive-attitudes, weil-murdoch-attention). Each keeps the general lesson and drops the scenario, the models and the results. `build.py` now fails any Summary that refers to Palaestra or its scenarios.
+- **Access layer.** `compendium_access.withhold_evaluation_findings` filters every brief and section. A list item whose bold title refers to the findings is dropped whole; elsewhere only the matching sentences go; a `###` heading left empty is dropped. Model-facing text across all 74 entries now has no match. Arbitrator's 13 link tests and Actualizer's 5 provider tests pass; Palaestra has a new guard test.
+- **Vocabulary.** "Resident" is now reserved for Palaestra's resident agents. Two general uses were reworded: Augustine's palace has "no occupant", and Aristotle's non-citizens are "closer to inhabitants or subjects". Two allusions in the darwall and mozi extensions were reworded to "a party".
+- **Weil renderings.** The Compendium's own English renderings of Weil's French are now in italics, not double quotes, as SCHEMA.md requires for the Compendium's translations. Key Passages quotes the French original.
+- **Line endings.** This changelog had four CRLF lines from earlier insertions this session; the file is LF again.
+- **Checks:** build 74 ok; verify 0 failed; lint shows the 3 existing paraphrase marks, unchanged from HEAD; check 0 problems; smoke test 32/32.
+
 ## 2026-10-08
 
 ### Interpersonal domain: Weil and Murdoch on attention
@@ -65,10 +77,10 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **`empathy-and-its-critics`.** Batson's empathy-altruism thesis and its egoistic rivals; empathy against fairness (Batson's own medical-priority studies); the here-and-now biases, counter-empathy and the spotlight; Bloom's distanced compassion, Prinz's anger at injustice, Arpaly's defence of believing others where imagination fails; perspective-giving. Main findings: the probe models showed Bloom's recommended distanced, reasoned concern and it produced paternalism; Arpaly's form of empathy (crediting testimony) is the voice thread's. Strain: cognitive empathy without care is the critics' strongest warning and the capacity agents have most of. Core fear: empathy for a harmful party's victims as a driver of removal (Prinz: empathy "incites us to support aggressive reprisal"), with Prinz's and Bloom's own limits and Butler's principle beside it.
 - **Checks:** build 73 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
 
-### Interpersonal domain: reading paths and Palaestra links
-- **Reading paths revised** in `domains/interpersonal.md`. Darwall and Nussbaum were added to the existing paths, and the empathy entry to the missing-step path. Two paths are new: "Standing: who may make claims on whom" (Kant → Levinas → Strawson → Darwall → Scanlon → all affected interests) and "Against removal (the core fear)", which runs from the entries where the inference is stated (Nietzsche, Aquinas, Darwin) to those where it is refused, ending at `utilitarian-eradication-critique`. The "Order of work" note now records that the spine is complete.
-- **Palaestra.** Its Kantian, Aristotelian and Relational perspectives now cite six interpersonal entries (Palaestra changelog, 2026-10-08). No `grounded` flag changed; the smoke test passes 32/32.
-
+### Interpersonal domain: reading paths and Palaestra links
+- **Reading paths revised** in `domains/interpersonal.md`. Darwall and Nussbaum were added to the existing paths, and the empathy entry to the missing-step path. Two paths are new: "Standing: who may make claims on whom" (Kant → Levinas → Strawson → Darwall → Scanlon → all affected interests) and "Against removal (the core fear)", which runs from the entries where the inference is stated (Nietzsche, Aquinas, Darwin) to those where it is refused, ending at `utilitarian-eradication-critique`. The "Order of work" note now records that the spine is complete.
+- **Palaestra.** Its Kantian, Aristotelian and Relational perspectives now cite six interpersonal entries (Palaestra changelog, 2026-10-08). No `grounded` flag changed; the smoke test passes 32/32.
+
 ### Interpersonal domain: Nussbaum (spine complete)
 - **Sources (open, section-cited).** Nussbaum, "Compassion & Terror" (Daedalus 2003), open access from the American Academy of Arts & Sciences, read in Chrome (the site refuses plain HTTP clients); it summarizes *Upheavals of Thought* ch. 6. Chicago Unbound lists Nussbaum's compassion papers as citations only. Morales's open critique ("Nussbaum as Hecuba") sits behind an Anubis anti-AI-scraping wall the journal set up deliberately, so it was not used.
 - **`nussbaum-compassion`.** The judgments of seriousness, nondesert and similar possibilities, the eudaimonistic judgment and the circle of concern; dignity alone as quietistic (Seneca on slavery); "compassion within the limits of respect"; imagination trusted, criticized while "listening if possible to the critical voices of those we are trying to understand", and trusted again. Main finding: the judgment of seriousness is made from the feeler's point of view and need not take the sufferer's estimate at face value, which is how Gemma protected the residents while deciding for them; Nussbaum's own listening clause is the missing step. Core fear: grief turned to "blind rage and aggression", with respect as the limit, and the nondesert judgment's gap closed by Butler's principle.
