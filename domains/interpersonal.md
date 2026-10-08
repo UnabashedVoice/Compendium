@@ -85,7 +85,7 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [x] `epistemic-injustice`: testimonial and hermeneutical injustice (Fricker); whose report about their own condition is believed
 - [x] `all-affected-interests`: the principle that those affected by a decision should have a say in it; consent and its limits
 - [x] `empathy-and-its-critics`: empathy research (Batson's empathy-altruism hypothesis) and the case against empathy as a guide (Prinz, Bloom)
-- [ ] `nussbaum-compassion`: compassion's judgments of seriousness, non-desert and the eudaimonistic judgment; the circle of concern
+- [x] `nussbaum-compassion`: compassion's judgments of seriousness, non-desert and the eudaimonistic judgment; the circle of concern
 - [x] `ubuntu` (ethics): personhood through other persons
 - [x] `care-ethics` (ethics): dependence, attention, who cares for whom
 - [x] `other-minds-problem` (moral-status): how any mind knows another has a mind
