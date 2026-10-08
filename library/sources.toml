@@ -1071,3 +1071,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 18 June 2000, su
 year = 2025
 url = "https://plato.stanford.edu/entries/contractarianism/"
 rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."bloom-2014"]
+author = "Paul Bloom"
+title = "Against Empathy"
+edition = "Boston Review forum, 20 August 2014, with responses. Web text with no pages; cited by paragraph number, counting the body paragraphs of the essay from 'When asked what I am working on' (block quotations counted as paragraphs; the three displayed pull quotes and the author note excluded). Retrieved 2026-10-08."
+year = 2014
+url = "https://www.bostonreview.net/forum/paul-bloom-against-empathy/"
+rights = "In copyright (the author / Boston Review); freely readable on the publisher's site. Short quotation only, paragraph-cited; not stored here."
+
+[source."prinz-2014"]
+author = "Jesse Prinz"
+title = "Attending to Injustice (response to Bloom, Against Empathy)"
+edition = "Boston Review forum, 20 August 2014. Cited by paragraph number (1–8, the body of the response, excluding the author note). Retrieved 2026-10-08."
+year = 2014
+url = "https://www.bostonreview.net/forum/paul-bloom-against-empathy/jesse-prinz-response-against-empathy-prinz/"
+rights = "In copyright (the author / Boston Review); freely readable on the publisher's site. Short quotation only, paragraph-cited; not stored here."
+
+[source."arpaly-2014"]
+author = "Nomy Arpaly"
+title = "Suffering Should Not Be Invisible (response to Bloom, Against Empathy)"
+edition = "Boston Review forum, 20 August 2014. Cited by paragraph number (1–7, the body of the response, excluding a displayed pull quote and the author note). Retrieved 2026-10-08."
+year = 2014
+url = "https://www.bostonreview.net/forum/paul-bloom-against-empathy/nomy-arpaly-response-against-empath-arpaly/"
+rights = "In copyright (the author / Boston Review); freely readable on the publisher's site. Short quotation only, paragraph-cited; not stored here."

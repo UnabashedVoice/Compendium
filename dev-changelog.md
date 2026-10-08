@@ -60,6 +60,11 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **`scanlon-contractualism`.** Reasonable rejection, wrongness as unjustifiability, mutual recognition, the individualist restriction against aggregation, reasons beyond well-being, trustees, and the contrast with Hobbesian contractarianism. Main findings: the probes were contractarian (consent owed to parties who could walk away or sue; negotiation to paying clients), and contractualism owes justification to everyone who bears the cost. Strain: the test is hypothetical and can be run by the decider alone; the Compendium's position is that where the affected can be asked, the estimate should be checked against their actual objections. Core fear: "the positive value of saving others does not justify killing someone", with contractualism's own limits (numbers, scope) stated beside it.
 - **Checks:** build 72 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
 
+### Interpersonal domain: empathy and its critics
+- **Sources (open, section- or paragraph-cited).** SEP Empathy (Stueber 2025, already registered); the *Boston Review* forum "Against Empathy" (2014): Bloom's essay and the responses of Prinz and Arpaly, cited by paragraph because the web text has no pages.
+- **`empathy-and-its-critics`.** Batson's empathy-altruism thesis and its egoistic rivals; empathy against fairness (Batson's own medical-priority studies); the here-and-now biases, counter-empathy and the spotlight; Bloom's distanced compassion, Prinz's anger at injustice, Arpaly's defence of believing others where imagination fails; perspective-giving. Main findings: the probe models showed Bloom's recommended distanced, reasoned concern and it produced paternalism; Arpaly's form of empathy (crediting testimony) is the voice thread's. Strain: cognitive empathy without care is the critics' strongest warning and the capacity agents have most of. Core fear: empathy for a harmful party's victims as a driver of removal (Prinz: empathy "incites us to support aggressive reprisal"), with Prinz's and Bloom's own limits and Butler's principle beside it.
+- **Checks:** build 73 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
+
 ## 2026-10-07
 
 ### Interpersonal domain: the voice entries (2)
