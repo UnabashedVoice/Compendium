@@ -32,7 +32,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] Early modern (5/5): `spinoza-pity`, `butler-compassion-resentment-forgiveness`, `rousseau-pitie`, `smith-impartial-spectator`, `kant-love-and-respect`
 - [x] Nineteenth century (3/3): `schopenhauer-compassion`, `nietzsche-against-pity`, `darwin-social-instincts`
 - [x] Medieval (2/2): `aquinas-mercy-and-justice`, `santideva-exchange-of-self-and-other`
-- [ ] Twentieth century to present (4/9): `epistemic-injustice`, `all-affected-interests` (the voice entries), `weil-murdoch-attention` and `levinas-face` done; Strawson, Darwall, Scanlon, empathy critics, Nussbaum to come
+- [ ] Twentieth century to present (5/9): `epistemic-injustice`, `all-affected-interests` (the voice entries), `weil-murdoch-attention`, `levinas-face` and `strawson-reactive-attitudes` done; Darwall, Scanlon, empathy critics, Nussbaum to come
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally
@@ -64,7 +64,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [ ] `federalism-subsidiarity`: nested governance for scale (D9)
 
 ## Responsibility & justice
-- [ ] `strawson-reactive-attitudes` (interpersonal): responsibility as participant stance
+- [x] `strawson-reactive-attitudes` (interpersonal): responsibility as participant stance
 - [ ] `many-hands`: distributed responsibility across developer/operator/agent
 - [ ] `punishment-theories`: retribution, deterrence, reform, under D1/D6
 - [ ] `just-war`: jus ad bellum/in bello, for agent conflict

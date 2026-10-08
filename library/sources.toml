@@ -1007,3 +1007,27 @@ edition = "Hermeneia, no. 35 (2025), pp. 138–149. Cited by journal page. Quote
 year = 2025
 url = "https://hermeneia.ro/wp-content/uploads/2025/11/12-Paul-Gabriel-Sandu-Hermeneia35.pdf"
 rights = "In copyright (the author / journal); freely readable on the journal's own site. Short quotation only, page-cited; not stored here."
+
+[source."talbert-sep-2024"]
+author = "Matthew Talbert"
+title = "Moral Responsibility"
+edition = "Stanford Encyclopedia of Philosophy, first published 16 October 2019, substantive revision 3 June 2024. Cited by top-level section number (1 = Freedom, Responsibility, and Determinism; 2 = Some Approaches, including 2.2 The Reactive Attitudes Approach: Freedom and Resentment, criticisms, resentment and blame; 3 = Contemporary Debates, including 3.3 conversational approaches and 3.4 standing to hold responsible). Its quotations of Strawson are cited to 'Freedom and Resentment' ([1962] 1993) by page."
+year = 2024
+url = "https://plato.stanford.edu/entries/moral-responsibility/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."snowdon-sep-2023"]
+author = "Paul Snowdon"
+title = "Peter Frederick Strawson"
+edition = "Stanford Encyclopedia of Philosophy, first published 16 September 2009, substantive revision 4 May 2023. Cited by top-level section number (8 = 'Freedom and Resentment')."
+year = 2023
+url = "https://plato.stanford.edu/entries/strawson/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."noorman-sep-2023"]
+author = "Merel Noorman"
+title = "Computing and Moral Responsibility"
+edition = "Stanford Encyclopedia of Philosophy, first published 18 July 2012, substantive revision 2 February 2023. Cited by top-level section number (2 = Can computers be moral agents?; 3 = Rethinking the concept of moral responsibility, including 3.2 responsibility as practice, Nissenbaum's barriers to accountability, Elish's moral crumple zone)."
+year = 2023
+url = "https://plato.stanford.edu/entries/computing-responsibility/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
