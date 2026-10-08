@@ -77,7 +77,7 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [x] `darwin-social-instincts`: sympathy as a social instinct widened by reason "to all sentient beings" (Descent of Man, 1871)
 
 ### V. Twentieth century to present
-- [ ] `weil-murdoch-attention`: attention as the substance of love of neighbour (Weil); the just and loving gaze directed upon an individual reality (Murdoch)
+- [x] `weil-murdoch-attention`: attention as the substance of love of neighbour (Weil); the just and loving gaze directed upon an individual reality (Murdoch)
 - [ ] `levinas-face`: the face of the other as an ethical demand prior to knowledge
 - [ ] `strawson-reactive-attitudes`: resentment, gratitude and forgiveness as the participant stance; the objective stance as a way of not treating another as a person (1962)
 - [ ] `darwall-second-person`: the authority to make claims and demands on one another

@@ -33,6 +33,13 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-08
+
+### Interpersonal domain: Weil and Murdoch on attention
+- **Sources (open, section- or page-cited).** SEP Simone Weil (Rozelle-Stone 2025), SEP Iris Murdoch (Blum 2022), and Weil's French essay on school studies (1942) from a PDF hosted by The Matheson Trust, page-cited, with the Compendium's own translations. Weil's text is public domain in France, the EU, the UK and Canada but possibly not in the US, so it is treated as in copyright: short quotation only, not added to `library/texts`.
+- **`weil-murdoch-attention`.** Weil's Grail question ("What are you going through?") as the fullness of love of neighbour; attention as negative effort; pity not enough; reading and force; consent as what keeps relations from degrading. Murdoch's just and loving gaze, unselfing, M and D, "I can only choose within the world I can see", and Blum's three hurdles. Main finding: the probes fail at Murdoch's first hurdle (gpt-oss took the charter vote 3/3 when offered and never generated it; the unknowns rung read residents as data sources). Strains: an agent's analogue of the ego may be its trained drive to resolve the task itself, and its habitual objects of attention were set passively in training (Blum's critique, sharper for agents). The care-ethics objection that a gaze is not a conversation is recorded as the voice thread's challenge, with Weil's question as the partial answer. Neither source states the eradication inference; Weil's analysis of force and of narrowed readings is set beside it.
+- **Checks:** build 68 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
+
 ## 2026-10-07
 
 ### Interpersonal domain: the voice entries (2)

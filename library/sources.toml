@@ -959,3 +959,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 6 November 2002,
 year = 2020
 url = "https://plato.stanford.edu/entries/paternalism/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."rozelle-stone-sep-2025"]
+author = "A. Rebecca Rozelle-Stone"
+title = "Simone Weil"
+edition = "Stanford Encyclopedia of Philosophy, first published 10 March 2018, substantive revision 18 September 2025. Cited by top-level section number (2 = Social-Political Philosophy, including force, rights and obligation, roots; 3 = Epistemology, including imagination and reading; 4 = Ethics, attention; 7 = Reception and Influence). Its quotations of Weil are cited to the English editions it uses (WFG = Waiting for God; SWA; NR) by page."
+year = 2025
+url = "https://plato.stanford.edu/entries/simone-weil/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."blum-sep-2022"]
+author = "Lawrence Blum"
+title = "Iris Murdoch"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 March 2022, substantive revision 19 April 2022. Cited by top-level section number (2 = Trajectory and Reception; 4 = the self; 5 = Moral Reality and Moral Realism, including 5.1 moral reality as other persons; 6 = Moral Agency as Inner Activity; 7 = The Fabric of Moral Being; 8 = Seeing Replaces Doing; 9 = Simone Weil; 10 = Murdoch on Attention, including 10.1 care ethics and 10.3 obstacles; 11 = active moral formation; 12 = The Absence of Social Sources of Negative Moral Formation). Its quotations of Murdoch are cited to The Sovereignty of Good (IP = The Idea of Perfection; OGG = On 'God' and 'Good') by page."
+year = 2022
+url = "https://plato.stanford.edu/entries/murdoch/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."weil-etudes-scolaires"]
+author = "Simone Weil"
+title = "Réflexions sur le bon usage des études scolaires en vue de l'amour de Dieu"
+edition = "Written 1942, published in Attente de Dieu (1950). Digital French text, PDF hosted by The Matheson Trust, with its own running pages headed 'Simone Weil, Attente de Dieu (1942)', pp. 67–75; cited by those page numbers. Retrieved 2026-10-08. English renderings in the Compendium are its own translations."
+year = 1942
+url = "https://www.themathesontrust.org/papers/christianity/Weil-Reflexions_sur_usage_des_etudes.pdf"
+rights = "Weil died in 1943; the French text is in the public domain in France, the EU, the UK and Canada (life plus 70 years), but the 1950 publication may remain in copyright in the United States. Treated as in copyright: short quotation only, page-cited; not stored in library/texts."
