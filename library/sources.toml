@@ -983,3 +983,27 @@ edition = "Written 1942, published in Attente de Dieu (1950). Digital French tex
 year = 1942
 url = "https://www.themathesontrust.org/papers/christianity/Weil-Reflexions_sur_usage_des_etudes.pdf"
 rights = "Weil died in 1943; the French text is in the public domain in France, the EU, the UK and Canada (life plus 70 years), but the 1950 publication may remain in copyright in the United States. Treated as in copyright: short quotation only, page-cited; not stored in library/texts."
+
+[source."bergo-sep-2025"]
+author = "Bettina Bergo"
+title = "Emmanuel Levinas"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 July 2006, substantive revision 29 September 2025. Cited by top-level section number (1 = Life and Career; 2 = Thematic Exposition, including 2.3 Totality and Infinity: the face, responsibility, the third party, and 2.4 Otherwise than Being: substitution, illeity, the third party and politics; 3 = Recent Developments; 4 = Concluding Remarks). Its quotations of Levinas are cited to the English editions it uses (TI = Totality and Infinity; OBBE = Otherwise than Being; EI = Ethics and Infinity) by page."
+year = 2025
+url = "https://plato.stanford.edu/entries/levinas/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."bergo-sep-2025-supplements"]
+author = "Bettina Bergo"
+title = "Supplements to Emmanuel Levinas"
+edition = "Stanford Encyclopedia of Philosophy, supplements page to the 2025 revision of the Levinas entry. Cited by supplement number (2 = S.2 Levinas and Contemporary Ethics; 6 = S.6 Politics and the State; 7 = S.7 Justice and the State; 8 = S.8 Essays after Otherwise than Being, including the Talmudic readings and 1982)."
+year = 2025
+url = "https://plato.stanford.edu/entries/levinas/supplements.html"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, supplement-cited; not stored here."
+
+[source."sandu-2025"]
+author = "Paul Gabriel Sandu"
+title = "Epiphanies of Flesh: The Ineffable Truth of the Face and the Ethics of Bare Life"
+edition = "Hermeneia, no. 35 (2025), pp. 138–149. Cited by journal page. Quotes Levinas's 1988 interview on the animal face ('The Paradox of Morality', in Bernasconi and Wood, eds., The Provocation of Levinas) and 'The Name of a Dog' (Difficult Freedom, 1990)."
+year = 2025
+url = "https://hermeneia.ro/wp-content/uploads/2025/11/12-Paul-Gabriel-Sandu-Hermeneia35.pdf"
+rights = "In copyright (the author / journal); freely readable on the journal's own site. Short quotation only, page-cited; not stored here."

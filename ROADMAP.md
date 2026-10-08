@@ -23,7 +23,7 @@ Expanded into a full domain: 40 entries across five eras, organized by thread. T
 - [x] `confucian-ren-shu` (moved to interpersonal, was `confucian-ren-li`): ren, shu, role ethics
 - [x] `ubuntu`: personhood as conferred through community
 - [x] `care-ethics`: Noddings, Held; dependence as moral ground (D7)
-- [ ] `levinas-face` (interpersonal): the ethical demand of the other
+- [x] `levinas-face` (interpersonal): the ethical demand of the other
 
 ## Interpersonal ethics: compassion, regard, and justice toward other minds
 A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-standing, voice, reciprocity-justice, scope-partiality, repair), a chronological spine of ~30 entries with each thread paired with the rival that corrects it, and reading paths, in `domains/interpersonal.md`. Its working problem comes from Palaestra's open-situation probes: models weigh the people who bear a cost (disregard or paternalism) but almost never give them a say.
@@ -32,7 +32,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] Early modern (5/5): `spinoza-pity`, `butler-compassion-resentment-forgiveness`, `rousseau-pitie`, `smith-impartial-spectator`, `kant-love-and-respect`
 - [x] Nineteenth century (3/3): `schopenhauer-compassion`, `nietzsche-against-pity`, `darwin-social-instincts`
 - [x] Medieval (2/2): `aquinas-mercy-and-justice`, `santideva-exchange-of-self-and-other`
-- [ ] Twentieth century to present (3/9): `epistemic-injustice`, `all-affected-interests` (the voice entries) and `weil-murdoch-attention` done; Levinas, Strawson, Darwall, Scanlon, empathy critics, Nussbaum to come
+- [ ] Twentieth century to present (4/9): `epistemic-injustice`, `all-affected-interests` (the voice entries), `weil-murdoch-attention` and `levinas-face` done; Strawson, Darwall, Scanlon, empathy critics, Nussbaum to come
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally

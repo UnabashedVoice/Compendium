@@ -78,7 +78,7 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 
 ### V. Twentieth century to present
 - [x] `weil-murdoch-attention`: attention as the substance of love of neighbour (Weil); the just and loving gaze directed upon an individual reality (Murdoch)
-- [ ] `levinas-face`: the face of the other as an ethical demand prior to knowledge
+- [x] `levinas-face`: the face of the other as an ethical demand prior to knowledge
 - [ ] `strawson-reactive-attitudes`: resentment, gratitude and forgiveness as the participant stance; the objective stance as a way of not treating another as a person (1962)
 - [ ] `darwall-second-person`: the authority to make claims and demands on one another
 - [ ] `scanlon-contractualism`: principles no one could reasonably reject
