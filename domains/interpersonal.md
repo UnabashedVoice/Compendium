@@ -81,7 +81,7 @@ Status: `[x]` drafted, `[ ]` planned. `→` means "responds to". Entries already
 - [x] `levinas-face`: the face of the other as an ethical demand prior to knowledge
 - [x] `strawson-reactive-attitudes`: resentment, gratitude and forgiveness as the participant stance; the objective stance as a way of not treating another as a person (1962)
 - [x] `darwall-second-person`: the authority to make claims and demands on one another
-- [ ] `scanlon-contractualism`: principles no one could reasonably reject
+- [x] `scanlon-contractualism`: principles no one could reasonably reject
 - [x] `epistemic-injustice`: testimonial and hermeneutical injustice (Fricker); whose report about their own condition is believed
 - [x] `all-affected-interests`: the principle that those affected by a decision should have a say in it; consent and its limits
 - [ ] `empathy-and-its-critics`: empathy research (Batson's empathy-altruism hypothesis) and the case against empathy as a guide (Prinz, Bloom)

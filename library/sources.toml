@@ -1055,3 +1055,19 @@ edition = "Stanford Encyclopedia of Philosophy, first published 10 September 200
 year = 2026
 url = "https://plato.stanford.edu/entries/respect/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."ashford-mulgan-sep-2018"]
+author = "Elizabeth Ashford and Tim Mulgan"
+title = "Contractualism"
+edition = "Stanford Encyclopedia of Philosophy, first published 30 August 2007, substantive revision 20 April 2018. Cited by top-level section number (1 = What is contractualism?; 2 = differences from other social contract theories; 3 = differences from utilitarianism, including reasonable rejection and reasons beyond well-being; 4 = differences from other non-consequentialist theories, including blame and responsibility; 6 = circularity or redundancy; 8 = aggregation; 12 = animals). Its quotations of Scanlon are cited to What We Owe to Each Other (1998) by page."
+year = 2018
+url = "https://plato.stanford.edu/entries/contractualism/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."cudd-eftekhari-sep-2025"]
+author = "Ann Cudd and Seena Eftekhari"
+title = "Contractarianism"
+edition = "Stanford Encyclopedia of Philosophy, first published 18 June 2000, substantive revision 22 August 2025. Cited by top-level section number (1 = Fundamental Elements, including hypothetical and historical contracts; 6 = Disability, Animals, Reciprocity, and Trust)."
+year = 2025
+url = "https://plato.stanford.edu/entries/contractarianism/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

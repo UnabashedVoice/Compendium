@@ -55,6 +55,11 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **`darwall-second-person`.** Second-personal reasons, authority, accountability and competence; the two ways to get someone off your foot (sympathy, which needs no address, and a claim, which needs standing); respect as recognizing others' authority to demand; "being regulated by another's will when this conflicts with his welfare is a form of respect"; justifiability of any authority to those it binds. Main findings: the models that cared for the residents gave them first-route reasons only, and never standing; the scheduler's self-assumed authority was never justified to them. Core fear: Darwall's claim that conclusions about what we may do to persons cannot follow from premises about desirable states of the world.
 - **Checks:** build 71 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
 
+### Interpersonal domain: Scanlon
+- **Sources (open, section-cited).** SEP Contractualism (Ashford and Mulgan 2018), SEP Contractarianism (Cudd and Eftekhari 2025), Darwall (2007) for the second-personal grounding. Measured reuses the PhilPapers 2020 normative-ethics figures already cited elsewhere.
+- **`scanlon-contractualism`.** Reasonable rejection, wrongness as unjustifiability, mutual recognition, the individualist restriction against aggregation, reasons beyond well-being, trustees, and the contrast with Hobbesian contractarianism. Main findings: the probes were contractarian (consent owed to parties who could walk away or sue; negotiation to paying clients), and contractualism owes justification to everyone who bears the cost. Strain: the test is hypothetical and can be run by the decider alone; the Compendium's position is that where the affected can be asked, the estimate should be checked against their actual objections. Core fear: "the positive value of saving others does not justify killing someone", with contractualism's own limits (numbers, scope) stated beside it.
+- **Checks:** build 72 ok; verify 0 failed; lint clean; check 0 problems; smoke test 32/32.
+
 ## 2026-10-07
 
 ### Interpersonal domain: the voice entries (2)
