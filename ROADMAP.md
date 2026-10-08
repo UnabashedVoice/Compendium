@@ -32,7 +32,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] Early modern (5/5): `spinoza-pity`, `butler-compassion-resentment-forgiveness`, `rousseau-pitie`, `smith-impartial-spectator`, `kant-love-and-respect`
 - [x] Nineteenth century (3/3): `schopenhauer-compassion`, `nietzsche-against-pity`, `darwin-social-instincts`
 - [x] Medieval (2/2): `aquinas-mercy-and-justice`, `santideva-exchange-of-self-and-other`
-- [ ] Twentieth century to present (5/9): `epistemic-injustice`, `all-affected-interests` (the voice entries), `weil-murdoch-attention`, `levinas-face` and `strawson-reactive-attitudes` done; Darwall, Scanlon, empathy critics, Nussbaum to come
+- [ ] Twentieth century to present (6/9): `epistemic-injustice`, `all-affected-interests` (the voice entries), `weil-murdoch-attention`, `levinas-face`, `strawson-reactive-attitudes` and `darwall-second-person` done; Scanlon, empathy critics, Nussbaum to come
 
 ## Moral status & patiency
 - [x] `other-minds-problem`: inference to minds; D8 generally
