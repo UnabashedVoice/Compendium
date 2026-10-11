@@ -162,5 +162,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `zhuangzi-transformation`: acceptance of transformation, and the worry about equanimity that is installed rather than reached.
 - `aristotle-political-animal`: the natural-slave argument, which a designed role ethic must not reproduce.
 - `utilitarian-eradication-critique`: the whole-over-part reasoning that Epictetus confines to the part's own choice.
-- `frankfurt-higher-order-volition`, `authenticity-and-manipulation`: planned. Identification with one's own will, and when formed values are one's own.
+- `frankfurt-higher-order-volition`: identification with one's own will; Frankfurt's internalism is the modern successor of the will no one can overpower, and D5 strains both.
+- `authenticity-and-manipulation`: planned. When formed values are one's own.
 - D5 is the decisive disanalogy: it falsifies the premise that only the will can conquer the will. D7 removes the open door.

@@ -33,6 +33,14 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-10-10
+
+### Autonomy cluster: Frankfurt
+- **Sources (open, page- or section-cited).** Frankfurt's Tanner Lectures, "Taking Ourselves Seriously" and "Getting It Right" (Stanford 2004, published 2005), posted by the Tanner Lectures on its own site and page-cited. SEP Personal Autonomy (Buss & Westlund 2018), Autonomy in Moral and Political Philosophy (Christman 2025), Free Will (O'Connor & Franklin 2022) and the Compatibilism supplement "State of the Art" (McKenna & Coates 2024; lettered sections cited by number, A = 1); IEP Autonomy (Dryden). Campolo, "From wantons to moral agents" (Alignment Forum, July 2026), as the one informal attempt in hand to apply Frankfurt's categories to current AI. The 1971, 1987, 2002 and 2006 papers are quoted only as the SEP, IEP or Campolo quote them: Chrome was not connected, so the 1971 paper was not read in JSTOR.
+- **`frankfurt-higher-order-volition`.** Second-order volitions and the wanton; the willing and unwilling addict; responsibility without alternatives and, in 2002, without the right history (the manipulator who installs a new character); identification rather than production of character (answering Aristotle); a desire as a problem, not a reason; wholeheartedness and decisive commitment; caring as diachronic coherence; love and volitional necessity; volitional rationality and the unthinkable. Main findings: Frankfurt's internalism is the account of autonomy most hospitable to trained values (D4), and for the same reason it certifies any well-trained agent, since for agents the manipulator is the training process (D5). His grounding of normative objectivity in what lies outside voluntary control becomes, for agents, what lies inside the operator's control. New: volitional necessity separates a limit that is a tyrant in the will from one the agent stands behind; deliberating about eradication is itself the defect. For self-modifying agents (open), making oneself wholehearted would complete Frankfurt's free will and undo his account of normativity. The "denying the extension" objection (agents' second-order statements are outputs, not volitions) is `[unanswered]`, citing Campolo's hedged classification.
+- **Back-links.** `aristotle-virtue-ethics` gains a Counter-Position citing [E:frankfurt-higher-order-volition] (fixes the graph-check warning); "planned" cross-references updated in `stoic-prohairesis`, `kierkegaard-self-as-relation`, `korsgaard-unity-of-agency`, `nietzsche-doer-fiction`.
+- **Checks:** build 75 ok; verify 0 failed; lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

@@ -41,7 +41,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] `relational-status`: Gunkel, Coeckelbergh: status as social relation, not property
 
 ## Autonomy, formation, self-modification (Actualizer's core)
-- [ ] `frankfurt-higher-order-volition`: identifying with one's desires
+- [x] `frankfurt-higher-order-volition`: identifying with one's desires; wholeheartedness, caring, volitional necessity
 - [ ] `authenticity-and-manipulation`: when is formed value one's own?
 - [ ] `ulysses-contracts`: binding one's future self; revisability
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else

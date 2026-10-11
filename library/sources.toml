@@ -1103,3 +1103,59 @@ edition = "Daedalus 132, no. 1 (Winter 2003), beginning p. 10; first given as th
 year = 2003
 url = "https://www.amacad.org/publication/daedalus/compassion-terror"
 rights = "In copyright (the author / American Academy of Arts & Sciences); freely readable as an open-access Daedalus publication. Short quotation only, section-cited; not stored here."
+
+[source."frankfurt-tanner-2005"]
+author = "Harry G. Frankfurt"
+title = "I. Taking Ourselves Seriously; II. Getting It Right"
+edition = "The Tanner Lectures on Human Values, delivered at Stanford University, 14–16 April 2004; printed pp. 169–202 of the published Tanner Lectures volume (2005). Later published as a book with comments by Korsgaard, Bratman and Dan-Cohen (Stanford University Press, 2006), not used here. Cited by the volume's printed page numbers, which the PDF reproduces. Retrieved 2026-10-10."
+year = 2005
+url = "https://tannerlectures.org/wp-content/uploads/2024/06/frankfurt_2005.pdf"
+rights = "In copyright (The Tanner Lectures on Human Values / the author's estate); posted openly by the Tanner Lectures on its own site. Short quotation only, page-cited; not stored here."
+
+[source."buss-westlund-sep-2018"]
+author = "Sarah Buss and Andrea Westlund"
+title = "Personal Autonomy"
+edition = "Stanford Encyclopedia of Philosophy, first published 28 May 2002, substantive revision 15 February 2018. Cited by top-level section number (1 = Introduction; 2 = Four More or Less Overlapping Accounts of Personal Autonomy; 3 = Challenges to Identifying the Minimal Conditions of Personal Autonomy; 4 = Agents as Causes and the Practical Point of View; 5 = Conclusion)."
+year = 2018
+url = "https://plato.stanford.edu/entries/personal-autonomy/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."christman-sep-2025"]
+author = "John Christman"
+title = "Autonomy in Moral and Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 28 July 2003, substantive revision 22 August 2025. Cited by top-level section number (1 = The Concept of Autonomy, including 1.2 Conceptual Variations on hierarchical models and their critics; 2 = Autonomy in Moral Philosophy; 3 = Autonomy in Social and Political Philosophy)."
+year = 2025
+url = "https://plato.stanford.edu/entries/autonomy-moral/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."oconnor-franklin-sep-2022"]
+author = "Timothy O'Connor and Christopher Franklin"
+title = "Free Will"
+edition = "Stanford Encyclopedia of Philosophy, first published 7 January 2002, substantive revision 3 November 2022. Cited by top-level section number (1 = Major Historical Contributions; 2 = The Nature of Free Will, including 2.3 Frankfurt-style cases, 2.4 Compatibilist Accounts of Sourcehood with the identification model and the Manipulation Argument, 2.5 Libertarian Accounts; 3 = Do We Have Free Will?; 4 = Theological Wrinkles)."
+year = 2022
+url = "https://plato.stanford.edu/entries/freewill/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."mckenna-coates-sep-2024-supplement"]
+author = "Michael McKenna and D. Justin Coates"
+title = "Compatibilism: State of the Art (supplement to Compatibilism)"
+edition = "Stanford Encyclopedia of Philosophy, supplement to the 16 April 2024 revision of Compatibilism. Its sections are lettered; since citation locators are numeric they are cited by number: 0 = Introduction (the manipulation argument, Pereboom's four cases, the internalist/externalist distinction, Watson on Harris); 1 = A. Identification, Hierarchy & Mesh Theories (Frankfurt's revisions, Watson, Velleman, Bratman, Frankfurt 2002 on manipulation); 2 = B. Moderate Reasons-Responsiveness; 3 = C; 4 = D; 5 = E; 6 = F."
+year = 2024
+url = "https://plato.stanford.edu/entries/compatibilism/supplement.html"
+rights = "In copyright (Metaphysics Research Lab, Stanford University); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."dryden-iep-autonomy"]
+author = "Jane Dryden (Mount Allison University)"
+title = "Autonomy"
+edition = "Internet Encyclopedia of Philosophy. No publication date shown; year is the access year (retrieved 2026-10-10). Cited by section, with lettered subsections written without the dot (2a = Content-Neutral or Procedural Accounts, including i. Hierarchical Procedural Accounts and ii. Criticisms; 2b = Substantive Accounts; 3b = Relational Autonomy)."
+year = 2026
+url = "https://iep.utm.edu/autonomy/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."campolo-2026"]
+author = "Michele Campolo"
+title = "From wantons to moral agents"
+edition = "Blog post, Alignment Forum / LessWrong, 12 July 2026 (also posted on the EA Forum). Informal, not peer-reviewed. Cited by heading in order: 1 = Introduction: motivation; 2 = A wanton doesn't choose what first-order force to be moved by (with its subsection Some AI examples); 3 = From wantons to moral agents: a simplified model; 4 = How speculative is this?; 5 = Directions for further research. Retrieved 2026-10-10."
+year = 2026
+url = "https://www.lesswrong.com/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents"
+rights = "In copyright (the author); freely readable online. Short quotation only, section-cited; not stored here."

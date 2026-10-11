@@ -135,6 +135,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `james-stream-of-thought`: a contemporary (1886–1890) account that also denies the Soul and the Transcendental Ego but insists a functional appropriating Thought remains — the sharpest same-era contrast to a grammar-only diagnosis.
 - `reid-brave-officer`: another demand for a real, prior self to do the owning, aimed here at Nietzsche's drives rather than Locke's memory.
 - `stoic-prohairesis`: Epictetus identifies the person with the volition, the willing "I" this entry calls a fiction.
-- `frankfurt-higher-order-volition`: planned, on identification with one's desires, which must reconcile with that picture.
+- `frankfurt-higher-order-volition`: identification with one's desires, which must reconcile with that picture; the Frankfurt entry records the doer-critique as an objection.
 - `llm-identity-contemporary`, `dennett-narrative-gravity`, `metzinger-no-self`: the modern heirs of a no-further-fact, process-based account of the self.
 - D4 (genealogy as formation-before-any-self), D5 (direct modifiability of which drive dominates), D8 (self-reports that do not track the underlying process), D11 (which component, if any, is "the" agent).
