@@ -107,6 +107,10 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Back-links.** `locke-consent-property`, `rousseau-general-will` and `mill-utilitarianism` each cite [E:rawls-veil] in Counter-Positions (clears all three graph-check warnings); planned cross-references updated in `locke-consent-property` and `rousseau-general-will`. ROADMAP: the social-contract cluster is ticked.
 - **Checks:** build 84 ok; verify 0 failed (4171 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### Library: Hume's second Enquiry
+- Downloaded with the user's approval: Hume, *An Enquiry Concerning the Principles of Morals*, Project Gutenberg #4320 (a 1912 reprint of the 1777 edition), catalogued as `hume-enquiry-morals-pg4320` and sha256-pinned; index rebuilt (110 texts).
+- `rawls-veil`: the circumstances-of-justice break now quotes Hume's species of rational creatures of inferior strength, owed gentle usage but no justice, with compassion and kindness as the only check on our lawless will (III).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

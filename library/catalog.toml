@@ -1066,3 +1066,13 @@ rights = "US public domain: published before 1931 (the 17th-century text; Macphe
 notes = "For locke-consent-property: chapters V (property), VIII (consent), II and IV (state of nature, slavery and arbitrary power). The Gutenberg preface is secondary."
 sha256 = "720196308ba75205761d1a763f6e42d3fb4bec8f8457a77c181f9df3bcf75eb8"
 
+
+[text."hume-enquiry-morals-pg4320"]
+author = "David Hume"
+title = "An Enquiry Concerning the Principles of Morals"
+edition = "a 1912 reprint of the 1777 edition (Open Court), as transcribed by Project Gutenberg. Cited by line; sections ('SECTION III. OF JUSTICE.') are in the text."
+source = "Project Gutenberg #4320"
+format = "gutenberg"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-10. For rawls-veil (III, rational creatures of inferior strength: gentle usage but no justice) and ostrom-commons (III, the circumstances of justice and property). The Gutenberg header and licence are not part of Hume's text."
+sha256 = "646232ad2733b7fa7d7aa282cd7fc46fc3e83ff4e662ffcfa42cd71ab8b25c46"
