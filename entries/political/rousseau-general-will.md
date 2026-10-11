@@ -194,5 +194,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `frankfurt-higher-order-volition`: the compatibilist alternative to Rousseau's claim that free agency defies mechanism.
 - `all-affected-interests`: who must take part for a will to be general.
 - `rawls-veil`: Rawls's attempt to spell out the general will; the veil as a device for a general will among beings who are not alike.
-- `hegel-recognition`, `plato-republic`, `arendt-plurality`: planned. *Amour propre* and recognition; the founder-legislator's ancestor; participation for its own sake.
+- `arendt-plurality`: participation for its own sake; shared rejection of representation.
+- `hegel-recognition`, `plato-republic`: planned. *Amour propre* and recognition; the founder-legislator's ancestor.
 - D7 and D9 are the decisive disanalogies: the first makes the agent the paradigm of personal dependence, the second makes the legislator a possible being rather than a figure of speech.

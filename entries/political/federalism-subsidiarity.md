@@ -176,5 +176,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `all-affected-interests`: who decides at which level.
 - `ubuntu`: one of the non-Western sources of nested, community-first governance.
 - `utilitarian-eradication-critique`: absorption by a better-performing higher tier as the institutional form of the core fear.
-- `arendt-plurality`: planned. Arendt's republican federal model.
+- `arendt-plurality`: Arendt's republican federal model; plurality as the condition of politics.
 - D9 and D2 are the decisive disanalogies: the first removes the rough equality among members federations need and powers the higher tier's scope creep, the second removes the variety on which the extended republic relies.

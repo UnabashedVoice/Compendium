@@ -177,5 +177,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `utilitarian-eradication-critique`: model collapse as removal by attrition, the tails lost first.
 - `aristotle-political-animal`: Aristotle's objection to common property in the same book of the *Politics*.
 - `federalism-subsidiarity`: nested governance at scale; subsidiarity as the allocation rule for nested enterprises.
-- `arendt-plurality`: planned. The space in which people act together.
+- `arendt-plurality`: the space in which people act together; power as acting in concert.
 - D2 and D3 are the decisive disanalogies: copies blur who the users are and risk defecting together, and forgetting makes an agent a perpetual newcomer to the norms a commons runs on.
