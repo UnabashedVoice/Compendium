@@ -1161,3 +1161,69 @@ format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. German text: quote it in German, or give the compendium's own rendering in italics beside an [L:] citation; use it to check Baillie's OCR."
 sha256 = "8f85fba3f9a3d56a849a1306fc8e6eb23b9b9492e90cdb8e314d7b3844f2b661"
+
+[text."kant-philosophy-of-law-hastie-1887"]
+author = "Immanuel Kant"
+title = "The Philosophy of Law (Metaphysische Anfangsgründe der Rechtslehre)"
+edition = "tr. W. Hastie (Edinburgh: T. & T. Clark, 1887). OCR of the University of Toronto (Victoria University) copy; cited by line. 'E. The Right of Punishing and of Pardoning' begins at 8502: punishment never merely as a means, the categorical imperative of penal law and the serpent-windings of utilitarianism, the condemned criminal offered dangerous experiments, the right of retaliation (jus talionis), penal servitude for theft, death for murder and the island community's last murderer (8502-8640); Kant against Beccaria and on pardon follow."
+source = "archive.org thephilosophyofl00kantuoft"
+format = "ocr"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931 (archive.org marks it NOT_IN_COPYRIGHT)"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Secondary: front matter and Hastie's Translator's Preface (lines 1-1100); Hastie's footnotes are scattered and not all marked. OCR has stray characters (e.g. 'Eight' for 'Right'); quote clean segments only."
+secondary_spans = [[1, 1100]]
+sha256 = "4425dcaa355a3291d25cca912091fdbc769de1eaf7217aa5c4edb69c766d7516"
+
+[text."hegel-philosophy-of-right-dyde-1896"]
+author = "G. W. F. Hegel"
+title = "Hegel's Philosophy of Right"
+edition = "tr. S. W. Dyde (London: George Bell, 1896), with the Additions (Zusätze) compiled by Gans from students' lecture notes. OCR of the Cornell University Library copy; cited by line; paragraph (§) numbers in the text. Wrong and crime, §§82-104, roughly 4600-5600: punishment as the negation of a negation (§97 Addition, 5218-5236), the theory of punishment and Feuerbach's threat, a man treated as a dog (§99 and Addition, 5249-5330), punishment as the criminal's own right and the criminal honoured as rational, against Beccaria (§100, 5332-5386), retribution as equality in value (§101, 5388-5506), revenge as an infinite process (§102, 5508-5547), justice does not revenge but punishes (§103)."
+source = "archive.org cu31924014578979"
+format = "ocr"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Secondary: front matter, Dyde's Translator's Preface and errata (lines 1-481) and the indexes (16393 to end). The Additions are Gans's compilation from student notes, not Hegel's published text; say so when quoting them. OCR is damaged in places (notably the §99 and §101 Notes); quote clean segments only."
+secondary_spans = [[1, 481], [16393, 18108]]
+sha256 = "3ca35f7977fd0f6555085693dcc4efe0172711c982f28de623add98563e4817a"
+
+[text."beccaria-crimes-punishments-farrer-pg58700"]
+author = "Cesare Beccaria"
+title = "Crimes and Punishments (Dei delitti e delle pene)"
+edition = "A new translation by James Anson Farrer (London: Chatto & Windus, 1880), with Farrer's four introductory chapters, as transcribed by Project Gutenberg. Cited by line. Beccaria's text begins at 2871 (To the Reader 2886; ch. II, the origin and right of punishment, 3109; ch. XII, torture, 3713; ch. XV, the mildness of punishments, 4106; ch. XVI, capital punishment, 4202)."
+source = "Project Gutenberg #58700"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Secondary: Farrer's contents, introductory chapters and their footnotes (lines 36-2870), and the footnotes to the translation (6080-6189), which mix Beccaria's notes with Farrer's."
+secondary_spans = [[36, 2870], [6080, 6189]]
+sha256 = "3d87c0675b3b5a68756d76d0b9f64f4ba7cf295a19ef4a227c8372d1912abb4e"
+
+[text."plato-protagoras-jowett-pg1591"]
+author = "Plato"
+title = "Protagoras"
+edition = "tr. Benjamin Jowett, as transcribed by Project Gutenberg. No Stephanus numbers; cited by line. The dialogue begins at 534; Protagoras on rational punishment, which looks to the future (324a-b), at 1183-1193."
+source = "Project Gutenberg #1591"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction (lines 30-533) is secondary."
+secondary_spans = [[30, 533]]
+sha256 = "7eb0299f5b11d13cb96ed1a1822c12c83f627c2488648d2013ac2e81eb5ab3ea"
+
+[text."plato-gorgias-jowett-pg1672"]
+author = "Plato"
+title = "Gorgias"
+edition = "tr. Benjamin Jowett, as transcribed by Project Gutenberg. No Stephanus numbers; cited by line. The dialogue begins at 2165; punishment as the improvement of the soul (477-479) near 3990-4100; the proper office of punishment, the curable and the incurable as examples (525b-d), at 6571-6590."
+source = "Project Gutenberg #1672"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction (lines 30-2164) is secondary."
+secondary_spans = [[30, 2164]]
+sha256 = "379f2abb140332a49d5f86fd78f008f47de0e4fecb53a0a42b2b4cf6bfa4c133"
+
+[text."plato-laws-jowett-pg1750"]
+author = "Plato"
+title = "Laws"
+edition = "tr. Benjamin Jowett, as transcribed by Project Gutenberg. No Stephanus numbers; cited by line. Jowett's Introduction and Analysis (with his book-by-book summaries) occupies lines 50-8418; the dialogue's books begin at: I 8419, II 9680, III 10747, IV 12056, V 12964, VI 13747, VII 15107, VIII 16707, IX 17636, X 18861, XI 20157, XII 21177. Book IX on temple robbers, the incurable and death (854a-e) at 17664-17708."
+source = "Project Gutenberg #1750"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction and Analysis (lines 50-8418) is secondary."
+secondary_spans = [[50, 8418]]
+sha256 = "9a6ea73161956a622d0aba13d70b82c076feed7d37d257d26e458671b26dc8c9"

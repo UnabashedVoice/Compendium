@@ -153,6 +153,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Graph.** `rousseau-general-will` and `hobbes-leviathan` now back-cite `[E:hegel-recognition]` in Counter-Positions; the planned cross-references in `rousseau-general-will` and `arendt-plurality` are updated. The political domain in ROADMAP is complete.
 - **Checks:** build 89 ok; verify 0 failed (4669 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### Library: punishment texts (Kant, Hegel, Beccaria, Plato)
+- Downloaded with the user's approval: Kant, *The Philosophy of Law*, tr. Hastie (1887), University of Toronto scan on archive.org, OCR, as `kant-philosophy-of-law-hastie-1887` (Hastie's preface secondary); Hegel, *Philosophy of Right*, tr. Dyde (1896), Cornell scan, OCR, as `hegel-philosophy-of-right-dyde-1896` (Dyde's preface and the indexes secondary; the Additions noted as Gans's compilation); Beccaria, *Crimes and Punishments*, tr. Farrer (1880), Project Gutenberg #58700, as `beccaria-crimes-punishments-farrer-pg58700` (Farrer's introduction and the footnotes secondary); Plato, *Protagoras*, *Gorgias* and *Laws* (Jowett), Project Gutenberg #1591, #1672, #1750 (Jowett's introductions secondary). All sha256-pinned; index rebuilt (124 texts).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
