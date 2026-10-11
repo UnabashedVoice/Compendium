@@ -81,6 +81,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Back-links.** `hobbes-leviathan` gains a Counter-Position citing [E:many-hands] (universal authorship diffuses responsibility); planned cross-references updated in `hobbes-leviathan`, `pettit-non-domination`, `utilitarian-eradication-critique`.
 - **Checks:** build 81 ok; verify 0 failed (3807 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### Library: Locke's Second Treatise
+- Downloaded at the user's request: Locke, *Second Treatise of Government*, Project Gutenberg #7370 (the 1690 text as transcribed from the Macpherson edition, original words only), catalogued as `locke-second-treatise-pg7370` and sha256-pinned; index rebuilt (109 texts). For the planned `locke-consent-property`.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

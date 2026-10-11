@@ -1055,3 +1055,14 @@ rights = "US public domain: published before 1931"
 notes = "Book XII (the Sirens) is the source for ulysses-contracts. Butler's preface and footnotes are secondary."
 sha256 = "ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9"
 
+
+[text."locke-second-treatise-pg7370"]
+author = "John Locke"
+title = "Second Treatise of Government (Two Treatises of Government, 1689/1690)"
+edition = "Text of the Second Treatise as transcribed by Project Gutenberg from the C. B. Macpherson edition (Hackett, 1980), original words only; the title page reproduced is the sixth edition (London: A. Millar et al., 1763/1764). Cited by line; chapters and sections ('Sect. 27') are in the text."
+source = "Project Gutenberg #7370"
+format = "gutenberg"
+rights = "US public domain: published before 1931 (the 17th-century text; Macpherson's editorial matter is not included in the Gutenberg file)"
+notes = "For locke-consent-property: chapters V (property), VIII (consent), II and IV (state of nature, slavery and arbitrary power). The Gutenberg preface is secondary."
+sha256 = "720196308ba75205761d1a763f6e42d3fb4bec8f8457a77c181f9df3bcf75eb8"
+
