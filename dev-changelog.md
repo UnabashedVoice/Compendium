@@ -171,6 +171,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Graph.** `hobbes-leviathan`, `punishment-theories` and `many-hands` now back-cite `[E:just-war]` in Counter-Positions; the planned cross-reference in `punishment-theories` is updated. The responsibility domain in ROADMAP is complete.
 - **Checks:** build 91 ok; verify 0 failed; lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### just-war: the user's comments
+- **Recorded in the entry, as "comment by the user, 2026-10-11":** (1) an agent that judges whether a war is just takes on authority, but the judgment also demands more vigilance and restraint, and the weight of that responsibility is a check on its use (New, "Agents that can say no"); (2) Vitoria's licence to rule the Indians is outmoded thinking resting on a more primitive understanding (Breaks, the tradition formed by a war over the judged-inferior); (3) the dependence on usefulness must be rejected in both directions (New, "The assailant useful to many").
+- **Agreed by the user without change:** restorable combatants and the cheaper threshold for war; the dated Asaro premise and the surviving accountable-agent requirement, with the ICRC objection tagged `[contested]`; the `standing` values and `agent_fit`. `standing_reviewed` is still unset, pending the user's review of every state tag.
+- **Also committed:** `compendium_access.py`, the "rival is never cut short" change of 2026-10-10, at the user's request (f63c12a).
+- **Checks:** build 91 ok; verify 0 failed; smoke test 32/32.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
