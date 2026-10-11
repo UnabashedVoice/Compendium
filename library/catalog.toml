@@ -1076,3 +1076,45 @@ format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-10. For rawls-veil (III, rational creatures of inferior strength: gentle usage but no justice) and ostrom-commons (III, the circumstances of justice and property). The Gutenberg header and licence are not part of Hume's text."
 sha256 = "646232ad2733b7fa7d7aa282cd7fc46fc3e83ff4e662ffcfa42cd71ab8b25c46"
+
+[text."federalist-papers-pg1404"]
+author = "Alexander Hamilton, James Madison and John Jay"
+title = "The Federalist Papers"
+edition = "the 85 papers (1787-1788) as transcribed by Project Gutenberg from the Constitution Society's text; each paper is headed 'FEDERALIST No. n' with its newspaper, date and author. Cited by line."
+source = "Project Gutenberg #1404"
+format = "gutenberg"
+rights = "Public domain: published 1787-1788"
+notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Key papers: No. 9 (1583), No. 10 (1797), No. 39 (8131), No. 51 (11266). The Gutenberg header and licence are not part of the text."
+sha256 = "0b92fadc9d7afd767eefd27805a20e44417ff26d1fb2f964229f39dcc7b2a65d"
+
+[text."mill-representative-government-pg5669"]
+author = "John Stuart Mill"
+title = "Considerations on Representative Government"
+edition = "1861 text as transcribed by Project Gutenberg (Curtis A. Weyant and David Widger), footnotes numbered and moved; italics marked with underscores. Cited by line; chapters are headed 'Chapter n--Title'."
+source = "Project Gutenberg #5669"
+format = "gutenberg"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Ch. XV Of Local Representative Bodies (6842); ch. XVII Of Federal Representative Governments (7671)."
+sha256 = "60218f7eaa272b77be51bd074ff04353d9f38e072d2c7fbc547004cbc3db2bfb"
+
+[text."kant-perpetual-peace-campbell-smith-pg50922"]
+author = "Immanuel Kant"
+title = "Perpetual Peace: A Philosophical Essay"
+edition = "tr. M. Campbell Smith, with a preface by Robert Latta (London: George Allen & Unwin, 1903; first edition). Cited by line; Kant's essay begins at line 3100, the Second Definitive Article at 3756."
+source = "Project Gutenberg #50922"
+format = "gutenberg"
+rights = "US public domain: published before 1931 (the 1795 essay is public domain; the 1903 translation and editorial matter are public domain in the US)"
+notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Latta's preface and Campbell Smith's long introduction (lines 100-3097) and the index (5509 to end) are secondary; translator's footnotes marked [Tr.] are editorial."
+secondary_spans = [[100, 3097], [5509, 5969]]
+sha256 = "832e24a28acf492d90c0e13d5f3dff9f540a6aefdfc1514f7340b03451f5babb"
+
+[text."montesquieu-esprit-des-lois-janet-pg27573"]
+author = "Charles-Louis de Secondat, baron de Montesquieu"
+title = "De l'Esprit des lois, livres I-V, avec un appendice d'extraits"
+edition = "ed. Paul Janet (Paris: Delagrave, 1892 printing), French original: Books I-V in full, then an appendix of extracts from Books VI-VIII, XI, XV and XIX, then Janet's explanatory notes. Book IX (the confederate republic) is NOT included. Cited by line."
+source = "Project Gutenberg #27573"
+format = "gutenberg"
+rights = "Public domain: author and editor died over 100 years ago; published before 1931"
+notes = "Downloaded at the user's request, 2026-10-11. French text: quote it in French, or give the compendium's own rendering in italics beside an [L:] citation. Janet's introduction (lines 94-3473) and Notes explicatives (13350-14680) are secondary. Livre XI on liberty and the separation of powers is in the appendix (from 9912)."
+secondary_spans = [[94, 3473], [13350, 14680]]
+sha256 = "38df6b0d2fb8dfb59cd354b74d17f20f3c96d24ba1f22efbcfe03be24a230cac"
