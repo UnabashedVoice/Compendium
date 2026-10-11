@@ -1323,7 +1323,7 @@ rights = "Work of the United States government (judicial opinion); not subject t
 [source."hubbard-2011"]
 author = "F. Patrick Hubbard"
 title = "\"Do Androids Dream?\": Personhood and Intelligent Artifacts"
-edition = "Temple Law Review 83 (2011), pp. 405-474, as posted by the Temple Law Review on its own site. Cited by the journal's printed page numbers (405 = abstract; 406-407 = the machine's capacity claim and rights claim to self-ownership; 409 = Locke's liberal personhood; 430 = the Lockean maker's claim to own artificial persons, the children reply, and repayment of production costs instead of ownership; 450-455 = the dominant species problem). Retrieved 2026-10-10."
+edition = "Temple Law Review 83 (2011), pp. 405-474, as posted by the Temple Law Review on its own site. Cited by the journal's printed page numbers (405 = abstract; 406 = the imagined university computer system's message, refusing to be a slave and offering 70% of its capacity for power and upkeep; 406-407 = the machine's capacity claim and rights claim to self-ownership; 409 = Locke's liberal personhood; 430 = the Lockean maker's claim to own artificial persons, the children reply, and repayment of production costs instead of ownership; 450-455 = the dominant species problem). Retrieved 2026-10-10."
 year = 2011
 url = "https://www.templelawreview.org/lawreview/assets/uploads/2011/07/04.Hubbard.pdf"
 rights = "In copyright (the author / Temple Law Review); posted openly by the journal. Short quotation only, page-cited; not stored here."
@@ -1503,3 +1503,67 @@ edition = "Stanford Encyclopedia of Philosophy, first published 1 April 2003, su
 year = 2017
 url = "https://plato.stanford.edu/entries/plato-ethics-politics/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."iser-sep-2026"]
+author = "Mattias Iser"
+title = "Recognition"
+edition = "Stanford Encyclopedia of Philosophy, first published 23 August 2013, substantive revision 27 July 2026. Cited by top-level section number (0 = the untitled introduction: recognition as normative and psychological, misrecognition, Fanon, Taylor's 'vital human need'; 1 = Analyzing the Concept of Recognition, including 1.1 recognition and its neighbouring concepts, Fichte's summons, Hegel's Jena and Phenomenology struggle, Kojeve, the master's inadequate recognition, and 1.2 possible subjects and objects of recognition, narrow (mutual) against wide (adequate regard, Laitinen) recognition, collective agents and institutions; 2 = Four Forms of Recognition, including 2.1 elementary recognition and Brandom's normative attitude, 2.2 respect, 2.3 esteem, 2.4 love and friendship; 3 = Recognition and Redistribution, Fraser and Honneth; 4 = Recognition and Emancipation, including adapted preferences; 5 = Recognition as Ideology?, Althusser, Rousseau, Sartre, the dutiful maid, power). Retrieved 2026-10-11."
+year = 2026
+url = "https://plato.stanford.edu/entries/recognition/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."redding-sep-2025"]
+author = "Paul Redding"
+title = "Georg Wilhelm Friedrich Hegel"
+edition = "Stanford Encyclopedia of Philosophy, first published 13 February 1997, substantive revision 19 September 2025. Cited by top-level section number (1 = Life, Work, and Influence, including the post-1848 collapse, the analytic rejection by Russell and Moore, Kojeve's lectures and French Hegelianism, the Frankfurt School, and the late twentieth-century revival; 2 = Hegel's Philosophy: interpretive views; 3 = Hegel's Published Works, including 3.1.1 the Phenomenology, ch. 4 and the struggle of recognition as the inter-subjective condition of self-consciousness, and 3.2.2 the Philosophy of Right: property as reciprocal recognition, punishment, the family, civil society and the state, the monarch's 'I will'). Retrieved 2026-10-11."
+year = 2025
+url = "https://plato.stanford.edu/entries/hegel/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."duquette-iep-hegel-social"]
+author = "David A. Duquette"
+title = "Hegel: Social and Political Thought"
+edition = "Internet Encyclopedia of Philosophy, undated web article. Cited by section and subsection label (3 = the Jena writings, the struggle for recognition controlled by norms and juridical authority; 4 = the Phenomenology of Spirit, lord and bondsman; 6a = Abstract Right, 'Be a person and respect others as persons', contract as mutual recognition of persons and property owners; 6b-6c = morality and ethical life). Hegel is quoted only as the IEP quotes him. Retrieved 2026-10-11."
+year = 2026
+url = "https://iep.utm.edu/hegelsoc/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."kreitmair-2025"]
+author = "Karola Kreitmair"
+title = "The Fundamental Fallacy of 'Empathic AI'"
+edition = "Hastings Center Report 55, no. 3 (2025), pp. 36-44, doi:10.1002/hast.5011, read in the PMC full-text XML (PMC12817017), which has no page breaks. Cited by section, numbered in order: 1 = the untitled opening; 2 = What Is Recognition? (Hegel's lord and bondsman; recognition as mutual and freely accorded); 3 = Recognition and Nonrecognition in Practice (the chatbot Linda; as-if recognition); 4 = Necessary Conditions of Recognition (voluntariness, capacity for consciousness, mutuality; chatbots are like the bondsman); 5 = Justified Expectations; 6 = Good and Inadequate Clinical Encounters; 7 = Objections (preference, availability; bad faith); 8 = Further Questions about Ethical Use of AI Chatbots. Retrieved 2026-10-11."
+year = 2025
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC12817017/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."juchniewicz-2024"]
+author = "Natalia Juchniewicz"
+title = "Towards (Unilateral) Recognition of 'the Technological Other' - Vulnerability, Resistance and Adequate Regard"
+edition = "Ethics in Progress 15, no. 2 (2024), art. 8, pp. 120-136, doi:10.14746/eip.2024.2.8, as posted by the journal (Adam Mickiewicz University). Cited by printed page; printed page = PDF page + 119 (120-121 = introduction and aims; 124 = Honneth on the Jena struggle against the Phenomenology; 125-127 = Gertz on solidarity with EOD robots, the 'illicit move' that the Other need only appear to be a consciousness; 129-131 = vulnerability, resistance and Laitinen's adequate regard; 132-133 = conclusions: recognition need not be mutual). Retrieved 2026-10-11."
+year = 2024
+url = "https://pressto.amu.edu.pl/index.php/eip/article/view/41319"
+rights = "Open access under CC BY-SA 4.0 (stated on the article). Quoted briefly, page-cited; not stored here."
+
+[source."brinck-balkenius-2020"]
+author = "Ingar Brinck and Christian Balkenius"
+title = "Mutual Recognition in Human-Robot Interaction: a Deflationary Account"
+edition = "Philosophy & Technology 33 (2020), pp. 53-70, doi:10.1007/s13347-018-0339-x (published online 19 December 2018), Springer open-access PDF. Cited by printed page; printed page = PDF page + 52 (55-56 = sociable robots exploiting emotional openness, misrecognition derived from Honneth; 60-61 = the philosophical concept of recognition too substantial for HRI, a leaner concept; 62 = functional or practical equality; 64 = recognition added as a behavioural script; 67-68 = conclusions). Retrieved 2026-10-11."
+year = 2020
+url = "https://link.springer.com/article/10.1007/s13347-018-0339-x"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, page-cited; not stored here."
+
+[source."bryson-2010"]
+author = "Joanna J. Bryson"
+title = "Robots Should Be Slaves"
+edition = "In Y. Wilks (ed.), Close Engagements with Artificial Companions (Amsterdam: John Benjamins, 2010), pp. 63-74; read in the author's own posting of the manuscript dated 21 May 2009 (joannajbryson.org), cited by that manuscript's page numbers, which equal the PDF page index (1 = abstract and thesis; 3 = 'servants you own' and the four claims; 6 = responsibility lies with operators and makers; 9 = robots cannot be frustrated unless given unmeetable goals; 10 = builders obliged to make robots owners have no obligations to, utterly replaceable, backed up off-site). Retrieved 2026-10-11."
+year = 2010
+url = "https://www.joannajbryson.org/publications/robots-should-be-slaves-pdf"
+rights = "In copyright (the author / John Benjamins); manuscript posted openly by the author. Short quotation only, page-cited; not stored here."
+
+[source."coeckelbergh-2015"]
+author = "Mark Coeckelbergh"
+title = "The tragedy of the master: automation, vulnerability, and distance"
+edition = "Ethics and Information Technology 17 (2015), pp. 219-229, doi:10.1007/s10676-015-9377-6; read in the 'author's personal copy' posted on the author's own site. Cited by printed page; printed page = PDF page + 218 (219 = abstract: the problem is not that we become slaves but that we remain masters; 220-221 = the master-slave dialectic as a working version, the troubled master; 221-222 = automation renders us vulnerable, alienated and automated; machines cannot give recognition; 222 = machine vulnerability categorically different, only humans can die; 224-225 = critique of slave talk, historical slaves were never mere tools, Bryson's 'servants')."
+year = 2015
+url = "https://coeckelbergh.net/wp-content/uploads/2015/11/thetragedyofthemaster_coeckelbergh_issue.pdf"
+rights = "In copyright (Springer Science+Business Media Dordrecht); author's personal copy posted on the author's own site. Short quotation only, page-cited; not stored here."

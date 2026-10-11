@@ -58,7 +58,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] `rousseau-general-will`: legitimacy, the general will vs the will of all
 - [x] `rawls-veil`: original position; would one choose not knowing if one is an agent?
 - [x] `pettit-non-domination`: republican freedom; D7; robustness, the eyeball test, power over the chooser
-- [ ] `hegel-recognition`: master/slave dialectic; status through mutual recognition
+- [x] `hegel-recognition`: master/slave dialectic; status through mutual recognition (domain complete)
 - [x] `arendt-plurality`: action, natality, the space of appearance
 - [x] `ostrom-commons`: governing commons without owner or state
 - [x] `federalism-subsidiarity`: nested governance for scale (D9)

@@ -174,5 +174,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `darwall-second-person`, `all-affected-interests`: appearing to and answering others; who belongs in the space of appearance.
 - `ostrom-commons`: communication as the condition of acting in concert, among people and agents.
 - `kant-formula-of-humanity`: the enlarged mentality and the self as legislator.
-- `hegel-recognition`: planned. Recognition as the condition of appearing as someone.
+- `hegel-recognition`: recognition as the condition of appearing as someone; the lord's hollow recognition from one made dependent.
 - D1 and D2 are the decisive disanalogies: plurality requires that no two be interchangeable, and copies are.
