@@ -1159,3 +1159,11 @@ edition = "Blog post, Alignment Forum / LessWrong, 12 July 2026 (also posted on 
 year = 2026
 url = "https://www.lesswrong.com/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents"
 rights = "In copyright (the author); freely readable online. Short quotation only, section-cited; not stored here."
+
+[source."sorgner-2009"]
+author = "Stefan Lorenz Sorgner"
+title = "Nietzsche, the Overhuman, and Transhumanism"
+edition = "Journal of Evolution and Technology 20, no. 1 (March 2009), pp. 29–42; peer-reviewed. The journal's web text carries no page markers, so it is cited by section number: 0 = abstract and introduction (Bostrom's 'surface-level similarities'); 1 = The posthuman and Nietzsche's overhuman (1.2 Science, enhancement, and education; 1.4 the posthuman, the transhuman and the overhuman); 2 = The Overhuman, and Nietzsche's Hope for the Future. Retrieved 2026-10-10."
+year = 2009
+url = "https://jetpress.org/v20/sorgner.htm"
+rights = "In copyright (the author / Journal of Evolution and Technology); freely readable open-access journal. Short quotation only, section-cited; not stored here."

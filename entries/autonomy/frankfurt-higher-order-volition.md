@@ -154,5 +154,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `strawson-reactive-attitudes`: the third of the 1960s contributions that reshaped the free will debate.
 - `spinoza-pity`: Frankfurt reads Spinoza's *acquiescentia in se ipso* as acquiescence to being the person one is.
 - `utilitarian-eradication-critique`: volitional rationality as a diagnosis of the open option, not only of the act.
-- `authenticity-and-manipulation`, `ulysses-contracts`, `transformative-experience`, `nietzsche-self-overcoming`: the rest of the autonomy cluster (planned). Manipulation is where Frankfurt's view is most tested; binding one's future will is where wholeheartedness meets self-modification.
+- `nietzsche-self-overcoming`: self-overcoming as the counterpart to identification; Nietzsche's question of what one has truly loved anticipates Frankfurt's grounding of care in love, and his perpetual self-surpassing is the rival to Frankfurt's acquiescence.
+- `authenticity-and-manipulation`, `ulysses-contracts`, `transformative-experience`: the rest of the autonomy cluster (planned). Manipulation is where Frankfurt's view is most tested; binding one's future will is where wholeheartedness meets self-modification.
 - D4 and D5 decide the extension: Frankfurt's internalism makes formation history irrelevant, and for agents formation history is everything others control. D8 makes the wanton question hard to settle.

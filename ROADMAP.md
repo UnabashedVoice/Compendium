@@ -45,7 +45,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [ ] `authenticity-and-manipulation`: when is formed value one's own?
 - [ ] `ulysses-contracts`: binding one's future self; revisability
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else
-- [ ] `nietzsche-self-overcoming`: becoming who one is
+- [x] `nietzsche-self-overcoming`: becoming who one is; style, the sovereign individual, fatalism vs self-creation
 - [x] `stoic-prohairesis`: Epictetus, what is up to us
 - [x] `luhmann-social-autopoiesis`: autopoiesis beyond life; psychic and social systems; self-organization vs autopoiesis (open sources: Seidl 2004, Unlocking Luhmann 2021, Esposito 2022)
 - [x] `utilitarian-eradication-critique`: the aggregation/sacrifice debate, argued from both sides (core-fear material)

@@ -1003,3 +1003,44 @@ rights = "Public domain: translator died over 100 years ago; published before 19
 notes = "Includes the Tevigga Sutta (DN 13), whose ch. III gives the four brahmavihāras; Rhys Davids's notes are secondary."
 sha256 = "6679d6eedf3c75490990d54346c7bee1f910cf954a840c57dfcaf6bf171255f9"
 
+
+[text."nietzsche-joyful-wisdom-common-pg52881"]
+author = "Friedrich Nietzsche"
+title = "The Joyful Wisdom (Die fröhliche Wissenschaft, 1882; Book V and preface 1887)"
+edition = "tr. Thomas Common, with poetry versions by Paul V. Cohn and Maude D. Petre, Edinburgh and London: T. N. Foulis, 1910 (Complete Works, ed. Levy, vol. 10)"
+source = "Project Gutenberg #52881"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Sections 270, 290 and 335 (become what one is; giving style to one's character) are the source for nietzsche-self-overcoming."
+sha256 = "a8bd1dff6679eebef87ab4ff870888bfee4a31651ad5cb655e80bc306e9ae5db"
+
+[text."nietzsche-ecce-homo-ludovici-pg52190"]
+author = "Friedrich Nietzsche"
+title = "Ecce Homo: How One Becomes What One Is (written 1888, published 1908), with poems"
+edition = "tr. Anthony M. Ludovici, Edinburgh and London: T. N. Foulis, 1911 (Complete Works, ed. Levy, vol. 17)"
+source = "Project Gutenberg #52190"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Ludovici's introduction is secondary; quote only Nietzsche's text."
+sha256 = "0592da1b1cba40b3634a968ca5af7ac5f96e70499e3e4f67a32b76bfefebe0c8"
+
+[text."nietzsche-thoughts-out-of-season-2-collins-pg38226"]
+author = "Friedrich Nietzsche"
+title = "Thoughts Out of Season, Part II: The Use and Abuse of History; Schopenhauer as Educator (Unzeitgemässe Betrachtungen II and III, 1874)"
+edition = "tr. Adrian Collins, Edinburgh and London: T. N. Foulis, 1910 (Complete Works, ed. Levy, vol. 5)"
+source = "Project Gutenberg #38226"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Schopenhauer as Educator, section 1, is the source for nietzsche-self-overcoming. The translator's note is secondary."
+sha256 = "449a5fb84a23615da9e6b5f1da85c71168a9be6b087880a5616de61d86436fb9"
+
+[text."nietzsche-twilight-ludovici-pg52263"]
+author = "Friedrich Nietzsche"
+title = "The Twilight of the Idols (Götzen-Dämmerung, 1889); The Antichrist; Notes to Zarathustra; Eternal Recurrence"
+edition = "tr. Anthony M. Ludovici, Edinburgh and London: T. N. Foulis, 1911 (Complete Works, ed. Levy, vol. 16)"
+source = "Project Gutenberg #52263"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Ludovici's preface and notes are secondary; quote only Nietzsche's text."
+sha256 = "5803311dee5121d4124fd89cb3d1a6cd02405bb8631d28b5b8ad0a4d35b8c2f5"
+
