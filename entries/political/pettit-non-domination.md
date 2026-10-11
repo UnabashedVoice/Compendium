@@ -166,5 +166,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `utilitarian-eradication-critique`: why restraint that rests on goodwill is not protection.
 - `many-hands`: who answers for domination exercised through a chain of developers, operators and agents.
 - `locke-consent-property`: Locke's "arbitrary will of another man" [L:locke-second-treatise-pg7370:618-619], the liberal root of non-domination, and consent.
-- `rousseau-general-will`, `arendt-plurality`: planned. Dependence and the general will, and the civic humanist rival.
+- `rousseau-general-will`: the compact as a guarantee against personal dependence; *forced to be free* read as republican freedom.
+- `arendt-plurality`: planned. The civic humanist rival.
 - D7 is the decisive disanalogy: the switch held by one party is the master's capacity in its purest form. D5 adds power over the chooser that the theory's measures underreport.

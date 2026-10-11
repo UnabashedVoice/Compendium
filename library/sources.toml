@@ -819,7 +819,7 @@ rights = "In copyright (the author / SEP); freely readable open-access encyclope
 [source."bertram-sep-2023"]
 author = "Christopher Bertram"
 title = "Jean Jacques Rousseau"
-edition = "Stanford Encyclopedia of Philosophy, first published 27 September 2010, substantive revision 21 April 2023. Cited by top-level section number (2 = Conjectural history and moral psychology, including 2.1 Morality; 3 = Political Philosophy; 6 = Place in the history of philosophy)."
+edition = "Stanford Encyclopedia of Philosophy, first published 27 September 2010, substantive revision 21 April 2023. Cited by top-level section number (1 = Life, including the 1762 condemnations in Paris and Geneva; 2 = Conjectural history and moral psychology, including 2.1 Morality; 3 = Political Philosophy, including 3.1 the idea of the general will, 3.2 procedure, virtue and the legislator, 3.3 the reconciliation of freedom and authority, 3.4 representation and government, the exclusion of women, 3.5 civil religion; 4 = Language; 5 = Education; 6 = Place in the history of philosophy, including Kant, Hegel and Rawls)."
 year = 2023
 url = "https://plato.stanford.edu/entries/rousseau/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -1327,3 +1327,27 @@ edition = "Temple Law Review 83 (2011), pp. 405-474, as posted by the Temple Law
 year = 2011
 url = "https://www.templelawreview.org/lawreview/assets/uploads/2011/07/04.Hubbard.pdf"
 rights = "In copyright (the author / Temple Law Review); posted openly by the journal. Short quotation only, page-cited; not stored here."
+
+[source."carter-sep-2026"]
+author = "Ian Carter"
+title = "Positive and Negative Liberty"
+edition = "Stanford Encyclopedia of Philosophy, first published 27 February 2003, substantive revision 28 June 2026. Cited by top-level section number (1 = Two Concepts of Liberty, including Rousseau as the clearest collective case of positive freedom; 2 = The Paradox of Positive Liberty (Berlin, the divided self, the permanent minority); 3 = Rescuing Positive Liberty; 4 = Republican Liberty; 5 = Freedom as a Triadic Relation; 6 = Constraints; 7 = Overall Freedom). Retrieved 2026-10-10."
+year = 2026
+url = "https://plato.stanford.edu/entries/liberty-positive-negative/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."peter-sep-2023"]
+author = "Fabienne Peter"
+title = "Political Legitimacy"
+edition = "Stanford Encyclopedia of Philosophy, first published 29 April 2010, substantive revision 11 December 2023. Cited by top-level section number (1 = Descriptive and Normative Concepts; 2 = The Function of Political Legitimacy, including Rousseau's contrast of legitimacy with coercive power; 3 = Sources of Legitimacy, including 3.1 consent and 3.2 public justification and participation, with Rousseau's rejection of tacit consent and the epistemic reading of IV.2; 4 = Legitimacy and Democracy; 5 = Cosmopolitanism). Retrieved 2026-10-10."
+year = 2023
+url = "https://plato.stanford.edu/entries/legitimacy/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."delaney-iep-rousseau"]
+author = "James J. Delaney"
+title = "Jean-Jacques Rousseau (1712-1778)"
+edition = "Internet Encyclopedia of Philosophy, undated web article. Cited by subsection label (1a = traditional biography, including the 1762 condemnations; 4b = the general will; 4c = equality, freedom and sovereignty; 5b = education and the tutor; 7 = historical and philosophical influence). Retrieved 2026-10-10."
+year = 2026
+url = "https://iep.utm.edu/rousseau/"
+rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

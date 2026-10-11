@@ -55,7 +55,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [ ] `plato-republic`: justice as order of parts; guardians; the noble lie
 - [x] `hobbes-leviathan`: artificial man, covenant, fear of death (D6 breaks it)
 - [x] `locke-consent-property`: consent, labor-property (who owns agent output?)
-- [ ] `rousseau-general-will`: legitimacy, the general will vs the will of all
+- [x] `rousseau-general-will`: legitimacy, the general will vs the will of all
 - [ ] `rawls-veil`: original position; would one choose not knowing if one is an agent?
 - [x] `pettit-non-domination`: republican freedom; D7; robustness, the eyeball test, power over the chooser
 - [ ] `hegel-recognition`: master/slave dialectic; status through mutual recognition
