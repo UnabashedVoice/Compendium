@@ -1391,3 +1391,43 @@ edition = "Animal Law 14 (2007), pp. 5-28, as posted by Michigan State Universit
 year = 2007
 url = "https://www.animallaw.info/sites/default/files/lralvol14_1_5.pdf"
 rights = "In copyright (the author / Animal Law); posted openly by an academic center. Short quotation only, page-cited; not stored here."
+
+[source."ostrom-2009"]
+author = "Elinor Ostrom"
+title = "Beyond Markets and States: Polycentric Governance of Complex Economic Systems"
+edition = "Prize Lecture, 8 December 2009, as published by the Nobel Foundation (nobelprize.org PDF, from Les Prix Nobel 2009). Cited by its printed page numbers 408-444, which equal the PDF page index plus 407 (411 = polycentricity; 416-417 = 'Are Rational Individuals Helplessly Trapped', Sugden, Hardin; 418-419 = the meta-analysis, boundary rules, bundles of property rights; 420 = seven types of rules; 421-423 = the design principles and Cox et al.'s review; 424-426 = laboratory and field experiments, communication, sanctioning, crowding out; 429 = what has been learned, failures, no panaceas; 434-435 = complexity and reform)."
+year = 2009
+url = "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/"
+rights = "Copyright The Nobel Foundation 2009; posted openly by the Nobel Foundation. Short quotation only, page-cited; not stored here."
+
+[source."cox-arnold-villamayor-2010"]
+author = "Michael Cox, Gwen Arnold and Sergio Villamayor Tomás"
+title = "A Review of Design Principles for Community-based Natural Resource Management"
+edition = "Ecology and Society 15, no. 4 (2010), art. 38, read on the journal's website, which has no page numbers. Cited by section: 0 = Abstract; 1 = Introduction; 2 = Methods; 3 = Results (91 studies; Table 3); 4 = Discussion, including the eight principles, the critique of the principles (incompleteness, Singleton and Taylor's mutually vulnerable actors, market integration and dependence, scale, the constructionist and blueprint critiques) and the reformulation; 5 = Conclusion. Retrieved 2026-10-11."
+year = 2010
+url = "https://www.ecologyandsociety.org/vol15/iss4/art38/"
+rights = "Copyright the authors, published under licence by the Resilience Alliance; open-access journal. Short quotation only, section-cited; not stored here."
+
+[source."piatti-2024"]
+author = "Giorgio Piatti, Zhijing Jin, Max Kleiman-Weiner, Bernhard Schölkopf, Mrinmaya Sachan and Rada Mihalcea"
+title = "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents"
+edition = "NeurIPS 2024; arXiv 2404.16698v4 (8 December 2024). Cited by the PDF's page numbers (1-2 = abstract and introduction; 4 = the three scenarios, after Hardin; 6 = Table 1 and the greedy newcomer; 7 = universalization and the communication ablation; 9-10 = limitations and conclusion). The introduction reports overuse without communication as 21%, section 3.5 and the conclusion as 22%. Retrieved 2026-10-11."
+year = 2024
+url = "https://arxiv.org/abs/2404.16698"
+rights = "arXiv licence CC BY-SA 4.0. Quoted briefly, page-cited; not stored here."
+
+[source."huang-siddarth-2023"]
+author = "Saffron Huang and Divya Siddarth"
+title = "Generative AI and the Digital Commons"
+edition = "arXiv 2303.11074v1 (20 March 2023), Collective Intelligence Project. The PDF carries no printed page numbers, so citations are to its page index (1 = abstract; 3 = GFMs and the commons, the digital commons defined; 4 = obligations tied to common resources; 5 = dependence on the commons and the capture of value; 7 = disincentives to contribute). Retrieved 2026-10-11."
+year = 2023
+url = "https://arxiv.org/abs/2303.11074"
+rights = "arXiv licence CC BY-SA 4.0. Quoted briefly, page-cited; not stored here."
+
+[source."shumailov-2024"]
+author = "Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson and Yarin Gal"
+title = "AI models collapse when trained on recursively generated data"
+edition = "Nature 631 (2024), beginning p. 755; full text from PubMed Central (PMC11269175), without page breaks; a 2025 author correction (PMC11981929) amends one symbol in the theoretical section only. Cited by section: 0 = Abstract; 1 = Main; 2 = What is model collapse?; 3 = Theoretical intuition; 4 = Model collapse in language models; 5 = Discussion. Retrieved 2026-10-11."
+year = 2024
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC11269175/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."

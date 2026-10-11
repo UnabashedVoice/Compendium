@@ -60,7 +60,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] `pettit-non-domination`: republican freedom; D7; robustness, the eyeball test, power over the chooser
 - [ ] `hegel-recognition`: master/slave dialectic; status through mutual recognition
 - [ ] `arendt-plurality`: action, natality, the space of appearance
-- [ ] `ostrom-commons`: governing commons without owner or state
+- [x] `ostrom-commons`: governing commons without owner or state
 - [ ] `federalism-subsidiarity`: nested governance for scale (D9)
 
 ## Responsibility & justice
