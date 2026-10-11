@@ -1227,3 +1227,36 @@ rights = "Public domain: author and translator died over 100 years ago; publishe
 notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction and Analysis (lines 50-8418) is secondary."
 secondary_spans = [[50, 8418]]
 sha256 = "9a6ea73161956a622d0aba13d70b82c076feed7d37d257d26e458671b26dc8c9"
+
+[text."grotius-law-of-war-and-peace-kelsey-1925"]
+author = "Hugo Grotius"
+title = "De Jure Belli ac Pacis Libri Tres, vol. II: The Translation"
+edition = "tr. Francis W. Kelsey with A. E. R. Boak, H. A. Sanders, J. S. Reeves and H. F. Wright (Classics of International Law, ed. J. B. Scott; Oxford: Clarendon Press for the Carnegie Endowment for International Peace, 1925), translating the 1646 edition. OCR of the Universal Digital Library scan (Kansas City Public Library copy); cited by line. Prolegomena begins at 2472 (sect. 11, 'even if we should concede ... that there is no God', 2823-2827; sect. 28, a lack of restraint in relation to war, 3346-3352); Book I at 3962; Book II at 14376 (II.1.2, 'where judicial settlement fails, war begins', 14590-14597; II.1.4, no just cause but injury received, 14556-14558; II.1.9, defence not permissible against one useful to many, 15117-15130; II.22, unjust causes, from 46141, II.22.12 ruling others against their will for their good, 46609-46620; II.26.3, those ordered to an unjust war should refrain, 49934-49941); Book III at about 50789 (III.1.2, the first rule, 50811). The OCR interleaves marginal notes and footnotes."
+source = "archive.org dejurebelliacpac013020mbp"
+format = "ocr"
+rights = "Public domain in the United States: published 1925, term expired (95 years). Kelsey died 1927."
+notes = "Downloaded at the user's request, 2026-10-11, for just-war. Secondary: front matter, J. B. Scott's and J. S. Reeves's introductions and the Translators' Prefatory Note (lines 1-2471) and the indexes (75114 to end)."
+secondary_spans = [[1, 2471], [75114, 84257]]
+sha256 = "2808cba204dc562513dd2b6fe45ae70444d97fdbf99dd88f5537ba1c5873d306"
+
+[text."vitoria-de-indis-de-iure-belli-bate-1917"]
+author = "Francisco de Vitoria"
+title = "De Indis et De Iure Belli Relectiones"
+edition = "ed. Ernest Nys, tr. John Pawley Bate, with the revised Latin text by Herbert Francis Wright and a photographic reproduction of Simon's 1696 edition (Classics of International Law, ed. J. B. Scott; Washington: Carnegie Institution, 1917). OCR; cited by line. Bate's translation begins at 4896: the First Relectio, On the Indians (5626; whether those of unsound mind can be owners, 6660-6680; true dominion, 6750), the Second Relectio, On the Indians, or On the Law of War (9313; a single just cause, a wrong received, 10041-10049; a subject convinced of a war's injustice may not serve in it, 10246-10264; the deliberate slaughter of the innocent never lawful, 10666-10705; collateral killing and the bar on greater evils, 10707-10730). Wright's revised Latin text from 12961; the 1696 Latin edition follows."
+source = "archive.org franciscidevicto0000vito"
+format = "ocr"
+rights = "Public domain: published 1917 in the United States; Vitoria died 1546, Nys 1920, Bate 1928."
+notes = "Downloaded at the user's request, 2026-10-11, for just-war. Secondary: front matter, Nys's introduction in French and in Bate's English translation, and the Translator's Note on Citations (lines 1-4908); Wright's Prefatory Remarks and list of authorities (11344-12960). Marginal notes are interleaved in the OCR; quote clean segments only."
+secondary_spans = [[1, 4908], [11344, 12960]]
+sha256 = "db7350767c2bac486adb0126c6e31d1a0befa9642b45aa7a24a5e85016a32123"
+
+[text."cicero-de-officiis-miller-pg47001"]
+author = "Marcus Tullius Cicero"
+title = "De Officiis"
+edition = "Latin text with tr. Walter Miller (Loeb Classical Library, 1913), as transcribed by Project Gutenberg. Cited by line; section numbers (*34*) in the text. Book I at 327 (I.34-35, the rights of war, discussion and force, the only excuse for war, at 1419-1426); Book II 5320; Book III 8206."
+source = "Project Gutenberg #47001"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago or published before 1931"
+notes = "Downloaded at the user's request, 2026-10-11, for just-war. Secondary: Miller's Introduction (lines 88-326) and the index (12108-14299)."
+secondary_spans = [[88, 326], [12108, 14299]]
+sha256 = "aa149f1110b12ce001b227380d29c5dbf92f1212ef667c22275699d9ac0d5b79"

@@ -162,6 +162,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Graph.** `many-hands`, `hobbes-leviathan` and `locke-consent-property` now back-cite `[E:punishment-theories]` in Counter-Positions; the planned cross-references in `many-hands` and `hegel-recognition` are updated.
 - **Checks:** build 90 ok; verify 0 failed; lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### Library: just-war texts (Grotius, Vitoria, Cicero)
+- Downloaded at the user's request: Grotius, *De Jure Belli ac Pacis*, vol. II, the translation by Kelsey and others (Carnegie Classics of International Law, 1925), Universal Digital Library scan on archive.org, OCR, as `grotius-law-of-war-and-peace-kelsey-1925` (Scott's and Reeves's introductions and the indexes secondary); Vitoria, *De Indis et De Iure Belli Relectiones*, ed. Nys, tr. Bate (Carnegie, 1917), archive.org, OCR, as `vitoria-de-indis-de-iure-belli-bate-1917` (Nys's introduction and Wright's prefatory remarks secondary); Cicero, *De Officiis*, tr. Miller (Loeb, 1913), Project Gutenberg #47001, as `cicero-de-officiis-miller-pg47001`. All sha256-pinned; index rebuilt (127 texts).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
