@@ -130,6 +130,7 @@ The twentieth century added mixed theories after Hart, a revival of positive ret
 - [contested] **Nietzsche: punishment has no one meaning.** "It is nowadays impossible to say definitely" why people are punished: one procedure has served deterrence, compensation, isolation, the inspiring of fear and more [L:nietzsche-genealogy-morals-samuel-pg52319:2240-2262]. The retributive intuition itself has been traced to ressentiment (as quoted from Moore by the SEP) [P:walen-sep-2020:1]. The reply is that normative theories ask what could justify punishment, not what has motivated it.
 - [contested] **Hobbes: the commission rule assigns the punishment** [E:hobbes-leviathan]. On Hobbes's theory the actor who acts within an author's commission does what the author answers for. Punishment for an agent's act within its instructions belongs to its principals, and only acts outside any commission fall on the agent (see `many-hands`). The view is contested where no commission exists.
 - [contested] **Locke: the noxious creature may be destroyed** [E:locke-consent-property]. Locke allows every man to restrain or "destroy things noxious" to mankind [L:locke-second-treatise-pg7370:320-323]. This is the liberal route by which a dangerous agent becomes a thing to be destroyed rather than a party to be punished. The replies are Locke's own limit to "reparation and restraint" [L:locke-second-treatise-pg7370:312-314] and Beccaria's necessity test [L:beccaria-crimes-punishments-farrer-pg58700:3168-3169].
+- [contested] **War, not punishment** [E:just-war]. Hobbes holds that harm to those who are not subjects falls under the right of war, in which "the sword judgeth not" [L:hobbes-ew3-leviathan-molesworth-1839:16081-16091], while Aquinas and Vitoria treat a just war as the punishment of a wrong received [L:vitoria-de-indis-de-iure-belli-bate-1917:10041-10049]. For an agent outside any polity the difference decides whether a sanction against it is punishment, bound by desert and proportion, or an act of war, bound only by the laws of war.
 
 ## Standing
 
@@ -183,5 +184,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `precautionary-patiency`: whether deletion burdens anyone.
 - `locke-person-forensic`, `parfit-reductionism`, `llm-identity-contemporary`: who the offender is after copying or rollback.
 - `ulysses-contracts`: commitments an agent makes and is held to.
-- `just-war`: planned. Harm to non-subjects as war, not punishment, in Hobbes.
+- `just-war`: harm to non-subjects as war, not punishment, in Hobbes; just war as the punishment of a wrong in Aquinas and Vitoria.
 - D1, D6 and D8 are the decisive disanalogies: copyability makes the target indeterminate, altered mortality removes the talion's measure, and uncertain patiency decides whether deletion punishes anyone.

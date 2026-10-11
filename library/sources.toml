@@ -1459,7 +1459,7 @@ rights = "arXiv licence CC BY 4.0. Quoted briefly, page-cited; not stored here."
 [source."reid-2026"]
 author = "Alistair Reid, Simon O'Callaghan, Dustin Venini, Liam Carroll and Tiberio Caetano"
 title = "Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries"
-edition = "Report published by the Australian Government Department of Industry, Science and Resources (industry.gov.au), posted as arXiv 2608.26626 (27 August 2026). Cited by the report's printed page numbers, which equal the PDF page index (22-23 = 3.3 the three governance tiers: singular, federated, open environments with polycentric governance; 25 = singular governance; 46 = federated governance: agreement layer and substrate layer; 70 = 5.4 open problems). Retrieved 2026-10-11."
+edition = "Report published by the Australian Government Department of Industry, Science and Resources (industry.gov.au), posted as arXiv 2608.26626 (27 August 2026). Cited by the report's printed page numbers, which equal the PDF page index (22-23 = 3.3 the three governance tiers: singular, federated, open environments with polycentric governance; 25 = singular governance; 46 = federated governance: agreement layer and substrate layer; 54 = cascading infection across agent handoffs; 56 = strategic and incentive failures when agents act for principals with divergent interests, the specification-execution gap; 59 = algorithmic collusion; 70 = 5.4 open problems). Retrieved 2026-10-11."
 year = 2026
 url = "https://arxiv.org/abs/2608.26626"
 rights = "CC BY 4.0 (arXiv licence). Quoted briefly, page-cited; not stored here."
@@ -1607,3 +1607,51 @@ edition = "arXiv 2503.03383 (5 March 2025), extended abstract. Cited by PDF page
 year = 2025
 url = "https://arxiv.org/abs/2503.03383"
 rights = "arXiv licence CC BY 4.0. Quoted briefly, page-cited; not stored here."
+
+[source."lazar-sep-2016"]
+author = "Seth Lazar"
+title = "War"
+edition = "Stanford Encyclopedia of Philosophy, first published 3 May 2016. Cited by top-level section number (0 = the untitled introduction: some reject the very idea of a morality of war; 1 = Traditionalists and Revisionists: Walzer, the legalist view, revisionist critics; 2 = How Should We Think about the Morality of War?, including institutions and actions, reductivism, necessity and proportionality; 3 = Jus ad Bellum: 3.1 just cause, 3.2 just peace, 3.3 legitimate authority and authorization, 3.4 proportionality, 3.5 last resort; 4 = Jus in Bello: 4.1 Walzer and his critics (discrimination, proportionality, necessity, combatant equality, liability), 4.2 killing combatants, 4.3 sparing civilians, opportunistic and eliminative harm, 4.4 proportionality, 4.5 necessity; 5 = The Future of Just War Theory: drones, autonomous weapons, non-state conflict, group agency). Retrieved 2026-10-11."
+year = 2016
+url = "https://plato.stanford.edu/entries/war/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."miller-sep-2021"]
+author = "Jon Miller"
+title = "Hugo Grotius"
+edition = "Stanford Encyclopedia of Philosophy, first published 16 December 2005, substantive revision 8 January 2021. Cited by top-level section number (1 = Life and Works; 2 = Method; 3 = Natural Law, including the etiamsi daremus; 4 = Political Philosophy; 5 = Just War Doctrine: war as an instrument of right, the list of just causes, defence not permitted against one useful to many, the rules of III.1; 6 = Originality and Influence). Retrieved 2026-10-11."
+year = 2021
+url = "https://plato.stanford.edu/entries/grotius/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."izbicki-kaufmann-sep-2023"]
+author = "Thomas Izbicki and Matthias Kaufmann"
+title = "School of Salamanca"
+edition = "Stanford Encyclopedia of Philosophy, first published 22 March 2019, substantive revision 7 September 2023. Cited by top-level section number (1 = The University of Salamanca; 2 = Francisco de Vitoria and His Disciples; 5 = Natural Law, Political Theory and the Rise of International Law; 6 = Ius gentium, ius ad bellum and the Enslavement of Amerindians, Africans, and Others: De Indis, the Amerindians as veri domini, the unjust and just titles, Spain governing 'for their own benefit', 'partly as slaves', De iure belli; 9 = Influence). Retrieved 2026-10-11."
+year = 2023
+url = "https://plato.stanford.edu/entries/school-salamanca/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."asaro-2012"]
+author = "Peter Asaro"
+title = "On banning autonomous weapon systems: human rights, automation, and the dehumanization of lethal decision-making"
+edition = "International Review of the Red Cross 94, no. 886 (Summer 2012), pp. 687-709, as posted by the ICRC. Cited by printed page; printed page = PDF page + 686 (687 = abstract: a duty not to delegate the authority to initiate lethal force; 692 = systems 'pre-programmed' with limited learning, the responsibility concern; 695-696 = the definition by delegation, a human in the loop necessary but not sufficient, the treaty principle; 701 = justice cannot be automated, command responsibility; 707-708 = the objection that a human moral agent is required, legal agency, non-arbitrariness)."
+year = 2012
+url = "https://www.icrc.org/en/doc/assets/files/review/2012/irrc-886-asaro.pdf"
+rights = "In copyright (ICRC / the author); posted openly by the ICRC. Short quotation only, page-cited; not stored here."
+
+[source."icrc-2021"]
+author = "International Committee of the Red Cross"
+title = "ICRC Position on Autonomous Weapon Systems, and Background Paper"
+edition = "Geneva, 12 May 2021, PDF from icrc.org. Cited by printed page, which equals the PDF page (2 = the position: definition, the three recommendations, unpredictable AWS ruled out, AWS against persons ruled out, regulation of the rest; 5 = current AWS, the 'better than humans' argument answered; 8 = ethical concerns: substituting human decisions about life and death with machine processes, moral agency 'regardless of the sophistication', the loss of restraint, 'death by algorithm')."
+year = 2021
+url = "https://www.icrc.org/en/document/icrc-position-autonomous-weapon-systems"
+rights = "In copyright (ICRC); published openly by the ICRC. Short quotation only, page-cited; not stored here."
+
+[source."icrc-2024"]
+author = "International Committee of the Red Cross"
+title = "Submission on Autonomous Weapon Systems to the United Nations Secretary-General"
+edition = "2024, responding to UN General Assembly resolution 78/241 (22 December 2023), PDF from icrc.org. Cited by printed page, which equals the PDF page (1 = resolution 78/241, the need for new binding law, the 2023 joint call of the Secretary-General and the ICRC President; 2 = human control over the use of force and its effects; 3 = the Martens clause)."
+year = 2024
+url = "https://www.icrc.org/sites/default/files/wysiwyg/war-and-law/icrc_submission_on_autonomous_weapons_to_unsg.pdf"
+rights = "In copyright (ICRC); published openly by the ICRC. Short quotation only, page-cited; not stored here."

@@ -18,7 +18,7 @@ grounding = "relation"
 extends = ["agent", "operator", "digital ecosystem", "person"]
 disanalogies = ["D2", "D4", "D5", "D9", "D10", "D11", "D8", "D1"]
 responds_to = ["hobbes-leviathan"]
-related = ["strawson-reactive-attitudes", "hobbes-leviathan", "aristotle-virtue-ethics", "frankfurt-higher-order-volition", "authenticity-and-manipulation", "pettit-non-domination", "ulysses-contracts", "utilitarian-eradication-critique", "darwall-second-person", "punishment-theories", "llm-identity-contemporary"]
+related = ["strawson-reactive-attitudes", "hobbes-leviathan", "aristotle-virtue-ethics", "frankfurt-higher-order-volition", "authenticity-and-manipulation", "pettit-non-domination", "ulysses-contracts", "utilitarian-eradication-critique", "darwall-second-person", "punishment-theories", "llm-identity-contemporary", "just-war"]
 status = "draft"
 standing = [
   { community = "Ethics of technology (that the many-hands problem erodes accountability for computer systems)", current = "dominant", as_of = 2026 },
@@ -122,6 +122,7 @@ Aristotle's account of the voluntary, that the moving principle is in the agent 
 - [contested] **Bryson: do not build competitors for agency.** Society decides who counts as a moral agent, and there is no coherent reason to create artificial agents with which humans must compete in moral agency or patiency [P:noorman-sep-2023:2].
 - [contested] **Collective responsibility is not distributable.** French holds that judgments about members do not follow from judgments of collective blame; Jaspers distributes metaphysical guilt to everyone who stood by [P:smiley-sep-2022:4]. Which view applies to a development team, an operator and an agent is not settled.
 - [contested] **Strawson: responsibility is a practice** [E:strawson-reactive-attitudes]. If responsibility is what participants in a practice hold one another to, the question is not whether an agent meets metaphysical conditions but whether it can take part in the practice of answering. That supports the "answering hand" proposal, and also warns that the practice can be extended to agents for convenience.
+- [contested] **Command responsibility in war** [E:just-war]. The law of war already assigns responsibility down a chain of command, and Aquinas excuses the one who uses the sword "as commissioned by another" only within a just commission [L:aquinas-summa-part-ii-ii-dominicans-pg18755:18748-18752]. Critics of autonomous weapons hold that delegating lethal decisions to machines breaks this chain; defenders hold that the commander who deploys them remains answerable.
 - [unanswered] **Denying the extension: an instance cannot answer for its weights.** On this objection, no instance of a deployed model can be responsible for anything, because it did not form its dispositions (D4), will not remember its acts (D3), and shares its weights with instances that acted differently (D2). Every candidate for the agent's responsibility is either the wrong bearer (the instance) or not an actor (the weights). The Compendium has found no treatment addressed to this structure. This objection is the Compendium's own.
 
 ## Standing
@@ -170,4 +171,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `darwall-second-person`: the second-personal standpoint of answering to another.
 - `punishment-theories`: what may follow from responsibility; deletion as punishment presupposes D8, rollback punishes no one or the innocent (D1, D6).
 - `llm-identity-contemporary`: what the agent is, which must be settled before responsibility can be assigned (D11).
+- `just-war`: command responsibility and the duty to refuse an unjust order, for agents deployed in conflict.
 - D2 and D11 make one agent many hands; D4 makes the developer a hand in everything the agent does; D8 makes accountability by deletion presuppose the answer to patiency.

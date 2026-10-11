@@ -67,7 +67,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [x] `strawson-reactive-attitudes` (interpersonal): responsibility as participant stance
 - [x] `many-hands`: distributed responsibility across developer/operator/agent; entries/responsibility/; the retribution-gap evidence
 - [x] `punishment-theories`: retribution, deterrence, reform, under D1/D6
-- [ ] `just-war`: jus ad bellum/in bello, for agent conflict
+- [x] `just-war`: jus ad bellum/in bello, for agent conflict (domain complete)
 
 ## Sourcing status and open items
 
