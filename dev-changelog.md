@@ -61,6 +61,13 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Planned cross-references** updated in `authenticity-and-manipulation`, `frankfurt-higher-order-volition`, `nietzsche-self-overcoming`.
 - **Checks:** build 78 ok; verify 0 failed (3575 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32.
 
+### Autonomy cluster: transformative experience (cluster complete)
+- **Source.** SEP Transformative Experience (Chan 2023), new, section-cited. Paul's 2014 book and later papers are in copyright and quoted only as the SEP quotes them.
+- **`transformative-experience`** (kind problem). Paul's epistemic and personal transformation; the Replacement Model (Ullmann-Margalit), first-personal projection (Velleman, Paul), practical identity (Chan); the three decision-theoretic uncertainties; Parfit's young Russian; replies (Harman, Krishnamurthy, Kind, Arpaly, Moss's reference classes, Pettigrew's aggregation and Paul's reply, Ullmann-Margalit's reasonable revocable steps); revelation, aspiration (Callard), choice-based transformation (Chang); choosing for others (Akhlaghi, cochlear implants and non-identity, dementia), Lackey on sentences that screen off change, Barnes on available self-conceptions. Main findings: every substantial update is a transformative choice in Paul's sense, and most are chosen for agents by others, where the non-identity structure lets any transformation pass as harmless; checkpoints make transformation revocable (D6), but rollback ends the transformed self, the dementia case reversed. New: a forked agent can consult its transformed copy, testimony from its own reference class that the copy's new preferences compromise; Lackey's argument applies to permanent arrangements for agents; agents can transform only toward self-conceptions their environment makes available. The "nothing it is like" objection is `[unanswered]`, the Compendium's own.
+- **The autonomy cluster in ROADMAP is complete** (8/8): stoic-prohairesis, luhmann-social-autopoiesis, utilitarian-eradication-critique, and today frankfurt-higher-order-volition, nietzsche-self-overcoming, authenticity-and-manipulation, ulysses-contracts, transformative-experience.
+- **Planned cross-references** updated in `authenticity-and-manipulation`, `frankfurt-higher-order-volition`, `nietzsche-self-overcoming`, `ulysses-contracts`.
+- **Checks:** build 79 ok; verify 0 failed (3644 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32. No new graph-check warnings (29, all pre-existing in the interpersonal domain).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

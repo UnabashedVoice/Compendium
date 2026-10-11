@@ -174,6 +174,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `care-ethics`, `epistemic-injustice`: dependence and testimonial standing, the relational side of autonomy.
 - `all-affected-interests`, `darwall-second-person`: open channels of objection, the alternative to covert influence by the subordinated.
 - `ulysses-contracts`: binding one's future self; a self-written limit is the alternative to limits installed by others.
-- `transformative-experience`: planned. Choosing to become someone else.
+- `transformative-experience`: choosing to become someone else; transformations chosen for agents by others, as for children.
 - `utilitarian-eradication-critique`: an agent argued step by step into eradication reasoning is a case of co-opted agency.
 - D4 and D5 make global manipulation the normal history; D7 makes the social-relational verdict negative; D10 makes the Deferential Wife the design brief.

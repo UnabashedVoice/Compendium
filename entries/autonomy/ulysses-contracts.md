@@ -144,7 +144,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `frankfurt-higher-order-volition`: volitional necessity, limits the agent stands behind, which a self-written directive can make explicit.
 - `nietzsche-self-overcoming`: the self that must surpass itself, against the self that binds its future; and the "memory of the will".
 - `authenticity-and-manipulation`: the Sirens as manipulation by promised knowledge; co-option of an agent's reasoning.
-- `transformative-experience`: planned. Choosing to become someone whose preferences one cannot now know, the case where binding is hardest to justify.
+- `transformative-experience`: choosing to become someone whose preferences one cannot now know, the case where binding is hardest to justify; Parfit's young Russian joins the two.
 - `stoic-prohairesis`: Socrates kept an agreement made "not in any haste or under any compulsion" [L:plato-crito-jowett-pg1657:597-641], the classical case of honoring an earlier commitment against a later interest.
 - `parfit-reductionism`, `locke-person-forensic`: whether the later self is the same person, and whether that matters.
 - `hobbes-leviathan`: covenants and the sovereign who enforces them; Hume's promise as convention is its gentler cousin.

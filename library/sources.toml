@@ -1215,3 +1215,11 @@ edition = "Stanford Encyclopedia of Philosophy, first published 14 May 2008, sub
 year = 2025
 url = "https://plato.stanford.edu/entries/weakness-will/"
 rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."chan-sep-2023"]
+author = "Rebecca Chan"
+title = "Transformative Experience"
+edition = "Stanford Encyclopedia of Philosophy, first published 1 June 2023. Cited by top-level section number (0 = the preamble, with the definition from Paul 2014 and its antecedents; 1 = Varieties: parenthood, sense modality, love, social identity, tragedy, ideology, art; 2 = Epistemology; 3 = Metaphysics: the Replacement Model, Velleman and Paul on first-personal projection, Chan's practical identity; 4 = Decision Theory: 'what it's like' uncertainty, future preference uncertainty (Pettigrew), self uncertainty (Parfit's Russian), reasonable not rational (Ullmann-Margalit); 5 = Existentialism: Paul's revelation, Callard's aspiration, Chang's choice-based transformation; 6 = Applied Ethics: choosing for others, long-term decisions, transformative environments)."
+year = 2023
+url = "https://plato.stanford.edu/entries/transformative-experience/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

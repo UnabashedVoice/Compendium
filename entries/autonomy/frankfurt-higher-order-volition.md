@@ -157,5 +157,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `nietzsche-self-overcoming`: self-overcoming as the counterpart to identification; Nietzsche's question of what one has truly loved anticipates Frankfurt's grounding of care in love, and his perpetual self-surpassing is the rival to Frankfurt's acquiescence.
 - `authenticity-and-manipulation`: where Frankfurt's internalism is most tested; the Deferential Wife passes his test.
 - `ulysses-contracts`: binding one's future will, where wholeheartedness meets self-modification; the self-binding directive as a limit the agent stands behind and others hold.
-- `transformative-experience`: planned.
+- `transformative-experience`: when what one cares about is replaced; Chang's will that makes reasons is close to Frankfurt's love.
 - D4 and D5 decide the extension: Frankfurt's internalism makes formation history irrelevant, and for agents formation history is everything others control. D8 makes the wanton question hard to settle.
