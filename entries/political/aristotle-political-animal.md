@@ -14,6 +14,7 @@ concepts = ["polis", "political animal", "logos", "citizenship", "common good", 
 grounding = "mixed"
 extends = ["polity", "citizen", "digital ecosystem"]
 disanalogies = ["D7", "D9", "D10", "D2"]
+responds_to = ["plato-republic"]
 related = ["hobbes-leviathan", "pettit-non-domination", "locke-person-forensic", "kant-formula-of-humanity"]
 status = "draft"
 standing = [

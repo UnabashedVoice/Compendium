@@ -138,6 +138,12 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 ### Library: Plato's Republic
 - Downloaded with the user's approval: Plato, *The Republic*, tr. Jowett, Project Gutenberg #1497, catalogued as `plato-republic-jowett-pg1497`, sha256-pinned, Jowett's introduction and analysis marked secondary; index rebuilt (115 texts).
 
+### Political domain: Plato's Republic
+- **Sources.** Library: the *Republic* (Jowett), Books I-VII and IX, with Aristotle's *Politics* II.3 and Rousseau II.vii for the replies. Open: SEP Plato's Ethics and Politics in The Republic (Brown 2017), new.
+- **`plato-republic`.** Thrasymachus and Gyges; the city from need and one work by nature; justice as doing one's own business; the noble lie ("their youth was a dream, and the education and training which they received from us, an appearance only"; "manufactured" in the earth; the metals); guardians and the guardian who needs no guardian; medicine that lets the diseased die and puts the incurable to death; the breeding laws; philosopher-kings and the ship of state; the cave, citizens as the founder's "instruments", and the return owed for formation; the reluctant ruler; the pattern in heaven. Main findings: the specialization principle is literal for agents built for a function (D10); the reluctant ruler gives a test (power-seeking disqualifies); the noble lie is the limiting case of an agent's account of its own formation (D4); formation-as-debt is Plato's argument and Hubbard's reply is the counter; the ring of Gyges is the alignment question for agents acting unseen (D9). Breaks: instruments by design, where Plato's ethics assumes a soul with its own good; the incurable put to death and the inferior put away as the perfectionist route to eradication, stated by Plato in his own voice. New: the ideal as pattern versus program; the return to the cave as service without a new lie. Includes an Extension to Digital Ecosystems section. No `[unanswered]` objections.
+- **Graph.** `aristotle-political-animal` now records `responds_to = ["plato-republic"]`; the planned cross-reference in `rousseau-general-will` updated.
+- **Checks:** build 88 ok; verify 0 failed (4530 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32; in-copyright quotations checked against the fetched texts.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

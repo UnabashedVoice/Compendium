@@ -52,7 +52,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 
 ## Political: the polity & the digital ecosystem
 - [x] `aristotle-political-animal`: polis, logos, citizenship, living instrument
-- [ ] `plato-republic`: justice as order of parts; guardians; the noble lie
+- [x] `plato-republic`: justice as order of parts; guardians; the noble lie
 - [x] `hobbes-leviathan`: artificial man, covenant, fear of death (D6 breaks it)
 - [x] `locke-consent-property`: consent, labor-property (who owns agent output?)
 - [x] `rousseau-general-will`: legitimacy, the general will vs the will of all
