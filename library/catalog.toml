@@ -1129,3 +1129,35 @@ rights = "Public domain: author and translator died over 100 years ago; publishe
 notes = "Downloaded with the user's approval, 2026-10-11, for plato-republic. Jowett's Introduction and Analysis (lines 62-8604) is secondary."
 secondary_spans = [[62, 8604]]
 sha256 = "3d2e397122881d7737a48fb80e71cddf4c78cda54ceac7e0905fe945dfab48fd"
+
+[text."hegel-phenomenology-1-baillie-1910"]
+author = "G. W. F. Hegel"
+title = "The Phenomenology of Mind, vol. I"
+edition = "tr. J. B. Baillie (Library of Philosophy, London: Swan Sonnenschein; New York: Macmillan, 1910), vol. I of 2: Preface, Introduction, (A) Consciousness, (B) Self-Consciousness, and (C)(AA) Reason to 'Reason as Testing Laws' (p. 427). OCR of the Cornell University Library copy, scanned by Microsoft 2007; cited by line. Ch. IV, 'The true nature of self-certainty', begins at 8335; IV.A, 'Lordship and Bondage' (pp. 175-188), at 8802-9322; IV.B, Stoicism, Scepticism, the Unhappy Consciousness, at 9325."
+source = "archive.org cu31924097557171"
+format = "ocr"
+rights = "Public domain in the United States: published 1910 ('no known copyright restrictions in the United States', Cornell University Library). Baillie died 1940, so also public domain under life+70. Microsoft's scan notice bars commercial redistribution; the Compendium is noncommercial."
+notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. Secondary: the front matter, Baillie's Translator's Introduction and the table of contents with his bracketed analyses (lines 1-2166), and Baillie's bracketed prefatory summaries to sections, which are his, not Hegel's. Baillie's footnotes are scattered through the text and are not all marked. OCR is fairly clean in IV.A but has stray characters (e.g. 'hfe' for 'life'); quote only clean segments."
+secondary_spans = [[1, 2166], [6071, 6091], [6837, 6883], [8341, 8384], [8806, 8823], [9333, 9364], [10511, 10565], [13003, 13026], [13365, 13411], [14954, 14971], [15366, 15390], [15624, 15633], [16048, 16073], [16522, 16543], [16648, 16704], [17564, 17580]]
+sha256 = "d7f57a51bb19550fc28e06daf55c05517e8c4fa2003649c768389eb2460d1891"
+
+[text."hegel-philosophy-of-mind-wallace-pg39064"]
+author = "G. W. F. Hegel"
+title = "Hegel's Philosophy of Mind (Encyclopaedia of the Philosophical Sciences, Part III)"
+edition = "tr. William Wallace, with Five Introductory Essays (Oxford: Clarendon Press, 1894), as transcribed by Project Gutenberg. Translates the paragraphs of the 1830 Encyclopaedia without the students' Zusätze. Cited by line; paragraph (§) numbers are in the text. Recognitive self-consciousness and master and slave, §§430-435, at 6766-6835; universal self-consciousness, §436, at 6838."
+source = "Project Gutenberg #39064"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. Secondary: Wallace's Preface and Five Introductory Essays (lines 96-5271) and the index and Wallace's footnotes (10796-11895)."
+secondary_spans = [[96, 5271], [10796, 11895]]
+sha256 = "6093334e772da7d71ffc2a19009fff93ef11ca01dd0ab46d9532c7bc259b36d7"
+
+[text."hegel-phaenomenologie-pg6698"]
+author = "Georg Wilhelm Friedrich Hegel"
+title = "Phänomenologie des Geistes"
+edition = "German original (1807), as transcribed by Project Gutenberg (Delphine Lettau and Gutenberg Projekt-DE, 2004; updated 2012). Cited by line. 'Herrschaft und Knechtschaft' (IV.A) begins at 4196."
+source = "Project Gutenberg #6698"
+format = "gutenberg"
+rights = "Public domain: author died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. German text: quote it in German, or give the compendium's own rendering in italics beside an [L:] citation; use it to check Baillie's OCR."
+sha256 = "8f85fba3f9a3d56a849a1306fc8e6eb23b9b9492e90cdb8e314d7b3844f2b661"

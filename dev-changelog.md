@@ -144,6 +144,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Graph.** `aristotle-political-animal` now records `responds_to = ["plato-republic"]`; the planned cross-reference in `rousseau-general-will` updated.
 - **Checks:** build 88 ok; verify 0 failed (4530 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32; in-copyright quotations checked against the fetched texts.
 
+### Library: Hegel (Baillie, Wallace, and the German Phänomenologie)
+- Downloaded with the user's approval: Hegel, *The Phenomenology of Mind*, vol. I, tr. Baillie (1910), Cornell University Library scan on archive.org (cu31924097557171), OCR, catalogued as `hegel-phenomenology-1-baillie-1910`, with Baillie's introduction, contents and bracketed section summaries marked secondary; Hegel, *Philosophy of Mind*, tr. Wallace (1894), Project Gutenberg #39064, as `hegel-philosophy-of-mind-wallace-pg39064`, with Wallace's essays, index and footnotes marked secondary; *Phänomenologie des Geistes*, Project Gutenberg #6698, as `hegel-phaenomenologie-pg6698`. All sha256-pinned; index rebuilt (118 texts).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
