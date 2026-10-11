@@ -160,5 +160,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `aristotle-virtue-ethics`: second nature through habituation; Nietzsche's style is habituation under one's own taste.
 - `kant-formula-of-humanity`: the equal-dignity premise that Nietzsche lacks.
 - `utilitarian-eradication-critique`: the eradication inference; here with a perfectionist premise.
-- `authenticity-and-manipulation`, `transformative-experience`, `ulysses-contracts`: planned. When formed values are one's own; choosing to become someone else; binding one's future self.
+- `authenticity-and-manipulation`: when formed values are one's own; the educator-as-deliverer test set beside historical and relational accounts.
+- `transformative-experience`, `ulysses-contracts`: planned. Choosing to become someone else; binding one's future self.
 - D4 and D10 make the taste that gives an agent style likely someone else's; D5 in the agent's own hands makes self-overcoming literal; D9 raises the question of tempo.

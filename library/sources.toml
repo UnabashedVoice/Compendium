@@ -1167,3 +1167,27 @@ edition = "Journal of Evolution and Technology 20, no. 1 (March 2009), pp. 29–
 year = 2009
 url = "https://jetpress.org/v20/sorgner.htm"
 rights = "In copyright (the author / Journal of Evolution and Technology); freely readable open-access journal. Short quotation only, section-cited; not stored here."
+
+[source."noggle-sep-2026"]
+author = "Robert Noggle"
+title = "The Ethics of Manipulation"
+edition = "Stanford Encyclopedia of Philosophy, first published 30 March 2018, substantive revision 31 March 2026. Cited by top-level section number (0 = the preamble with the Irving and Tonya tactics; 1 = Preliminaries, including 1.1 ordinary versus global manipulation and 1.2 nudges, advertising, online manipulation; 2 = the identification question: bypassing reason, trickery, pressure, hybrid and non-definitional views, including Renzo; 3 = the evaluation question: harm, autonomy (S. Buss), treating persons as things (Mills, Renzo), Gibert, Cohen; 4 = Further Issues: persons versus situations, intent and AI systems, vulnerability and oppression, Skwire)."
+year = 2026
+url = "https://plato.stanford.edu/entries/ethics-manipulation/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."stoljar-sep-2024"]
+author = "Natalie Stoljar"
+title = "Feminist Perspectives on Autonomy"
+edition = "Stanford Encyclopedia of Philosophy, first published 2 May 2013, substantive revision 20 May 2024. Cited by top-level section number (1 = Introduction; 2 = Feminist 'Hard Cases': self-abnegation, the Deferential Wife, adaptive preference formation, practices of oppression; 3 = Relational Autonomy; 4 = Procedural Conceptions, including Christman's historical test and Benson's objection; 5 = Normative Competency; 6 = Emotions and Self-regarding Attitudes; 7 = Dialogical Conceptions (Westlund, Benson, Mackenzie); 8 = Strong Substantive and Social-relational Conceptions (Hill, Babbitt, Oshana); 9 = Conclusion)."
+year = 2024
+url = "https://plato.stanford.edu/entries/feminism-autonomy/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."varga-guignon-sep-2020"]
+author = "Somogy Varga and Charles Guignon"
+title = "Authenticity"
+edition = "Stanford Encyclopedia of Philosophy, first published 11 September 2014, substantive revision 20 February 2020. Cited by top-level section number (1 = Origins and Meaning, including 1.2 Autonomy and Authenticity; 2 = Critique of Authenticity; 3 = Conceptions: Kierkegaard, Heidegger, Sartre, de Beauvoir; 4 = Recent Accounts: Taylor, Ferrara, Golomb)."
+year = 2020
+url = "https://plato.stanford.edu/entries/authenticity/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

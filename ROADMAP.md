@@ -42,7 +42,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 
 ## Autonomy, formation, self-modification (Actualizer's core)
 - [x] `frankfurt-higher-order-volition`: identifying with one's desires; wholeheartedness, caring, volitional necessity
-- [ ] `authenticity-and-manipulation`: when is formed value one's own?
+- [x] `authenticity-and-manipulation`: when is formed value one's own? Historical, relational and substantive tests; the ethics of manipulation
 - [ ] `ulysses-contracts`: binding one's future self; revisability
 - [ ] `transformative-experience`: L. A. Paul, choosing to become someone else
 - [x] `nietzsche-self-overcoming`: becoming who one is; style, the sovereign individual, fatalism vs self-creation

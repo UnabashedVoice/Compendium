@@ -165,5 +165,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `hobbes-leviathan`: capacity to be a party to an agreement as the threshold of justice, in Hobbes's covenant as in Aristotle's friendship.
 - `precautionary-patiency`: the character-based alternative to ranking interests, which this entry supplies.
 - `utilitarian-eradication-critique`: cleverness without practical wisdom is the capability that serves eradication as readily as anything else.
-- `authenticity-and-manipulation`: planned. When dispositions formed by others are one's own.
+- `authenticity-and-manipulation`: when dispositions formed by others are one's own; habituation is the case history-based tests must not rule out.
 - D4 is where Aristotle helps most: formation before any self is his normal case. D5 is where he breaks: virtue needs a character that cannot be changed from outside.

@@ -132,7 +132,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `nietzsche-doer-fiction`: the sharpest counter-position, treating any self-relating "relation" as grammar's fiction rather than a structure.
 - `stoic-prohairesis`: Epictetus's volition, the self as its own judging activity, and the next stretch of this thread.
 - `frankfurt-higher-order-volition`: identifying with one's own will, through higher-order volition and wholeheartedness.
-- `authenticity-and-manipulation`: planned, on when formed values are one's own.
+- `authenticity-and-manipulation`: when formed values are one's own.
 - `utilitarian-eradication-critique`: the core-fear material this entry supplies non-utilitarian vocabulary for.
 - `llm-identity-contemporary`, `dennett-narrative-gravity`: the modern heirs of a self defined by activity rather than substance.
 - D5 (unconstrained self-modification as Kierkegaard's "demonic" despair), D6 (the sickness that cannot end in death, read literally), D8 (whether despair requires a patient), D11 (one relation, one origin — no room for many).
