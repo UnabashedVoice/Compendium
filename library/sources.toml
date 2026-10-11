@@ -1263,3 +1263,67 @@ edition = "Science and Engineering Ethics 30, no. 6 (2024), article 51; full tex
 year = 2024
 url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486783/"
 rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."tuckness-sep-2020"]
+author = "Alex Tuckness"
+title = "Locke's Political Philosophy"
+edition = "Stanford Encyclopedia of Philosophy, first published 9 November 2005, substantive revision 6 October 2020. Cited by top-level section number (1 = Natural Law and Natural Rights; 2 = State of Nature (Simmons's relational reading); 3 = Property (Macpherson, Ryan, Tully's workmanship model, Nozick's tomato juice, Waldron, Sreenivasan, Simmons, the colonial reading of Tully and Arneil, Armitage, Goldie); 4 = Consent, Political Obligation, and the Ends of Government (tacit consent, Simmons and philosophical anarchism, Pitkin, Dunn, Davis, Hoff, Grant on the soldier); 5 = Punishment; 6 = Separation of Powers and the Dissolution of Government; 7 = Toleration; 8 = Education and Politics). Retrieved 2026-10-10."
+year = 2020
+url = "https://plato.stanford.edu/entries/locke-political/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."uzgalis-sep-2022"]
+author = "William Uzgalis"
+title = "John Locke"
+edition = "Stanford Encyclopedia of Philosophy, first published 2 September 2001, substantive revision 7 July 2022. Cited by top-level section number (1 = Historical Background and Locke's Life, including Shaftesbury, the Board of Trade and Plantations, the Carolinas, exile in Holland and anonymous publication; 2 = The Limits of Human Understanding; 3 = Education; 4 = The Two Treatises of Government, including 4.3 Of War and Slavery (Armitage, Farr, Woolhouse) and 4.4 Of Property; 5 = Toleration). Retrieved 2026-10-10."
+year = 2022
+url = "https://plato.stanford.edu/entries/locke/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."waldron-penner-sep-2026"]
+author = "Jeremy Waldron and James Penner"
+title = "Property and Ownership"
+edition = "Stanford Encyclopedia of Philosophy, first published 6 September 2004, substantive revision 21 January 2026. Cited by top-level section number (1 = Why Have Philosophers Taken an Interest in Property and Ownership?; 2 = Issues of Analysis and Definition, including intellectual property as not crowdable; 3 = Historical Overview, including self-ownership (Cohen, Nozick) and labour-mixing as rhetoric; 4 = Genealogies of Property (Locke's story, first occupancy, Nozick, Hume); 5 = Property and Distributive Justice). Retrieved 2026-10-10."
+year = 2026
+url = "https://plato.stanford.edu/entries/property/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."dagger-lefkowitz-sep-2021"]
+author = "Richard Dagger and David Lefkowitz"
+title = "Political Obligation"
+edition = "Stanford Encyclopedia of Philosophy, first published 17 April 2007, substantive revision 15 March 2021. Cited by top-level section number (1 = Political Obligation in Historical Perspective, including 1.3 The Social Contract and Hume's 'Of the Original Contract'; 2 = Conceptual Matters; 3 = Anarchist Challenges; 4 = Contemporary Theories, including 4.1 Consent (Simmons, Beran, Plamenatz, Steinberger, Murphy's surrender of judgment, Gilbert, Estlund's normative consent), 4.2 Fair Play, 4.3 Membership, 4.4 Natural Duty; 5 = Conclusion). Retrieved 2026-10-10."
+year = 2021
+url = "https://plato.stanford.edu/entries/political-obligation/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."moore-sep-2022"]
+author = "Adam Moore"
+title = "Intellectual Property"
+edition = "Stanford Encyclopedia of Philosophy, first published 8 March 2011, substantive revision 18 August 2022. Cited by top-level section number (1 = History; 2 = The Domain of Intellectual Property; 3 = Justifications and Critiques, including 3.3 Lockean Justifications, 3.3.1 Objections to Locke (Waldron, Proudhon, Nozick, the social-product objection) and 3.3.2 the Lockean Rejoinder; 4 = General Critiques, including the social nature of information argument (printed as a second '4.4') with the public-works dam, and Spooner's and Moore's replies). Retrieved 2026-10-10."
+year = 2022
+url = "https://plato.stanford.edu/entries/intellectual-property/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."elmahjub-2025"]
+author = "Ezieddin Elmahjub"
+title = "The algorithmic muse and the public domain: Why copyright's legal philosophy precludes protection for generative AI outputs"
+edition = "Computer Law & Security Review 58 (2025), article 106170; the published version as posted by the author to arXiv (2512.13750, 15 December 2025). Cited by the article's own printed page numbers 1-9, which match the PDF page index (5.2 The labor-desert rationale is on p. 6; Craig and Kerr's 'category mistake' on p. 4). Retrieved 2026-10-10."
+year = 2025
+url = "https://arxiv.org/abs/2512.13750"
+rights = "Open access under CC BY 4.0 (stated on p. 1). Quoted briefly, page-cited; not stored here."
+
+[source."thaler-v-perlmutter-2025"]
+author = "United States Court of Appeals for the District of Columbia Circuit (Millett, Circuit Judge, for a unanimous panel of Millett, Wilkins and Rogers)"
+title = "Thaler v. Perlmutter, No. 23-5233"
+edition = "Opinion decided 18 March 2025, slip opinion as published by the court (media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf), 25 pages. Cited by the slip opinion's printed page numbers (2-3 = the question, the facts and the holding, the waived maker-and-user argument; 10 = the ownership provision; 12 = machines as tools, the list of attributes machines lack; 13 = coverture and authorship without the capacity to own; 14 = the Copyright Office's 1966 and 1973 positions). Retrieved 2026-10-10."
+year = 2025
+url = "https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf"
+rights = "Work of the United States government (judicial opinion); not subject to copyright in the US (17 U.S.C. 105). Quoted briefly, page-cited; not stored here."
+
+[source."hubbard-2011"]
+author = "F. Patrick Hubbard"
+title = "\"Do Androids Dream?\": Personhood and Intelligent Artifacts"
+edition = "Temple Law Review 83 (2011), pp. 405-474, as posted by the Temple Law Review on its own site. Cited by the journal's printed page numbers (405 = abstract; 406-407 = the machine's capacity claim and rights claim to self-ownership; 409 = Locke's liberal personhood; 430 = the Lockean maker's claim to own artificial persons, the children reply, and repayment of production costs instead of ownership; 450-455 = the dominant species problem). Retrieved 2026-10-10."
+year = 2011
+url = "https://www.templelawreview.org/lawreview/assets/uploads/2011/07/04.Hubbard.pdf"
+rights = "In copyright (the author / Temple Law Review); posted openly by the journal. Short quotation only, page-cited; not stored here."
