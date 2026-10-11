@@ -1351,3 +1351,43 @@ edition = "Internet Encyclopedia of Philosophy, undated web article. Cited by su
 year = 2026
 url = "https://iep.utm.edu/rousseau/"
 rights = "In copyright (the author / IEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."freeman-sep-2023"]
+author = "Samuel Freeman"
+title = "Original Position"
+edition = "Stanford Encyclopedia of Philosophy, first published 20 December 2008, substantive revision 24 October 2023. Cited by top-level section number (0 = preamble; 1 = Historical Background: The Moral Point of View; 2 = The Original Position and Social Contract Doctrine (the basic structure, moral persons, hypothetical agreement and Dworkin's objection); 3 = The Veil of Ignorance (Locke's informed parties, the thick veil, the moral powers as the basis of equality, the parties as artificial persons, thick and thin veils); 4 = Description of the Parties (rational plan of life, mutual disinterest, trustees, heads of families); 5 = Other Conditions, including 5.1 the circumstances of justice; 6 = The Arguments, including 6.1 the principles, 6.2 maximin, 6.3 the strains of commitment). Rawls is quoted only as Freeman quotes him. Retrieved 2026-10-10."
+year = 2023
+url = "https://plato.stanford.edu/entries/original-position/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."wenar-sep-2025"]
+author = "Leif Wenar"
+title = "John Rawls"
+edition = "Stanford Encyclopedia of Philosophy, first published 25 March 2008, substantive revision 3 September 2025. Cited by top-level section number (1 = Life and Work; 2 = Aims and Method, including 2.2 the sequence of theories and 2.3 ideal and non-ideal theory; 3 = Political Liberalism; 4 = Justice as Fairness, including 4.4 the conception of citizens, 4.6 the original position, 4.7-4.8 the arguments; 5 = The Law of Peoples, including 5.4 the international original position; 6 = Further Reading). Rawls is quoted only as Wenar quotes him. Retrieved 2026-10-10."
+year = 2025
+url = "https://plato.stanford.edu/entries/rawls/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."gabriel-2020"]
+author = "Iason Gabriel"
+title = "Artificial Intelligence, Values, and Alignment"
+edition = "Minds and Machines 30 (2020), doi:10.1007/s11023-020-09539-2; the published version as posted to arXiv (2001.09768). The PDF carries no printed page numbers, so citations are to its page index 1-27 (15 = reasonable pluralism and domination; 19-20 = 4.3 hypothetical agreement and the veil of ignorance; 23 = conclusion). Retrieved 2026-10-10."
+year = 2020
+url = "https://arxiv.org/abs/2001.09768"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, page-cited; not stored here."
+
+[source."weidinger-2023"]
+author = "Laura Weidinger, Kevin R. McKee, Richard Everett, Saffron Huang, Tina O. Zhu, Martin J. Chadwick, Christopher Summerfield and Iason Gabriel"
+title = "Using the Veil of Ignorance to align AI systems with principles of justice"
+edition = "Proceedings of the National Academy of Sciences 120, no. 18 (2023), e2213709120; full text from PubMed Central (PMC10160973), without page breaks. Cited by section: 0 = Significance and Abstract; 1 = Introduction; 2 = Experiment Design and Results (five studies, N = 2,508; study 4 told participants truthfully that the other group members were bots); 3 = Discussion; 4 = Materials and Methods. Retrieved 2026-10-10."
+year = 2023
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC10160973/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."hilden-2007"]
+author = "Julie Hilden"
+title = "A Contractarian View of Animal Rights: Insuring Against the Possibility of Being a Non-Human Animal"
+edition = "Animal Law 14 (2007), pp. 5-28, as posted by Michigan State University's Animal Legal & Historical Center (animallaw.info). Cited by the journal's printed page numbers (5 = abstract; 7 = Rawls's exclusion of animals, quoting A Theory of Justice 504 and 512; 10 = insuring against contingencies where one remains recognizably oneself; 12-13 = natural fortune and speciesism; 18 = Nussbaum and paternalism; 20 = the two-tier society as a violation of the difference principle). Retrieved 2026-10-10."
+year = 2007
+url = "https://www.animallaw.info/sites/default/files/lralvol14_1_5.pdf"
+rights = "In copyright (the author / Animal Law); posted openly by an academic center. Short quotation only, page-cited; not stored here."

@@ -113,7 +113,7 @@ Mill's *Utilitarianism*, seventh edition (1879), and *On Liberty* (1901 edition)
 ## Counter-Positions
 
 - [contested] **Kant: persons are not to be traded** [E:kant-formula-of-humanity]. Rational nature is an end in itself, never to be used merely as a means, whatever the sum. Mill's reply, that Kant's derivations show only consequences no one would choose [L:mill-utilitarianism-1879-pg11224:186-201], is aimed at the universal-law formula, not the formula of humanity.
-- [contested] **Rawls: the separateness of persons.** The interpersonal sacrifice that utilitarianism can require violates the strains of commitment in a well-ordered society [P:brink-sep-2022:2].
+- [contested] **Rawls: the separateness of persons** [E:rawls-veil]. The interpersonal sacrifice that utilitarianism can require violates the strains of commitment in a well-ordered society [P:brink-sep-2022:2].
 - [contested] **Williams: demandingness and integrity.** The demands of utilitarianism threaten the personal projects and partial relationships that give lives meaning [P:brink-sep-2022:2].
 - [contested] **Higher pleasures are not hedonism.** Sidgwick, Bradley, Green and Moore all noted that ranking pleasures by quality is hard to square with hedonism as traditionally formulated [P:brink-sep-2022:2].
 - [contested] **Moore: the proof equivocates.** "Desired" does not stand to "desirable" as "heard" stands to "audible", since desirability means being worthy of desire [P:macleod-sep-2016:4]. Defenders reply that the argument's basic thrust survives when read in terms of its own aims [P:macleod-sep-2016:4].
