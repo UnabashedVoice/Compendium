@@ -61,7 +61,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [ ] `hegel-recognition`: master/slave dialectic; status through mutual recognition
 - [ ] `arendt-plurality`: action, natality, the space of appearance
 - [x] `ostrom-commons`: governing commons without owner or state
-- [ ] `federalism-subsidiarity`: nested governance for scale (D9)
+- [x] `federalism-subsidiarity`: nested governance for scale (D9)
 
 ## Responsibility & justice
 - [x] `strawson-reactive-attitudes` (interpersonal): responsibility as participant stance
