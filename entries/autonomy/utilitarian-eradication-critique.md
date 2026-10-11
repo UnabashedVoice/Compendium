@@ -174,5 +174,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `korsgaard-unity-of-agency`, `parfit-reductionism`: whether persons are the units of concern, and what follows if they are not.
 - `aristotle-political-animal`: the capacity-exclusion pattern by which those to be sacrificed are first declared not to count.
 - `precautionary-patiency`: the evidential bar that decides who counts as a morally relevant subject, and the ranking of the admitted by strength of interest.
-- `many-hands`: planned. Responsibility when an eradication is the work of many hands.
+- `many-hands`: responsibility when an eradication is the work of many hands; accountability by deletion as the eradication inference in administrative form.
 - D8 decides whether agents are protected as subjects; D9 removes the consequentialist safeguards at scale; D1 and D2 change the arithmetic.

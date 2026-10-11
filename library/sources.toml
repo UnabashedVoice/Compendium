@@ -1027,7 +1027,7 @@ rights = "In copyright (the author / SEP); freely readable open-access encyclope
 [source."noorman-sep-2023"]
 author = "Merel Noorman"
 title = "Computing and Moral Responsibility"
-edition = "Stanford Encyclopedia of Philosophy, first published 18 July 2012, substantive revision 2 February 2023. Cited by top-level section number (2 = Can computers be moral agents?; 3 = Rethinking the concept of moral responsibility, including 3.2 responsibility as practice, Nissenbaum's barriers to accountability, Elish's moral crumple zone)."
+edition = "Stanford Encyclopedia of Philosophy, first published 18 July 2012, substantive revision 2 February 2023. Cited by top-level section number (1 = Challenges to moral responsibility: the three conditions, the problem of many hands (Therac-25, the 737 MAX), distance, Matthias's responsibility gap, opacity, automated decision-making; 2 = Can computers be moral agents? (Dennett, Sullins, critics, Bryson, machine ethics, Floridi and Sanders, Johnson, Verbeek); 3 = Rethinking the concept of moral responsibility: Gotterbarn, Santoni de Sio and van den Hoven's meaningful human control (tracking and tracing), 3.2 responsibility as practice, Nissenbaum's barriers to accountability, Elish's moral crumple zone; 4 = Conclusion)."
 year = 2023
 url = "https://plato.stanford.edu/entries/computing-responsibility/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -1239,3 +1239,27 @@ edition = "Stanford Encyclopedia of Philosophy, first published 8 November 2018,
 year = 2025
 url = "https://plato.stanford.edu/entries/domination/"
 rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."smiley-sep-2022"]
+author = "Marion Smiley"
+title = "Collective Responsibility"
+edition = "Stanford Encyclopedia of Philosophy, first published 8 August 2005, substantive revision 19 December 2022. Cited by top-level section number (1 = the controversies; 2 = actions, intentions and solidarity; 3 = the structure of groups; 4 = Can Collective Responsibility be Distributed? (French, Jaspers, May, Feinberg); 5 = alternative approaches; 6 = consequences; 7 = Forward Looking Collective Responsibility (Miller, Young))."
+year = 2022
+url = "https://plato.stanford.edu/entries/collective-responsibility/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."sogaard-stamatiou-2025"]
+author = "Anders Søgaard and Filippos Stamatiou"
+title = "Mele's Digital Zygote: Developer Responsibility for Neural Networks"
+edition = "Science and Engineering Ethics 31, no. 6 (2025); full text from PubMed Central (PMC12657523), without page breaks. Cited by heading in order: 0 = Abstract and 'Our Argument'; 1 = Responsibility for Neural Networks (with Examples 1-2); 2 = Neural Networks; 3 = Arguments for Blaming Developers; 4 = Arguments Against; 5 = Is the Responsibility Gap Illusory?; 6 = Mele's Zygote; 7 = The Digital Zygote; 8 = Pragmatic Responsibility?; 9 = Fischer's Reply to Mele; 10 = Negligence; 11 = Concluding Remarks. Retrieved 2026-10-10."
+year = 2025
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC12657523/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."kneer-christen-2024"]
+author = "Markus Kneer and Markus Christen"
+title = "Responsibility Gaps and Retributive Dispositions: Evidence from the US, Japan and Germany"
+edition = "Science and Engineering Ethics 30, no. 6 (2024), article 51; full text from PubMed Central (PMC11486783), without page breaks. Cited by heading in order: 0 = Abstract; 1 = Introduction; 2 = Control & Responsibility; 3 = The Responsibility Gap & Autonomous Weapon Systems; 4 = The Proliferation of Responsibility Gaps; 5 = Retribution Gaps; 6 = Moral Judgment in Human-Robot Interaction; 7 = Participants; 8 = Methods and Materials; 9 = Results; 10 = Discussion; 11 = Implications, Limitations, and Future Research; 12 = Conclusion. Retrieved 2026-10-10."
+year = 2024
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486783/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
