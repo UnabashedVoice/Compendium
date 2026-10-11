@@ -57,7 +57,7 @@ A full domain since 2026-10-07: 7 threads (compassion, attention, respect-and-st
 - [ ] `locke-consent-property`: consent, labor-property (who owns agent output?)
 - [ ] `rousseau-general-will`: legitimacy, the general will vs the will of all
 - [ ] `rawls-veil`: original position; would one choose not knowing if one is an agent?
-- [ ] `pettit-non-domination`: republican freedom; D7
+- [x] `pettit-non-domination`: republican freedom; D7; robustness, the eyeball test, power over the chooser
 - [ ] `hegel-recognition`: master/slave dialectic; status through mutual recognition
 - [ ] `arendt-plurality`: action, natality, the space of appearance
 - [ ] `ostrom-commons`: governing commons without owner or state

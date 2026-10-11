@@ -134,5 +134,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kant-formula-of-humanity`: Kant's rational nature is roughly Aristotle's logos treated as a basis for rights. The natural-slave argument is exactly what the formula's "never as means only" [L:kant-groundwork-abbott-pg5682:1713-1714] rules out.
 - `locke-person-forensic`: the forensic person is the unit a polity can hold responsible. Aristotle's citizen is the unit that shares in holding others responsible.
 - `hobbes-leviathan`: the commonwealth as artifact, made by covenant. Hobbes answers the bees passage (*Leviathan* XVII) and the many-instances question (the unity of the representer makes the person one).
-- `pettit-non-domination`: planned. An alternative foundation for the polity that may fit digital ecosystems better.
+- `pettit-non-domination`: freedom as having no master, built on the Roman free/slave distinction; the servus position is the republican name for the living instrument.
 - D10 (designed purpose) is the most dangerous disanalogy here because it reproduces the natural-slave argument. D7 and D9 decide whether an ecosystem can be a polis at all.
