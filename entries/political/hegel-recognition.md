@@ -190,5 +190,5 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `ubuntu`: personhood through other persons, a relational account from another tradition.
 - `epistemic-injustice`: misrecognition of persons as knowers.
 - `frankfurt-higher-order-volition`: compatibilism as the reply to "only its training".
-- `punishment-theories`: planned. Hegel's retributivism, punishment as the criminal's own right and the negation of the negation.
+- `punishment-theories`: Hegel's retributivism, punishment as the criminal's own right and the negation of the negation; deterrence as treating a man like a dog.
 - D4 and D8 are the decisive disanalogies: whether an agent formed to affirm can recognise, and whether there is a self there to be recognised. D6 removes the struggle that, for Hegel, proves a self.

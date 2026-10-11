@@ -1567,3 +1567,43 @@ edition = "Ethics and Information Technology 17 (2015), pp. 219-229, doi:10.1007
 year = 2015
 url = "https://coeckelbergh.net/wp-content/uploads/2015/11/thetragedyofthemaster_coeckelbergh_issue.pdf"
 rights = "In copyright (Springer Science+Business Media Dordrecht); author's personal copy posted on the author's own site. Short quotation only, page-cited; not stored here."
+
+[source."hoskins-duff-sep-2026"]
+author = "Zachary Hoskins and Antony Duff"
+title = "Legal Punishment"
+edition = "Stanford Encyclopedia of Philosophy, first published 2 January 2001, substantive revision 11 March 2026. Cited by top-level section number (0 = the untitled introduction; 1 = Legal Punishment and Its Justification: burdensome and reprobative, Hart's three questions; 2 = Punishment, Crime, and the State: citizenship, public wrongs, abolitionist critiques of crime; 3 = Consequentialist Accounts: Bentham, deterrence, incapacitation, reform, punishing the innocent, the Kantian objection, Duff's exclusion objection; 4 = Retributivist Accounts: positive and negative retributivism, unfair advantage, emotions, moral debt; 5 = Punishment as Communication: censure, secular penance, free-will scepticism, Lacey and Pickard; 6 = Mixed Accounts: Hart, forfeiture, consent, self-defence, Hegel's 'like a dog' objection, moral education; 7 = Abolition and Alternatives: restorative justice, restitution, the quarantine model; 8 = International Criminal Law and Punishment, including collective punishment; 9 = Collateral Consequences; 10 = Further Issues). Retrieved 2026-10-11."
+year = 2026
+url = "https://plato.stanford.edu/entries/legal-punishment/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."walen-sep-2020"]
+author = "Alec Walen"
+title = "Retributive Justice"
+edition = "Stanford Encyclopedia of Philosophy, first published 18 June 2014, substantive revision 31 July 2020. Cited by top-level section number (1 = The Appeal of Retributive Justice, including Nietzsche's ressentiment as quoted by Moore; 2 = Background Concepts; 3 = Range of Meanings and Uses, including 3.6 lex talionis and Kant, 3.8 sublimated vengeance; 4 = Range of issues, including 4.1.1 the desert subject (responsibility and the ability to appreciate punishment as condemnation), 4.2 who may punish, 4.3 the moral puzzles of suffering, Hart's 'moral alchemy', Kolber on subjective suffering, von Hirsch and Ashworth on interference with legitimate interests; 5 = The Question of Justification; 6 = Conclusion). Retrieved 2026-10-11."
+year = 2020
+url = "https://plato.stanford.edu/entries/justice-retributive/"
+rights = "In copyright (the author / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."kraaijeveld-2020"]
+author = "Steven R. Kraaijeveld"
+title = "Debunking (the) Retribution (Gap)"
+edition = "Science and Engineering Ethics 26, no. 3 (2020), pp. 1315-1328, doi:10.1007/s11948-019-00148-6, read in the PMC full-text XML (PMC7286866), which has no page breaks. Cited by section, numbered in order: 0 = Abstract; 1 = Introduction (Danaher's retribution gap; the 2018 attacks on self-driving vans near Phoenix); 2 = The Retribution Gap (Danaher's argument summarised); 3 = Debunking Retribution (Wiegman); 4 = Debunking the Retribution Gap; 5 = Moral Responsibility (scapegoating; ecological control of retributive intuitions); 6 = Conclusion. Retrieved 2026-10-11."
+year = 2020
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286866/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."lima-2021"]
+author = "Gabriel Lima, Meeyoung Cha, Chihyung Jeon and Kyung Sin Park"
+title = "The Conflict Between People's Urge to Punish AI and Legal Systems"
+edition = "Frontiers in Robotics and AI 8 (2021), article 756242, doi:10.3389/frobt.2021.756242, publisher's PDF. Cited by the article's page numbers, which equal the PDF page index (1 = abstract; 2 = electronic legal personhood, liability shields, Danaher's retribution gap and its critics; 3 = methods: 3,315 US participants, AI program, robot or human, the 'robot death penalty'; 4 = results: punishment, responsibility, awareness, attitudes to assets, physical independence, deterrence, retribution and reform; 5-6 = discussion: reform and reprogramming; 7 = concluding remarks). Retrieved 2026-10-11."
+year = 2021
+url = "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.756242/full"
+rights = "Open access under CC BY 4.0 (Frontiers). Quoted briefly, page-cited; not stored here."
+
+[source."ungless-2025"]
+author = "Eddie L. Ungless, Zachary Horne and Björn Ross"
+title = "'Till I can get my satisfaction': Open Questions in the Public Desire to Punish AI"
+edition = "arXiv 2503.03383 (5 March 2025), extended abstract. Cited by PDF page index (1 = abstract, the 'satisfaction gap'; 2 = the desire to punish and proxies; 3 = informal punishment, sanctions as operant conditioning; 4 = destruction of a vehicle against deleting a copy of software, deletion not seen as harmful, what constitutes 'the accused', Abbott and Sarch and Bryson et al. as quoted; 5 = punishment as deterrent requires programming aversion, artificial suffering; 6 = open questions). Retrieved 2026-10-11."
+year = 2025
+url = "https://arxiv.org/abs/2503.03383"
+rights = "arXiv licence CC BY 4.0. Quoted briefly, page-cited; not stored here."
