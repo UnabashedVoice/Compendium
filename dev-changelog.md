@@ -135,6 +135,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Checks:** build 87 ok; verify 0 failed (4458 citations); lint shows the 3 existing paraphrase marks, unchanged; check 0 problems; smoke test 32/32; in-copyright quotations checked against the fetched texts.
 - **Revision (user comment).** The user judged the "AI cannot act" view outmoded: agents can act. The Ohly/Herzog Counter-Position is retagged `[contested]` with two replies: its empirical premises (domain-specific, cannot be convinced, cannot share opinions or set new ends) describe 2021-2024 systems, and GovSim's agents negotiated norms and aligned a newcomer by discussion; and its conceptual core applies to human beings too unless one is a libertarian about free will (PhilPapers 2020: 18.8% against 59.2% compatibilist). The natality Break now records that it holds only on a causal reading of "against statistical law". Arendt's full sense of action, disclosing a "who" among a plurality, is left open.
 
+### Library: Plato's Republic
+- Downloaded with the user's approval: Plato, *The Republic*, tr. Jowett, Project Gutenberg #1497, catalogued as `plato-republic-jowett-pg1497`, sha256-pinned, Jowett's introduction and analysis marked secondary; index rebuilt (115 texts).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models

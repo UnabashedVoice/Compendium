@@ -1118,3 +1118,14 @@ rights = "Public domain: author and editor died over 100 years ago; published be
 notes = "Downloaded at the user's request, 2026-10-11. French text: quote it in French, or give the compendium's own rendering in italics beside an [L:] citation. Janet's introduction (lines 94-3473) and Notes explicatives (13350-14680) are secondary. Livre XI on liberty and the separation of powers is in the appendix (from 9912)."
 secondary_spans = [[94, 3473], [13350, 14680]]
 sha256 = "38df6b0d2fb8dfb59cd354b74d17f20f3c96d24ba1f22efbcfe03be24a230cac"
+
+[text."plato-republic-jowett-pg1497"]
+author = "Plato"
+title = "The Republic"
+edition = "tr. Benjamin Jowett (3rd ed., Oxford 1892), as transcribed by Project Gutenberg (Sue Asscher and David Widger). No Stephanus numbers; cited by line. Books begin at: I 8637, II 10341, III 11781, IV 13636, V 15236, VI 17198, VII 18770, VIII 20250, IX 21835, X 23163."
+source = "Project Gutenberg #1497"
+format = "gutenberg"
+rights = "Public domain: author and translator died over 100 years ago; published before 1931"
+notes = "Downloaded with the user's approval, 2026-10-11, for plato-republic. Jowett's Introduction and Analysis (lines 62-8604) is secondary."
+secondary_spans = [[62, 8604]]
+sha256 = "3d2e397122881d7737a48fb80e71cddf4c78cda54ceac7e0905fe945dfab48fd"
