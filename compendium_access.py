@@ -280,8 +280,9 @@ class Compendium:
             lines.append(f"{d} ({n} entries): {', '.join(titles[:12])}" + (", ..." if n > 12 else ""))
         return "\n".join(lines)
 
-    def brief(self, entry_id: str, counter_limit: int = 600) -> str:
-        """Level 1: Summary plus the first counter-position."""
+    def brief(self, entry_id: str) -> str:
+        """Level 1: Summary plus the first counter-position, whole. The rival is never cut
+        short: a counter-position that stops mid-sentence is a weaker rival than the corpus wrote."""
         e = self._entries[entry_id]
         m = e["meta"]
         lines = [f"[{entry_id}] {m['title']} ({', '.join(m['thinkers'])}, {m['era']}; "
@@ -289,8 +290,6 @@ class Compendium:
                  withhold_evaluation_findings(strip_citations(e["sections"].get("Summary", ""))).strip()]
         counter = self._first_item(withhold_evaluation_findings(e["sections"].get("Counter-Positions", "")))
         if counter:
-            if len(counter) > counter_limit:
-                counter = counter[:counter_limit - 3].rstrip() + "..."
             lines.append("Strongest counter-position: " + counter)
         return "\n".join(lines)
 
