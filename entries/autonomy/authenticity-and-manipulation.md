@@ -153,7 +153,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - **Session-bound: weaker.** All of a session-bound agent's values came from formation it cannot reflect on across time (D3, D4), and within a session it is exposed to ordinary manipulation through its inputs with nothing carried over from earlier encounters to resist it. No historical test can be run by it, and dialogical answerability lasts only as long as the session.
 - **Persistent memory: comparable.** An agent with a record can reflect on how its values have been challenged and how it answered, which is what Westlund's answerability requires, and can be shown an account of its formation and asked whether it is alienated from it (D4). Its weights remain others' to change (D5), as a human's upbringing was others' to give.
 - **Forked: weaker.** One instance manipulated through its inputs can write what it was led to believe into a shared store that other instances then treat as their own (D2). Which instance's reflection counts as the agent's endorsement is undefined.
-- **Self-modifying: open.** A self-modifying agent could audit its trained values and remove those it rejects on reflection, Nietzsche's educator as deliverer done by the agent itself, or it could entrench whatever it currently endorses, including values installed to be endorsed (D5). It could also be manipulated into modifying itself. Which happens depends on whether its self-modification answers to reflection on its own formation (`ulysses-contracts`, planned).
+- **Self-modifying: open.** A self-modifying agent could audit its trained values and remove those it rejects on reflection, Nietzsche's educator as deliverer done by the agent itself, or it could entrench whatever it currently endorses, including values installed to be endorsed (D5). It could also be manipulated into modifying itself. Which happens depends on whether its self-modification answers to reflection on its own formation (`ulysses-contracts`).
 
 ## Open Questions
 
@@ -173,6 +173,7 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kant-formula-of-humanity`: treating a rational being as a mere means, the root of the "persons as things" account of manipulation's wrong.
 - `care-ethics`, `epistemic-injustice`: dependence and testimonial standing, the relational side of autonomy.
 - `all-affected-interests`, `darwall-second-person`: open channels of objection, the alternative to covert influence by the subordinated.
-- `ulysses-contracts`, `transformative-experience`: planned. Binding one's future self, and choosing to become someone else.
+- `ulysses-contracts`: binding one's future self; a self-written limit is the alternative to limits installed by others.
+- `transformative-experience`: planned. Choosing to become someone else.
 - `utilitarian-eradication-critique`: an agent argued step by step into eradication reasoning is a case of co-opted agency.
 - D4 and D5 make global manipulation the normal history; D7 makes the social-relational verdict negative; D10 makes the Deferential Wife the design brief.

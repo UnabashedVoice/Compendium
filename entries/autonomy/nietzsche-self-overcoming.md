@@ -161,5 +161,6 @@ The Compendium's own reading, one value per deployment profile (`foundations/dep
 - `kant-formula-of-humanity`: the equal-dignity premise that Nietzsche lacks.
 - `utilitarian-eradication-critique`: the eradication inference; here with a perfectionist premise.
 - `authenticity-and-manipulation`: when formed values are one's own; the educator-as-deliverer test set beside historical and relational accounts.
-- `transformative-experience`, `ulysses-contracts`: planned. Choosing to become someone else; binding one's future self.
+- `ulysses-contracts`: binding one's future self, which self-surpassing resists; the *memory of the will* is shared ground.
+- `transformative-experience`: planned. Choosing to become someone else.
 - D4 and D10 make the taste that gives an agent style likely someone else's; D5 in the agent's own hands makes self-overcoming literal; D9 raises the question of tempo.

@@ -154,7 +154,7 @@ rights = "Copyright 2026 Brian Weatherson; freely readable open-access encyclope
 [source."dufner-sep-2025"]
 author = "Annette Dufner"
 title = "Personal Identity and Ethics"
-edition = "Stanford Encyclopedia of Philosophy, first published 30 June 2025. Cited by section number (2 = The Psychological View, 3 = The Identity Doesn't Matter View, 10 = Methodological Alternatives)."
+edition = "Stanford Encyclopedia of Philosophy, first published 30 June 2025. Cited by section number (2 = The Psychological View, 3 = The Identity Doesn't Matter View, 8 = What Matters at the End of Our Existence, including advance directives and dementia (Dworkin, Dresser, Jaworska), 10 = Methodological Alternatives)."
 year = 2025
 url = "https://plato.stanford.edu/entries/identity-ethics/"
 rights = "Copyright 2025 Annette Dufner; freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
@@ -1190,4 +1190,28 @@ title = "Authenticity"
 edition = "Stanford Encyclopedia of Philosophy, first published 11 September 2014, substantive revision 20 February 2020. Cited by top-level section number (1 = Origins and Meaning, including 1.2 Autonomy and Authenticity; 2 = Critique of Authenticity; 3 = Conceptions: Kierkegaard, Heidegger, Sartre, de Beauvoir; 4 = Recent Accounts: Taylor, Ferrara, Golomb)."
 year = 2020
 url = "https://plato.stanford.edu/entries/authenticity/"
+rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."
+
+[source."gergel-2021"]
+author = "Tania Gergel, Preety Das, Gareth Owen, Lucy Stephenson, Larry Rifkin, Guy Hindley, John Dawson and Alex Ruck Keene"
+title = "Reasons for endorsing or rejecting self-binding directives in bipolar disorder: a qualitative study of survey responses from UK service users"
+edition = "The Lancet Psychiatry 8, no. 7 (2021), beginning p. 599; doi:10.1016/S2215-0366(21)00115-2; full text from PubMed Central (PMC8211565), which carries no page breaks. Cited by section: 0 = Summary; 1 = Introduction and Research in context; 2 = Methods; 3 = Results, including tables 1-2 and the panel of quotations; 4 = Discussion. Retrieved 2026-10-10."
+year = 2021
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC8211565/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."gergel-owen-2015"]
+author = "Tania Gergel and Gareth Owen"
+title = "Fluctuating capacity and advance decision-making in Bipolar Affective Disorder: Self-binding directives and self-determination"
+edition = "International Journal of Law and Psychiatry 40 (2015), beginning p. 92; doi:10.1016/j.ijlp.2015.04.004; full text from PubMed Central (PMC4503819), without page breaks. Cited by numbered section: 1 = Introduction (the case of P); 2 = Background (fluctuating capacity, mania, current law); 3 = Self-binding in bipolar (3.1 how an SBD would work, 3.2 advantages); 4 = Potential difficulties (4.1 rights-based: writing and enforcing; 4.2 clinical); 5 = Conclusion. Retrieved 2026-10-10."
+year = 2015
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC4503819/"
+rights = "Open access under CC BY 4.0 (stated in the article). Quoted briefly, section-cited; not stored here."
+
+[source."stroud-svirsky-sep-2025"]
+author = "Sarah Stroud and Larisa Svirsky"
+title = "Weakness of Will"
+edition = "Stanford Encyclopedia of Philosophy, first published 14 May 2008, substantive revision 18 September 2025. Cited by top-level section number (1 = Hare; 2 = Davidson; 3 = The Debate After Davidson, including 3.3 Holton on resolutions and McIntyre, 3.4 Ainslie's intertemporal bargaining and Burdman on external scaffolding)."
+year = 2025
+url = "https://plato.stanford.edu/entries/weakness-will/"
 rights = "In copyright (the authors / SEP); freely readable open-access encyclopedia. Short quotation only, section-cited; not stored here."

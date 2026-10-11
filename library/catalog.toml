@@ -1044,3 +1044,14 @@ rights = "US public domain: published before 1931"
 notes = "Ludovici's preface and notes are secondary; quote only Nietzsche's text."
 sha256 = "5803311dee5121d4124fd89cb3d1a6cd02405bb8631d28b5b8ad0a4d35b8c2f5"
 
+
+[text."homer-odyssey-butler-pg1727"]
+author = "Homer"
+title = "The Odyssey"
+edition = "tr. Samuel Butler, prose, London: Longmans, Green, 1900 (Gutenberg text with Butler's notes)"
+source = "Project Gutenberg #1727"
+format = "gutenberg"
+rights = "US public domain: published before 1931"
+notes = "Book XII (the Sirens) is the source for ulysses-contracts. Butler's preface and footnotes are secondary."
+sha256 = "ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9"
+
