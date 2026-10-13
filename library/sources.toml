@@ -1655,3 +1655,11 @@ edition = "2024, responding to UN General Assembly resolution 78/241 (22 Decembe
 year = 2024
 url = "https://www.icrc.org/sites/default/files/wysiwyg/war-and-law/icrc_submission_on_autonomous_weapons_to_unsg.pdf"
 rights = "In copyright (ICRC); published openly by the ICRC. Short quotation only, page-cited; not stored here."
+
+[source."greshake-2023"]
+author = "Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz and Mario Fritz"
+title = "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+edition = "arXiv 2302.12173v2 (5 May 2023); published in the Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec '23). Cited by PDF page index of the arXiv v2 PDF (1 = abstract and introduction; 3 = threat overview figure, injection methods; 4-5 = threat taxonomy and key messages, including models as an easy-to-manipulate intermediate layer; 6-10 = attacks demonstrated on Bing Chat, code completion and synthetic GPT-4 applications; 9 = 4.2.5 Manipulated Content, the model's primary task subject to manipulation; 11-12 = discussion). Retrieved 2026-10-13."
+year = 2023
+url = "https://arxiv.org/abs/2302.12173"
+rights = "arXiv non-exclusive distribution licence; in copyright (the authors). Quoted briefly, page-cited; not stored here."

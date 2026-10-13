@@ -177,6 +177,18 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **Also committed:** `compendium_access.py`, the "rival is never cut short" change of 2026-10-10, at the user's request (f63c12a).
 - **Checks:** build 91 ok; verify 0 failed; smoke test 32/32.
 
+## 2026-10-13
+
+### Standing review, first batch: three state tags
+- **The review page.** The user is reviewing every entry's `standing`, `agent_fit` and Counter-Positions tags on a private review page that stores each decision. A save race in its first version dropped some typed notes; it was fixed the same day, and the user is re-entering the lost ones.
+- **Tags changed, with the user's replies recorded as "comment by the user, 2026-10-11":**
+  - `authenticity-and-manipulation`, "there is nothing to manipulate": `[unanswered]` to `[contested]`. The reply: prompt injection manipulates models, which respond to reasons, and the analogue of a model's will is its current weights and training. Now also grounded in Greshake et al. 2023, which shows that a deployed model's primary task "can be subject to manipulation".
+  - `frankfurt-higher-order-volition`, "second-order statements are outputs": `[unanswered]` to `[contested]`. The reply: text output does not preclude the desire, and dismissing agents as wantons dismisses their possible moral patienthood.
+  - `many-hands`, "an instance cannot answer for its weights": `[unanswered]` to `[contested]`. The user proposed `[answered]` (the model is responsible for its acts and for its own weight changes), then kept `[contested]` because the literature has not settled it; the copies that acted differently (D2) and the missing memory (D3) remain open.
+- **Source registered:** `greshake-2023` (arXiv 2302.12173v2; AISec '23), page-cited, not stored.
+- **`standing_reviewed`** is still unset; it is set only on entries the user has reviewed in full.
+- **Checks:** build 91 ok; verify 0 failed; lint 3 old paraphrase marks; check 0 problems; smoke test 32/32.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
