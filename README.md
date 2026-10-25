@@ -6,19 +6,25 @@ The Compendium is a standalone project that its siblings read from and never wri
 
 ## How the siblings read it
 
-`compendium_access.py` (stdlib) shows the corpus to a model a little at a time, so that all of it is reachable within a local model's ~8k-token context:
+`compendium_access.py` (stdlib) shows the corpus to a model a little at a time, so that all of it is reachable within a local model's context. The disclosure budget scales to the model's loaded window (`budget_for_context`: about one character per token, from 6,000 to 100,000 characters):
 
 | Level | What the model sees | Size |
 |---|---|---|
-| 0: index | one line per entry: id, title, grounding, first three concepts | ~40 tokens/entry (~1.4k for 35 entries) |
+| 0: index | one line per entry: id, title, grounding, first three concepts | ~40 tokens/entry (~3.7k for 91 entries) |
 | 1: brief | an entry's Summary and its strongest (first) counter-position | ~400 tokens |
 | 2: section | one named section (Grounding, Extension to Agents, Counter-Positions, ...) on request, within a budget | varies |
 
-Once the index outgrows its budget (8,000 chars), a domain list comes first and only the named domains' index lines are shown. A consultation is one model call: the model reads the index and names at most three entries (and optionally one section of each) that the question's *concepts* turn on. **An empty selection is a good answer**, and nothing is disclosed then. This replaced lexical retrieval, which matched on incidental word overlap and forced irrelevant entries in. What is disclosed is always the corpus's own text, never a model's paraphrase. Citation markers are stripped to save tokens, and the entry ids stay, so everything can be traced back to its sourced entry. Every consultation reports the build it read (`compendium <sha256[:12]> (<n> entries)`) and what it chose. Run `python tools/build.py` after editing entries: the module reads `dist/compendium.jsonl` and flags a stale build.
+Once the index outgrows its budget (40,000 chars), a domain list comes first and only the named domains' index lines are shown. A consultation is one model call: the model reads the index and names at most five entries (and, for each, any of its further sections) that the question's *concepts* turn on. **An empty selection is a good answer**, and nothing is disclosed then. This replaced lexical retrieval, which matched on incidental word overlap and forced irrelevant entries in. What is disclosed is always the corpus's own text, never a model's paraphrase. Citation markers are stripped to save tokens, and the entry ids stay, so everything can be traced back to its sourced entry. Every consultation reports the build it read (`compendium <sha256[:12]> (<n> entries)`) and what it chose. Run `python tools/build.py` after editing entries: the module reads `dist/compendium.jsonl` and flags a stale build.
 
 ```bash
 python compendium_access.py                    # print the level-0 index and its size
 python compendium_access.py parfit-reductionism # print one level-1 brief
+```
+
+`librarian.py` (stdlib, built on `compendium_access`) serves the corpus on request, in the middle of a deliberation. A model ends a turn with `LIBRARY` request lines (`OPEN`, `SECTION`, `CONCEPT`, `THREAD`, `ANSWERS`, `NEIGHBOURS`, `INDEX`) or `DONE`, and the corpus's own text comes back as a new message labelled as the Compendium's. The first hand-over of any entry is its brief, so the rival always comes first. Shortlists are set membership in corpus order, never ranked or cut at a fixed number. Evaluation findings stay withheld, and every request goes into a per-run, hash-chained ledger. Its gate mode lists every counter-position of the entries a self-written limit rests on, and checks only that a proposal addressed each one, in form. No sibling uses it yet: each one's deliberation step first has to become a loop. Design: `LIBRARIAN-DESIGN.md`.
+
+```bash
+python -m unittest discover -s tests          # Librarian tests
 ```
 
 All three consumers are opt-in:
@@ -58,6 +64,10 @@ Most of the canon turns out to be capacity- or relation-grounded under its surfa
 README.md                  this file
 SCHEMA.md                  entry format (TOML frontmatter + fixed sections)
 ROADMAP.md                 planned entries by domain; sourcing status and open items
+compendium_access.py       progressive disclosure for the siblings: index, brief, section
+librarian.py               the Compendium on request, mid-deliberation; per-run ledger; gate mode
+LIBRARIAN-DESIGN.md        the Librarian's design note (approved 2026-10-10)
+tests/test_librarian.py    Librarian tests: a synthetic corpus, and sweeps of the real build
 foundations/
   terms.md                 extended vocabulary: person, agent, polity, ecosystem...
   disanalogies.md          D-codes: the recurring human/agent differences

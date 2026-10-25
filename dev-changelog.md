@@ -189,6 +189,31 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **`standing_reviewed`** is still unset; it is set only on entries the user has reviewed in full.
 - **Checks:** build 91 ok; verify 0 failed; lint 3 old paraphrase marks; check 0 problems; smoke test 32/32.
 
+## 2026-10-24
+
+### The Librarian moves in
+- **`librarian.py`** now sits beside `compendium_access.py`, with its tests in `tests/test_librarian.py` and its design note as `LIBRARIAN-DESIGN.md`. All three were drafted on 2026-10-10 in `../LibrarianDraft/`, outside every repo, while a Palaestra world batch was importing the Compendium; that batch finished on 2026-10-11. This is step 2 of the design note's build plan.
+- **One code change:** with no `$COMPENDIUM_ROOT` set, `_import_access()` now looks for `compendium_access.py` in the folder `librarian.py` is in, not for a sibling folder named `Compendium`. Docstrings and the design note's header point at the new paths; the note itself is kept as written.
+- **README:** a Librarian paragraph and layout lines. The figures pushback 12 flagged are corrected to the code: the index budget is 40,000 characters, a consultation names at most five entries, each with any of its further sections, and the disclosure budget scales to the loaded window (6,000 to 100,000 characters). The level-0 size is now ~3.7k tokens for 91 entries.
+- **No sibling uses it yet.** Step 3, turning each consumer's deliberation step into a loop, starts with Actualizer.
+- **Checks:** Librarian tests 23/23, run from the Compendium and on Linux; `librarian` imports from outside the folder; build 91 ok; check 0 problems. The cross-repo smoke test passes 28/29; its one failure is its own stale expectation of 74 entries.
+
+### The Librarian's own changelog (from `LibrarianDraft/dev-changelog.md`, 2026-10-10)
+
+#### Design
+- `DESIGN.md` written and approved, every decision. Thresholds for keeping the one-shot `consult()` (Q7) were set from measured baselines: `consult()` agrees with itself only at Jaccard 0.63 (gpt-oss) and 0.44 (Qwen3-32B), and gpt-oss run time varies by 39%. Qwen3 is out of the A/B until a smaller quant is in hand.
+- Corrected while building: the gate's rival set is the Counter-Positions of the entries a limit rests on (plus any the proposer adds). The two further sources in the first draft pointed the wrong way (DESIGN.md, Q4).
+
+#### `librarian.py` (stdlib; imports `compendium_access` read-only)
+- **Corpus and graph,** built once per build and cached by `Librarian.load()` (reloaded when `dist/compendium.jsonl` changes): corpus order (domain, year, id), concepts and threads, and the citation graph from withheld text only, so an `[E:]` citation in a withheld sentence makes no edge. Loads in 0.2 s at 84 entries.
+- **Requests** as text lines (`LIBRARY OPEN / SECTION / CONCEPT / THREAD / ANSWERS / NEIGHBOURS / INDEX`, `DONE`), parsed from the final channel, tolerant of list numbers, bold, colons and Unicode hyphens. The first hand-over of an entry is always its brief, with the whole rival and a pointer to the rival's own entry where it cites one.
+- **Shortlists** are set membership in corpus order, never cut at k. When one won't fit, it is replaced by counts by domain. When nothing matches: "No entry lists ...", logged as a gap. A withheld term is not echoed back.
+- **Stopping:** DONE or no request; two turns with no new material; or the budget (`budget_for_context`, capped by an optional `window_room` callback). No request count.
+- **Ledger:** per run, append-only, hash-chained; `verify`, `gaps`. `identity()` extends the `consult()` identity with what the Librarian handed over and the ledger head.
+- **Gate mode:** `rivals()`, `present_rivals()`, `parse_responses()`, `check_answerability()`, which checks form only ("addressed N of M"; missing, stance, empty, duplicate).
+- **Tests:** 23 (`python -m unittest discover -s tests`), a synthetic corpus for the edge cases and sweeps of the real build: every view of every entry withholds findings and carries its rival, every listed concept finds its entry, no rival is cut.
+- The real-corpus sweep found that `\b` fails beside parentheses ("self-overcoming (Selbstüberwindung)" was unsearchable); fixed with lookarounds.
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
