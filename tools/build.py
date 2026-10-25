@@ -255,7 +255,9 @@ def main() -> int:
     bad_e = sorted({(r["entry_id"], e) for r in records for e in ENTRY_CITE.findall(r["text"]) if e not in known})
 
     out = DIST / "compendium.jsonl"
-    with out.open("w", encoding="utf-8") as f:
+    # CRLF on every OS: the build was first made on Windows, and the Compendium's version is
+    # the sha256 of this file, so the same entries must give the same bytes everywhere.
+    with out.open("w", encoding="utf-8", newline="\r\n") as f:
         for r in records:
             f.write(json.dumps(r, ensure_ascii=False, default=str) + "\n")  # default=str: TOML dates
 

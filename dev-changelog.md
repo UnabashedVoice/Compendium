@@ -203,6 +203,10 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 - **README:** the Librarian paragraph is now a pointer to the sibling, and its layout lines are gone. The corrected disclosure figures stay.
 - **Checks:** build 91 ok; check 0 problems.
 
+### The build is the same on every OS
+- **`tools/build.py`** writes `dist/compendium.jsonl` with CRLF line endings on every OS (`newline="\r\n"`). It used Python's platform default, so the same entries built on Linux gave LF and a different sha256, and the Compendium's version is that sha256. CRLF was chosen because every committed build so far was made on Windows: the digest stays `acae7bbd5e44`, and versions recorded by earlier runs still match.
+- **Checks:** a Linux build is byte-identical to the committed one; the cross-repo smoke test no longer leaves `dist/` modified (28/29; its one failure is its own stale expectation of 74 entries).
+
 ## 2026-10-08 (evening)
 
 ### Evaluation findings withheld from models
