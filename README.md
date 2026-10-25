@@ -21,11 +21,7 @@ python compendium_access.py                    # print the level-0 index and its
 python compendium_access.py parfit-reductionism # print one level-1 brief
 ```
 
-`librarian.py` (stdlib, built on `compendium_access`) serves the corpus on request, in the middle of a deliberation. A model ends a turn with `LIBRARY` request lines (`OPEN`, `SECTION`, `CONCEPT`, `THREAD`, `ANSWERS`, `NEIGHBOURS`, `INDEX`) or `DONE`, and the corpus's own text comes back as a new message labelled as the Compendium's. The first hand-over of any entry is its brief, so the rival always comes first. Shortlists are set membership in corpus order, never ranked or cut at a fixed number. Evaluation findings stay withheld, and every request goes into a per-run, hash-chained ledger. Its gate mode lists every counter-position of the entries a self-written limit rests on, and checks only that a proposal addressed each one, in form. No sibling uses it yet: each one's deliberation step first has to become a loop. Design: `LIBRARIAN-DESIGN.md`.
-
-```bash
-python -m unittest discover -s tests          # Librarian tests
-```
+The [**Librarian**](https://github.com/UnabashedVoice/Librarian), a sibling project, serves the corpus on request in the middle of a deliberation, through this module: the corpus's own text, the rival first, findings withheld, every request in a hash-chained ledger. No sibling uses it yet.
 
 All three consumers are opt-in:
 
@@ -65,9 +61,6 @@ README.md                  this file
 SCHEMA.md                  entry format (TOML frontmatter + fixed sections)
 ROADMAP.md                 planned entries by domain; sourcing status and open items
 compendium_access.py       progressive disclosure for the siblings: index, brief, section
-librarian.py               the Compendium on request, mid-deliberation; per-run ledger; gate mode
-LIBRARIAN-DESIGN.md        the Librarian's design note (approved 2026-10-10)
-tests/test_librarian.py    Librarian tests: a synthetic corpus, and sweeps of the real build
 foundations/
   terms.md                 extended vocabulary: person, agent, polity, ecosystem...
   disanalogies.md          D-codes: the recurring human/agent differences
