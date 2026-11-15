@@ -33,6 +33,13 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ---
 
+## 2026-11-15
+
+### Fixed: OCR failures can't become cached empty pages
+This is finding 7 of a Power of Ten review (`../REVIEW-power-of-ten.md`).
+- `tools/ocr_archive.py` ran Tesseract without checking its exit code or setting a timeout. A failed run wrote an empty page to `library/ocr-cache/`, and because reruns skip any page whose text is cached, the page stayed empty in the library text, where `verify` checks citations against it. A hung run blocked forever. It now runs with `check=True` and a 600-second timeout, so a failure stops the run with nothing cached for that page, and a rerun retries it.
+- The cache was checked: of 180 cached pages, four are empty (`bub_gb_JJThV3vtDJIC/n0143.lat`, Stcherbatsky `n0132` to `n0134`). Re-running Tesseract on their images succeeds and finds only stray characters, so they are blank leaves, not failures. Nothing needs redoing. No library text, catalog record or pin changed.
+
 ## 2026-10-10
 
 ### The rival is never cut short

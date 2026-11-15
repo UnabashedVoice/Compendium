@@ -79,7 +79,9 @@ def main() -> int:
         txt = cache / f"n{i:04d}.{a.lang}.txt" if a.lang != "eng" else cache / f"n{i:04d}.txt"
         if not txt.exists():
             cmd = [tess, str(img), "-", "-l", a.lang] + (["--tessdata-dir", str(TESSDATA)] if TESSDATA.exists() else [])
-            out = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+            # check=True: a failed or hung Tesseract must stop the run, never cache an empty page
+            # that reruns would skip (the cache is only written on success, so a rerun retries it).
+            out = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", check=True, timeout=600)
             txt.write_text(out.stdout, encoding="utf-8")
         pages.append((i, txt.read_text(encoding="utf-8")))
         if i % 25 == 0:
