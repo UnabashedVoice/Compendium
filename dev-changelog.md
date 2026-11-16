@@ -35,6 +35,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-11-15
 
+### Changed: `build.py` writes LF
+`dist/compendium.jsonl` is now written with LF on every OS, to match the rest of the repository. It used to be CRLF because the first build was made on Windows. The bytes are still the same on every OS, so the digest stays portable. The content is unchanged; only the line endings differ. So the **Compendium's version id changes** (sha256 `8f78b628…` to `258d3810…`) with no change to any entry. A consumer comparing a recorded version against this build will see a different id for the same corpus.
+
 ### Changed: every file has LF line endings
 At the user's request, every tracked file that had CRLF (or mixed) endings now has LF, in a commit that changes nothing else.
 - **137 files:** entries, docs, tools, `compendium_access.py`, the catalogs, and all 66 library texts.
