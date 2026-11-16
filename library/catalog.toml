@@ -185,6 +185,16 @@ format = "ocr"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 sha256 = "2bbd418412665436aee4878174b80ef229ba18453d843921c12156eaab0009df"
 
+[text."hobbes-ew1-de-corpore-molesworth-1839-pg73877"]
+author = "Thomas Hobbes"
+title = "The English Works of Thomas Hobbes, vol. I: Elements of Philosophy, the First Section, Concerning Body"
+edition = "ed. W. Molesworth, London: John Bohn 1839 (the same edition as hobbes-ew1-de-corpore-molesworth-1839)"
+source = "Project Gutenberg #73877 (Distributed Proofreaders, from HathiTrust page images), fetched 2026-11-15"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Proofread text of the edition the OCR copy hobbes-ew1-de-corpore-molesworth-1839 was made from. Existing citations still point at the OCR copy's line numbers; cite this one in new work. All 14 quotations the entries take from the OCR copy are found here word for word. Italics are marked _thus_."
+sha256 = "4f5338a355238d691a94843990e5ebce5e442be6c230b5375714eb08e6d3d0ac"
+
 [text."hobbes-ew3-leviathan-molesworth-1839"]
 author = "Thomas Hobbes"
 title = "Leviathan (English Works vol. III)"
@@ -194,6 +204,16 @@ format = "ocr"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "For the political domain."
 sha256 = "fcbd3afae5c0c6a66fd6bf713b8de24ab654e849b34cce3c315b84eca97aca50"
+
+[text."hobbes-ew3-leviathan-molesworth-1839-pg73957"]
+author = "Thomas Hobbes"
+title = "The English Works of Thomas Hobbes, vol. III: Leviathan"
+edition = "ed. W. Molesworth, London: John Bohn 1839 (the same edition as hobbes-ew3-leviathan-molesworth-1839)"
+source = "Project Gutenberg #73957 (Distributed Proofreaders, from HathiTrust page images), fetched 2026-11-15"
+format = "gutenberg"
+rights = "Public domain: author/translator died over 100 years ago; published before 1931"
+notes = "Proofread text of the edition the OCR copy hobbes-ew3-leviathan-molesworth-1839 was made from. Existing citations still point at the OCR copy's line numbers; cite this one in new work. Of the 89 quotations the entries take from the OCR copy, 87 are found here word for word; one more (hobbes-leviathan, 'can be understood to aim thereby') misquotes Hobbes, and both copies read 'cannot be understood'. The one real disagreement: in the Introduction the OCR copy (a Google scan) reads 'Art goes yet farther' and this text reads 'Art goes yet further'; check the page image before relying on either. Italics are marked _thus_; small capitals are set in capitals."
+sha256 = "d4e5d5f4a5a7f0124b44587240fce5b56a776a5b2cbf5cc2a507fb14315e68f3"
 
 [text."hume-enquiry-pg9662"]
 author = "David Hume"
