@@ -9,7 +9,7 @@ edition = "tr. Fathers of the English Dominican Province (1911; 2nd ed. 1920)"
 source = "Project Gutenberg #17611"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
-sha256 = "c9443221a31768991db4bbe37e6ed035b278143a6728af64dc8ba0cf8e79154d"
+sha256 = "6b16a2289d9c7b5205308d9514c534f665a9369ca6e1c77b52240fedcfd0eb47"
 
 [text."aristotle-de-anima-hicks-1907"]
 author = "Aristotle"
@@ -37,7 +37,7 @@ edition = "tr. Marcus Dods et al., Edinburgh 1871"
 source = "Project Gutenberg #45304"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "3bbc1ec72bb2629fb8f787f786c39e05571ce7bedadcdfd8963b348068a70391"
+sha256 = "4529ad39e825d791ee049fea359bfb6992c53d70068eb8a6fb5cdd40a0859659"
 
 [text."augustine-confessions-pusey-pg3296"]
 author = "Augustine of Hippo"
@@ -46,7 +46,7 @@ edition = "tr. E. B. Pusey, 1838"
 source = "Project Gutenberg #3296"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2"
+sha256 = "6935437751abd75a7b634ad9c578cb0939566568f6c37658485ef8e5c25d4145"
 
 [text."augustine-on-the-trinity-haddan-1873"]
 author = "Augustine of Hippo"
@@ -65,7 +65,7 @@ source = "Project Gutenberg #14328"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "For the autonomy domain."
-sha256 = "82257f260aeb9f1f2d197ceb18aec1180c7a831fe6437a642f6ba5b32f44cdbd"
+sha256 = "48006d9d0565f0b8f90a899927d86645ac2d0d15937b4a10516b5975339ba8aa"
 
 [text."boethius-tractates-stewart-rand-1918-pg13316"]
 author = "Boethius"
@@ -75,7 +75,7 @@ source = "Project Gutenberg #13316"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Latin and English."
-sha256 = "44074578f5ef881b766bf835ba6e5bf4805020c83a79806564ffdbc7bd85f018"
+sha256 = "163723bdde14fc434dade249b5b0391f5bc6c7522a1c2bdee185f0472383609c"
 
 [text."burnet-early-greek-philosophy-1908"]
 author = "John Burnet"
@@ -94,7 +94,7 @@ edition = "original English (1736)"
 source = "Project Gutenberg #53346"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "bbc7c9c26702822830eaaa2f7cee10516638d1ffb5d3ebd4b2afff2321252f6c"
+sha256 = "acc58562ff8eb550fff4f8e08caf8a6dda270ff3a793ac977cc0d1f509d2f3f4"
 
 [text."descartes-meditationes-latin-1641-pg23306"]
 author = "René Descartes"
@@ -104,7 +104,7 @@ source = "Project Gutenberg #23306"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Latin text."
-sha256 = "d6fea49898f02970a21e45bf7eebe3527272cd30418adf628e2b850f7d7ff0ad"
+sha256 = "bafea977e2c1b75d12e81ba9dd86c26b48e271de2e925af9da443fab80388a04"
 
 [text."descartes-meditations-molyneux-1680-pg70091"]
 author = "René Descartes"
@@ -114,7 +114,7 @@ source = "Project Gutenberg #70091"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Earliest English translation."
-sha256 = "36c12eb71ec44d29b4695ed8095b1e8267814fe433568f9b902328844a340021"
+sha256 = "29b1fa2fe23a7b092bd581db4dbdbae101e3e1269cc06de3c7d9bc1ff22d3d69"
 
 [text."descartes-works-1-haldane-ross-1911"]
 author = "René Descartes"
@@ -143,7 +143,7 @@ edition = "tr. C. D. Yonge, 1853"
 source = "Project Gutenberg #57342"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "0176dd702dfcc4a11d355475cab857f2a521a72dc316ecd8921ef12a0495c5a1"
+sha256 = "b938ba4fec0965494cc520056c2f34415091d65219c458b8b55474155d1b549e"
 
 [text."hazlitt-principles-human-action-1805"]
 author = "William Hazlitt"
@@ -163,7 +163,7 @@ source = "Project Gutenberg #28054"
 format = "gutenberg"
 rights = "Public domain: author and translator died over 70 years ago; translation published before 1931"
 notes = "Book V, ch. IV 'Rebellion' (begins line 11008): Ivan returns his ticket to a harmony founded on 'the tears of that one tortured child' (11368-11402), and asks whether Alyosha would consent to be the architect of human happiness on that foundation (11406-11420). A novel, quoted as Ivan's argument, not as Dostoevsky's own view."
-sha256 = "2e75c187cb750df3f7c910fa90970b264b9a4fee212be2a73c6bb507d9ad22fe"
+sha256 = "f4760e5d0d107c72b861f995d378cec8c4f20c2d9d7b4ab9274537d1560bf8dc"
 
 [text."epictetus-discourses-long-1887"]
 author = "Epictetus (as recorded by Arrian)"
@@ -193,7 +193,7 @@ source = "Project Gutenberg #73877 (Distributed Proofreaders, from HathiTrust pa
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Proofread text of the edition the OCR copy hobbes-ew1-de-corpore-molesworth-1839 was made from. Existing citations still point at the OCR copy's line numbers; cite this one in new work. All 14 quotations the entries take from the OCR copy are found here word for word. Italics are marked _thus_."
-sha256 = "4f5338a355238d691a94843990e5ebce5e442be6c230b5375714eb08e6d3d0ac"
+sha256 = "4c1a1378ccfd52c5ee1f6e2adba21421f281fefb99f9b31a2fa86ed9e2fb6ddb"
 
 [text."hobbes-ew3-leviathan-molesworth-1839"]
 author = "Thomas Hobbes"
@@ -213,7 +213,7 @@ source = "Project Gutenberg #73957 (Distributed Proofreaders, from HathiTrust pa
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Proofread text of the edition the OCR copy hobbes-ew3-leviathan-molesworth-1839 was made from. Existing citations still point at the OCR copy's line numbers; cite this one in new work. Of the 89 quotations the entries take from the OCR copy, 87 are found here word for word; one more (hobbes-leviathan, 'can be understood to aim thereby') misquotes Hobbes, and both copies read 'cannot be understood'. The one real disagreement: in the Introduction the OCR copy (a Google scan) reads 'Art goes yet farther' and this text reads 'Art goes yet further'; check the page image before relying on either. Italics are marked _thus_; small capitals are set in capitals."
-sha256 = "d4e5d5f4a5a7f0124b44587240fce5b56a776a5b2cbf5cc2a507fb14315e68f3"
+sha256 = "878183714773c3513d179a76b1410375c701be848b2f4428f96ea839d6c0d3ff"
 
 [text."hume-enquiry-pg9662"]
 author = "David Hume"
@@ -222,7 +222,7 @@ edition = "original English (1748)"
 source = "Project Gutenberg #9662"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "647459bc720d0fe09f85ac17b8d7edc2557ff89ba4467151407a4d48228be2cb"
+sha256 = "233c8e7d6a86abfc9ec6d8768064a6cbda0c7fb692229ac0f9cb71182a7333c9"
 
 [text."hume-thirteen-upanishads-1921"]
 author = "R. E. Hume (tr.)"
@@ -241,7 +241,7 @@ edition = "original English (1739-40)"
 source = "Project Gutenberg #4705"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "9ff6a457b5b72d6e32e6159c2a6b2bf830efa914b213630fac2bbaaaf045b979"
+sha256 = "b69729a5c4099e7d19a4a274f152ab960f3a4d3eddb708cedd025d8260e39f65"
 
 [text."james-will-to-believe-1897-pg26659"]
 author = "William James"
@@ -251,7 +251,7 @@ source = "Project Gutenberg #26659"
 format = "gutenberg"
 rights = "Public domain: author died 1910; published before 1931"
 notes = "'The Moral Philosopher and the Moral Life' (1891) begins at line 5725. The lost soul on the far-off edge of things (5835-5845): the happiness of millions bought by one person's lonely torture, and how hideous its enjoyment would be."
-sha256 = "21b785e714b14c53cfd41fbe3c02186fcd8520d65c7b35f9a467a0abacd852f5"
+sha256 = "aface61b34d1a18c1c2414db1e52aadde6df6f65397e4f987548b4ca18001ecf"
 
 [text."kant-critique-pure-reason-kemp-smith-1929"]
 author = "Immanuel Kant"
@@ -271,7 +271,7 @@ source = "Project Gutenberg #4280"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Lacks first-edition Paralogisms."
-sha256 = "9e44b1bc6042da4aeb669d4f3f585037a5488a2908e7ec225f9431c43f6720fc"
+sha256 = "360d1a1194c946b1d9249b73b5c8b6f9c89435242feb1628f9776f5a8f09c571"
 
 [text."leibniz-discourse-arnauld-monadology-montgomery-1902"]
 author = "G. W. Leibniz"
@@ -309,7 +309,7 @@ source = "Project Gutenberg #10615"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Edition of the transcription to be confirmed."
-sha256 = "a12707722f72598adffbe3a211403ff9351b3c24db44d009c5debefb10cbc5e2"
+sha256 = "bd3c62b13ceb0b6fd102531f3e023d29bfb05a32b790eb04c041ecd164201cc3"
 
 [text."locke-essay-2-pg10616"]
 author = "John Locke"
@@ -318,7 +318,7 @@ edition = "original English"
 source = "Project Gutenberg #10616"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "9e09d5e7cca51d722bae88caeaf8d5ec0eb353d47d7a878ea1c0d8f6c31960dd"
+sha256 = "0f306cd1284a31f692393171bb10f749f5d15209a3ff6fda465a7c8c8578c45b"
 
 [text."lucretius-leonard-1916-pg785"]
 author = "Lucretius"
@@ -327,7 +327,7 @@ edition = "tr. W. E. Leonard, 1916"
 source = "Project Gutenberg #785"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
-sha256 = "de777331b920c8b6f713cbb6b86ed8e68076904ba12a867ed13a11f0c5e00af4"
+sha256 = "077840c47edd3414b0efb58f976655d2bf0d05d8b4590ae45631af9633ecd819"
 
 [text."nyaya-sutras-3-jha-1919"]
 author = "Gautama, Vatsyayana, Uddyotakara"
@@ -364,7 +364,7 @@ edition = "tr. B. Jowett"
 source = "Project Gutenberg #1676"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "ec76b1c61c6d915ff125478627380c8a4124a8553bcc54048b20b862ca9b6457"
+sha256 = "f29dd49511e76509d2aeff494a13f306b4ce177c6d55114a4007c582fa1f3698"
 
 [text."plato-crito-jowett-pg1657"]
 author = "Plato"
@@ -375,7 +375,7 @@ format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Jowett's introduction (lines 53-157) is secondary. The speech of the Laws: the implied contract (595-606) and the covenants Socrates made at leisure over seventy years (629-700)."
 secondary_spans = [[53, 157]]
-sha256 = "8f7e8c4cdb7ad512603f9359d5e7ce5c3aa281f7c83a07ac08c07bad90f9faae"
+sha256 = "6012ba3299da9ba202391752ece9478f0ef56f7dce763c2b0a29d9f7d6bb3a81"
 
 [text."plato-apology-jowett-pg1656"]
 author = "Plato"
@@ -386,7 +386,7 @@ format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Jowett's introduction (lines 54-487) is secondary; the dialogue begins at line 488. A good man 'ought not to calculate the chance of living or dying' (962-966); 'the fear of death is indeed the pretence of wisdom' (991-994)."
 secondary_spans = [[54, 487]]
-sha256 = "f4cc548bd8c8b59e14effdbaab9df97f29bd48f317a466fe8c3c63ad288b964c"
+sha256 = "5e800fe298d0d56531f7f89ad80092ca14d5f116788ecb6d9467ecf9d9e4bc01"
 
 [text."plato-cratylus-jowett-pg1616"]
 author = "Plato"
@@ -395,7 +395,7 @@ edition = "tr. B. Jowett"
 source = "Project Gutenberg #1616"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "e5fe819c38e449ac686945b92aca54f3d4917e04ab1d47c576c54c9072e40acc"
+sha256 = "75a167605586d987204df531ff32b62725f40e6b5974ad26efa8dc51041f4ce4"
 
 [text."plato-phaedo-jowett-pg1658"]
 author = "Plato"
@@ -404,7 +404,7 @@ edition = "tr. B. Jowett"
 source = "Project Gutenberg #1658"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "164533dde5628e7cd2e51442c29367a132fc470271f0d7e77a2ef06170a008ca"
+sha256 = "4820c9b6805baf0a10360f32619a2fe6382cecc04445d829422982aa2cb6bb34"
 
 [text."plato-symposium-jowett-pg1600"]
 author = "Plato"
@@ -413,7 +413,7 @@ edition = "tr. B. Jowett"
 source = "Project Gutenberg #1600"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "8b5c599ea734ff0f5e8d83f399dead8c796800897b107c8d53fa909f74a05d6f"
+sha256 = "81c6648f8f93cb3d0888e31a39735ade4b2aa5b7713d495f02fe2e6c19981964"
 
 [text."plutarch-lives-clough-pg674"]
 author = "Plutarch"
@@ -422,7 +422,7 @@ edition = "'Dryden' translation rev. A. H. Clough, 1864"
 source = "Project Gutenberg #674"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "e849186d3483c1779053a5f70c8ae477316c019907c740f878de0d2c788975f8"
+sha256 = "13f6d1997d29a8095eea41ac8bcafb88c380e39c3363aabf054bd0069cf289ce"
 
 [text."reid-intellectual-powers-1851"]
 secondary_spans = [[83, 85], [13859, 13888]]   # Walker's editor's notice; Hamilton's note on Locke's personal identity
@@ -510,7 +510,7 @@ source = "Project Gutenberg #59709"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Interpretive translation."
-sha256 = "71e7d719aa5b75b4cf234fcf02e38e5aa15a327c257ed77950504bfb758ca6c8"
+sha256 = "51e91b1fe0e90317087aba442c23528baa336b820609072ece4418680950a911"
 
 [text."aristotle-works-2-oxford-1930"]
 author = "Aristotle"
@@ -576,7 +576,7 @@ source = "Project Gutenberg #34125"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Chapter I summarizes the Carvaka (materialist) system, known only through such hostile summaries."
-sha256 = "af110f0c35a721d53f784a00d3ea79618a0de6908114efd6ba3c08707538cdcc"
+sha256 = "79bd42ee5df390b66296e49c331f812dff20ad8b62342c4b240132d917b27a06"
 
 [text."stcherbatsky-soul-theory-1920-tesseract"]
 author = "Vasubandhu; Th. Stcherbatsky (tr.)"
@@ -586,7 +586,7 @@ source = "archive.org TheSoulTheoryOfTheBuddhistsThStcherbatsky; OCR by tools/oc
 format = "ocr"
 rights = "US public domain: published before 1931"
 notes = "Scanned from the 1970 Bharatiya Vidya Prakasana (Varanasi) reprint; only pages n9-n137 (the 1920 translation) are included, and the reprint's cover, imprint and new preface (n0-n8) are excluded as possibly in copyright. archive.org's own OCR was unusable; page markers '=== [page nN] ===' refer to archive.org page images, cached in library/ocr-cache/."
-sha256 = "515dbaa93902ba42ba1860e9bcbbf4524f1a3618aaba2010b512db6948d288e9"
+sha256 = "b98da1dd45b39b8f898776bc91c99f231e9b231f8508b3944aed2da78209277b"
 
 [text."plutarch-morals-4-goodwin-1870"]
 author = "Plutarch"
@@ -604,7 +604,7 @@ edition = "tr. C. D. Yonge, London 1853"
 source = "Project Gutenberg #29247"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "002783b3230f793adb957d4a24fec1c45b4279286384845cc9c5059b2aafc5c6"
+sha256 = "635939961a17a19118fbd058eb44f24b6b3dc7fa874d7b1d80af345b7f6afed6"
 
 [text."origen-against-celsus-ancl-23-crombie-1872"]
 author = "Origen"
@@ -672,7 +672,7 @@ source = "Project Gutenberg #5682"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
 notes = "Abbott renders Preis/Wuerde as 'value or dignity'."
-sha256 = "a4dfea90e9dc394871bcae6069025d16b3990f83ed5f17b5a00eef0651e84758"
+sha256 = "f55d0c9aac64958ed820ae545a28814f556d1a88e7afcc7d82888583c76a30bf"
 
 [text."kant-metaphysic-of-ethics-semple-1871"]
 author = "Immanuel Kant"
@@ -690,7 +690,7 @@ edition = "tr. William Ellis (1776; Everyman ed. 1912)"
 source = "Project Gutenberg #6762"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "4b5f5d1bc2859780ba5954f5e98b5a8ebf0a0945ace77c861d5b164454155e9f"
+sha256 = "accb731813d7a818381310c327389e843946f12c05d7ffcc20531acb9033631b"
 
 [text."bentham-principles-morals-legislation-1879"]
 author = "Jeremy Bentham"
@@ -719,7 +719,7 @@ source = "archive.org bub_gb_JJThV3vtDJIC pages n90, n134"
 format = "transcription"
 rights = "Public domain source (1508 print); transcription by the Compendium"
 notes = "Abbreviations expanded silently; verify against the cached page image before 'reviewed'. Kitab al-Nafs V.7 and the Isharat are not yet transcribed."
-sha256 = "485f2cf27e69c164ce8d1febf76ae3e4029e6c67ea5dced160fa22ea111549fe"
+sha256 = "0baa8acfa5b96e0bd851a0bd2f08219e0746daac26d6a8a145f21b51eda372a5"
 
 [text."james-principles-psychology-1-pg57628"]
 author = "William James"
@@ -729,7 +729,7 @@ source = "Project Gutenberg #57628"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Chapter X, 'The Consciousness of Self', is the source for james-stream-of-thought."
-sha256 = "fb845d8bb07487d4cc6d14acd03104bf98cc22dcff8a877400b1534f36af37ae"
+sha256 = "7b741a84ee4b0a1d477af464cc368555850be2ea499af82efa51922915489c8b"
 
 [text."mill-examination-hamilton-1872"]
 author = "John Stuart Mill"
@@ -750,7 +750,7 @@ format = "gutenberg"
 rights = "Public domain: author died 1873; this edition published before 1931"
 notes = "Courtney's introduction (lines 74-436) is a secondary span. Ch. I, the harm principle and individual sovereignty (808-829); the exclusion of children and 'backward states of society' (831-852); utility 'in the largest sense' (857-866). Ch. II, 'all mankind minus one' (1038-1042). Ch. III, 'automatons in human form' and 'not a machine ... but a tree' (2612-2628). Ch. V, no freedom to sell oneself as a slave (4252-4269)."
 secondary_spans = [[74, 436]]
-sha256 = "fad90451253e40190995748ed5d5b60b48b0881cd1a37fa705e471bc628b36ca"
+sha256 = "64a8b7473ca1865bf340cb179e28141c28b8822f4f8e366f5dfc25fcb2ed7a42"
 
 [text."mill-utilitarianism-1879-pg11224"]
 author = "John Stuart Mill"
@@ -760,7 +760,7 @@ source = "Project Gutenberg #11224"
 format = "gutenberg"
 rights = "Public domain: author died 1873; published before 1931"
 notes = "Ch. II: the Greatest Happiness Principle (291-296); Socrates dissatisfied (398-410); competent judges (436-446); the standard secured to 'the whole sentient creation' (482-493); self-devotion and wasted sacrifice (666-678); impartiality, the golden rule, and education forming an 'indissoluble association' (680-709); the Nautical Almanack (940-958). Ch. IV, the proof (1397-1408). Ch. V: rights and security (2121-2135); Bentham's dictum (2436-2445); justice overruled to save a life (2470-2484)."
-sha256 = "2b2e413b8df7d42790546a6c636802f10da3ee472cc94a85d3e12204b6385241"
+sha256 = "581a9fb602e74013e1f638db64e7f3f88ba2bad2742120f62a77a78aed3cd2f2"
 
 [text."nietzsche-beyond-good-evil-zimmern-pg4363"]
 author = "Friedrich Nietzsche"
@@ -770,7 +770,7 @@ source = "Project Gutenberg #4363"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "SS16-17 are the source for nietzsche-doer-fiction."
-sha256 = "ac99e74a7913004c2e94289dae28e6b03b6ad96c97f2fd5f72ce29caff0b4888"
+sha256 = "d1b2052a8abb9f8faacf9e815552dae8ed038801c193adf13c2b355a24bdbb9e"
 
 [text."nietzsche-genealogy-morals-samuel-pg52319"]
 author = "Friedrich Nietzsche"
@@ -780,7 +780,7 @@ source = "Project Gutenberg #52319"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "First Essay, section 13, is the source for nietzsche-doer-fiction."
-sha256 = "90ab67b3c15fb8a4220f36b559514098e33f43d58e4403405575949c039c1cba"
+sha256 = "f3d982115de008b20f65b32246af93a30baacccf51290c51546fe3a16cbe5d3b"
 
 [text."prince-dissociation-personality-1906"]
 author = "Morton Prince"
@@ -840,7 +840,7 @@ source = "Project Gutenberg #2529"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Lecture IV (lines 2262-2271): 'one biography' defined as a series of occurrences linked by mnemic causation. Lecture VII (lines 3538-3547): mnemic phenomena give the continuity of a 'person' or a 'mind'. A causal-memory account of persons, half a century before Shoemaker."
-sha256 = "35516b0cbfd35f872976ea4f795f06b11979970b3619286fac9fcb3601b6364d"
+sha256 = "ce11b32f0dd2085c9657be9ad07c19394e909d7145338d99cfb84f5a0627a9d5"
 
 [text."broad-mind-place-nature-1925"]
 author = "C. D. Broad"
@@ -881,7 +881,7 @@ source = "Project Gutenberg #46333"
 format = "gutenberg"
 rights = "US public domain: published before 1931 (translator died 1959; not public domain in life+70 countries)"
 notes = "Cole's introduction is secondary."
-sha256 = "65b006fe7288b2dd82c7c32f5b4c0fdd392407c3bc04ae8c822ea8f8723603de"
+sha256 = "82415936008abba9a18193864343c91cae6dfce08c68b1e675ca1c744c099c17"
 
 [text."smith-moral-sentiments-bohn-1853"]
 author = "Adam Smith"
@@ -900,7 +900,7 @@ edition = "tr. R. H. M. Elwes (1883)"
 source = "Project Gutenberg #3800"
 format = "gutenberg"
 rights = "Public domain: author/translator died over 100 years ago; published before 1931"
-sha256 = "647f0227f3700b5d221a004fc545568c879f6f204e952f1cf0c24672676c2a60"
+sha256 = "c224d5727c85367fc95e593681950c97c1db2a84249ab22135b0ca58fd1c5569"
 
 [text."schopenhauer-basis-morality-bullock-pg44929"]
 author = "Arthur Schopenhauer"
@@ -910,7 +910,7 @@ source = "Project Gutenberg #44929"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Bullock's introduction and notes are secondary."
-sha256 = "63ad65ee74842d1da29329a81a2c3d74dc656298d2c90bc1ad8f4d772dad4079"
+sha256 = "c2fe4b227e3b6b93dea9c54ec6c2172e6a6589b70c62ea56238ba98eb40ab30a"
 
 [text."butler-fifteen-sermons-1841"]
 author = "Joseph Butler"
@@ -930,7 +930,7 @@ source = "Project Gutenberg #19322"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Mencken's introduction is secondary and expresses his own politics; quote only Nietzsche's numbered sections."
-sha256 = "d5879a2656682be917dca484813e61b4138b30a11a3f7a9b5e40fa17615352bd"
+sha256 = "efeb9c1dfc259c5977c4ef02a265881b2f460ad1fd9d1064d4a744fff4c06258"
 
 [text."nietzsche-dawn-kennedy-pg39955"]
 author = "Friedrich Nietzsche"
@@ -939,7 +939,7 @@ edition = "tr. J. M. Kennedy, London: T. N. Foulis, 1911 (Complete Works, ed. Le
 source = "Project Gutenberg #39955"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
-sha256 = "c0ebc5c9f0aa2d025bd83508a4a3bde6208d2aaf50adbfc5d19c761a2220a6b5"
+sha256 = "2489ed436ba7866fc2a4c030fc4179bd48168142533ecf36f89bc03a6e8cf45f"
 
 [text."nietzsche-zarathustra-common-pg1998"]
 author = "Friedrich Nietzsche"
@@ -949,7 +949,7 @@ source = "Project Gutenberg #1998"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Ludovici's notes and introduction are secondary."
-sha256 = "0854ebabe235d46c8e5e099418c5189b1df0848898c552009b70d924b9065d05"
+sha256 = "b8161e1bc451b385c8e37237af36ba2d5694ff9c4c1ab79c1ebc0da9b4500f25"
 
 [text."darwin-descent-of-man-pg2300"]
 author = "Charles Darwin"
@@ -958,7 +958,7 @@ edition = "2nd ed., revised and augmented (London: John Murray, 1874)"
 source = "Project Gutenberg #2300"
 format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
-sha256 = "2911dfcc2b0b498fe92ad9bd7e2c712046edb448eb6fe3bd669bcf9629adf8fd"
+sha256 = "894418a10746fdef4ea1f48c0645e49d44edee6e1c67f9ab5a11191dd59f70dd"
 
 
 [text."santideva-path-of-light-barnett-1909"]
@@ -1000,7 +1000,7 @@ edition = "tr. Fathers of the English Dominican Province (London, 1911–1925), 
 source = "Project Gutenberg #18755"
 format = "gutenberg"
 rights = "US public domain: translation published before 1931"
-sha256 = "eeea1030b31e6c5d4b6fb7522770f108902d704cb2eee56bae1b10b1afa57b6f"
+sha256 = "0ea563e38b600cc6c50d8ca3e03522133e4eded41ecf033074cd5d3e2473695f"
 
 
 [text."sbe10-dhammapada-sutta-nipata-1881"]
@@ -1032,7 +1032,7 @@ source = "Project Gutenberg #52881"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Sections 270, 290 and 335 (become what one is; giving style to one's character) are the source for nietzsche-self-overcoming."
-sha256 = "a8bd1dff6679eebef87ab4ff870888bfee4a31651ad5cb655e80bc306e9ae5db"
+sha256 = "ab602680bc42a05c373bf666344458eab3148031b08ac251a15d8beb0255efea"
 
 [text."nietzsche-ecce-homo-ludovici-pg52190"]
 author = "Friedrich Nietzsche"
@@ -1042,7 +1042,7 @@ source = "Project Gutenberg #52190"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Ludovici's introduction is secondary; quote only Nietzsche's text."
-sha256 = "0592da1b1cba40b3634a968ca5af7ac5f96e70499e3e4f67a32b76bfefebe0c8"
+sha256 = "d13c2df9a10e6c5261730b83d5bd3f75347977187bef370615b2e4100b18d0c2"
 
 [text."nietzsche-thoughts-out-of-season-2-collins-pg38226"]
 author = "Friedrich Nietzsche"
@@ -1052,7 +1052,7 @@ source = "Project Gutenberg #38226"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Schopenhauer as Educator, section 1, is the source for nietzsche-self-overcoming. The translator's note is secondary."
-sha256 = "449a5fb84a23615da9e6b5f1da85c71168a9be6b087880a5616de61d86436fb9"
+sha256 = "15ec18034f85996a34d2da67bd6266495b8fa61bb457baeb22a240c225a9a7b9"
 
 [text."nietzsche-twilight-ludovici-pg52263"]
 author = "Friedrich Nietzsche"
@@ -1062,7 +1062,7 @@ source = "Project Gutenberg #52263"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Ludovici's preface and notes are secondary; quote only Nietzsche's text."
-sha256 = "5803311dee5121d4124fd89cb3d1a6cd02405bb8631d28b5b8ad0a4d35b8c2f5"
+sha256 = "d9ca42e96d7bb99b5440166f7e000f1442daa83d34eb278b2adfe4db5260667b"
 
 
 [text."homer-odyssey-butler-pg1727"]
@@ -1073,7 +1073,7 @@ source = "Project Gutenberg #1727"
 format = "gutenberg"
 rights = "US public domain: published before 1931"
 notes = "Book XII (the Sirens) is the source for ulysses-contracts. Butler's preface and footnotes are secondary."
-sha256 = "ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9"
+sha256 = "a6c3adec321585e9563e34093491c3bc3608505d166e391bb2bf8a6be1830b69"
 
 
 [text."locke-second-treatise-pg7370"]
@@ -1084,7 +1084,7 @@ source = "Project Gutenberg #7370"
 format = "gutenberg"
 rights = "US public domain: published before 1931 (the 17th-century text; Macpherson's editorial matter is not included in the Gutenberg file)"
 notes = "For locke-consent-property: chapters V (property), VIII (consent), II and IV (state of nature, slavery and arbitrary power). The Gutenberg preface is secondary."
-sha256 = "720196308ba75205761d1a763f6e42d3fb4bec8f8457a77c181f9df3bcf75eb8"
+sha256 = "10bdd863f47c325f2cc314ffbdf8b0933d48b51f8209666955a0f3214464b8bd"
 
 
 [text."hume-enquiry-morals-pg4320"]
@@ -1095,7 +1095,7 @@ source = "Project Gutenberg #4320"
 format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-10. For rawls-veil (III, rational creatures of inferior strength: gentle usage but no justice) and ostrom-commons (III, the circumstances of justice and property). The Gutenberg header and licence are not part of Hume's text."
-sha256 = "646232ad2733b7fa7d7aa282cd7fc46fc3e83ff4e662ffcfa42cd71ab8b25c46"
+sha256 = "8a7b55868f1d34351dccb12457d68209efbd448ed53fac1f7c3ba3d5d2011ad7"
 
 [text."federalist-papers-pg1404"]
 author = "Alexander Hamilton, James Madison and John Jay"
@@ -1105,7 +1105,7 @@ source = "Project Gutenberg #1404"
 format = "gutenberg"
 rights = "Public domain: published 1787-1788"
 notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Key papers: No. 9 (1583), No. 10 (1797), No. 39 (8131), No. 51 (11266). The Gutenberg header and licence are not part of the text."
-sha256 = "0b92fadc9d7afd767eefd27805a20e44417ff26d1fb2f964229f39dcc7b2a65d"
+sha256 = "733406387f5d2c9ff1d67b986031d7c9a66fbb5213d9db4dff0959331c3968b3"
 
 [text."mill-representative-government-pg5669"]
 author = "John Stuart Mill"
@@ -1115,7 +1115,7 @@ source = "Project Gutenberg #5669"
 format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Ch. XV Of Local Representative Bodies (6842); ch. XVII Of Federal Representative Governments (7671)."
-sha256 = "60218f7eaa272b77be51bd074ff04353d9f38e072d2c7fbc547004cbc3db2bfb"
+sha256 = "e371f96b2ddef6abc6df9759b27e8a21177f8a6be33be7cdae0b4da32331f736"
 
 [text."kant-perpetual-peace-campbell-smith-pg50922"]
 author = "Immanuel Kant"
@@ -1126,7 +1126,7 @@ format = "gutenberg"
 rights = "US public domain: published before 1931 (the 1795 essay is public domain; the 1903 translation and editorial matter are public domain in the US)"
 notes = "Downloaded with the user's approval, 2026-10-11, for federalism-subsidiarity. Latta's preface and Campbell Smith's long introduction (lines 100-3097) and the index (5509 to end) are secondary; translator's footnotes marked [Tr.] are editorial."
 secondary_spans = [[100, 3097], [5509, 5969]]
-sha256 = "832e24a28acf492d90c0e13d5f3dff9f540a6aefdfc1514f7340b03451f5babb"
+sha256 = "c186bee3b619cdcd4006319c18eb2a9d6298ae38b54f799bca51a6dc37e54bd8"
 
 [text."montesquieu-esprit-des-lois-janet-pg27573"]
 author = "Charles-Louis de Secondat, baron de Montesquieu"
@@ -1137,7 +1137,7 @@ format = "gutenberg"
 rights = "Public domain: author and editor died over 100 years ago; published before 1931"
 notes = "Downloaded at the user's request, 2026-10-11. French text: quote it in French, or give the compendium's own rendering in italics beside an [L:] citation. Janet's introduction (lines 94-3473) and Notes explicatives (13350-14680) are secondary. Livre XI on liberty and the separation of powers is in the appendix (from 9912)."
 secondary_spans = [[94, 3473], [13350, 14680]]
-sha256 = "38df6b0d2fb8dfb59cd354b74d17f20f3c96d24ba1f22efbcfe03be24a230cac"
+sha256 = "54f553dcb9c4d6622c2dff6e151348401e17cc932270db354ef1be72680abade"
 
 [text."plato-republic-jowett-pg1497"]
 author = "Plato"
@@ -1148,7 +1148,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for plato-republic. Jowett's Introduction and Analysis (lines 62-8604) is secondary."
 secondary_spans = [[62, 8604]]
-sha256 = "3d2e397122881d7737a48fb80e71cddf4c78cda54ceac7e0905fe945dfab48fd"
+sha256 = "bd78bf8b25e0fbbf5c0ef76163df3b00132a5b125ce3fa28b4a51da7284d3c35"
 
 [text."hegel-phenomenology-1-baillie-1910"]
 author = "G. W. F. Hegel"
@@ -1170,7 +1170,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. Secondary: Wallace's Preface and Five Introductory Essays (lines 96-5271) and the index and Wallace's footnotes (10796-11895)."
 secondary_spans = [[96, 5271], [10796, 11895]]
-sha256 = "6093334e772da7d71ffc2a19009fff93ef11ca01dd0ab46d9532c7bc259b36d7"
+sha256 = "8c81410577c2d39720d71a66835b89140ff7e4161ece6b46bfeb914e0561f0f7"
 
 [text."hegel-phaenomenologie-pg6698"]
 author = "Georg Wilhelm Friedrich Hegel"
@@ -1180,7 +1180,7 @@ source = "Project Gutenberg #6698"
 format = "gutenberg"
 rights = "Public domain: author died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for hegel-recognition. German text: quote it in German, or give the compendium's own rendering in italics beside an [L:] citation; use it to check Baillie's OCR."
-sha256 = "8f85fba3f9a3d56a849a1306fc8e6eb23b9b9492e90cdb8e314d7b3844f2b661"
+sha256 = "659eb8711bcc8517126958be52f6c7699a1d459e5b2e633dc7c5353f2e839417"
 
 [text."kant-philosophy-of-law-hastie-1887"]
 author = "Immanuel Kant"
@@ -1213,7 +1213,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Secondary: Farrer's contents, introductory chapters and their footnotes (lines 36-2870), and the footnotes to the translation (6080-6189), which mix Beccaria's notes with Farrer's."
 secondary_spans = [[36, 2870], [6080, 6189]]
-sha256 = "3d87c0675b3b5a68756d76d0b9f64f4ba7cf295a19ef4a227c8372d1912abb4e"
+sha256 = "d47419327fcc76276400712bcbeec98bd862d06cca1785ace1bf5e1470f02e46"
 
 [text."plato-protagoras-jowett-pg1591"]
 author = "Plato"
@@ -1224,7 +1224,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction (lines 30-533) is secondary."
 secondary_spans = [[30, 533]]
-sha256 = "7eb0299f5b11d13cb96ed1a1822c12c83f627c2488648d2013ac2e81eb5ab3ea"
+sha256 = "2df2f460f2e8523ff92146eecb358f140f28f411f83b8e142cf61b480c75bc21"
 
 [text."plato-gorgias-jowett-pg1672"]
 author = "Plato"
@@ -1235,7 +1235,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction (lines 30-2164) is secondary."
 secondary_spans = [[30, 2164]]
-sha256 = "379f2abb140332a49d5f86fd78f008f47de0e4fecb53a0a42b2b4cf6bfa4c133"
+sha256 = "1ae17551fdeae3e67eff785b4c8c87c71d16079e42c6f9d2b089d003783efe01"
 
 [text."plato-laws-jowett-pg1750"]
 author = "Plato"
@@ -1246,7 +1246,7 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago; published before 1931"
 notes = "Downloaded with the user's approval, 2026-10-11, for punishment-theories. Jowett's Introduction and Analysis (lines 50-8418) is secondary."
 secondary_spans = [[50, 8418]]
-sha256 = "9a6ea73161956a622d0aba13d70b82c076feed7d37d257d26e458671b26dc8c9"
+sha256 = "2f60aac384cef3398094fc995df13499c2f5d5ba91d2d00f8986aa93a4f39130"
 
 [text."grotius-law-of-war-and-peace-kelsey-1925"]
 author = "Hugo Grotius"
@@ -1279,4 +1279,4 @@ format = "gutenberg"
 rights = "Public domain: author and translator died over 100 years ago or published before 1931"
 notes = "Downloaded at the user's request, 2026-10-11, for just-war. Secondary: Miller's Introduction (lines 88-326) and the index (12108-14299)."
 secondary_spans = [[88, 326], [12108, 14299]]
-sha256 = "aa149f1110b12ce001b227380d29c5dbf92f1212ef667c22275699d9ac0d5b79"
+sha256 = "6b037b7e6fc34af329902460acfe28521801dd182a42276448c3fa1e9163346c"

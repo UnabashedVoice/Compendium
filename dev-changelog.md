@@ -35,7 +35,15 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-11-15
 
-### Added: proofread Hobbes alongside the OCR copies (uncommitted)
+### Changed: every file has LF line endings
+At the user's request, every tracked file that had CRLF (or mixed) endings now has LF, in a commit that changes nothing else.
+- **137 files:** entries, docs, tools, `compendium_access.py`, the catalogs, and all 66 library texts.
+- **Library texts are re-pinned.** Each text's sha256 in `library/catalog.toml` is updated; those 66 values are the only other change. The texts are now byte for byte as fetched except for line endings. No line numbers move (no file had a lone CR), so every `[L:]` citation still points where it did. `check`: 0 problems; `verify`: 0 failed.
+- **`dist/compendium.jsonl` is not in this commit.** `build.py` writes it as CRLF, so converting it here would be undone by the next build. The next commit switches `build.py` to LF and rebuilds it.
+- `.gitattributes` keeps `* -text`: files are still stored exactly as written, now as LF.
+- `tools/library.py check --pin` no longer turns a mixed-ending catalog into an LF one, because the catalog is LF throughout.
+
+### Added: proofread Hobbes alongside the OCR copies
 A survey of the 61 OCR library texts found none empty or broken: every quotation verifies, 186 of them only fuzzily (all at 0.91 or better), and the noise is the usual kind (margin numbers in the text, broken hyphenation, letter swaps). For the noisiest texts, proofread sources of the same edition were looked for. The user approved downloading three; two were added.
 - **`hobbes-ew1-de-corpore-molesworth-1839-pg73877`** and **`hobbes-ew3-leviathan-molesworth-1839-pg73957`**: Project Gutenberg's Distributed Proofreaders texts of Molesworth's 1839 Bohn edition, the same edition as the OCR copies, stored byte for byte as downloaded. They sit **alongside** the OCR copies, not in place of them: citations are line numbers, so swapping a file would break every existing citation. New work should cite the proofread copies.
 - Checked against every quotation the entries take from the OCR copies: vol. I, 14 of 14 found word for word; vol. III, 87 of 89. Of the other two, one is an entry error (below). The other is a real disagreement between the two scans: the Introduction reads "Art goes yet farther" in the OCR copy and "Art goes yet further" in Gutenberg's. It is noted in the catalog, unresolved until someone checks the page image.
