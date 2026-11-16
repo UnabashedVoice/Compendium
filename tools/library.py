@@ -109,13 +109,21 @@ def cmd_check(args) -> int:
             if not (isinstance(sp, list) and len(sp) == 2 and all(isinstance(x, int) for x in sp) and 1 <= sp[0] <= sp[1] <= n):
                 print(f"BAD {tid}: secondary span {sp!r} is not [start, end] within 1-{n}"); bad += 1
     if args.pin:
-        text = CATALOG.read_text(encoding="utf-8")
+        # newline="" keeps each line's own ending (LF or CRLF); a new pin line takes its record's ending.
+        with CATALOG.open(encoding="utf-8", newline="") as f:
+            text = f.read()
+        added = 0
         for tid, h in pins.items():
-            block = re.search(rf'(\[text\."{re.escape(tid)}"\]\n(?:(?!\[text\.).*\n?)*)', text)
+            block = re.search(rf'(\[text\."{re.escape(tid)}"\]\r?\n(?:(?!\[text\.).*\n?)*)', text)
             if block and "sha256" not in block.group(1):
-                text = text.replace(block.group(1), block.group(1).rstrip("\n") + f'\nsha256 = "{h}"\n\n', 1)
-        CATALOG.write_text(text, encoding="utf-8")
-        print(f"pinned {len(pins)} hashes")
+                nl = "\r\n" if "\r\n" in block.group(1) else "\n"
+                body = block.group(1).rstrip("\r\n")
+                text = text.replace(block.group(1), f'{body}{nl}sha256 = "{h}"{nl}{nl}', 1)
+                added += 1
+        if added:
+            with CATALOG.open("w", encoding="utf-8", newline="") as f:
+                f.write(text)
+        print(f"pinned {added} new hashes")
     srcs = load_sources()
     for key, rec in sorted(srcs.items()):
         for field in ("author", "title", "edition", "year", "url", "rights"):

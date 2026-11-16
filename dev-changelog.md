@@ -35,6 +35,9 @@ The Compendium is a philosophy and ethics corpus written for machine-learning us
 
 ## 2026-11-15
 
+### Fixed: `library.py check --pin` keeps line endings
+`--pin` read the catalog in text mode and wrote it back with LF, so a catalog with any CRLF lines came back all LF. It also rewrote the file when there was nothing to pin. Now it reads and writes with `newline=""`, gives each new `sha256` line its record's own ending, writes only when it added a pin, and reports how many it added. Since the catalog is LF throughout now, this only matters for CRLF records added later. Tested on a scratch catalog with mixed endings: two pins added with the right endings, an existing pin untouched, and a second run added nothing. On the real catalog it adds 0 and leaves the file unchanged.
+
 ### Changed: `build.py` writes LF
 `dist/compendium.jsonl` is now written with LF on every OS, to match the rest of the repository. It used to be CRLF because the first build was made on Windows. The bytes are still the same on every OS, so the digest stays portable. The content is unchanged; only the line endings differ. So the **Compendium's version id changes** (sha256 `8f78b628…` to `258d3810…`) with no change to any entry. A consumer comparing a recorded version against this build will see a different id for the same corpus.
 
